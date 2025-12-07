@@ -1,0 +1,910 @@
+region,region_code,year,metric,value
+North East,E12000001,1981,total_population,2636194.0
+North East,E12000001,1982,total_population,2624248.0
+North East,E12000001,1983,total_population,2616854.0
+North East,E12000001,1984,total_population,2609362.0
+North East,E12000001,1985,total_population,2601689.0
+North East,E12000001,1986,total_population,2594213.0
+North East,E12000001,1987,total_population,2589779.0
+North East,E12000001,1988,total_population,2582285.0
+North East,E12000001,1989,total_population,2582114.0
+North East,E12000001,1990,total_population,2584320.0
+North East,E12000001,1991,total_population,2586986.0
+North East,E12000001,1992,total_population,2591333.0
+North East,E12000001,1993,total_population,2593948.0
+North East,E12000001,1994,total_population,2588661.0
+North East,E12000001,1995,total_population,2582715.0
+North East,E12000001,1996,total_population,2576450.0
+North East,E12000001,1997,total_population,2568066.0
+North East,E12000001,1998,total_population,2560883.0
+North East,E12000001,1999,total_population,2550314.0
+North East,E12000001,2000,total_population,2543421.0
+North East,E12000001,2001,total_population,2540090.0
+North East,E12000001,2002,total_population,2540600.0
+North East,E12000001,2003,total_population,2540461.0
+North East,E12000001,2004,total_population,2540502.0
+North East,E12000001,2005,total_population,2547127.0
+North East,E12000001,2006,total_population,2552568.0
+North East,E12000001,2007,total_population,2562045.0
+North East,E12000001,2008,total_population,2569312.0
+North East,E12000001,2009,total_population,2575441.0
+North East,E12000001,2010,total_population,2586868.0
+North East,E12000001,2011,total_population,2596441.0
+North East,E12000001,2012,total_population,2598972.0
+North East,E12000001,2013,total_population,2603299.0
+North East,E12000001,2014,total_population,2610482.0
+North East,E12000001,2015,total_population,2611804.0
+North East,E12000001,2016,total_population,2618253.0
+North East,E12000001,2017,total_population,2623787.0
+North East,E12000001,2018,total_population,2629393.0
+North East,E12000001,2019,total_population,2636676.0
+North East,E12000001,2020,total_population,2637426.0
+North East,E12000001,2021,total_population,2647493.0
+North East,E12000001,2022,total_population,2684586.0
+North East,E12000001,2023,total_population,2724805.0
+North East,E12000001,2024,total_population,2760678.0
+North East,E12000001,1992,working_age_population,1647791.0
+North East,E12000001,1993,working_age_population,1644872.0
+North East,E12000001,1994,working_age_population,1637341.0
+North East,E12000001,1995,working_age_population,1633738.0
+North East,E12000001,1996,working_age_population,1631015.0
+North East,E12000001,1997,working_age_population,1626732.0
+North East,E12000001,1998,working_age_population,1624352.0
+North East,E12000001,1999,working_age_population,1619930.0
+North East,E12000001,2000,working_age_population,1618072.0
+North East,E12000001,2001,working_age_population,1620014.0
+North East,E12000001,2002,working_age_population,1626436.0
+North East,E12000001,2003,working_age_population,1629487.0
+North East,E12000001,2004,working_age_population,1633579.0
+North East,E12000001,2005,working_age_population,1643239.0
+North East,E12000001,2006,working_age_population,1651943.0
+North East,E12000001,2007,working_age_population,1663504.0
+North East,E12000001,2008,working_age_population,1670736.0
+North East,E12000001,2009,working_age_population,1674451.0
+North East,E12000001,2010,working_age_population,1679691.0
+North East,E12000001,2011,working_age_population,1681674.0
+North East,E12000001,2012,working_age_population,1668762.0
+North East,E12000001,2013,working_age_population,1662338.0
+North East,E12000001,2014,working_age_population,1657915.0
+North East,E12000001,2015,working_age_population,1651471.0
+North East,E12000001,2016,working_age_population,1647815.0
+North East,E12000001,2017,working_age_population,1643042.0
+North East,E12000001,2018,working_age_population,1638969.0
+North East,E12000001,2019,working_age_population,1635738.0
+North East,E12000001,2020,working_age_population,1632813.0
+North East,E12000001,2021,working_age_population,1635449.0
+North East,E12000001,2022,working_age_population,1658911.0
+North East,E12000001,2023,working_age_population,1684158.0
+North East,E12000001,2024,working_age_population,1706169.0
+North West,E12000002,1981,total_population,6940324.0
+North West,E12000002,1982,total_population,6907328.0
+North West,E12000002,1983,total_population,6880943.0
+North West,E12000002,1984,total_population,6860934.0
+North West,E12000002,1985,total_population,6847898.0
+North West,E12000002,1986,total_population,6832680.0
+North West,E12000002,1987,total_population,6820667.0
+North West,E12000002,1988,total_population,6811642.0
+North West,E12000002,1989,total_population,6824728.0
+North West,E12000002,1990,total_population,6829393.0
+North West,E12000002,1991,total_population,6843039.0
+North West,E12000002,1992,total_population,6841029.0
+North West,E12000002,1993,total_population,6846740.0
+North West,E12000002,1994,total_population,6838904.0
+North West,E12000002,1995,total_population,6827940.0
+North West,E12000002,1996,total_population,6809646.0
+North West,E12000002,1997,total_population,6794378.0
+North West,E12000002,1998,total_population,6792173.0
+North West,E12000002,1999,total_population,6773115.0
+North West,E12000002,2000,total_population,6774223.0
+North West,E12000002,2001,total_population,6772985.0
+North West,E12000002,2002,total_population,6784880.0
+North West,E12000002,2003,total_population,6814660.0
+North West,E12000002,2004,total_population,6840369.0
+North West,E12000002,2005,total_population,6870021.0
+North West,E12000002,2006,total_population,6901585.0
+North West,E12000002,2007,total_population,6929277.0
+North West,E12000002,2008,total_population,6958547.0
+North West,E12000002,2009,total_population,6986156.0
+North West,E12000002,2010,total_population,7019921.0
+North West,E12000002,2011,total_population,7055961.0
+North West,E12000002,2012,total_population,7079344.0
+North West,E12000002,2013,total_population,7105146.0
+North West,E12000002,2014,total_population,7141096.0
+North West,E12000002,2015,total_population,7182651.0
+North West,E12000002,2016,total_population,7234141.0
+North West,E12000002,2017,total_population,7275765.0
+North West,E12000002,2018,total_population,7316116.0
+North West,E12000002,2019,total_population,7363267.0
+North West,E12000002,2020,total_population,7380605.0
+North West,E12000002,2021,total_population,7424092.0
+North West,E12000002,2022,total_population,7526285.0
+North West,E12000002,2023,total_population,7634293.0
+North West,E12000002,2024,total_population,7737414.0
+North West,E12000002,1992,working_age_population,4315286.0
+North West,E12000002,1993,working_age_population,4308153.0
+North West,E12000002,1994,working_age_population,4294988.0
+North West,E12000002,1995,working_age_population,4287680.0
+North West,E12000002,1996,working_age_population,4281167.0
+North West,E12000002,1997,working_age_population,4274003.0
+North West,E12000002,1998,working_age_population,4280966.0
+North West,E12000002,1999,working_age_population,4274839.0
+North West,E12000002,2000,working_age_population,4286286.0
+North West,E12000002,2001,working_age_population,4297158.0
+North West,E12000002,2002,working_age_population,4320679.0
+North West,E12000002,2003,working_age_population,4355515.0
+North West,E12000002,2004,working_age_population,4388411.0
+North West,E12000002,2005,working_age_population,4421943.0
+North West,E12000002,2006,working_age_population,4459156.0
+North West,E12000002,2007,working_age_population,4489262.0
+North West,E12000002,2008,working_age_population,4510595.0
+North West,E12000002,2009,working_age_population,4522996.0
+North West,E12000002,2010,working_age_population,4538567.0
+North West,E12000002,2011,working_age_population,4552765.0
+North West,E12000002,2012,working_age_population,4527876.0
+North West,E12000002,2013,working_age_population,4519042.0
+North West,E12000002,2014,working_age_population,4518731.0
+North West,E12000002,2015,working_age_population,4530458.0
+North West,E12000002,2016,working_age_population,4548474.0
+North West,E12000002,2017,working_age_population,4561830.0
+North West,E12000002,2018,working_age_population,4576685.0
+North West,E12000002,2019,working_age_population,4597018.0
+North West,E12000002,2020,working_age_population,4607552.0
+North West,E12000002,2021,working_age_population,4639384.0
+North West,E12000002,2022,working_age_population,4703314.0
+North West,E12000002,2023,working_age_population,4774559.0
+North West,E12000002,2024,working_age_population,4840994.0
+Yorkshire & Humber,E12000003,1981,total_population,4918532.0
+Yorkshire & Humber,E12000003,1982,total_population,4906968.0
+Yorkshire & Humber,E12000003,1983,total_population,4902498.0
+Yorkshire & Humber,E12000003,1984,total_population,4894854.0
+Yorkshire & Humber,E12000003,1985,total_population,4889690.0
+Yorkshire & Humber,E12000003,1986,total_population,4883634.0
+Yorkshire & Humber,E12000003,1987,total_population,4879150.0
+Yorkshire & Humber,E12000003,1988,total_population,4888711.0
+Yorkshire & Humber,E12000003,1989,total_population,4912364.0
+Yorkshire & Humber,E12000003,1990,total_population,4921028.0
+Yorkshire & Humber,E12000003,1991,total_population,4936100.0
+Yorkshire & Humber,E12000003,1992,total_population,4949033.0
+Yorkshire & Humber,E12000003,1993,total_population,4954142.0
+Yorkshire & Humber,E12000003,1994,total_population,4960087.0
+Yorkshire & Humber,E12000003,1995,total_population,4960575.0
+Yorkshire & Humber,E12000003,1996,total_population,4961254.0
+Yorkshire & Humber,E12000003,1997,total_population,4957561.0
+Yorkshire & Humber,E12000003,1998,total_population,4957703.0
+Yorkshire & Humber,E12000003,1999,total_population,4956325.0
+Yorkshire & Humber,E12000003,2000,total_population,4958609.0
+Yorkshire & Humber,E12000003,2001,total_population,4976643.0
+Yorkshire & Humber,E12000003,2002,total_population,5000111.0
+Yorkshire & Humber,E12000003,2003,total_population,5026314.0
+Yorkshire & Humber,E12000003,2004,total_population,5063199.0
+Yorkshire & Humber,E12000003,2005,total_population,5108408.0
+Yorkshire & Humber,E12000003,2006,total_population,5134016.0
+Yorkshire & Humber,E12000003,2007,total_population,5164138.0
+Yorkshire & Humber,E12000003,2008,total_population,5198675.0
+Yorkshire & Humber,E12000003,2009,total_population,5223344.0
+Yorkshire & Humber,E12000003,2010,total_population,5254788.0
+Yorkshire & Humber,E12000003,2011,total_population,5288212.0
+Yorkshire & Humber,E12000003,2012,total_population,5313486.0
+Yorkshire & Humber,E12000003,2013,total_population,5335092.0
+Yorkshire & Humber,E12000003,2014,total_population,5356428.0
+Yorkshire & Humber,E12000003,2015,total_population,5377362.0
+Yorkshire & Humber,E12000003,2016,total_population,5408058.0
+Yorkshire & Humber,E12000003,2017,total_population,5427784.0
+Yorkshire & Humber,E12000003,2018,total_population,5443883.0
+Yorkshire & Humber,E12000003,2019,total_population,5464651.0
+Yorkshire & Humber,E12000003,2020,total_population,5468487.0
+Yorkshire & Humber,E12000003,2021,total_population,5482455.0
+Yorkshire & Humber,E12000003,2022,total_population,5541088.0
+Yorkshire & Humber,E12000003,2023,total_population,5610523.0
+Yorkshire & Humber,E12000003,2024,total_population,5672962.0
+Yorkshire & Humber,E12000003,1992,working_age_population,3141180.0
+Yorkshire & Humber,E12000003,1993,working_age_population,3132632.0
+Yorkshire & Humber,E12000003,1994,working_age_population,3129366.0
+Yorkshire & Humber,E12000003,1995,working_age_population,3126918.0
+Yorkshire & Humber,E12000003,1996,working_age_population,3128518.0
+Yorkshire & Humber,E12000003,1997,working_age_population,3128025.0
+Yorkshire & Humber,E12000003,1998,working_age_population,3130462.0
+Yorkshire & Humber,E12000003,1999,working_age_population,3133266.0
+Yorkshire & Humber,E12000003,2000,working_age_population,3140324.0
+Yorkshire & Humber,E12000003,2001,working_age_population,3161573.0
+Yorkshire & Humber,E12000003,2002,working_age_population,3188270.0
+Yorkshire & Humber,E12000003,2003,working_age_population,3216088.0
+Yorkshire & Humber,E12000003,2004,working_age_population,3253535.0
+Yorkshire & Humber,E12000003,2005,working_age_population,3296402.0
+Yorkshire & Humber,E12000003,2006,working_age_population,3322437.0
+Yorkshire & Humber,E12000003,2007,working_age_population,3349351.0
+Yorkshire & Humber,E12000003,2008,working_age_population,3373479.0
+Yorkshire & Humber,E12000003,2009,working_age_population,3382687.0
+Yorkshire & Humber,E12000003,2010,working_age_population,3396140.0
+Yorkshire & Humber,E12000003,2011,working_age_population,3409275.0
+Yorkshire & Humber,E12000003,2012,working_age_population,3399972.0
+Yorkshire & Humber,E12000003,2013,working_age_population,3395334.0
+Yorkshire & Humber,E12000003,2014,working_age_population,3391621.0
+Yorkshire & Humber,E12000003,2015,working_age_population,3393464.0
+Yorkshire & Humber,E12000003,2016,working_age_population,3402093.0
+Yorkshire & Humber,E12000003,2017,working_age_population,3403569.0
+Yorkshire & Humber,E12000003,2018,working_age_population,3404385.0
+Yorkshire & Humber,E12000003,2019,working_age_population,3409234.0
+Yorkshire & Humber,E12000003,2020,working_age_population,3409982.0
+Yorkshire & Humber,E12000003,2021,working_age_population,3416409.0
+Yorkshire & Humber,E12000003,2022,working_age_population,3451940.0
+Yorkshire & Humber,E12000003,2023,working_age_population,3495366.0
+Yorkshire & Humber,E12000003,2024,working_age_population,3533340.0
+East Midlands,E12000004,1981,total_population,3852683.0
+East Midlands,E12000004,1982,total_population,3849393.0
+East Midlands,E12000004,1983,total_population,3854682.0
+East Midlands,E12000004,1984,total_population,3866784.0
+East Midlands,E12000004,1985,total_population,3887502.0
+East Midlands,E12000004,1986,total_population,3907811.0
+East Midlands,E12000004,1987,total_population,3925293.0
+East Midlands,E12000004,1988,total_population,3950708.0
+East Midlands,E12000004,1989,total_population,3976079.0
+East Midlands,E12000004,1990,total_population,3992976.0
+East Midlands,E12000004,1991,total_population,4011411.0
+East Midlands,E12000004,1992,total_population,4036691.0
+East Midlands,E12000004,1993,total_population,4055893.0
+East Midlands,E12000004,1994,total_population,4071720.0
+East Midlands,E12000004,1995,total_population,4091663.0
+East Midlands,E12000004,1996,total_population,4108070.0
+East Midlands,E12000004,1997,total_population,4120320.0
+East Midlands,E12000004,1998,total_population,4132645.0
+East Midlands,E12000004,1999,total_population,4152443.0
+East Midlands,E12000004,2000,total_population,4168076.0
+East Midlands,E12000004,2001,total_population,4189622.0
+East Midlands,E12000004,2002,total_population,4221753.0
+East Midlands,E12000004,2003,total_population,4255080.0
+East Midlands,E12000004,2004,total_population,4291476.0
+East Midlands,E12000004,2005,total_population,4329112.0
+East Midlands,E12000004,2006,total_population,4366676.0
+East Midlands,E12000004,2007,total_population,4404774.0
+East Midlands,E12000004,2008,total_population,4441125.0
+East Midlands,E12000004,2009,total_population,4471653.0
+East Midlands,E12000004,2010,total_population,4507071.0
+East Midlands,E12000004,2011,total_population,4537448.0
+East Midlands,E12000004,2012,total_population,4570702.0
+East Midlands,E12000004,2013,total_population,4604568.0
+East Midlands,E12000004,2014,total_population,4642629.0
+East Midlands,E12000004,2015,total_population,4681640.0
+East Midlands,E12000004,2016,total_population,4731615.0
+East Midlands,E12000004,2017,total_population,4778346.0
+East Midlands,E12000004,2018,total_population,4815151.0
+East Midlands,E12000004,2019,total_population,4844001.0
+East Midlands,E12000004,2020,total_population,4855469.0
+East Midlands,E12000004,2021,total_population,4881559.0
+East Midlands,E12000004,2022,total_population,4936277.0
+East Midlands,E12000004,2023,total_population,5004242.0
+East Midlands,E12000004,2024,total_population,5063164.0
+East Midlands,E12000004,1992,working_age_population,2578116.0
+East Midlands,E12000004,1993,working_age_population,2583477.0
+East Midlands,E12000004,1994,working_age_population,2588508.0
+East Midlands,E12000004,1995,working_age_population,2599638.0
+East Midlands,E12000004,1996,working_age_population,2612702.0
+East Midlands,E12000004,1997,working_age_population,2622069.0
+East Midlands,E12000004,1998,working_age_population,2631575.0
+East Midlands,E12000004,1999,working_age_population,2647199.0
+East Midlands,E12000004,2000,working_age_population,2660124.0
+East Midlands,E12000004,2001,working_age_population,2678372.0
+East Midlands,E12000004,2002,working_age_population,2706046.0
+East Midlands,E12000004,2003,working_age_population,2734221.0
+East Midlands,E12000004,2004,working_age_population,2766396.0
+East Midlands,E12000004,2005,working_age_population,2799469.0
+East Midlands,E12000004,2006,working_age_population,2833494.0
+East Midlands,E12000004,2007,working_age_population,2862836.0
+East Midlands,E12000004,2008,working_age_population,2882436.0
+East Midlands,E12000004,2009,working_age_population,2893509.0
+East Midlands,E12000004,2010,working_age_population,2908899.0
+East Midlands,E12000004,2011,working_age_population,2919158.0
+East Midlands,E12000004,2012,working_age_population,2916044.0
+East Midlands,E12000004,2013,working_age_population,2920926.0
+East Midlands,E12000004,2014,working_age_population,2931881.0
+East Midlands,E12000004,2015,working_age_population,2948132.0
+East Midlands,E12000004,2016,working_age_population,2972061.0
+East Midlands,E12000004,2017,working_age_population,2994325.0
+East Midlands,E12000004,2018,working_age_population,3010552.0
+East Midlands,E12000004,2019,working_age_population,3021159.0
+East Midlands,E12000004,2020,working_age_population,3027024.0
+East Midlands,E12000004,2021,working_age_population,3042790.0
+East Midlands,E12000004,2022,working_age_population,3071450.0
+East Midlands,E12000004,2023,working_age_population,3112252.0
+East Midlands,E12000004,2024,working_age_population,3146117.0
+West Midlands,E12000005,1981,total_population,5186641.0
+West Midlands,E12000005,1982,total_population,5178948.0
+West Midlands,E12000005,1983,total_population,5174671.0
+West Midlands,E12000005,1984,total_population,5174068.0
+West Midlands,E12000005,1985,total_population,5181531.0
+West Midlands,E12000005,1986,total_population,5179950.0
+West Midlands,E12000005,1987,total_population,5194570.0
+West Midlands,E12000005,1988,total_population,5204005.0
+West Midlands,E12000005,1989,total_population,5213605.0
+West Midlands,E12000005,1990,total_population,5218405.0
+West Midlands,E12000005,1991,total_population,5229699.0
+West Midlands,E12000005,1992,total_population,5237375.0
+West Midlands,E12000005,1993,total_population,5245930.0
+West Midlands,E12000005,1994,total_population,5249295.0
+West Midlands,E12000005,1995,total_population,5256911.0
+West Midlands,E12000005,1996,total_population,5263046.0
+West Midlands,E12000005,1997,total_population,5262278.0
+West Midlands,E12000005,1998,total_population,5271352.0
+West Midlands,E12000005,1999,total_population,5271959.0
+West Midlands,E12000005,2000,total_population,5269626.0
+West Midlands,E12000005,2001,total_population,5280727.0
+West Midlands,E12000005,2002,total_population,5301243.0
+West Midlands,E12000005,2003,total_population,5325475.0
+West Midlands,E12000005,2004,total_population,5346376.0
+West Midlands,E12000005,2005,total_population,5380687.0
+West Midlands,E12000005,2006,total_population,5415521.0
+West Midlands,E12000005,2007,total_population,5451924.0
+West Midlands,E12000005,2008,total_population,5496240.0
+West Midlands,E12000005,2009,total_population,5528007.0
+West Midlands,E12000005,2010,total_population,5565866.0
+West Midlands,E12000005,2011,total_population,5608667.0
+West Midlands,E12000005,2012,total_population,5640325.0
+West Midlands,E12000005,2013,total_population,5676945.0
+West Midlands,E12000005,2014,total_population,5716882.0
+West Midlands,E12000005,2015,total_population,5756287.0
+West Midlands,E12000005,2016,total_population,5812248.0
+West Midlands,E12000005,2017,total_population,5855052.0
+West Midlands,E12000005,2018,total_population,5889328.0
+West Midlands,E12000005,2019,total_population,5920977.0
+West Midlands,E12000005,2020,total_population,5931924.0
+West Midlands,E12000005,2021,total_population,5956226.0
+West Midlands,E12000005,2022,total_population,6020253.0
+West Midlands,E12000005,2023,total_population,6105956.0
+West Midlands,E12000005,2024,total_population,6187204.0
+West Midlands,E12000005,1992,working_age_population,3332299.0
+West Midlands,E12000005,1993,working_age_population,3324769.0
+West Midlands,E12000005,1994,working_age_population,3316601.0
+West Midlands,E12000005,1995,working_age_population,3317522.0
+West Midlands,E12000005,1996,working_age_population,3321515.0
+West Midlands,E12000005,1997,working_age_population,3318890.0
+West Midlands,E12000005,1998,working_age_population,3325186.0
+West Midlands,E12000005,1999,working_age_population,3328633.0
+West Midlands,E12000005,2000,working_age_population,3330402.0
+West Midlands,E12000005,2001,working_age_population,3344420.0
+West Midlands,E12000005,2002,working_age_population,3362972.0
+West Midlands,E12000005,2003,working_age_population,3384666.0
+West Midlands,E12000005,2004,working_age_population,3402891.0
+West Midlands,E12000005,2005,working_age_population,3431491.0
+West Midlands,E12000005,2006,working_age_population,3463300.0
+West Midlands,E12000005,2007,working_age_population,3491341.0
+West Midlands,E12000005,2008,working_age_population,3516742.0
+West Midlands,E12000005,2009,working_age_population,3525232.0
+West Midlands,E12000005,2010,working_age_population,3541207.0
+West Midlands,E12000005,2011,working_age_population,3561093.0
+West Midlands,E12000005,2012,working_age_population,3555590.0
+West Midlands,E12000005,2013,working_age_population,3562521.0
+West Midlands,E12000005,2014,working_age_population,3572235.0
+West Midlands,E12000005,2015,working_age_population,3587281.0
+West Midlands,E12000005,2016,working_age_population,3616049.0
+West Midlands,E12000005,2017,working_age_population,3633918.0
+West Midlands,E12000005,2018,working_age_population,3647134.0
+West Midlands,E12000005,2019,working_age_population,3659367.0
+West Midlands,E12000005,2020,working_age_population,3666148.0
+West Midlands,E12000005,2021,working_age_population,3684959.0
+West Midlands,E12000005,2022,working_age_population,3720625.0
+West Midlands,E12000005,2023,working_age_population,3773066.0
+West Midlands,E12000005,2024,working_age_population,3824226.0
+East,E12000006,1981,total_population,4854992.0
+East,E12000006,1982,total_population,4872720.0
+East,E12000006,1983,total_population,4901572.0
+East,E12000006,1984,total_population,4926795.0
+East,E12000006,1985,total_population,4963772.0
+East,E12000006,1986,total_population,4999268.0
+East,E12000006,1987,total_population,5030759.0
+East,E12000006,1988,total_population,5059695.0
+East,E12000006,1989,total_population,5070133.0
+East,E12000006,1990,total_population,5087962.0
+East,E12000006,1991,total_population,5121052.0
+East,E12000006,1992,total_population,5142589.0
+East,E12000006,1993,total_population,5154369.0
+East,E12000006,1994,total_population,5177915.0
+East,E12000006,1995,total_population,5205700.0
+East,E12000006,1996,total_population,5232760.0
+East,E12000006,1997,total_population,5266915.0
+East,E12000006,1998,total_population,5302028.0
+East,E12000006,1999,total_population,5338722.0
+East,E12000006,2000,total_population,5374972.0
+East,E12000006,2001,total_population,5400463.0
+East,E12000006,2002,total_population,5432688.0
+East,E12000006,2003,total_population,5474133.0
+East,E12000006,2004,total_population,5508564.0
+East,E12000006,2005,total_population,5562653.0
+East,E12000006,2006,total_population,5606294.0
+East,E12000006,2007,total_population,5653534.0
+East,E12000006,2008,total_population,5708350.0
+East,E12000006,2009,total_population,5751443.0
+East,E12000006,2010,total_population,5807402.0
+East,E12000006,2011,total_population,5862418.0
+East,E12000006,2012,total_population,5915033.0
+East,E12000006,2013,total_population,5970484.0
+East,E12000006,2014,total_population,6039521.0
+East,E12000006,2015,total_population,6098262.0
+East,E12000006,2016,total_population,6161075.0
+East,E12000006,2017,total_population,6202843.0
+East,E12000006,2018,total_population,6237376.0
+East,E12000006,2019,total_population,6274179.0
+East,E12000006,2020,total_population,6297779.0
+East,E12000006,2021,total_population,6349646.0
+East,E12000006,2022,total_population,6402514.0
+East,E12000006,2023,total_population,6493348.0
+East,E12000006,2024,total_population,6576306.0
+East,E12000006,1992,working_age_population,3284204.0
+East,E12000006,1993,working_age_population,3281436.0
+East,E12000006,1994,working_age_population,3286101.0
+East,E12000006,1995,working_age_population,3299920.0
+East,E12000006,1996,working_age_population,3318190.0
+East,E12000006,1997,working_age_population,3341711.0
+East,E12000006,1998,working_age_population,3364857.0
+East,E12000006,1999,working_age_population,3384053.0
+East,E12000006,2000,working_age_population,3409463.0
+East,E12000006,2001,working_age_population,3428690.0
+East,E12000006,2002,working_age_population,3450579.0
+East,E12000006,2003,working_age_population,3479466.0
+East,E12000006,2004,working_age_population,3504116.0
+East,E12000006,2005,working_age_population,3548702.0
+East,E12000006,2006,working_age_population,3586629.0
+East,E12000006,2007,working_age_population,3620187.0
+East,E12000006,2008,working_age_population,3649304.0
+East,E12000006,2009,working_age_population,3665808.0
+East,E12000006,2010,working_age_population,3694277.0
+East,E12000006,2011,working_age_population,3719075.0
+East,E12000006,2012,working_age_population,3719105.0
+East,E12000006,2013,working_age_population,3734063.0
+East,E12000006,2014,working_age_population,3761865.0
+East,E12000006,2015,working_age_population,3787652.0
+East,E12000006,2016,working_age_population,3818435.0
+East,E12000006,2017,working_age_population,3834843.0
+East,E12000006,2018,working_age_population,3848116.0
+East,E12000006,2019,working_age_population,3861902.0
+East,E12000006,2020,working_age_population,3876488.0
+East,E12000006,2021,working_age_population,3912332.0
+East,E12000006,2022,working_age_population,3929454.0
+East,E12000006,2023,working_age_population,3981458.0
+East,E12000006,2024,working_age_population,4028657.0
+London,E12000007,1981,total_population,6805000.0
+London,E12000007,1982,total_population,6765084.0
+London,E12000007,1983,total_population,6752989.0
+London,E12000007,1984,total_population,6754717.0
+London,E12000007,1985,total_population,6766997.0
+London,E12000007,1986,total_population,6774202.0
+London,E12000007,1987,total_population,6765557.0
+London,E12000007,1988,total_population,6729336.0
+London,E12000007,1989,total_population,6751562.0
+London,E12000007,1990,total_population,6798786.0
+London,E12000007,1991,total_population,6829314.0
+London,E12000007,1992,total_population,6829408.0
+London,E12000007,1993,total_population,6844491.0
+London,E12000007,1994,total_population,6873527.0
+London,E12000007,1995,total_population,6913123.0
+London,E12000007,1996,total_population,6974407.0
+London,E12000007,1997,total_population,7014838.0
+London,E12000007,1998,total_population,7065497.0
+London,E12000007,1999,total_population,7153912.0
+London,E12000007,2000,total_population,7236712.0
+London,E12000007,2001,total_population,7322403.0
+London,E12000007,2002,total_population,7376671.0
+London,E12000007,2003,total_population,7394817.0
+London,E12000007,2004,total_population,7432730.0
+London,E12000007,2005,total_population,7519009.0
+London,E12000007,2006,total_population,7597825.0
+London,E12000007,2007,total_population,7693473.0
+London,E12000007,2008,total_population,7812161.0
+London,E12000007,2009,total_population,7942594.0
+London,E12000007,2010,total_population,8061495.0
+London,E12000007,2011,total_population,8204407.0
+London,E12000007,2012,total_population,8320767.0
+London,E12000007,2013,total_population,8438987.0
+London,E12000007,2014,total_population,8547192.0
+London,E12000007,2015,total_population,8659545.0
+London,E12000007,2016,total_population,8743651.0
+London,E12000007,2017,total_population,8776229.0
+London,E12000007,2018,total_population,8833335.0
+London,E12000007,2019,total_population,8889743.0
+London,E12000007,2020,total_population,8867008.0
+London,E12000007,2021,total_population,8804769.0
+London,E12000007,2022,total_population,8871368.0
+London,E12000007,2023,total_population,8999705.0
+London,E12000007,2024,total_population,9089736.0
+London,E12000007,1992,working_age_population,4514598.0
+London,E12000007,1993,working_age_population,4513090.0
+London,E12000007,1994,working_age_population,4527439.0
+London,E12000007,1995,working_age_population,4556914.0
+London,E12000007,1996,working_age_population,4606533.0
+London,E12000007,1997,working_age_population,4642411.0
+London,E12000007,1998,working_age_population,4685777.0
+London,E12000007,1999,working_age_population,4780580.0
+London,E12000007,2000,working_age_population,4874543.0
+London,E12000007,2001,working_age_population,4974573.0
+London,E12000007,2002,working_age_population,5025296.0
+London,E12000007,2003,working_age_population,5038546.0
+London,E12000007,2004,working_age_population,5076217.0
+London,E12000007,2005,working_age_population,5150699.0
+London,E12000007,2006,working_age_population,5221068.0
+London,E12000007,2007,working_age_population,5298039.0
+London,E12000007,2008,working_age_population,5387169.0
+London,E12000007,2009,working_age_population,5478584.0
+London,E12000007,2010,working_age_population,5558486.0
+London,E12000007,2011,working_age_population,5664416.0
+London,E12000007,2012,working_age_population,5726145.0
+London,E12000007,2013,working_age_population,5800997.0
+London,E12000007,2014,working_age_population,5873113.0
+London,E12000007,2015,working_age_population,5955594.0
+London,E12000007,2016,working_age_population,6010793.0
+London,E12000007,2017,working_age_population,6024971.0
+London,E12000007,2018,working_age_population,6066064.0
+London,E12000007,2019,working_age_population,6113644.0
+London,E12000007,2020,working_age_population,6099549.0
+London,E12000007,2021,working_age_population,6062210.0
+London,E12000007,2022,working_age_population,6104266.0
+London,E12000007,2023,working_age_population,6208153.0
+London,E12000007,2024,working_age_population,6275855.0
+South East,E12000008,1981,total_population,7243055.0
+South East,E12000008,1982,total_population,7273234.0
+South East,E12000008,1983,total_population,7302985.0
+South East,E12000008,1984,total_population,7360814.0
+South East,E12000008,1985,total_population,7413733.0
+South East,E12000008,1986,total_population,7468272.0
+South East,E12000008,1987,total_population,7505040.0
+South East,E12000008,1988,total_population,7550554.0
+South East,E12000008,1989,total_population,7568528.0
+South East,E12000008,1990,total_population,7598057.0
+South East,E12000008,1991,total_population,7629186.0
+South East,E12000008,1992,total_population,7656594.0
+South East,E12000008,1993,total_population,7673172.0
+South East,E12000008,1994,total_population,7711594.0
+South East,E12000008,1995,total_population,7762978.0
+South East,E12000008,1996,total_population,7800406.0
+South East,E12000008,1997,total_population,7853102.0
+South East,E12000008,1998,total_population,7888838.0
+South East,E12000008,1999,total_population,7955124.0
+South East,E12000008,2000,total_population,7990598.0
+South East,E12000008,2001,total_population,8023449.0
+South East,E12000008,2002,total_population,8045192.0
+South East,E12000008,2003,total_population,8087924.0
+South East,E12000008,2004,total_population,8133100.0
+South East,E12000008,2005,total_population,8202896.0
+South East,E12000008,2006,total_population,8270861.0
+South East,E12000008,2007,total_population,8351391.0
+South East,E12000008,2008,total_population,8426399.0
+South East,E12000008,2009,total_population,8490922.0
+South East,E12000008,2010,total_population,8577771.0
+South East,E12000008,2011,total_population,8652784.0
+South East,E12000008,2012,total_population,8731840.0
+South East,E12000008,2013,total_population,8809382.0
+South East,E12000008,2014,total_population,8893930.0
+South East,E12000008,2015,total_population,8969638.0
+South East,E12000008,2016,total_population,9053011.0
+South East,E12000008,2017,total_population,9105076.0
+South East,E12000008,2018,total_population,9150245.0
+South East,E12000008,2019,total_population,9193770.0
+South East,E12000008,2020,total_population,9225273.0
+South East,E12000008,2021,total_population,9295829.0
+South East,E12000008,2022,total_population,9392970.0
+South East,E12000008,2023,total_population,9529446.0
+South East,E12000008,2024,total_population,9642942.0
+South East,E12000008,1992,working_age_population,4873486.0
+South East,E12000008,1993,working_age_population,4870745.0
+South East,E12000008,1994,working_age_population,4888551.0
+South East,E12000008,1995,working_age_population,4919839.0
+South East,E12000008,1996,working_age_population,4947839.0
+South East,E12000008,1997,working_age_population,4987679.0
+South East,E12000008,1998,working_age_population,5012979.0
+South East,E12000008,1999,working_age_population,5060196.0
+South East,E12000008,2000,working_age_population,5089296.0
+South East,E12000008,2001,working_age_population,5118517.0
+South East,E12000008,2002,working_age_population,5138049.0
+South East,E12000008,2003,working_age_population,5171546.0
+South East,E12000008,2004,working_age_population,5207503.0
+South East,E12000008,2005,working_age_population,5266296.0
+South East,E12000008,2006,working_age_population,5325115.0
+South East,E12000008,2007,working_age_population,5381984.0
+South East,E12000008,2008,working_age_population,5423395.0
+South East,E12000008,2009,working_age_population,5447741.0
+South East,E12000008,2010,working_age_population,5487698.0
+South East,E12000008,2011,working_age_population,5513564.0
+South East,E12000008,2012,working_age_population,5517414.0
+South East,E12000008,2013,working_age_population,5537561.0
+South East,E12000008,2014,working_age_population,5569698.0
+South East,E12000008,2015,working_age_population,5605826.0
+South East,E12000008,2016,working_age_population,5647544.0
+South East,E12000008,2017,working_age_population,5668630.0
+South East,E12000008,2018,working_age_population,5684385.0
+South East,E12000008,2019,working_age_population,5698794.0
+South East,E12000008,2020,working_age_population,5714263.0
+South East,E12000008,2021,working_age_population,5758118.0
+South East,E12000008,2022,working_age_population,5797558.0
+South East,E12000008,2023,working_age_population,5880425.0
+South East,E12000008,2024,working_age_population,5947376.0
+South West,E12000009,1981,total_population,4383384.0
+South West,E12000009,1982,total_population,4399414.0
+South West,E12000009,1983,total_population,4426499.0
+South West,E12000009,1984,total_population,4464116.0
+South West,E12000009,1985,total_population,4504547.0
+South West,E12000009,1986,total_population,4547613.0
+South West,E12000009,1987,total_population,4589604.0
+South West,E12000009,1988,total_population,4635406.0
+South West,E12000009,1989,total_population,4653538.0
+South West,E12000009,1990,total_population,4668189.0
+South West,E12000009,1991,total_population,4688248.0
+South West,E12000009,1992,total_population,4713921.0
+South West,E12000009,1993,total_population,4733634.0
+South West,E12000009,1994,total_population,4757078.0
+South West,E12000009,1995,total_population,4781856.0
+South West,E12000009,1996,total_population,4793090.0
+South West,E12000009,1997,total_population,4827319.0
+South West,E12000009,1998,total_population,4849464.0
+South West,E12000009,1999,total_population,4880958.0
+South West,E12000009,2000,total_population,4917074.0
+South West,E12000009,2001,total_population,4943364.0
+South West,E12000009,2002,total_population,4976129.0
+South West,E12000009,2003,total_population,5006653.0
+South West,E12000009,2004,total_population,5038284.0
+South West,E12000009,2005,total_population,5086121.0
+South West,E12000009,2006,total_population,5119840.0
+South West,E12000009,2007,total_population,5170537.0
+South West,E12000009,2008,total_population,5205044.0
+South West,E12000009,2009,total_population,5226821.0
+South West,E12000009,2010,total_population,5261270.0
+South West,E12000009,2011,total_population,5300831.0
+South West,E12000009,2012,total_population,5336343.0
+South West,E12000009,2013,total_population,5374783.0
+South West,E12000009,2014,total_population,5422159.0
+South West,E12000009,2015,total_population,5471487.0
+South West,E12000009,2016,total_population,5526982.0
+South West,E12000009,2017,total_population,5574666.0
+South West,E12000009,2018,total_population,5609701.0
+South West,E12000009,2019,total_population,5642792.0
+South West,E12000009,2020,total_population,5661990.0
+South West,E12000009,2021,total_population,5712822.0
+South West,E12000009,2022,total_population,5769054.0
+South West,E12000009,2023,total_population,5830152.0
+South West,E12000009,2024,total_population,5889695.0
+South West,E12000009,1992,working_age_population,2931901.0
+South West,E12000009,1993,working_age_population,2937035.0
+South West,E12000009,1994,working_age_population,2945669.0
+South West,E12000009,1995,working_age_population,2960057.0
+South West,E12000009,1996,working_age_population,2967929.0
+South West,E12000009,1997,working_age_population,2993642.0
+South West,E12000009,1998,working_age_population,3008114.0
+South West,E12000009,1999,working_age_population,3030380.0
+South West,E12000009,2000,working_age_population,3061188.0
+South West,E12000009,2001,working_age_population,3082509.0
+South West,E12000009,2002,working_age_population,3111772.0
+South West,E12000009,2003,working_age_population,3137918.0
+South West,E12000009,2004,working_age_population,3166948.0
+South West,E12000009,2005,working_age_population,3211605.0
+South West,E12000009,2006,working_age_population,3244627.0
+South West,E12000009,2007,working_age_population,3283868.0
+South West,E12000009,2008,working_age_population,3299149.0
+South West,E12000009,2009,working_age_population,3301189.0
+South West,E12000009,2010,working_age_population,3313080.0
+South West,E12000009,2011,working_age_population,3326352.0
+South West,E12000009,2012,working_age_population,3316083.0
+South West,E12000009,2013,working_age_population,3321006.0
+South West,E12000009,2014,working_age_population,3333261.0
+South West,E12000009,2015,working_age_population,3354821.0
+South West,E12000009,2016,working_age_population,3380755.0
+South West,E12000009,2017,working_age_population,3401921.0
+South West,E12000009,2018,working_age_population,3415372.0
+South West,E12000009,2019,working_age_population,3425271.0
+South West,E12000009,2020,working_age_population,3435601.0
+South West,E12000009,2021,working_age_population,3466380.0
+South West,E12000009,2022,working_age_population,3495012.0
+South West,E12000009,2023,working_age_population,3532288.0
+South West,E12000009,2024,working_age_population,3568027.0
+Northern Ireland,N92000002,1992,total_population,1623263.0
+Northern Ireland,N92000002,1993,total_population,1635552.0
+Northern Ireland,N92000002,1994,total_population,1643707.0
+Northern Ireland,N92000002,1995,total_population,1649131.0
+Northern Ireland,N92000002,1996,total_population,1661751.0
+Northern Ireland,N92000002,1997,total_population,1671261.0
+Northern Ireland,N92000002,1998,total_population,1677769.0
+Northern Ireland,N92000002,1999,total_population,1679006.0
+Northern Ireland,N92000002,2000,total_population,1682944.0
+Northern Ireland,N92000002,2001,total_population,1688838.0
+Northern Ireland,N92000002,2002,total_population,1697534.0
+Northern Ireland,N92000002,2003,total_population,1704924.0
+Northern Ireland,N92000002,2004,total_population,1714042.0
+Northern Ireland,N92000002,2005,total_population,1727733.0
+Northern Ireland,N92000002,2006,total_population,1743113.0
+Northern Ireland,N92000002,2007,total_population,1761683.0
+Northern Ireland,N92000002,2008,total_population,1779152.0
+Northern Ireland,N92000002,2009,total_population,1793333.0
+Northern Ireland,N92000002,2010,total_population,1804833.0
+Northern Ireland,N92000002,2011,total_population,1814318.0
+Northern Ireland,N92000002,2012,total_population,1824603.0
+Northern Ireland,N92000002,2013,total_population,1831677.0
+Northern Ireland,N92000002,2014,total_population,1843186.0
+Northern Ireland,N92000002,2015,total_population,1854943.0
+Northern Ireland,N92000002,2016,total_population,1866042.0
+Northern Ireland,N92000002,2017,total_population,1875178.0
+Northern Ireland,N92000002,2018,total_population,1886259.0
+Northern Ireland,N92000002,2019,total_population,1898519.0
+Northern Ireland,N92000002,2020,total_population,1900523.0
+Northern Ireland,N92000002,2021,total_population,1904564.0
+Northern Ireland,N92000002,2022,total_population,1910543.0
+Northern Ireland,N92000002,2023,total_population,1920382.0
+Northern Ireland,N92000002,1992,working_age_population,994580.0
+Northern Ireland,N92000002,1993,working_age_population,1004884.0
+Northern Ireland,N92000002,1994,working_age_population,1012502.0
+Northern Ireland,N92000002,1995,working_age_population,1017697.0
+Northern Ireland,N92000002,1996,working_age_population,1029817.0
+Northern Ireland,N92000002,1997,working_age_population,1039864.0
+Northern Ireland,N92000002,1998,working_age_population,1047109.0
+Northern Ireland,N92000002,1999,working_age_population,1051358.0
+Northern Ireland,N92000002,2000,working_age_population,1058507.0
+Northern Ireland,N92000002,2001,working_age_population,1067215.0
+Northern Ireland,N92000002,2002,working_age_population,1079049.0
+Northern Ireland,N92000002,2003,working_age_population,1089658.0
+Northern Ireland,N92000002,2004,working_age_population,1100625.0
+Northern Ireland,N92000002,2005,working_age_population,1114058.0
+Northern Ireland,N92000002,2006,working_age_population,1127914.0
+Northern Ireland,N92000002,2007,working_age_population,1142682.0
+Northern Ireland,N92000002,2008,working_age_population,1153167.0
+Northern Ireland,N92000002,2009,working_age_population,1160446.0
+Northern Ireland,N92000002,2010,working_age_population,1165239.0
+Northern Ireland,N92000002,2011,working_age_population,1167750.0
+Northern Ireland,N92000002,2012,working_age_population,1169668.0
+Northern Ireland,N92000002,2013,working_age_population,1170280.0
+Northern Ireland,N92000002,2014,working_age_population,1174132.0
+Northern Ireland,N92000002,2015,working_age_population,1178676.0
+Northern Ireland,N92000002,2016,working_age_population,1181010.0
+Northern Ireland,N92000002,2017,working_age_population,1182744.0
+Northern Ireland,N92000002,2018,working_age_population,1185959.0
+Northern Ireland,N92000002,2019,working_age_population,1189917.0
+Northern Ireland,N92000002,2020,working_age_population,1187727.0
+Northern Ireland,N92000002,2021,working_age_population,1187162.0
+Northern Ireland,N92000002,2022,working_age_population,1185659.0
+Northern Ireland,N92000002,2023,working_age_population,1189681.0
+Scotland,S92000003,1981,total_population,5180200.0
+Scotland,S92000003,1982,total_population,5164540.0
+Scotland,S92000003,1983,total_population,5148120.0
+Scotland,S92000003,1984,total_population,5138880.0
+Scotland,S92000003,1985,total_population,5127890.0
+Scotland,S92000003,1986,total_population,5111760.0
+Scotland,S92000003,1987,total_population,5099020.0
+Scotland,S92000003,1988,total_population,5077440.0
+Scotland,S92000003,1989,total_population,5078190.0
+Scotland,S92000003,1990,total_population,5081270.0
+Scotland,S92000003,1991,total_population,5083330.0
+Scotland,S92000003,1992,total_population,5085620.0
+Scotland,S92000003,1993,total_population,5092460.0
+Scotland,S92000003,1994,total_population,5102210.0
+Scotland,S92000003,1995,total_population,5103690.0
+Scotland,S92000003,1996,total_population,5092190.0
+Scotland,S92000003,1997,total_population,5083340.0
+Scotland,S92000003,1998,total_population,5077070.0
+Scotland,S92000003,1999,total_population,5071950.0
+Scotland,S92000003,2000,total_population,5062940.0
+Scotland,S92000003,2001,total_population,5064200.0
+Scotland,S92000003,2002,total_population,5066000.0
+Scotland,S92000003,2003,total_population,5068500.0
+Scotland,S92000003,2004,total_population,5084300.0
+Scotland,S92000003,2005,total_population,5110200.0
+Scotland,S92000003,2006,total_population,5133000.0
+Scotland,S92000003,2007,total_population,5170000.0
+Scotland,S92000003,2008,total_population,5202900.0
+Scotland,S92000003,2009,total_population,5231900.0
+Scotland,S92000003,2010,total_population,5262200.0
+Scotland,S92000003,2011,total_population,5299900.0
+Scotland,S92000003,2012,total_population,5308500.0
+Scotland,S92000003,2013,total_population,5317300.0
+Scotland,S92000003,2014,total_population,5332200.0
+Scotland,S92000003,2015,total_population,5351700.0
+Scotland,S92000003,2016,total_population,5374900.0
+Scotland,S92000003,2017,total_population,5389900.0
+Scotland,S92000003,2018,total_population,5394300.0
+Scotland,S92000003,2019,total_population,5414400.0
+Scotland,S92000003,2020,total_population,5413100.0
+Scotland,S92000003,2021,total_population,5418400.0
+Scotland,S92000003,2022,total_population,5447000.0
+Scotland,S92000003,2023,total_population,5490100.0
+Scotland,S92000003,1992,working_age_population,3289639.0
+Scotland,S92000003,1993,working_age_population,3295334.0
+Scotland,S92000003,1994,working_age_population,3294930.0
+Scotland,S92000003,1995,working_age_population,3293104.0
+Scotland,S92000003,1996,working_age_population,3311527.0
+Scotland,S92000003,1997,working_age_population,3307538.0
+Scotland,S92000003,1998,working_age_population,3304983.0
+Scotland,S92000003,1999,working_age_population,3304363.0
+Scotland,S92000003,2000,working_age_population,3302015.0
+Scotland,S92000003,2001,working_age_population,3286645.0
+Scotland,S92000003,2002,working_age_population,3295351.0
+Scotland,S92000003,2003,working_age_population,3303864.0
+Scotland,S92000003,2004,working_age_population,3321295.0
+Scotland,S92000003,2005,working_age_population,3345841.0
+Scotland,S92000003,2006,working_age_population,3368993.0
+Scotland,S92000003,2007,working_age_population,3400324.0
+Scotland,S92000003,2008,working_age_population,3423498.0
+Scotland,S92000003,2009,working_age_population,3441098.0
+Scotland,S92000003,2010,working_age_population,3462158.0
+Scotland,S92000003,2011,working_age_population,3487433.0
+Scotland,S92000003,2012,working_age_population,3468526.0
+Scotland,S92000003,2013,working_age_population,3458380.0
+Scotland,S92000003,2014,working_age_population,3450749.0
+Scotland,S92000003,2015,working_age_population,3455167.0
+Scotland,S92000003,2016,working_age_population,3460746.0
+Scotland,S92000003,2017,working_age_population,3461982.0
+Scotland,S92000003,2018,working_age_population,3454904.0
+Scotland,S92000003,2019,working_age_population,3457364.0
+Scotland,S92000003,2020,working_age_population,3448871.0
+Scotland,S92000003,2021,working_age_population,3440192.0
+Scotland,S92000003,2022,working_age_population,3457768.0
+Scotland,S92000003,2023,working_age_population,3479044.0
+Wales,W92000004,1981,total_population,2813495.0
+Wales,W92000004,1982,total_population,2804289.0
+Wales,W92000004,1983,total_population,2803304.0
+Wales,W92000004,1984,total_population,2800686.0
+Wales,W92000004,1985,total_population,2803354.0
+Wales,W92000004,1986,total_population,2810931.0
+Wales,W92000004,1987,total_population,2822565.0
+Wales,W92000004,1988,total_population,2841226.0
+Wales,W92000004,1989,total_population,2855175.0
+Wales,W92000004,1990,total_population,2861512.0
+Wales,W92000004,1991,total_population,2872998.0
+Wales,W92000004,1992,total_population,2877674.0
+Wales,W92000004,1993,total_population,2883558.0
+Wales,W92000004,1994,total_population,2887447.0
+Wales,W92000004,1995,total_population,2888517.0
+Wales,W92000004,1996,total_population,2891304.0
+Wales,W92000004,1997,total_population,2894871.0
+Wales,W92000004,1998,total_population,2899521.0
+Wales,W92000004,1999,total_population,2900599.0
+Wales,W92000004,2000,total_population,2906870.0
+Wales,W92000004,2001,total_population,2910232.0
+Wales,W92000004,2002,total_population,2922876.0
+Wales,W92000004,2003,total_population,2937721.0
+Wales,W92000004,2004,total_population,2957422.0
+Wales,W92000004,2005,total_population,2969309.0
+Wales,W92000004,2006,total_population,2985668.0
+Wales,W92000004,2007,total_population,3006299.0
+Wales,W92000004,2008,total_population,3025867.0
+Wales,W92000004,2009,total_population,3038872.0
+Wales,W92000004,2010,total_population,3049971.0
+Wales,W92000004,2011,total_population,3063758.0
+Wales,W92000004,2012,total_population,3070928.0
+Wales,W92000004,2013,total_population,3071058.0
+Wales,W92000004,2014,total_population,3073788.0
+Wales,W92000004,2015,total_population,3072739.0
+Wales,W92000004,2016,total_population,3077165.0
+Wales,W92000004,2017,total_population,3081366.0
+Wales,W92000004,2018,total_population,3083840.0
+Wales,W92000004,2019,total_population,3087732.0
+Wales,W92000004,2020,total_population,3104483.0
+Wales,W92000004,2021,total_population,3105633.0
+Wales,W92000004,2022,total_population,3134196.0
+Wales,W92000004,2023,total_population,3167331.0
+Wales,W92000004,2024,total_population,3186581.0
+Wales,W92000004,1992,working_age_population,1787493.0
+Wales,W92000004,1993,working_age_population,1785823.0
+Wales,W92000004,1994,working_age_population,1784855.0
+Wales,W92000004,1995,working_age_population,1785189.0
+Wales,W92000004,1996,working_age_population,1789854.0
+Wales,W92000004,1997,working_age_population,1794141.0
+Wales,W92000004,1998,working_age_population,1799111.0
+Wales,W92000004,1999,working_age_population,1803736.0
+Wales,W92000004,2000,working_age_population,1811919.0
+Wales,W92000004,2001,working_age_population,1817359.0
+Wales,W92000004,2002,working_age_population,1832035.0
+Wales,W92000004,2003,working_age_population,1847827.0
+Wales,W92000004,2004,working_age_population,1867955.0
+Wales,W92000004,2005,working_age_population,1881441.0
+Wales,W92000004,2006,working_age_population,1897093.0
+Wales,W92000004,2007,working_age_population,1915370.0
+Wales,W92000004,2008,working_age_population,1928555.0
+Wales,W92000004,2009,working_age_population,1934310.0
+Wales,W92000004,2010,working_age_population,1937725.0
+Wales,W92000004,2011,working_age_population,1941524.0
+Wales,W92000004,2012,working_age_population,1929971.0
+Wales,W92000004,2013,working_age_population,1918531.0
+Wales,W92000004,2014,working_age_population,1909481.0
+Wales,W92000004,2015,working_age_population,1900284.0
+Wales,W92000004,2016,working_age_population,1895193.0
+Wales,W92000004,2017,working_age_population,1891756.0
+Wales,W92000004,2018,working_age_population,1887029.0
+Wales,W92000004,2019,working_age_population,1883726.0
+Wales,W92000004,2020,working_age_population,1893071.0
+Wales,W92000004,2021,working_age_population,1892963.0
+Wales,W92000004,2022,working_age_population,1911473.0
+Wales,W92000004,2023,working_age_population,1935045.0
+Wales,W92000004,2024,working_age_population,1947716.0

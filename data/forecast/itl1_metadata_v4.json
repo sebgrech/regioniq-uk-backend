@@ -1,0 +1,25 @@
+{
+  "run_timestamp": "2025-12-03T16:16:48.192928",
+  "version": "4.0_nomis_rates",
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true,
+    "macro_anchoring": true,
+    "reconciliation_method": "proportional"
+  },
+  "data_summary": {
+    "regions": 12,
+    "metrics": 9,
+    "total_obs": 5225,
+    "forecast_obs": 2752
+  },
+  "model_usage": {
+    "Linear": 2158,
+    "derived_monte_carlo": 594
+  },
+  "reconciliation_summary": {
+    "adjustments": 132,
+    "avg_scale_factor": 0.9726292774193794,
+    "max_deviation_pct": 4.0044533748694535e-14
+  }
+}

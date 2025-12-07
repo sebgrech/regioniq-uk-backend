@@ -1,0 +1,688 @@
+itl3_code,itl2_code,itl3_name,share,share_std,share_years,region_name,metric
+TLC31,TLC3,Hartlepool and Stockton-on-Tees,0.47396174792407825,0.010662185476236125,4,Hartlepool and Stockton-on-Tees,nominal_gva_mn_gbp
+TLC32,TLC3,South Teesside,0.35054323035934487,0.007243166873734968,4,South Teesside,nominal_gva_mn_gbp
+TLC33,TLC3,Darlington,0.1754950217165769,0.004008938143238879,4,Darlington,nominal_gva_mn_gbp
+TLC41,TLC4,Durham,0.22965418058998405,0.003386319637951873,4,Durham,nominal_gva_mn_gbp
+TLC42,TLC4,Northumberland,0.12868330246157234,0.001621379167254774,4,Northumberland,nominal_gva_mn_gbp
+TLC43,TLC4,Tyneside,0.48743392282562414,0.006654212461460311,4,Tyneside,nominal_gva_mn_gbp
+TLC44,TLC4,Sunderland,0.15422859412281947,0.004002804407008176,4,Sunderland,nominal_gva_mn_gbp
+TLD13,TLD1,Cumberland,0.485868777956852,0.004967239626624605,4,Cumberland,nominal_gva_mn_gbp
+TLD14,TLD1,Westmorland and Furness,0.514131222043148,0.004967239626624642,4,Westmorland and Furness,nominal_gva_mn_gbp
+TLD33,TLD3,Manchester,0.3453151876816877,0.012926202528788441,4,Manchester,nominal_gva_mn_gbp
+TLD34,TLD3,Greater Manchester South West,0.23512194655021929,0.004136011824263218,4,Greater Manchester South West,nominal_gva_mn_gbp
+TLD35,TLD3,Greater Manchester South East,0.1352847370109141,0.0024999778313258216,4,Greater Manchester South East,nominal_gva_mn_gbp
+TLD36,TLD3,Greater Manchester North West,0.14409809958784442,0.004580809881854056,4,Greater Manchester North West,nominal_gva_mn_gbp
+TLD37,TLD3,Greater Manchester North East,0.14018002916933456,0.0036801915897094937,4,Greater Manchester North East,nominal_gva_mn_gbp
+TLD41,TLD4,Blackburn with Darwen,0.09590921909831598,0.001415417870415366,4,Blackburn with Darwen,nominal_gva_mn_gbp
+TLD42,TLD4,Blackpool,0.07854977017955478,0.0018613267957139608,4,Blackpool,nominal_gva_mn_gbp
+TLD44,TLD4,Lancaster and Wyre,0.13366280467438632,0.003416994680375588,4,Lancaster and Wyre,nominal_gva_mn_gbp
+TLD45,TLD4,Mid Lancashire,0.371154962531552,0.002284453613411363,4,Mid Lancashire,nominal_gva_mn_gbp
+TLD46,TLD4,East Lancashire,0.17525358198692428,0.00293461778730288,4,East Lancashire,nominal_gva_mn_gbp
+TLD47,TLD4,Chorley and West Lancashire,0.1454696615292666,0.002881868853247465,4,Chorley and West Lancashire,nominal_gva_mn_gbp
+TLD61,TLD6,Warrington,0.2500379566572076,0.0016173541770300075,4,Warrington,nominal_gva_mn_gbp
+TLD62,TLD6,Cheshire East,0.41215623064594775,0.008913941767243656,4,Cheshire East,nominal_gva_mn_gbp
+TLD63,TLD6,Cheshire West and Chester,0.3378058126968446,0.00891386769104103,4,Cheshire West and Chester,nominal_gva_mn_gbp
+TLD71,TLD7,East Merseyside,0.30115582470322055,0.0036768510514948822,4,East Merseyside,nominal_gva_mn_gbp
+TLD72,TLD7,Liverpool,0.4201352851835145,0.006247268358955136,4,Liverpool,nominal_gva_mn_gbp
+TLD73,TLD7,Sefton,0.1261296913047543,0.0020101362432632473,4,Sefton,nominal_gva_mn_gbp
+TLD74,TLD7,Wirral,0.15257919880851062,0.003573358425862699,4,Wirral,nominal_gva_mn_gbp
+TLE11,TLE1,"Kingston upon Hull, City of",0.2710227525877036,0.00490725331274811,4,"Kingston upon Hull, City of",nominal_gva_mn_gbp
+TLE12,TLE1,East Riding of Yorkshire,0.3452457127941895,0.005835677277430984,4,East Riding of Yorkshire,nominal_gva_mn_gbp
+TLE13,TLE1,North and North East Lincolnshire,0.38373153461810694,0.010468713678104886,4,North and North East Lincolnshire,nominal_gva_mn_gbp
+TLE21,TLE2,York,0.29411977632754877,0.005871918224446865,4,York,nominal_gva_mn_gbp
+TLE22,TLE2,North Yorkshire,0.7058802236724513,0.005871918224446831,4,North Yorkshire,nominal_gva_mn_gbp
+TLE33,TLE3,Barnsley,0.14331674005498232,0.001046342072919815,4,Barnsley,nominal_gva_mn_gbp
+TLE34,TLE3,Rotherham,0.16464545088641724,0.0037807094651809434,4,Rotherham,nominal_gva_mn_gbp
+TLE35,TLE3,Doncaster,0.20575425136162134,0.001356217605130042,4,Doncaster,nominal_gva_mn_gbp
+TLE36,TLE3,Sheffield,0.4862835576969791,0.0040481261576754335,4,Sheffield,nominal_gva_mn_gbp
+TLE41,TLE4,Bradford,0.16726984662766117,0.006342408180085072,4,Bradford,nominal_gva_mn_gbp
+TLE42,TLE4,Leeds,0.48145240431791386,0.01420923634679768,4,Leeds,nominal_gva_mn_gbp
+TLE44,TLE4,Calderdale and Kirklees,0.21337038288198368,0.009262437770004526,4,Calderdale and Kirklees,nominal_gva_mn_gbp
+TLE45,TLE4,Wakefield,0.1379073661724413,0.0016774121698867356,4,Wakefield,nominal_gva_mn_gbp
+TLF11,TLF1,Derby,0.15205753536264055,0.0033987309942022956,4,Derby,nominal_gva_mn_gbp
+TLF12,TLF1,East Derbyshire,0.12230810027234408,0.002389176519052062,4,East Derbyshire,nominal_gva_mn_gbp
+TLF13,TLF1,South and West Derbyshire,0.20566602490377048,0.004772904554025487,4,South and West Derbyshire,nominal_gva_mn_gbp
+TLF14,TLF1,Nottingham,0.20390766684758327,0.004480764940040359,4,Nottingham,nominal_gva_mn_gbp
+TLF15,TLF1,North Nottinghamshire,0.1832836190628307,0.001034936214918165,4,North Nottinghamshire,nominal_gva_mn_gbp
+TLF16,TLF1,South Nottinghamshire,0.1327770535508309,0.003511935616517955,4,South Nottinghamshire,nominal_gva_mn_gbp
+TLF21,TLF2,Leicester,0.18140582890948845,0.00662250927566903,4,Leicester,nominal_gva_mn_gbp
+TLF22,TLF2,Leicestershire CC and Rutland,0.39658058123548845,0.009339714667465644,4,Leicestershire CC and Rutland,nominal_gva_mn_gbp
+TLF24,TLF2,West Northamptonshire,0.2707265078689771,0.0021539934074046824,4,West Northamptonshire,nominal_gva_mn_gbp
+TLF25,TLF2,North Northamptonshire,0.15128708198604596,0.0014718237129990573,4,North Northamptonshire,nominal_gva_mn_gbp
+TLF30,TLF3,Lincolnshire CC,1.0,0.0,4,Lincolnshire CC,nominal_gva_mn_gbp
+TLG11,TLG1,"Herefordshire, County of",0.10728851709774478,0.0030071295056589018,4,"Herefordshire, County of",nominal_gva_mn_gbp
+TLG12,TLG1,Worcestershire CC,0.37974086743461416,0.00852407179032068,4,Worcestershire CC,nominal_gva_mn_gbp
+TLG13,TLG1,Warwickshire CC,0.512970615467641,0.011179105929966411,4,Warwickshire CC,nominal_gva_mn_gbp
+TLG21,TLG2,Telford and Wrekin,0.13559440421132368,0.0020826704751892217,4,Telford and Wrekin,nominal_gva_mn_gbp
+TLG22,TLG2,Shropshire,0.18021087354382181,0.003200521609552173,4,Shropshire,nominal_gva_mn_gbp
+TLG23,TLG2,Stoke-on-Trent,0.1613836215496296,0.003976024853540953,4,Stoke-on-Trent,nominal_gva_mn_gbp
+TLG24,TLG2,Staffordshire CC,0.522811100695225,0.0023983017312849534,4,Staffordshire CC,nominal_gva_mn_gbp
+TLG31,TLG3,Birmingham,0.41759022342096985,0.005550763311426448,4,Birmingham,nominal_gva_mn_gbp
+TLG32,TLG3,Solihull,0.1280161199402539,0.0021147134177978925,4,Solihull,nominal_gva_mn_gbp
+TLG33,TLG3,Coventry,0.1433915563872574,0.0018718244309283546,4,Coventry,nominal_gva_mn_gbp
+TLG36,TLG3,Dudley,0.07597798779536702,0.0016469792428208483,4,Dudley,nominal_gva_mn_gbp
+TLG37,TLG3,Sandwell,0.09077260706262323,0.003799371544883922,4,Sandwell,nominal_gva_mn_gbp
+TLG38,TLG3,Walsall,0.06676259460342442,0.001124715975317765,4,Walsall,nominal_gva_mn_gbp
+TLG39,TLG3,Wolverhampton,0.07748891079010423,0.0013222134420658885,4,Wolverhampton,nominal_gva_mn_gbp
+TLH21,TLH2,Luton,0.09611408530442239,0.001746563070662583,4,Luton,nominal_gva_mn_gbp
+TLH24,TLH2,Bedford,0.07394311007703525,0.002025033911589423,4,Bedford,nominal_gva_mn_gbp
+TLH25,TLH2,Central Bedfordshire,0.103183412092344,0.0030689300268926293,4,Central Bedfordshire,nominal_gva_mn_gbp
+TLH26,TLH2,North and East Hertfordshire,0.32454296554948614,0.004409353018812745,4,North and East Hertfordshire,nominal_gva_mn_gbp
+TLH27,TLH2,South West Hertfordshire,0.4022164269767122,0.003995214961067389,4,South West Hertfordshire,nominal_gva_mn_gbp
+TLH31,TLH3,Southend-on-Sea,0.06461296626513222,0.0025370196675713716,4,Southend-on-Sea,nominal_gva_mn_gbp
+TLH32,TLH3,Thurrock,0.10529142875910655,0.004693479846674966,4,Thurrock,nominal_gva_mn_gbp
+TLH34,TLH3,Essex Haven Gateway,0.22864663067452232,0.0021169972965267413,4,Essex Haven Gateway,nominal_gva_mn_gbp
+TLH35,TLH3,West Essex,0.1892664508714415,0.0015027580847360434,4,West Essex,nominal_gva_mn_gbp
+TLH36,TLH3,Heart of Essex,0.21569718695934292,0.0025801513220771086,4,Heart of Essex,nominal_gva_mn_gbp
+TLH37,TLH3,Essex Thames Gateway,0.19648533647045446,0.002296161622659402,4,Essex Thames Gateway,nominal_gva_mn_gbp
+TLH41,TLH4,Peterborough,0.23385756327318713,0.0027936608175438823,4,Peterborough,nominal_gva_mn_gbp
+TLH42,TLH4,Cambridgeshire CC,0.7661424367268128,0.0027936608175438745,4,Cambridgeshire CC,nominal_gva_mn_gbp
+TLH51,TLH5,Norwich and East Norfolk,0.48964553785081966,0.004548338613674127,4,Norwich and East Norfolk,nominal_gva_mn_gbp
+TLH52,TLH5,North and West Norfolk,0.23067692728124312,0.005650710400091064,4,North and West Norfolk,nominal_gva_mn_gbp
+TLH53,TLH5,Breckland and South Norfolk,0.2796775348679372,0.001325092185464127,4,Breckland and South Norfolk,nominal_gva_mn_gbp
+TLH61,TLH6,Babergh and Mid Suffolk,0.21539426788647886,0.0018095453494058054,4,Babergh and Mid Suffolk,nominal_gva_mn_gbp
+TLH62,TLH6,Ipswich,0.22325746669943752,0.010058299363812043,4,Ipswich,nominal_gva_mn_gbp
+TLH63,TLH6,East Suffolk,0.28274487206549137,0.0059244023204244305,4,East Suffolk,nominal_gva_mn_gbp
+TLH64,TLH6,West Suffolk,0.2786033933485923,0.00838344809789516,4,West Suffolk,nominal_gva_mn_gbp
+TLI33,TLI3,Kensington & Chelsea and Hammersmith & Fulham,0.09125842394851252,0.0026323405415245153,4,Kensington & Chelsea and Hammersmith & Fulham,nominal_gva_mn_gbp
+TLI34,TLI3,Wandsworth,0.031076738002779394,0.000777699238708662,4,Wandsworth,nominal_gva_mn_gbp
+TLI35,TLI3,Westminster and City of London,0.7329029672226779,0.002323020238622336,4,Westminster and City of London,nominal_gva_mn_gbp
+TLI36,TLI3,Camden,0.14476187082603015,0.0027821641452460493,4,Camden,nominal_gva_mn_gbp
+TLI41,TLI4,Hackney and Newham,0.14891590267056037,0.0038691077385080972,4,Hackney and Newham,nominal_gva_mn_gbp
+TLI42,TLI4,Tower Hamlets,0.3133566956283132,0.009787141646796864,4,Tower Hamlets,nominal_gva_mn_gbp
+TLI43,TLI4,Haringey and Islington,0.21648851072284214,0.0068107077148148905,4,Haringey and Islington,nominal_gva_mn_gbp
+TLI44,TLI4,Lewisham and Southwark,0.21150947336558965,0.003637774853671945,4,Lewisham and Southwark,nominal_gva_mn_gbp
+TLI45,TLI4,Lambeth,0.10972941761269464,0.00440726475500962,4,Lambeth,nominal_gva_mn_gbp
+TLI51,TLI5,Bexley and Greenwich,0.30340652805880686,0.0076643635674427035,4,Bexley and Greenwich,nominal_gva_mn_gbp
+TLI52,TLI5,Barking & Dagenham and Havering,0.252991876534046,0.007432668138037079,4,Barking & Dagenham and Havering,nominal_gva_mn_gbp
+TLI53,TLI5,Redbridge and Waltham Forest,0.24364197623153444,0.006539144147044336,4,Redbridge and Waltham Forest,nominal_gva_mn_gbp
+TLI54,TLI5,Enfield,0.19995961917561267,0.006086617585667082,4,Enfield,nominal_gva_mn_gbp
+TLI61,TLI6,Bromley,0.2278545280677446,0.003975162247444402,4,Bromley,nominal_gva_mn_gbp
+TLI62,TLI6,Croydon,0.3174754454171094,0.00250528951930926,4,Croydon,nominal_gva_mn_gbp
+TLI63,TLI6,"Merton, Kingston upon Thames and Sutton",0.454670026515146,0.0036114693709171242,4,"Merton, Kingston upon Thames and Sutton",nominal_gva_mn_gbp
+TLI71,TLI7,Barnet,0.142895196328253,0.0028036299720559797,4,Barnet,nominal_gva_mn_gbp
+TLI72,TLI7,Brent,0.13504245250623687,0.00171004074529041,4,Brent,nominal_gva_mn_gbp
+TLI73,TLI7,Ealing,0.13949325988688227,0.006653118503881188,4,Ealing,nominal_gva_mn_gbp
+TLI74,TLI7,Harrow and Hillingdon,0.2598200738259882,0.004339016826742979,4,Harrow and Hillingdon,nominal_gva_mn_gbp
+TLI75,TLI7,Hounslow and Richmond upon Thames,0.3227490174526397,0.004133307089513918,4,Hounslow and Richmond upon Thames,nominal_gva_mn_gbp
+TLJ12,TLJ1,Milton Keynes,0.1372497008164194,0.004019676848765611,4,Milton Keynes,nominal_gva_mn_gbp
+TLJ13,TLJ1,Buckinghamshire,0.15830418217285686,0.0012246754915484458,4,Buckinghamshire,nominal_gva_mn_gbp
+TLJ14,TLJ1,Oxfordshire CC,0.2437512426563103,0.0032265932565457706,4,Oxfordshire CC,nominal_gva_mn_gbp
+TLJ15,TLJ1,Berkshire East,0.2093418138909109,0.005306287006555852,4,Berkshire East,nominal_gva_mn_gbp
+TLJ16,TLJ1,Berkshire West,0.2513530604635026,0.0043817731000515055,4,Berkshire West,nominal_gva_mn_gbp
+TLJ21,TLJ2,Brighton and Hove,0.1082201306691687,0.006338572551054539,4,Brighton and Hove,nominal_gva_mn_gbp
+TLJ22,TLJ2,East Sussex CC,0.10841511494332792,0.001428712169022563,4,East Sussex CC,nominal_gva_mn_gbp
+TLJ25,TLJ2,West Surrey,0.3658831912945489,0.013338685835993921,4,West Surrey,nominal_gva_mn_gbp
+TLJ26,TLJ2,East Surrey,0.1557825870786088,0.005694292959613206,4,East Surrey,nominal_gva_mn_gbp
+TLJ27,TLJ2,West Sussex (South West),0.12661460878518965,0.0012247044546101371,4,West Sussex (South West),nominal_gva_mn_gbp
+TLJ28,TLJ2,West Sussex (North East),0.13508436722915607,0.0010558014838529036,4,West Sussex (North East),nominal_gva_mn_gbp
+TLJ31,TLJ3,Portsmouth,0.1057421990937227,0.0019211693045382199,4,Portsmouth,nominal_gva_mn_gbp
+TLJ32,TLJ3,Southampton,0.13838061639265253,0.0028343756440075015,4,Southampton,nominal_gva_mn_gbp
+TLJ34,TLJ3,Isle of Wight,0.043779126101979614,0.0011363147355093182,4,Isle of Wight,nominal_gva_mn_gbp
+TLJ35,TLJ3,South Hampshire,0.17931819148395386,0.0015204206619281067,4,South Hampshire,nominal_gva_mn_gbp
+TLJ36,TLJ3,Central Hampshire,0.26370945248724065,0.003509236528448842,4,Central Hampshire,nominal_gva_mn_gbp
+TLJ37,TLJ3,North Hampshire,0.26907041444045066,0.0031332299721566156,4,North Hampshire,nominal_gva_mn_gbp
+TLJ41,TLJ4,Medway,0.13449413867105467,0.0042300171268778945,4,Medway,nominal_gva_mn_gbp
+TLJ43,TLJ4,Kent Thames Gateway,0.19063197390113268,0.005531319800102509,4,Kent Thames Gateway,nominal_gva_mn_gbp
+TLJ44,TLJ4,East Kent,0.2313047913462255,0.006339967769087453,4,East Kent,nominal_gva_mn_gbp
+TLJ45,TLJ4,Mid Kent,0.17187958497954098,0.000754647303123183,4,Mid Kent,nominal_gva_mn_gbp
+TLJ46,TLJ4,West Kent,0.27168951110204614,0.005073868457753375,4,West Kent,nominal_gva_mn_gbp
+TLK30,TLK3,Cornwall and Isles of Scilly,1.0,0.0,4,Cornwall and Isles of Scilly,nominal_gva_mn_gbp
+TLK41,TLK4,Plymouth,0.22154017710833845,0.002494233842789503,4,Plymouth,nominal_gva_mn_gbp
+TLK42,TLK4,Torbay,0.07650051696207444,0.0006885353546148909,4,Torbay,nominal_gva_mn_gbp
+TLK43,TLK4,Devon CC,0.7019593059295871,0.0023084534581633664,4,Devon CC,nominal_gva_mn_gbp
+TLK51,TLK5,"Bristol, City of",0.48795622522505167,0.004107500297070185,4,"Bristol, City of",nominal_gva_mn_gbp
+TLK52,TLK5,Bath & North East Somerset and South Gloucestershire,0.5120437747749483,0.0041075002970701715,4,Bath & North East Somerset and South Gloucestershire,nominal_gva_mn_gbp
+TLK61,TLK6,North Somerset,0.1268899242479153,0.001514542922260095,4,North Somerset,nominal_gva_mn_gbp
+TLK62,TLK6,Somerset,0.34298270406766673,0.004586883601146716,4,Somerset,nominal_gva_mn_gbp
+TLK63,TLK6,"Bournemouth, Christchurch and Poole",0.30163875636785475,0.0012761260671627815,4,"Bournemouth, Christchurch and Poole",nominal_gva_mn_gbp
+TLK64,TLK6,Dorset,0.2284886153165632,0.004300978886887824,4,Dorset,nominal_gva_mn_gbp
+TLK71,TLK7,Swindon,0.2446703864261218,0.01075399549365099,4,Swindon,nominal_gva_mn_gbp
+TLK72,TLK7,Wiltshire,0.3048176688212023,0.0021259427327884207,4,Wiltshire,nominal_gva_mn_gbp
+TLK73,TLK7,Gloucestershire CC,0.45051194475267586,0.010276480098261317,4,Gloucestershire CC,nominal_gva_mn_gbp
+TLL31,TLL3,Isle of Anglesey,0.07539385008218764,0.004331287507645546,4,Isle of Anglesey,nominal_gva_mn_gbp
+TLL32,TLL3,Gwynedd,0.15306916988950087,0.0025701588328911583,4,Gwynedd,nominal_gva_mn_gbp
+TLL33,TLL3,Conwy and Denbighshire,0.245267740140942,0.004395038441233967,4,Conwy and Denbighshire,nominal_gva_mn_gbp
+TLL34,TLL3,Flintshire and Wrexham,0.5262692398873695,0.003964549014687134,4,Flintshire and Wrexham,nominal_gva_mn_gbp
+TLL41,TLL4,Mid Wales,0.21117491301062866,0.0024130832188505365,4,Mid Wales,nominal_gva_mn_gbp
+TLL42,TLL4,South West Wales,0.33802707148351036,0.01122428857883379,4,South West Wales,nominal_gva_mn_gbp
+TLL43,TLL4,Swansea,0.31099529964946315,0.007194218382321353,4,Swansea,nominal_gva_mn_gbp
+TLL44,TLL4,Neath Port Talbot,0.1398027158563978,0.005140614226167717,4,Neath Port Talbot,nominal_gva_mn_gbp
+TLL51,TLL5,Central Valleys and Bridgend,0.24152624172604864,0.0027201820470672596,4,Central Valleys and Bridgend,nominal_gva_mn_gbp
+TLL52,TLL5,Cardiff and Vale of Glamorgan,0.42323658407914216,0.0026024433372793697,4,Cardiff and Vale of Glamorgan,nominal_gva_mn_gbp
+TLL53,TLL5,Gwent Valleys,0.15932551173340362,0.0012077772788216246,4,Gwent Valleys,nominal_gva_mn_gbp
+TLL54,TLL5,Monmouthshire and Newport,0.17591166246140555,0.0015404790426860374,4,Monmouthshire and Newport,nominal_gva_mn_gbp
+TLM01,TLM0,Clackmannanshire and Fife,0.4121311052165009,0.004539581389519828,4,Clackmannanshire and Fife,nominal_gva_mn_gbp
+TLM02,TLM0,"Perth and Kinross, and Stirling",0.31424496226903403,0.0031824405038428064,4,"Perth and Kinross, and Stirling",nominal_gva_mn_gbp
+TLM03,TLM0,Angus and Dundee City,0.2736239325144651,0.0026094075239564423,4,Angus and Dundee City,nominal_gva_mn_gbp
+TLM11,TLM1,East Lothian and Midlothian,0.08936860008443219,0.0013764534968013886,4,East Lothian and Midlothian,nominal_gva_mn_gbp
+TLM12,TLM1,Falkirk,0.09842650954456128,0.0066725343427157646,4,Falkirk,nominal_gva_mn_gbp
+TLM13,TLM1,City of Edinburgh,0.6828438980459609,0.009484410378534532,4,City of Edinburgh,nominal_gva_mn_gbp
+TLM14,TLM1,West Lothian,0.12936099232504567,0.0015653147193147182,4,West Lothian,nominal_gva_mn_gbp
+TLM20,TLM2,Highlands and Islands,1.0,0.0,4,Highlands and Islands,nominal_gva_mn_gbp
+TLM31,TLM3,East Dunbartonshire and West Dunbartonshire,0.07999769018283702,0.0012727990275955261,4,East Dunbartonshire and West Dunbartonshire,nominal_gva_mn_gbp
+TLM32,TLM3,Glasgow City,0.5599005597035093,0.00877053443124036,4,Glasgow City,nominal_gva_mn_gbp
+TLM33,TLM3,"Inverclyde, East Renfrewshire, and Renfrewshire",0.15946258436693742,0.007435046321256236,4,"Inverclyde, East Renfrewshire, and Renfrewshire",nominal_gva_mn_gbp
+TLM34,TLM3,North Lanarkshire,0.2006391657467163,0.0032599658765598166,4,North Lanarkshire,nominal_gva_mn_gbp
+TLM50,TLM5,Aberdeen City and Aberdeenshire,1.0,0.0,4,Aberdeen City and Aberdeenshire,nominal_gva_mn_gbp
+TLM91,TLM9,Scottish Borders,0.1427473668300699,0.0044531711296929965,4,Scottish Borders,nominal_gva_mn_gbp
+TLM92,TLM9,Dumfries and Galloway,0.2056883478280473,0.0031502589063382566,4,Dumfries and Galloway,nominal_gva_mn_gbp
+TLM93,TLM9,North Ayrshire and East Ayrshire,0.11453259502320876,0.0014789291748286745,4,North Ayrshire and East Ayrshire,nominal_gva_mn_gbp
+TLM94,TLM9,South Ayrshire,0.1371772773476439,0.0037581883911020266,4,South Ayrshire,nominal_gva_mn_gbp
+TLM95,TLM9,South Lanarkshire,0.3998544129710302,0.0028871584460116438,4,South Lanarkshire,nominal_gva_mn_gbp
+TLN06,TLN0,Belfast,0.322649391482425,0.007158611178072103,4,Belfast,nominal_gva_mn_gbp
+TLN07,TLN0,"Armagh City, Banbridge and Craigavon",0.09352386088608387,0.0008216667419990285,4,"Armagh City, Banbridge and Craigavon",nominal_gva_mn_gbp
+TLN08,TLN0,"Newry, Mourne and Down",0.07238674594288318,0.0011254715596598368,4,"Newry, Mourne and Down",nominal_gva_mn_gbp
+TLN09,TLN0,Ards and North Down,0.04878434308597423,0.0016648579270919295,4,Ards and North Down,nominal_gva_mn_gbp
+TLN0A,TLN0,Derry City and Strabane,0.06827213575409224,0.0019197267454847807,4,Derry City and Strabane,nominal_gva_mn_gbp
+TLN0B,TLN0,Mid Ulster,0.08219450870963194,0.0013416469247762282,4,Mid Ulster,nominal_gva_mn_gbp
+TLN0C,TLN0,Causeway Coast and Glens,0.05030399747778632,0.0004675690389362343,4,Causeway Coast and Glens,nominal_gva_mn_gbp
+TLN0D,TLN0,Antrim and Newtownabbey,0.07710494023387056,0.0028508366319411746,4,Antrim and Newtownabbey,nominal_gva_mn_gbp
+TLN0E,TLN0,Lisburn and Castlereagh,0.07574385171124612,0.0005654265463395778,4,Lisburn and Castlereagh,nominal_gva_mn_gbp
+TLN0F,TLN0,Mid and East Antrim,0.056263021069556836,0.0006059370931244393,4,Mid and East Antrim,nominal_gva_mn_gbp
+TLN0G,TLN0,Fermanagh and Omagh,0.052773203646449704,0.0007595657649125233,4,Fermanagh and Omagh,nominal_gva_mn_gbp
+TLC31,TLC3,Hartlepool and Stockton-on-Tees,0.43566590033720975,0.0015970375973924558,4,Hartlepool and Stockton-on-Tees,gdhi_total_mn_gbp
+TLC32,TLC3,South Teesside,0.3956276673232679,0.001081972677276502,4,South Teesside,gdhi_total_mn_gbp
+TLC33,TLC3,Darlington,0.16870643233952232,0.0009588321842279971,4,Darlington,gdhi_total_mn_gbp
+TLC41,TLC4,Durham,0.25626046232530253,0.0009070613727464328,4,Durham,gdhi_total_mn_gbp
+TLC42,TLC4,Northumberland,0.18647006869309954,0.0006392589395308936,4,Northumberland,gdhi_total_mn_gbp
+TLC43,TLC4,Tyneside,0.4268401606047386,0.0011681337761787348,4,Tyneside,gdhi_total_mn_gbp
+TLC44,TLC4,Sunderland,0.13042930837685934,0.000592620556577688,4,Sunderland,gdhi_total_mn_gbp
+TLD13,TLD1,Cumberland,0.5127030743136634,0.003463940867737007,4,Cumberland,gdhi_total_mn_gbp
+TLD14,TLD1,Westmorland and Furness,0.48729692568633665,0.003463940867737022,4,Westmorland and Furness,gdhi_total_mn_gbp
+TLD33,TLD3,Manchester,0.17887892622398088,0.0015469448974326488,4,Manchester,gdhi_total_mn_gbp
+TLD34,TLD3,Greater Manchester South West,0.20505675261224648,0.002742089229338797,4,Greater Manchester South West,gdhi_total_mn_gbp
+TLD35,TLD3,Greater Manchester South East,0.19710546053269992,0.001441659207672623,4,Greater Manchester South East,gdhi_total_mn_gbp
+TLD36,TLD3,Greater Manchester North West,0.20488135391405043,0.0009813338275619524,4,Greater Manchester North West,gdhi_total_mn_gbp
+TLD37,TLD3,Greater Manchester North East,0.2140775067170223,0.0014937572304548725,4,Greater Manchester North East,gdhi_total_mn_gbp
+TLD41,TLD4,Blackburn with Darwen,0.08329621288399255,0.000800281519438497,4,Blackburn with Darwen,gdhi_total_mn_gbp
+TLD42,TLD4,Blackpool,0.08401464241686366,0.0013308046952119595,4,Blackpool,gdhi_total_mn_gbp
+TLD44,TLD4,Lancaster and Wyre,0.17130969026595713,0.0002804701759696823,4,Lancaster and Wyre,gdhi_total_mn_gbp
+TLD45,TLD4,Mid Lancashire,0.29201393299288064,0.0029844162076364663,4,Mid Lancashire,gdhi_total_mn_gbp
+TLD46,TLD4,East Lancashire,0.19885516827600336,0.001063723650846291,4,East Lancashire,gdhi_total_mn_gbp
+TLD47,TLD4,Chorley and West Lancashire,0.17051035316430269,0.0004612287357142532,4,Chorley and West Lancashire,gdhi_total_mn_gbp
+TLD61,TLD6,Warrington,0.20222452809489747,0.0011451819955640243,4,Warrington,gdhi_total_mn_gbp
+TLD62,TLD6,Cheshire East,0.4492491891250481,0.0019670993894963357,4,Cheshire East,gdhi_total_mn_gbp
+TLD63,TLD6,Cheshire West and Chester,0.3485262827800545,0.0017647743751550474,4,Cheshire West and Chester,gdhi_total_mn_gbp
+TLD71,TLD7,East Merseyside,0.294026456905823,0.0013052519643423416,4,East Merseyside,gdhi_total_mn_gbp
+TLD72,TLD7,Liverpool,0.29332900729918776,0.0017821597086328368,4,Liverpool,gdhi_total_mn_gbp
+TLD73,TLD7,Sefton,0.1920206752105818,0.000681101573121013,4,Sefton,gdhi_total_mn_gbp
+TLD74,TLD7,Wirral,0.2206238605844074,0.00048484838307771437,4,Wirral,gdhi_total_mn_gbp
+TLE11,TLE1,"Kingston upon Hull, City of",0.23969371043379806,0.001371519093821548,4,"Kingston upon Hull, City of",gdhi_total_mn_gbp
+TLE12,TLE1,East Riding of Yorkshire,0.42191191542608975,0.004006456935136778,4,East Riding of Yorkshire,gdhi_total_mn_gbp
+TLE13,TLE1,North and North East Lincolnshire,0.3383943741401122,0.0029146233003951227,4,North and North East Lincolnshire,gdhi_total_mn_gbp
+TLE21,TLE2,York,0.22936799870606964,0.003283971743801554,4,York,gdhi_total_mn_gbp
+TLE22,TLE2,North Yorkshire,0.7706320012939304,0.0032839717438015877,4,North Yorkshire,gdhi_total_mn_gbp
+TLE33,TLE3,Barnsley,0.18268785340080954,0.0005935003235901286,4,Barnsley,gdhi_total_mn_gbp
+TLE34,TLE3,Rotherham,0.1917175977931378,0.0010640665821797905,4,Rotherham,gdhi_total_mn_gbp
+TLE35,TLE3,Doncaster,0.22568650521577072,0.0008535115911906916,4,Doncaster,gdhi_total_mn_gbp
+TLE36,TLE3,Sheffield,0.399908043590282,0.0010146589149152238,4,Sheffield,gdhi_total_mn_gbp
+TLE41,TLE4,Bradford,0.2051098147232392,0.0009008605470030695,4,Bradford,gdhi_total_mn_gbp
+TLE42,TLE4,Leeds,0.3690772317038302,0.0008668693009409668,4,Leeds,gdhi_total_mn_gbp
+TLE44,TLE4,Calderdale and Kirklees,0.2727409536127394,0.0008450608295019151,4,Calderdale and Kirklees,gdhi_total_mn_gbp
+TLE45,TLE4,Wakefield,0.15307199996019122,0.0008037980449372682,4,Wakefield,gdhi_total_mn_gbp
+TLF11,TLF1,Derby,0.10664468439383096,0.0010309801457162077,4,Derby,gdhi_total_mn_gbp
+TLF12,TLF1,East Derbyshire,0.12710406799402632,0.0006870993031715269,4,East Derbyshire,gdhi_total_mn_gbp
+TLF13,TLF1,South and West Derbyshire,0.2558806629493334,0.0003618450778563954,4,South and West Derbyshire,gdhi_total_mn_gbp
+TLF14,TLF1,Nottingham,0.1163623226579005,0.0004945173395206167,4,Nottingham,gdhi_total_mn_gbp
+TLF15,TLF1,North Nottinghamshire,0.21500125371123707,0.0005400858666796467,4,North Nottinghamshire,gdhi_total_mn_gbp
+TLF16,TLF1,South Nottinghamshire,0.17900700829367172,0.001042976434517574,4,South Nottinghamshire,gdhi_total_mn_gbp
+TLF21,TLF2,Leicester,0.14254048580137202,0.0009460065762760356,4,Leicester,gdhi_total_mn_gbp
+TLF22,TLF2,Leicestershire CC and Rutland,0.41926896183427376,0.0014159001657503244,4,Leicestershire CC and Rutland,gdhi_total_mn_gbp
+TLF24,TLF2,West Northamptonshire,0.24739402358083504,0.00042108220974505285,4,West Northamptonshire,gdhi_total_mn_gbp
+TLF25,TLF2,North Northamptonshire,0.1907965287835192,0.0006452115562918328,4,North Northamptonshire,gdhi_total_mn_gbp
+TLF30,TLF3,Lincolnshire CC,1.0,0.0,4,Lincolnshire CC,gdhi_total_mn_gbp
+TLG11,TLG1,"Herefordshire, County of",0.13305258243524526,0.0009442895438587838,4,"Herefordshire, County of",gdhi_total_mn_gbp
+TLG12,TLG1,Worcestershire CC,0.42461782181178637,0.003542689057197053,4,Worcestershire CC,gdhi_total_mn_gbp
+TLG13,TLG1,Warwickshire CC,0.4423295957529684,0.004482651468334665,4,Warwickshire CC,gdhi_total_mn_gbp
+TLG21,TLG2,Telford and Wrekin,0.1055784266035206,0.0012568799938186546,4,Telford and Wrekin,gdhi_total_mn_gbp
+TLG22,TLG2,Shropshire,0.2129907200998866,0.0007300128433905924,4,Shropshire,gdhi_total_mn_gbp
+TLG23,TLG2,Stoke-on-Trent,0.1278614247516913,0.0016253386611100177,4,Stoke-on-Trent,gdhi_total_mn_gbp
+TLG24,TLG2,Staffordshire CC,0.5535694285449015,0.0004685898302403201,4,Staffordshire CC,gdhi_total_mn_gbp
+TLG31,TLG3,Birmingham,0.37880887371351446,0.0008143690371753559,4,Birmingham,gdhi_total_mn_gbp
+TLG32,TLG3,Solihull,0.10324999226728891,0.0006096225698884765,4,Solihull,gdhi_total_mn_gbp
+TLG33,TLG3,Coventry,0.12172273893676297,0.00037910345233855837,4,Coventry,gdhi_total_mn_gbp
+TLG36,TLG3,Dudley,0.11211995453869396,0.0007988695127713515,4,Dudley,gdhi_total_mn_gbp
+TLG37,TLG3,Sandwell,0.10255083046022478,0.0004061200339839302,4,Sandwell,gdhi_total_mn_gbp
+TLG38,TLG3,Walsall,0.09366250853658445,0.0005102139013258713,4,Walsall,gdhi_total_mn_gbp
+TLG39,TLG3,Wolverhampton,0.0878851015469305,0.0002973128932382024,4,Wolverhampton,gdhi_total_mn_gbp
+TLH21,TLH2,Luton,0.08339614681643168,0.0013183857349275438,4,Luton,gdhi_total_mn_gbp
+TLH24,TLH2,Bedford,0.08533384914796444,0.00046860581831218573,4,Bedford,gdhi_total_mn_gbp
+TLH25,TLH2,Central Bedfordshire,0.14408052794210763,0.0008473281914890298,4,Central Bedfordshire,gdhi_total_mn_gbp
+TLH26,TLH2,North and East Hertfordshire,0.3118482422157737,0.003770428389659937,4,North and East Hertfordshire,gdhi_total_mn_gbp
+TLH27,TLH2,South West Hertfordshire,0.37534123387772256,0.004864481924581648,4,South West Hertfordshire,gdhi_total_mn_gbp
+TLH31,TLH3,Southend-on-Sea,0.09307676538589132,0.00046083004516666253,4,Southend-on-Sea,gdhi_total_mn_gbp
+TLH32,TLH3,Thurrock,0.08397389540468293,0.0010042158442638705,4,Thurrock,gdhi_total_mn_gbp
+TLH34,TLH3,Essex Haven Gateway,0.24348358269378018,0.0014008451316392483,4,Essex Haven Gateway,gdhi_total_mn_gbp
+TLH35,TLH3,West Essex,0.19772629816650195,0.001226184402952977,4,West Essex,gdhi_total_mn_gbp
+TLH36,TLH3,Heart of Essex,0.1950735465811211,0.0004152854644361769,4,Heart of Essex,gdhi_total_mn_gbp
+TLH37,TLH3,Essex Thames Gateway,0.18666591176802252,0.001092284260829401,4,Essex Thames Gateway,gdhi_total_mn_gbp
+TLH41,TLH4,Peterborough,0.19796851813828437,0.0014339197553930802,4,Peterborough,gdhi_total_mn_gbp
+TLH42,TLH4,Cambridgeshire CC,0.8020314818617156,0.0014339197553930735,4,Cambridgeshire CC,gdhi_total_mn_gbp
+TLH51,TLH5,Norwich and East Norfolk,0.3911473230832593,0.0008574180297675596,4,Norwich and East Norfolk,gdhi_total_mn_gbp
+TLH52,TLH5,North and West Norfolk,0.2868844442756876,0.0009233011085744848,4,North and West Norfolk,gdhi_total_mn_gbp
+TLH53,TLH5,Breckland and South Norfolk,0.32196823264105306,0.001555513766754589,4,Breckland and South Norfolk,gdhi_total_mn_gbp
+TLH61,TLH6,Babergh and Mid Suffolk,0.2796523432715068,0.005232066775532334,4,Babergh and Mid Suffolk,gdhi_total_mn_gbp
+TLH62,TLH6,Ipswich,0.16067592861984203,0.004195664885212752,4,Ipswich,gdhi_total_mn_gbp
+TLH63,TLH6,East Suffolk,0.32865489505901985,0.0005443637614782821,4,East Suffolk,gdhi_total_mn_gbp
+TLH64,TLH6,West Suffolk,0.23101683304963133,0.000990160184655467,4,West Suffolk,gdhi_total_mn_gbp
+TLI33,TLI3,Kensington & Chelsea and Hammersmith & Fulham,0.3462574654858366,0.00525550222026981,4,Kensington & Chelsea and Hammersmith & Fulham,gdhi_total_mn_gbp
+TLI34,TLI3,Wandsworth,0.21758711891092597,0.0009546011690802324,4,Wandsworth,gdhi_total_mn_gbp
+TLI35,TLI3,Westminster and City of London,0.2473596136114283,0.0023951874450454463,4,Westminster and City of London,gdhi_total_mn_gbp
+TLI36,TLI3,Camden,0.18879580199180915,0.0036159929418188384,4,Camden,gdhi_total_mn_gbp
+TLI41,TLI4,Hackney and Newham,0.22659815656541252,0.0010189650775715264,4,Hackney and Newham,gdhi_total_mn_gbp
+TLI42,TLI4,Tower Hamlets,0.13267755200328354,0.0012924455061870434,4,Tower Hamlets,gdhi_total_mn_gbp
+TLI43,TLI4,Haringey and Islington,0.24281873813493982,0.0021927417992965094,4,Haringey and Islington,gdhi_total_mn_gbp
+TLI44,TLI4,Lewisham and Southwark,0.25242965696213315,0.00039366466838327224,4,Lewisham and Southwark,gdhi_total_mn_gbp
+TLI45,TLI4,Lambeth,0.14547589633423097,0.0016329523564409204,4,Lambeth,gdhi_total_mn_gbp
+TLI51,TLI5,Bexley and Greenwich,0.2835158403924696,0.0006732368580231323,4,Bexley and Greenwich,gdhi_total_mn_gbp
+TLI52,TLI5,Barking & Dagenham and Havering,0.22736278144857147,0.0012361915395983963,4,Barking & Dagenham and Havering,gdhi_total_mn_gbp
+TLI53,TLI5,Redbridge and Waltham Forest,0.3132482543578624,0.0006568151857018156,4,Redbridge and Waltham Forest,gdhi_total_mn_gbp
+TLI54,TLI5,Enfield,0.1758731238010965,0.0009022506022007634,4,Enfield,gdhi_total_mn_gbp
+TLI61,TLI6,Bromley,0.26916039464388164,0.002881773725107097,4,Bromley,gdhi_total_mn_gbp
+TLI62,TLI6,Croydon,0.2600762316361851,0.002054108587477253,4,Croydon,gdhi_total_mn_gbp
+TLI63,TLI6,"Merton, Kingston upon Thames and Sutton",0.4707633737199332,0.0008539380407790556,4,"Merton, Kingston upon Thames and Sutton",gdhi_total_mn_gbp
+TLI71,TLI7,Barnet,0.20372943799243773,0.0017655737014507572,4,Barnet,gdhi_total_mn_gbp
+TLI72,TLI7,Brent,0.1444183448971267,0.0007924043025794106,4,Brent,gdhi_total_mn_gbp
+TLI73,TLI7,Ealing,0.1616821239013756,0.000754815368811959,4,Ealing,gdhi_total_mn_gbp
+TLI74,TLI7,Harrow and Hillingdon,0.23251798478523775,0.0012847025829888857,4,Harrow and Hillingdon,gdhi_total_mn_gbp
+TLI75,TLI7,Hounslow and Richmond upon Thames,0.2576521084238222,0.001218493065238672,4,Hounslow and Richmond upon Thames,gdhi_total_mn_gbp
+TLJ12,TLJ1,Milton Keynes,0.09571624922056354,0.00044535123252600824,4,Milton Keynes,gdhi_total_mn_gbp
+TLJ13,TLJ1,Buckinghamshire,0.24594899658034122,0.001373472304040508,4,Buckinghamshire,gdhi_total_mn_gbp
+TLJ14,TLJ1,Oxfordshire CC,0.28590691293018705,0.0029890552641823123,4,Oxfordshire CC,gdhi_total_mn_gbp
+TLJ15,TLJ1,Berkshire East,0.169514108636724,0.0018543124124362142,4,Berkshire East,gdhi_total_mn_gbp
+TLJ16,TLJ1,Berkshire West,0.20291373263218415,0.0020740693690424155,4,Berkshire West,gdhi_total_mn_gbp
+TLJ21,TLJ2,Brighton and Hove,0.08902018962625016,0.0005096698989185734,4,Brighton and Hove,gdhi_total_mn_gbp
+TLJ22,TLJ2,East Sussex CC,0.1626734390229652,0.0008597066611528886,4,East Sussex CC,gdhi_total_mn_gbp
+TLJ25,TLJ2,West Surrey,0.3226373266465274,0.0026325195057836496,4,West Surrey,gdhi_total_mn_gbp
+TLJ26,TLJ2,East Surrey,0.15452489874471842,0.0014077088155645095,4,East Surrey,gdhi_total_mn_gbp
+TLJ27,TLJ2,West Sussex (South West),0.13817847331317376,0.00022544037839737453,4,West Sussex (South West),gdhi_total_mn_gbp
+TLJ28,TLJ2,West Sussex (North East),0.1329656726463651,0.00011172073595370483,4,West Sussex (North East),gdhi_total_mn_gbp
+TLJ31,TLJ3,Portsmouth,0.0856454528691653,0.00021645639814676031,4,Portsmouth,gdhi_total_mn_gbp
+TLJ32,TLJ3,Southampton,0.10002143928622971,0.001135175190992768,4,Southampton,gdhi_total_mn_gbp
+TLJ34,TLJ3,Isle of Wight,0.06152585578851602,0.0001648418884947311,4,Isle of Wight,gdhi_total_mn_gbp
+TLJ35,TLJ3,South Hampshire,0.21665811504368745,0.0014166159334947847,4,South Hampshire,gdhi_total_mn_gbp
+TLJ36,TLJ3,Central Hampshire,0.32584347234120176,0.0022642875061523278,4,Central Hampshire,gdhi_total_mn_gbp
+TLJ37,TLJ3,North Hampshire,0.21030566467119977,0.0006933549263393565,4,North Hampshire,gdhi_total_mn_gbp
+TLJ41,TLJ4,Medway,0.13578944527047238,0.0007211127128222533,4,Medway,gdhi_total_mn_gbp
+TLJ43,TLJ4,Kent Thames Gateway,0.18842016763490976,0.0007001197287011771,4,Kent Thames Gateway,gdhi_total_mn_gbp
+TLJ44,TLJ4,East Kent,0.2573245554200373,0.002777454235819456,4,East Kent,gdhi_total_mn_gbp
+TLJ45,TLJ4,Mid Kent,0.16817658470797142,0.002159947923133001,4,Mid Kent,gdhi_total_mn_gbp
+TLJ46,TLJ4,West Kent,0.25028924696660915,0.001973077490984555,4,West Kent,gdhi_total_mn_gbp
+TLK30,TLK3,Cornwall and Isles of Scilly,1.0,0.0,4,Cornwall and Isles of Scilly,gdhi_total_mn_gbp
+TLK41,TLK4,Plymouth,0.19087158493411482,0.002842745605867977,4,Plymouth,gdhi_total_mn_gbp
+TLK42,TLK4,Torbay,0.10861053129852268,0.0011188451325046212,4,Torbay,gdhi_total_mn_gbp
+TLK43,TLK4,Devon CC,0.7005178837673625,0.003930562680716578,4,Devon CC,gdhi_total_mn_gbp
+TLK51,TLK5,"Bristol, City of",0.47842374803120136,0.0008442051431285107,4,"Bristol, City of",gdhi_total_mn_gbp
+TLK52,TLK5,Bath & North East Somerset and South Gloucestershire,0.5215762519687986,0.0008442051431284681,4,Bath & North East Somerset and South Gloucestershire,gdhi_total_mn_gbp
+TLK61,TLK6,North Somerset,0.14557809481250267,0.001124985838327923,4,North Somerset,gdhi_total_mn_gbp
+TLK62,TLK6,Somerset,0.3494686406957756,0.0015427327623753833,4,Somerset,gdhi_total_mn_gbp
+TLK63,TLK6,"Bournemouth, Christchurch and Poole",0.25407047962446677,0.0016994959112822403,4,"Bournemouth, Christchurch and Poole",gdhi_total_mn_gbp
+TLK64,TLK6,Dorset,0.25088278486725496,0.0009727613713030205,4,Dorset,gdhi_total_mn_gbp
+TLK71,TLK7,Swindon,0.1487670545390402,0.002950115646811917,4,Swindon,gdhi_total_mn_gbp
+TLK72,TLK7,Wiltshire,0.3785081695724195,0.0008298882847771438,4,Wiltshire,gdhi_total_mn_gbp
+TLK73,TLK7,Gloucestershire CC,0.4727247758885403,0.0036055740706100467,4,Gloucestershire CC,gdhi_total_mn_gbp
+TLL31,TLL3,Isle of Anglesey,0.09997816908264212,0.0010941875243882324,4,Isle of Anglesey,gdhi_total_mn_gbp
+TLL32,TLL3,Gwynedd,0.16146579835505434,0.00012466503903254294,4,Gwynedd,gdhi_total_mn_gbp
+TLL33,TLL3,Conwy and Denbighshire,0.31018691018380257,0.0014802042328942737,4,Conwy and Denbighshire,gdhi_total_mn_gbp
+TLL34,TLL3,Flintshire and Wrexham,0.428369122378501,0.0018822502708781665,4,Flintshire and Wrexham,gdhi_total_mn_gbp
+TLL41,TLL4,Mid Wales,0.23938309336519625,0.001036461674386336,4,Mid Wales,gdhi_total_mn_gbp
+TLL42,TLL4,South West Wales,0.34734819445842574,0.0022354619524601435,4,South West Wales,gdhi_total_mn_gbp
+TLL43,TLL4,Swansea,0.2627580388678172,0.0011296179952308013,4,Swansea,gdhi_total_mn_gbp
+TLL44,TLL4,Neath Port Talbot,0.15051067330856086,0.0017022691642908743,4,Neath Port Talbot,gdhi_total_mn_gbp
+TLL51,TLL5,Central Valleys and Bridgend,0.2700239126149963,0.001748033043992044,4,Central Valleys and Bridgend,gdhi_total_mn_gbp
+TLL52,TLL5,Cardiff and Vale of Glamorgan,0.34908279574960277,0.0018310362407345517,4,Cardiff and Vale of Glamorgan,gdhi_total_mn_gbp
+TLL53,TLL5,Gwent Valleys,0.20334046280484247,0.0013100481767747416,4,Gwent Valleys,gdhi_total_mn_gbp
+TLL54,TLL5,Monmouthshire and Newport,0.17755282883055845,0.0011800951026771699,4,Monmouthshire and Newport,gdhi_total_mn_gbp
+TLM01,TLM0,Clackmannanshire and Fife,0.44152416212778317,0.0022536774915176633,4,Clackmannanshire and Fife,gdhi_total_mn_gbp
+TLM02,TLM0,"Perth and Kinross, and Stirling",0.29385991860741656,0.002266331137161976,4,"Perth and Kinross, and Stirling",gdhi_total_mn_gbp
+TLM03,TLM0,Angus and Dundee City,0.26461591926480027,0.0036620479566356473,4,Angus and Dundee City,gdhi_total_mn_gbp
+TLM11,TLM1,East Lothian and Midlothian,0.18703610725921654,0.0013830852896759111,4,East Lothian and Midlothian,gdhi_total_mn_gbp
+TLM12,TLM1,Falkirk,0.1243924850588544,0.0025918162647495585,4,Falkirk,gdhi_total_mn_gbp
+TLM13,TLM1,City of Edinburgh,0.5424143147386776,0.003116790961321254,4,City of Edinburgh,gdhi_total_mn_gbp
+TLM14,TLM1,West Lothian,0.1461570929432514,0.0007446020807988555,4,West Lothian,gdhi_total_mn_gbp
+TLM20,TLM2,Highlands and Islands,1.0,0.0,4,Highlands and Islands,gdhi_total_mn_gbp
+TLM31,TLM3,East Dunbartonshire and West Dunbartonshire,0.14524371898892496,0.0005351171606993547,4,East Dunbartonshire and West Dunbartonshire,gdhi_total_mn_gbp
+TLM32,TLM3,Glasgow City,0.39161155047397245,0.0022840292467092493,4,Glasgow City,gdhi_total_mn_gbp
+TLM33,TLM3,"Inverclyde, East Renfrewshire, and Renfrewshire",0.2517322223135106,0.0026296773272771394,4,"Inverclyde, East Renfrewshire, and Renfrewshire",gdhi_total_mn_gbp
+TLM34,TLM3,North Lanarkshire,0.21141250822359198,0.0017245754683015075,4,North Lanarkshire,gdhi_total_mn_gbp
+TLM50,TLM5,Aberdeen City and Aberdeenshire,1.0,0.0,4,Aberdeen City and Aberdeenshire,gdhi_total_mn_gbp
+TLM91,TLM9,Scottish Borders,0.14979229146813083,0.0008289608484433618,4,Scottish Borders,gdhi_total_mn_gbp
+TLM92,TLM9,Dumfries and Galloway,0.17827774470406876,0.0006712692745422515,4,Dumfries and Galloway,gdhi_total_mn_gbp
+TLM93,TLM9,North Ayrshire and East Ayrshire,0.13448451160208696,0.0005561211518125861,4,North Ayrshire and East Ayrshire,gdhi_total_mn_gbp
+TLM94,TLM9,South Ayrshire,0.13806799478015586,0.0010663125032895693,4,South Ayrshire,gdhi_total_mn_gbp
+TLM95,TLM9,South Lanarkshire,0.39937745744555764,0.00043881167849936644,4,South Lanarkshire,gdhi_total_mn_gbp
+TLN06,TLN0,Belfast,0.1773694633840327,0.0010090702178479165,4,Belfast,gdhi_total_mn_gbp
+TLN07,TLN0,"Armagh City, Banbridge and Craigavon",0.11258096812659694,0.0007362530389238612,4,"Armagh City, Banbridge and Craigavon",gdhi_total_mn_gbp
+TLN08,TLN0,"Newry, Mourne and Down",0.09313389466926017,0.0001812022115853895,4,"Newry, Mourne and Down",gdhi_total_mn_gbp
+TLN09,TLN0,Ards and North Down,0.09323398362755406,0.00047279741668045816,4,Ards and North Down,gdhi_total_mn_gbp
+TLN0A,TLN0,Derry City and Strabane,0.07355746014264422,0.000805047942072376,4,Derry City and Strabane,gdhi_total_mn_gbp
+TLN0B,TLN0,Mid Ulster,0.07876925981174972,0.0005617311810723217,4,Mid Ulster,gdhi_total_mn_gbp
+TLN0C,TLN0,Causeway Coast and Glens,0.07503148364187512,0.00043656503085856113,4,Causeway Coast and Glens,gdhi_total_mn_gbp
+TLN0D,TLN0,Antrim and Newtownabbey,0.07733084839787167,0.00045279274528213325,4,Antrim and Newtownabbey,gdhi_total_mn_gbp
+TLN0E,TLN0,Lisburn and Castlereagh,0.08613424563562254,0.00047771056100889467,4,Lisburn and Castlereagh,gdhi_total_mn_gbp
+TLN0F,TLN0,Mid and East Antrim,0.07341274897857866,0.0004288199289194094,4,Mid and East Antrim,gdhi_total_mn_gbp
+TLN0G,TLN0,Fermanagh and Omagh,0.059445643584214176,0.0003128035813706909,4,Fermanagh and Omagh,gdhi_total_mn_gbp
+TLC31,TLC3,Hartlepool and Stockton-on-Tees,0.42399258799566136,0.012233857261948497,5,Hartlepool and Stockton-on-Tees,emp_total_jobs
+TLC32,TLC3,South Teesside,0.37827365375194805,0.009013754717492132,5,South Teesside,emp_total_jobs
+TLC33,TLC3,Darlington,0.1977337582523906,0.0044324138776874345,5,Darlington,emp_total_jobs
+TLC41,TLC4,Durham,0.21949698550506364,0.002614709634003623,5,Durham,emp_total_jobs
+TLC42,TLC4,Northumberland,0.1301443210395878,0.0013074002928370636,5,Northumberland,emp_total_jobs
+TLC43,TLC4,Tyneside,0.5065988483412831,0.0032709898619583382,5,Tyneside,emp_total_jobs
+TLC44,TLC4,Sunderland,0.14375984511406542,0.004964982000626736,5,Sunderland,emp_total_jobs
+TLD13,TLD1,Cumberland,0.5387564659298132,0.006252287169040246,5,Cumberland,emp_total_jobs
+TLD14,TLD1,Westmorland and Furness,0.4612435340701868,0.0062522871690402545,5,Westmorland and Furness,emp_total_jobs
+TLD33,TLD3,Manchester,0.3042123599276545,0.00407252069134425,5,Manchester,emp_total_jobs
+TLD34,TLD3,Greater Manchester South West,0.22518331386424423,0.007109824411865028,5,Greater Manchester South West,emp_total_jobs
+TLD35,TLD3,Greater Manchester South East,0.1456752349666548,0.006065267966291591,5,Greater Manchester South East,emp_total_jobs
+TLD36,TLD3,Greater Manchester North West,0.15850387251613227,0.004951645307996873,5,Greater Manchester North West,emp_total_jobs
+TLD37,TLD3,Greater Manchester North East,0.16642521872531418,0.0030812405576921974,5,Greater Manchester North East,emp_total_jobs
+TLD41,TLD4,Blackburn with Darwen,0.10819271492072957,0.0020323821352166457,5,Blackburn with Darwen,emp_total_jobs
+TLD42,TLD4,Blackpool,0.0977573804810401,0.002616307742548426,5,Blackpool,emp_total_jobs
+TLD44,TLD4,Lancaster and Wyre,0.13775868244569656,0.0028918717009071954,5,Lancaster and Wyre,emp_total_jobs
+TLD45,TLD4,Mid Lancashire,0.3331724236258309,0.005969243368165837,5,Mid Lancashire,emp_total_jobs
+TLD46,TLD4,East Lancashire,0.18347962126435763,0.0050957522453101605,5,East Lancashire,emp_total_jobs
+TLD47,TLD4,Chorley and West Lancashire,0.13963917726234526,0.0019082255228734422,5,Chorley and West Lancashire,emp_total_jobs
+TLD61,TLD6,Warrington,0.28346783835563494,0.007560589326450086,5,Warrington,emp_total_jobs
+TLD62,TLD6,Cheshire East,0.3874656170909587,0.001717238518612623,5,Cheshire East,emp_total_jobs
+TLD63,TLD6,Cheshire West and Chester,0.32906654455340634,0.006835781046718183,5,Cheshire West and Chester,emp_total_jobs
+TLD71,TLD7,East Merseyside,0.2975942753363237,0.006956945364250961,5,East Merseyside,emp_total_jobs
+TLD72,TLD7,Liverpool,0.41133697462065716,0.012175267423921846,5,Liverpool,emp_total_jobs
+TLD73,TLD7,Sefton,0.1383824481368769,0.007403428520822623,5,Sefton,emp_total_jobs
+TLD74,TLD7,Wirral,0.1526863019061422,0.0007849807511040459,5,Wirral,emp_total_jobs
+TLE11,TLE1,"Kingston upon Hull, City of",0.3159408790911326,0.004524524874389585,5,"Kingston upon Hull, City of",emp_total_jobs
+TLE12,TLE1,East Riding of Yorkshire,0.3255234997653541,0.0034273017504896234,5,East Riding of Yorkshire,emp_total_jobs
+TLE13,TLE1,North and North East Lincolnshire,0.35853562114351323,0.006921997247286431,5,North and North East Lincolnshire,emp_total_jobs
+TLE21,TLE2,York,0.288904449159333,0.0034849558336599064,5,York,emp_total_jobs
+TLE22,TLE2,North Yorkshire,0.711095550840667,0.0034849558336599337,5,North Yorkshire,emp_total_jobs
+TLE33,TLE3,Barnsley,0.14601325932984896,0.0013499800292423353,5,Barnsley,emp_total_jobs
+TLE34,TLE3,Rotherham,0.1723827265095397,0.004776422883701427,5,Rotherham,emp_total_jobs
+TLE35,TLE3,Doncaster,0.22277827815461526,0.0038921968773244645,5,Doncaster,emp_total_jobs
+TLE36,TLE3,Sheffield,0.458825736005996,0.0035385031257807184,5,Sheffield,emp_total_jobs
+TLE41,TLE4,Bradford,0.184056713663753,0.005548582598252294,5,Bradford,emp_total_jobs
+TLE42,TLE4,Leeds,0.4419047708839777,0.0069011571524083114,5,Leeds,emp_total_jobs
+TLE44,TLE4,Calderdale and Kirklees,0.22751262970798872,0.00399229138242755,5,Calderdale and Kirklees,emp_total_jobs
+TLE45,TLE4,Wakefield,0.1465258857442806,0.002618452707596012,5,Wakefield,emp_total_jobs
+TLF11,TLF1,Derby,0.1440745675880551,0.004673547957568866,5,Derby,emp_total_jobs
+TLF12,TLF1,East Derbyshire,0.11826513263574448,0.0024414292953933506,5,East Derbyshire,emp_total_jobs
+TLF13,TLF1,South and West Derbyshire,0.1926242356945211,0.003194441197822724,5,South and West Derbyshire,emp_total_jobs
+TLF14,TLF1,Nottingham,0.21550104306453638,0.0025097520698993377,5,Nottingham,emp_total_jobs
+TLF15,TLF1,North Nottinghamshire,0.20835075801290381,0.0017360611658471799,5,North Nottinghamshire,emp_total_jobs
+TLF16,TLF1,South Nottinghamshire,0.12118426300423915,0.002436326213991556,5,South Nottinghamshire,emp_total_jobs
+TLF21,TLF2,Leicester,0.1917772451578839,0.0028045922736696484,5,Leicester,emp_total_jobs
+TLF22,TLF2,Leicestershire CC and Rutland,0.39007556036681684,0.007584966362909122,5,Leicestershire CC and Rutland,emp_total_jobs
+TLF24,TLF2,West Northamptonshire,0.24735394059641141,0.006990845595682964,5,West Northamptonshire,emp_total_jobs
+TLF25,TLF2,North Northamptonshire,0.1707932538788878,0.004995656207736602,5,North Northamptonshire,emp_total_jobs
+TLF30,TLF3,Lincolnshire CC,1.0,0.0,5,Lincolnshire CC,emp_total_jobs
+TLG11,TLG1,"Herefordshire, County of",0.1254329769309129,0.0017773162416672339,5,"Herefordshire, County of",emp_total_jobs
+TLG12,TLG1,Worcestershire CC,0.39125892193024087,0.011505119143660557,5,Worcestershire CC,emp_total_jobs
+TLG13,TLG1,Warwickshire CC,0.48330810113884615,0.01197639137295247,5,Warwickshire CC,emp_total_jobs
+TLG21,TLG2,Telford and Wrekin,0.13079134487795213,0.0018341957328897162,5,Telford and Wrekin,emp_total_jobs
+TLG22,TLG2,Shropshire,0.18357669652535363,0.0015670204056578412,5,Shropshire,emp_total_jobs
+TLG23,TLG2,Stoke-on-Trent,0.1752650548591314,0.001081962009496063,5,Stoke-on-Trent,emp_total_jobs
+TLG24,TLG2,Staffordshire CC,0.5103669037375628,0.003366510714382073,5,Staffordshire CC,emp_total_jobs
+TLG31,TLG3,Birmingham,0.418820669254729,0.0070460682468031005,5,Birmingham,emp_total_jobs
+TLG32,TLG3,Solihull,0.11189219420395473,0.0013169377532573395,5,Solihull,emp_total_jobs
+TLG33,TLG3,Coventry,0.12630170697228035,0.0019802773598757728,5,Coventry,emp_total_jobs
+TLG36,TLG3,Dudley,0.08593182421079845,0.003860662642115374,5,Dudley,emp_total_jobs
+TLG37,TLG3,Sandwell,0.09641085841154551,0.00044666136932362176,5,Sandwell,emp_total_jobs
+TLG38,TLG3,Walsall,0.07724571838016128,0.002012982280856686,5,Walsall,emp_total_jobs
+TLG39,TLG3,Wolverhampton,0.08339702856653072,0.0010891334598958431,5,Wolverhampton,emp_total_jobs
+TLH21,TLH2,Luton,0.11012547906573893,0.00804396601789914,5,Luton,emp_total_jobs
+TLH24,TLH2,Bedford,0.08650269838324551,0.0006006774649125183,5,Bedford,emp_total_jobs
+TLH25,TLH2,Central Bedfordshire,0.11424695941616339,0.0018406429154217481,5,Central Bedfordshire,emp_total_jobs
+TLH26,TLH2,North and East Hertfordshire,0.3090269280379613,0.010661715061171742,5,North and East Hertfordshire,emp_total_jobs
+TLH27,TLH2,South West Hertfordshire,0.38009793509689094,0.0072866580432927,5,South West Hertfordshire,emp_total_jobs
+TLH31,TLH3,Southend-on-Sea,0.08677053017303567,0.0020029526011304073,5,Southend-on-Sea,emp_total_jobs
+TLH32,TLH3,Thurrock,0.10163329553776261,0.0017574652440380352,5,Thurrock,emp_total_jobs
+TLH34,TLH3,Essex Haven Gateway,0.24103702302515986,0.00342800874537607,5,Essex Haven Gateway,emp_total_jobs
+TLH35,TLH3,West Essex,0.19268107286638617,0.00392877091908524,5,West Essex,emp_total_jobs
+TLH36,TLH3,Heart of Essex,0.19650271098058872,0.0026110095296435396,5,Heart of Essex,emp_total_jobs
+TLH37,TLH3,Essex Thames Gateway,0.18137536741706697,0.0023003273717794735,5,Essex Thames Gateway,emp_total_jobs
+TLH41,TLH4,Peterborough,0.24859532734764972,0.0030093383119291026,5,Peterborough,emp_total_jobs
+TLH42,TLH4,Cambridgeshire CC,0.7514046726523503,0.0030093383119290996,5,Cambridgeshire CC,emp_total_jobs
+TLH51,TLH5,Norwich and East Norfolk,0.46402797869110807,0.0020956858236074417,5,Norwich and East Norfolk,emp_total_jobs
+TLH52,TLH5,North and West Norfolk,0.2481276352687926,0.0020105193366919505,5,North and West Norfolk,emp_total_jobs
+TLH53,TLH5,Breckland and South Norfolk,0.2878443860400993,0.0016107919786938622,5,Breckland and South Norfolk,emp_total_jobs
+TLH61,TLH6,Babergh and Mid Suffolk,0.20670435322029376,0.0011188322059111353,5,Babergh and Mid Suffolk,emp_total_jobs
+TLH62,TLH6,Ipswich,0.2145208304352447,0.00205567002547814,5,Ipswich,emp_total_jobs
+TLH63,TLH6,East Suffolk,0.27981575576855744,0.002170932083872099,5,East Suffolk,emp_total_jobs
+TLH64,TLH6,West Suffolk,0.2989590605759041,0.00331055544546864,5,West Suffolk,emp_total_jobs
+TLI33,TLI3,Kensington & Chelsea and Hammersmith & Fulham,0.12676557207428618,0.008045562647121777,5,Kensington & Chelsea and Hammersmith & Fulham,emp_total_jobs
+TLI34,TLI3,Wandsworth,0.057234477387057565,0.00174050722680362,5,Wandsworth,emp_total_jobs
+TLI35,TLI3,Westminster and City of London,0.6332734741877158,0.008201019585135918,5,Westminster and City of London,emp_total_jobs
+TLI36,TLI3,Camden,0.18272647635094033,0.0027412178589315194,5,Camden,emp_total_jobs
+TLI41,TLI4,Hackney and Newham,0.20220507511949232,0.004770836080676806,5,Hackney and Newham,emp_total_jobs
+TLI42,TLI4,Tower Hamlets,0.2219712022566366,0.00638377870438593,5,Tower Hamlets,emp_total_jobs
+TLI43,TLI4,Haringey and Islington,0.22832565263474208,0.00400175671041938,5,Haringey and Islington,emp_total_jobs
+TLI44,TLI4,Lewisham and Southwark,0.24061020752500079,0.004391956126111924,5,Lewisham and Southwark,emp_total_jobs
+TLI45,TLI4,Lambeth,0.10688786246412825,0.004192904050278317,5,Lambeth,emp_total_jobs
+TLI51,TLI5,Bexley and Greenwich,0.28112576601961325,0.004874896113181467,5,Bexley and Greenwich,emp_total_jobs
+TLI52,TLI5,Barking & Dagenham and Havering,0.2529745212697304,0.0012848693794135187,5,Barking & Dagenham and Havering,emp_total_jobs
+TLI53,TLI5,Redbridge and Waltham Forest,0.27903832352784963,0.01022766196002511,5,Redbridge and Waltham Forest,emp_total_jobs
+TLI54,TLI5,Enfield,0.18686138918280665,0.004771208188693737,5,Enfield,emp_total_jobs
+TLI61,TLI6,Bromley,0.23138461253289053,0.0027211741240883926,5,Bromley,emp_total_jobs
+TLI62,TLI6,Croydon,0.26896214022394654,0.006661969892034831,5,Croydon,emp_total_jobs
+TLI63,TLI6,"Merton, Kingston upon Thames and Sutton",0.4996532472431629,0.008561016762192676,5,"Merton, Kingston upon Thames and Sutton",emp_total_jobs
+TLI71,TLI7,Barnet,0.15247963044217772,0.0037829781134624692,5,Barnet,emp_total_jobs
+TLI72,TLI7,Brent,0.1364897568877534,0.0015290363068601025,5,Brent,emp_total_jobs
+TLI73,TLI7,Ealing,0.1451043841191776,0.00290352904798362,5,Ealing,emp_total_jobs
+TLI74,TLI7,Harrow and Hillingdon,0.2973168013919651,0.0026246100039149355,5,Harrow and Hillingdon,emp_total_jobs
+TLI75,TLI7,Hounslow and Richmond upon Thames,0.2686094271589262,0.0028919346133404896,5,Hounslow and Richmond upon Thames,emp_total_jobs
+TLJ12,TLJ1,Milton Keynes,0.13531607599409684,0.0020923281052422182,5,Milton Keynes,emp_total_jobs
+TLJ13,TLJ1,Buckinghamshire,0.18052664000362934,0.0051978480915699544,5,Buckinghamshire,emp_total_jobs
+TLJ14,TLJ1,Oxfordshire CC,0.2836069192835701,0.0021665926028752547,5,Oxfordshire CC,emp_total_jobs
+TLJ15,TLJ1,Berkshire East,0.17318428433225078,0.0039861263869701265,5,Berkshire East,emp_total_jobs
+TLJ16,TLJ1,Berkshire West,0.22736608038645292,0.0037896955468397636,5,Berkshire West,emp_total_jobs
+TLJ21,TLJ2,Brighton and Hove,0.11197355970554328,0.0018319320909857392,5,Brighton and Hove,emp_total_jobs
+TLJ22,TLJ2,East Sussex CC,0.14501975869133274,0.0030232164399738018,5,East Sussex CC,emp_total_jobs
+TLJ25,TLJ2,West Surrey,0.30587396282697055,0.0026155043260664584,5,West Surrey,emp_total_jobs
+TLJ26,TLJ2,East Surrey,0.1370492066520485,0.0014139110435727792,5,East Surrey,emp_total_jobs
+TLJ27,TLJ2,West Sussex (South West),0.14000829673298637,0.0015987663499450395,5,West Sussex (South West),emp_total_jobs
+TLJ28,TLJ2,West Sussex (North East),0.16007521539111857,0.0028367084793780853,5,West Sussex (North East),emp_total_jobs
+TLJ31,TLJ3,Portsmouth,0.1186251590734833,0.0011581482660535907,5,Portsmouth,emp_total_jobs
+TLJ32,TLJ3,Southampton,0.1282071130864476,0.0021411291627257086,5,Southampton,emp_total_jobs
+TLJ34,TLJ3,Isle of Wight,0.05838517752238311,0.0016726434628650058,5,Isle of Wight,emp_total_jobs
+TLJ35,TLJ3,South Hampshire,0.19829683228145287,0.004170355072854488,5,South Hampshire,emp_total_jobs
+TLJ36,TLJ3,Central Hampshire,0.30146954555717914,0.004690349333759776,5,Central Hampshire,emp_total_jobs
+TLJ37,TLJ3,North Hampshire,0.19501617247905395,0.0018311444931049764,5,North Hampshire,emp_total_jobs
+TLJ41,TLJ4,Medway,0.13098320813210226,0.0023565747100091827,5,Medway,emp_total_jobs
+TLJ43,TLJ4,Kent Thames Gateway,0.20821886201551854,0.0036943930832136745,5,Kent Thames Gateway,emp_total_jobs
+TLJ44,TLJ4,East Kent,0.2475308182081099,0.0041438742438382956,5,East Kent,emp_total_jobs
+TLJ45,TLJ4,Mid Kent,0.1880941682403198,0.003994033126046874,5,Mid Kent,emp_total_jobs
+TLJ46,TLJ4,West Kent,0.22517294340394947,0.002781345514722037,5,West Kent,emp_total_jobs
+TLK30,TLK3,Cornwall and Isles of Scilly,1.0,0.0,5,Cornwall and Isles of Scilly,emp_total_jobs
+TLK41,TLK4,Plymouth,0.22928737262967416,0.0006660147279586311,5,Plymouth,emp_total_jobs
+TLK42,TLK4,Torbay,0.09594547078962293,0.0016479577112859896,5,Torbay,emp_total_jobs
+TLK43,TLK4,Devon CC,0.674767156580703,0.0017934505004320626,5,Devon CC,emp_total_jobs
+TLK51,TLK5,"Bristol, City of",0.5363995454909877,0.0016619604233961667,5,"Bristol, City of",emp_total_jobs
+TLK52,TLK5,Bath & North East Somerset and South Gloucestershire,0.4636004545090123,0.0016619604233961112,5,Bath & North East Somerset and South Gloucestershire,emp_total_jobs
+TLK61,TLK6,North Somerset,0.1356551627478318,0.0008409699470835503,5,North Somerset,emp_total_jobs
+TLK62,TLK6,Somerset,0.3574543921522532,0.005962217520181987,5,Somerset,emp_total_jobs
+TLK63,TLK6,"Bournemouth, Christchurch and Poole",0.28322692131056143,0.006257074619793583,5,"Bournemouth, Christchurch and Poole",emp_total_jobs
+TLK64,TLK6,Dorset,0.22366352378935356,0.0025299322718060078,5,Dorset,emp_total_jobs
+TLK71,TLK7,Swindon,0.18223314658325818,0.0036512866901269436,5,Swindon,emp_total_jobs
+TLK72,TLK7,Wiltshire,0.3355849928880514,0.002586359720540825,5,Wiltshire,emp_total_jobs
+TLK73,TLK7,Gloucestershire CC,0.48218186052869044,0.00208814956852893,5,Gloucestershire CC,emp_total_jobs
+TLC31,TLC3,Hartlepool and Stockton-on-Tees,0.42723284739791617,0.0005774605531664314,5,Hartlepool and Stockton-on-Tees,population_total
+TLC32,TLC3,South Teesside,0.4143561719214377,0.0007463014225776663,5,South Teesside,population_total
+TLC33,TLC3,Darlington,0.1584109806806461,0.0006764747199013906,5,Darlington,population_total
+TLC41,TLC4,Durham,0.26415829570167276,0.0008556441511380377,5,Durham,population_total
+TLC42,TLC4,Northumberland,0.16246441561749525,0.0005848753108839722,5,Northumberland,population_total
+TLC43,TLC4,Tyneside,0.43351213334996563,0.0007571770348756518,5,Tyneside,population_total
+TLC44,TLC4,Sunderland,0.1398651553308664,0.0007012662009201139,5,Sunderland,population_total
+TLD13,TLD1,Cumberland,0.5477623596285224,0.001194151482969718,5,Cumberland,population_total
+TLD14,TLD1,Westmorland and Furness,0.45223764037147757,0.0011941514829697465,5,Westmorland and Furness,population_total
+TLD33,TLD3,Manchester,0.1940825007980691,0.0021599569045824885,5,Manchester,population_total
+TLD34,TLD3,Greater Manchester South West,0.17694712185315742,0.0008267486511443817,5,Greater Manchester South West,population_total
+TLD35,TLD3,Greater Manchester South East,0.18207387867423483,0.001404889047718138,5,Greater Manchester South East,population_total
+TLD36,TLD3,Greater Manchester North West,0.21785043429546996,0.0003792616250821386,5,Greater Manchester North West,population_total
+TLD37,TLD3,Greater Manchester North East,0.2290460643790687,0.0012397026126990376,5,Greater Manchester North East,population_total
+TLD41,TLD4,Blackburn with Darwen,0.10115840141248611,0.00043439374735611204,5,Blackburn with Darwen,population_total
+TLD42,TLD4,Blackpool,0.09141001470092988,0.00119726435108141,5,Blackpool,population_total
+TLD44,TLD4,Lancaster and Wyre,0.16584321651444994,0.0008771235927515726,5,Lancaster and Wyre,population_total
+TLD45,TLD4,Mid Lancashire,0.2649082237879582,0.0029493839406218897,5,Mid Lancashire,population_total
+TLD46,TLD4,East Lancashire,0.2239019486997344,0.0007508028022142266,5,East Lancashire,population_total
+TLD47,TLD4,Chorley and West Lancashire,0.1527781948844415,0.0008480866791696006,5,Chorley and West Lancashire,population_total
+TLD61,TLD6,Warrington,0.2165061228213964,0.00275445882064778,5,Warrington,population_total
+TLD62,TLD6,Cheshire East,0.41451752708991946,0.0032075612480573497,5,Cheshire East,population_total
+TLD63,TLD6,Cheshire West and Chester,0.3689763500886841,0.0004848205465966654,5,Cheshire West and Chester,population_total
+TLD71,TLD7,East Merseyside,0.3004160481816687,0.0003170342958649956,5,East Merseyside,population_total
+TLD72,TLD7,Liverpool,0.31458683598085624,0.0020591163138753616,5,Liverpool,population_total
+TLD73,TLD7,Sefton,0.179245239242605,0.0009440281020472522,5,Sefton,population_total
+TLD74,TLD7,Wirral,0.2057518765948701,0.001072517299486709,5,Wirral,population_total
+TLE11,TLE1,"Kingston upon Hull, City of",0.28556609160149443,0.000817138714640778,5,"Kingston upon Hull, City of",population_total
+TLE12,TLE1,East Riding of Yorkshire,0.36724436234516145,0.0020416540765869303,5,East Riding of Yorkshire,population_total
+TLE13,TLE1,North and North East Lincolnshire,0.3471895460533441,0.0024457704704617914,5,North and North East Lincolnshire,population_total
+TLE21,TLE2,York,0.2473900810186695,0.0009722379283655735,5,York,population_total
+TLE22,TLE2,North Yorkshire,0.7526099189813305,0.0009722379283655802,5,North Yorkshire,population_total
+TLE33,TLE3,Barnsley,0.17709314802289913,0.0009269969498332821,5,Barnsley,population_total
+TLE34,TLE3,Rotherham,0.19325835639058878,0.0002961236530187536,5,Rotherham,population_total
+TLE35,TLE3,Doncaster,0.22386961998215033,0.0005874403458825611,5,Doncaster,population_total
+TLE36,TLE3,Sheffield,0.40577887560436177,0.0016933338540589928,5,Sheffield,population_total
+TLE41,TLE4,Bradford,0.2322986197203772,0.0006561268516308711,5,Bradford,population_total
+TLE42,TLE4,Leeds,0.34545606803418066,0.001111927210496887,5,Leeds,population_total
+TLE44,TLE4,Calderdale and Kirklees,0.2717590655580587,0.0009092708567211082,5,Calderdale and Kirklees,population_total
+TLE45,TLE4,Wakefield,0.15048624668738353,0.0005328706446715131,5,Wakefield,population_total
+TLF11,TLF1,Derby,0.1191674339027664,0.0006422580129923494,5,Derby,population_total
+TLF12,TLF1,East Derbyshire,0.12974287713189034,0.00020813338805127419,5,East Derbyshire,population_total
+TLF13,TLF1,South and West Derbyshire,0.23067531560862867,0.0004984434801330213,5,South and West Derbyshire,population_total
+TLF14,TLF1,Nottingham,0.14567231662666905,0.0009269033315745504,5,Nottingham,population_total
+TLF15,TLF1,North Nottinghamshire,0.21681623829161567,0.0002873718887941382,5,North Nottinghamshire,population_total
+TLF16,TLF1,South Nottinghamshire,0.15792581843842987,0.0002607510796060658,5,South Nottinghamshire,population_total
+TLF21,TLF2,Leicester,0.19411698244252737,0.001264267879942651,5,Leicester,population_total
+TLF22,TLF2,Leicestershire CC and Rutland,0.39512377870249504,0.000788214497605731,5,Leicestershire CC and Rutland,population_total
+TLF24,TLF2,West Northamptonshire,0.22259558326404086,0.000938500634010545,5,West Northamptonshire,population_total
+TLF25,TLF2,North Northamptonshire,0.18816365559093673,0.00046339356392263546,5,North Northamptonshire,population_total
+TLF30,TLF3,Lincolnshire CC,1.0,0.0,5,Lincolnshire CC,population_total
+TLG11,TLG1,"Herefordshire, County of",0.13389419831021754,0.0011786534590201333,5,"Herefordshire, County of",population_total
+TLG12,TLG1,Worcestershire CC,0.4332159492839619,0.0024087276860804887,5,Worcestershire CC,population_total
+TLG13,TLG1,Warwickshire CC,0.4328898524058206,0.0035812464165968162,5,Warwickshire CC,population_total
+TLG21,TLG2,Telford and Wrekin,0.11354008972842129,0.0010464168465431109,5,Telford and Wrekin,population_total
+TLG22,TLG2,Shropshire,0.1961337264418886,0.0009431859411134369,5,Shropshire,population_total
+TLG23,TLG2,Stoke-on-Trent,0.15758586364388333,0.0008464957805658114,5,Stoke-on-Trent,population_total
+TLG24,TLG2,Staffordshire CC,0.5327403201858069,0.0005994516719962538,5,Staffordshire CC,population_total
+TLG31,TLG3,Birmingham,0.39132523804821584,0.0012616567253898247,5,Birmingham,population_total
+TLG32,TLG3,Solihull,0.07369052199106023,0.0005686640918303718,5,Solihull,population_total
+TLG33,TLG3,Coventry,0.11931103359514757,0.0015031254840776785,5,Coventry,population_total
+TLG36,TLG3,Dudley,0.11011569054162622,0.0006264317535828753,5,Dudley,population_total
+TLG37,TLG3,Sandwell,0.11691652664077423,0.00026806351844190624,5,Sandwell,population_total
+TLG38,TLG3,Walsall,0.09734436682638513,9.703214601573146e-05,5,Walsall,population_total
+TLG39,TLG3,Wolverhampton,0.09129662235679074,0.001047433366961412,5,Wolverhampton,population_total
+TLH21,TLH2,Luton,0.11890344616849205,0.0010022638060610564,5,Luton,population_total
+TLH24,TLH2,Bedford,0.09748627837573277,0.0007300810689661605,5,Bedford,population_total
+TLH25,TLH2,Central Bedfordshire,0.15638476979379395,0.0025701952736711837,5,Central Bedfordshire,population_total
+TLH26,TLH2,North and East Hertfordshire,0.3095545994839237,0.0018738322720216337,5,North and East Hertfordshire,population_total
+TLH27,TLH2,South West Hertfordshire,0.3176709061780575,0.0022180535891460594,5,South West Hertfordshire,population_total
+TLH31,TLH3,Southend-on-Sea,0.09661610085688041,0.0007948258358806986,5,Southend-on-Sea,population_total
+TLH32,TLH3,Thurrock,0.09428004170665247,0.0004092167138130109,5,Thurrock,population_total
+TLH34,TLH3,Essex Haven Gateway,0.2681137109875545,0.001818601627189194,5,Essex Haven Gateway,population_total
+TLH35,TLH3,West Essex,0.17152472789372214,0.00021120511613294607,5,West Essex,population_total
+TLH36,TLH3,Heart of Essex,0.17469680488037448,0.00023179796981872108,5,Heart of Essex,population_total
+TLH37,TLH3,Essex Thames Gateway,0.194768613674816,0.0007888913556865824,5,Essex Thames Gateway,population_total
+TLH41,TLH4,Peterborough,0.24048055720857636,0.0008623008531447015,5,Peterborough,population_total
+TLH42,TLH4,Cambridgeshire CC,0.7595194427914236,0.0008623008531446774,5,Cambridgeshire CC,population_total
+TLH51,TLH5,Norwich and East Norfolk,0.40996503029678993,0.001090142585199129,5,Norwich and East Norfolk,population_total
+TLH52,TLH5,North and West Norfolk,0.27897999680844565,0.002093731019853198,5,North and West Norfolk,population_total
+TLH53,TLH5,Breckland and South Norfolk,0.31105497289476447,0.0022104320059482857,5,Breckland and South Norfolk,population_total
+TLH61,TLH6,Babergh and Mid Suffolk,0.2597376953310098,0.00373829182437058,5,Babergh and Mid Suffolk,population_total
+TLH62,TLH6,Ipswich,0.18134891888633609,0.002634430306728523,5,Ipswich,population_total
+TLH63,TLH6,East Suffolk,0.3212164416487644,0.00280435313434163,5,East Suffolk,population_total
+TLH64,TLH6,West Suffolk,0.23769694413388973,0.001723371336890792,5,West Suffolk,population_total
+TLI33,TLI3,Kensington & Chelsea and Hammersmith & Fulham,0.30161676642214075,0.0014852505812771484,5,Kensington & Chelsea and Hammersmith & Fulham,population_total
+TLI34,TLI3,Wandsworth,0.3026531534173684,0.002033105162524685,5,Wandsworth,population_total
+TLI35,TLI3,Westminster and City of London,0.19980697488872853,0.0028444974465393017,5,Westminster and City of London,population_total
+TLI36,TLI3,Camden,0.19592310527176238,0.0010178012429532283,5,Camden,population_total
+TLI41,TLI4,Hackney and Newham,0.26412087939326356,0.0028821701558629487,5,Hackney and Newham,population_total
+TLI42,TLI4,Tower Hamlets,0.13593317649881898,0.003587747670265865,5,Tower Hamlets,population_total
+TLI43,TLI4,Haringey and Islington,0.20548290736935568,0.0020608674136547646,5,Haringey and Islington,population_total
+TLI44,TLI4,Lewisham and Southwark,0.2592483228564696,0.001885198313502587,5,Lewisham and Southwark,population_total
+TLI45,TLI4,Lambeth,0.13521471388209214,0.002274112849412131,5,Lambeth,population_total
+TLI51,TLI5,Bexley and Greenwich,0.27780013670568166,0.0013256607362571885,5,Bexley and Greenwich,population_total
+TLI52,TLI5,Barking & Dagenham and Havering,0.2508284244940759,0.003057955019726563,5,Barking & Dagenham and Havering,population_total
+TLI53,TLI5,Redbridge and Waltham Forest,0.30306356097588616,0.0012705667391878076,5,Redbridge and Waltham Forest,population_total
+TLI54,TLI5,Enfield,0.16830787782435636,0.0029574626138047628,5,Enfield,population_total
+TLI61,TLI6,Bromley,0.24994856559153272,0.0012219168547316838,5,Bromley,population_total
+TLI62,TLI6,Croydon,0.299487434879291,0.0026321011888915387,5,Croydon,population_total
+TLI63,TLI6,"Merton, Kingston upon Thames and Sutton",0.45056399952917625,0.0014271217014520875,5,"Merton, Kingston upon Thames and Sutton",population_total
+TLI71,TLI7,Barnet,0.18088656841493944,0.0003465806308696868,5,Barnet,population_total
+TLI72,TLI7,Brent,0.15823815786956055,0.0006409337293988717,5,Brent,population_total
+TLI73,TLI7,Ealing,0.17139652654249485,0.0007444026184944,5,Ealing,population_total
+TLI74,TLI7,Harrow and Hillingdon,0.26555671663507585,0.0018660369868350479,5,Harrow and Hillingdon,population_total
+TLI75,TLI7,Hounslow and Richmond upon Thames,0.2239220305379293,0.0018347580365982426,5,Hounslow and Richmond upon Thames,population_total
+TLJ12,TLJ1,Milton Keynes,0.11479586201568345,0.0008264150935313901,5,Milton Keynes,population_total
+TLJ13,TLJ1,Buckinghamshire,0.2196942476579848,0.0005385007028139468,5,Buckinghamshire,population_total
+TLJ14,TLJ1,Oxfordshire CC,0.2884844525292979,0.0010447997029895842,5,Oxfordshire CC,population_total
+TLJ15,TLJ1,Berkshire East,0.173500232716219,0.000702612730267541,5,Berkshire East,population_total
+TLJ16,TLJ1,Berkshire West,0.20352520508081487,0.0006313715109071408,5,Berkshire West,population_total
+TLJ21,TLJ2,Brighton and Hove,0.09488546261412609,0.0007715626064061696,5,Brighton and Hove,population_total
+TLJ22,TLJ2,East Sussex CC,0.18733385547331935,0.0006551622018583839,5,East Sussex CC,population_total
+TLJ25,TLJ2,West Surrey,0.2740934035597105,0.0006330222263455207,5,West Surrey,population_total
+TLJ26,TLJ2,East Surrey,0.14013807782535337,0.00016800211450126673,5,East Surrey,population_total
+TLJ27,TLJ2,West Sussex (South West),0.15940319491273824,0.0004884559743997285,5,West Sussex (South West),population_total
+TLJ28,TLJ2,West Sussex (North East),0.14414600561475244,0.0009963769893637094,5,West Sussex (North East),population_total
+TLJ31,TLJ3,Portsmouth,0.10415566748195344,0.000664437292766951,5,Portsmouth,population_total
+TLJ32,TLJ3,Southampton,0.12501203754474383,0.0008488452379651394,5,Southampton,population_total
+TLJ34,TLJ3,Isle of Wight,0.06971593152933128,0.0008891741306407473,5,Isle of Wight,population_total
+TLJ35,TLJ3,South Hampshire,0.22802794510287883,0.0009762500885637989,5,South Hampshire,population_total
+TLJ36,TLJ3,Central Hampshire,0.2797914823956199,0.0008251146215401797,5,Central Hampshire,population_total
+TLJ37,TLJ3,North Hampshire,0.19329693594547268,0.0011849623051048302,5,North Hampshire,population_total
+TLJ41,TLJ4,Medway,0.15110482815649423,0.0005010565150342106,5,Medway,population_total
+TLJ43,TLJ4,Kent Thames Gateway,0.20282232844973586,0.0008023162350054529,5,Kent Thames Gateway,population_total
+TLJ44,TLJ4,East Kent,0.28056075281416576,0.001972305116718328,5,East Kent,population_total
+TLJ45,TLJ4,Mid Kent,0.16794215415573732,0.0021748864073040186,5,Mid Kent,population_total
+TLJ46,TLJ4,West Kent,0.19756993642386686,0.0010043119236930237,5,West Kent,population_total
+TLK30,TLK3,Cornwall and Isles of Scilly,1.0,0.0,5,Cornwall and Isles of Scilly,population_total
+TLK41,TLK4,Plymouth,0.21771722489367948,0.001247576611645565,5,Plymouth,population_total
+TLK42,TLK4,Torbay,0.11334787943117819,0.0014350821226128709,5,Torbay,population_total
+TLK43,TLK4,Devon CC,0.6689348956751424,0.0024944311938474364,5,Devon CC,population_total
+TLK51,TLK5,"Bristol, City of",0.4943705182980561,0.0010219804280069073,5,"Bristol, City of",population_total
+TLK52,TLK5,Bath & North East Somerset and South Gloucestershire,0.5056294817019439,0.0010219804280069155,5,Bath & North East Somerset and South Gloucestershire,population_total
+TLK61,TLK6,North Somerset,0.13867297739229012,0.00043713096622544014,5,North Somerset,population_total
+TLK62,TLK6,Somerset,0.3644864871708064,0.0007566683210595542,5,Somerset,population_total
+TLK63,TLK6,"Bournemouth, Christchurch and Poole",0.25470672930250865,0.0009190237013384033,5,"Bournemouth, Christchurch and Poole",population_total
+TLK64,TLK6,Dorset,0.24213380613439486,0.0003288424361066613,5,Dorset,population_total
+TLK71,TLK7,Swindon,0.16858476055124647,0.0007880126331111997,5,Swindon,population_total
+TLK72,TLK7,Wiltshire,0.3666169807420658,0.0015583720998022569,5,Wiltshire,population_total
+TLK73,TLK7,Gloucestershire CC,0.4647982587066878,0.0008225478762895022,5,Gloucestershire CC,population_total
+TLL31,TLL3,Isle of Anglesey,0.09988932853905134,0.00048646114207940536,5,Isle of Anglesey,population_total
+TLL32,TLL3,Gwynedd,0.1719508685894498,0.0012067622034561342,5,Gwynedd,population_total
+TLL33,TLL3,Conwy and Denbighshire,0.30597652579028617,0.0005601091277376732,5,Conwy and Denbighshire,population_total
+TLL34,TLL3,Flintshire and Wrexham,0.4221832770812127,0.000508761600849415,5,Flintshire and Wrexham,population_total
+TLL41,TLL4,Mid Wales,0.22717493736766708,0.0007873220304192677,5,Mid Wales,population_total
+TLL42,TLL4,South West Wales,0.34618373771368965,0.0013517898417761813,5,South West Wales,population_total
+TLL43,TLL4,Swansea,0.26941209255869325,0.0034602034475959215,5,Swansea,population_total
+TLL44,TLL4,Neath Port Talbot,0.15722923235994996,0.0015378159617669444,5,Neath Port Talbot,population_total
+TLL51,TLL5,Central Valleys and Bridgend,0.2886275918491882,0.0020746492229867237,5,Central Valleys and Bridgend,population_total
+TLL52,TLL5,Cardiff and Vale of Glamorgan,0.3268009933095503,0.003604353428821976,5,Cardiff and Vale of Glamorgan,population_total
+TLL53,TLL5,Gwent Valleys,0.2183497149326213,0.002320523402437747,5,Gwent Valleys,population_total
+TLL54,TLL5,Monmouthshire and Newport,0.1662216999086402,0.000881088226664025,5,Monmouthshire and Newport,population_total
+TLM01,TLM0,Clackmannanshire and Fife,0.4549583765074601,0.0008639467697029546,5,Clackmannanshire and Fife,population_total
+TLM02,TLM0,"Perth and Kinross, and Stirling",0.2623101378719542,0.0014879107199047795,5,"Perth and Kinross, and Stirling",population_total
+TLM03,TLM0,Angus and Dundee City,0.28273148562058575,0.0008380160780534214,5,Angus and Dundee City,population_total
+TLM11,TLM1,East Lothian and Midlothian,0.19611879138559235,0.0014186943440505314,5,East Lothian and Midlothian,population_total
+TLM12,TLM1,Falkirk,0.14893177402140537,0.0020616168038000166,5,Falkirk,population_total
+TLM13,TLM1,City of Edinburgh,0.48395052841662134,0.002107367619416273,5,City of Edinburgh,population_total
+TLM14,TLM1,West Lothian,0.170998906176381,0.0004927902193968474,5,West Lothian,population_total
+TLM20,TLM2,Highlands and Islands,1.0,0.0,5,Highlands and Islands,population_total
+TLM31,TLM3,East Dunbartonshire and West Dunbartonshire,0.1295846511036745,0.0016326072956428044,5,East Dunbartonshire and West Dunbartonshire,population_total
+TLM32,TLM3,Glasgow City,0.41018565373595345,0.004683122216688531,5,Glasgow City,population_total
+TLM33,TLM3,"Inverclyde, East Renfrewshire, and Renfrewshire",0.23628337494762017,0.0005579083693594135,5,"Inverclyde, East Renfrewshire, and Renfrewshire",population_total
+TLM34,TLM3,North Lanarkshire,0.22394632021275185,0.00264961096852982,5,North Lanarkshire,population_total
+TLM50,TLM5,Aberdeen City and Aberdeenshire,1.0,0.0,5,Aberdeen City and Aberdeenshire,population_total
+TLM91,TLM9,Scottish Borders,0.14185477478057035,0.0007312710661660971,5,Scottish Borders,population_total
+TLM92,TLM9,Dumfries and Galloway,0.17724375003988752,0.0012290957221008931,5,Dumfries and Galloway,population_total
+TLM93,TLM9,North Ayrshire and East Ayrshire,0.14657635728932714,0.0003912192584167834,5,North Ayrshire and East Ayrshire,population_total
+TLM94,TLM9,South Ayrshire,0.13569761660895074,0.00044055303667815546,5,South Ayrshire,population_total
+TLM95,TLM9,South Lanarkshire,0.39862750128126423,0.0027177808783977416,5,South Lanarkshire,population_total
+TLN06,TLN0,Belfast,0.1820273653925904,0.0006873478287355544,5,Belfast,population_total
+TLN07,TLN0,"Armagh City, Banbridge and Craigavon",0.11520586827558792,0.0002830309754200695,5,"Armagh City, Banbridge and Craigavon",population_total
+TLN08,TLN0,"Newry, Mourne and Down",0.09548616914266102,0.00029230941378050013,5,"Newry, Mourne and Down",population_total
+TLN09,TLN0,Ards and North Down,0.08590525545354473,8.327124530865996e-05,5,Ards and North Down,population_total
+TLN0A,TLN0,Derry City and Strabane,0.07902155785647377,0.00030359128606874435,5,Derry City and Strabane,population_total
+TLN0B,TLN0,Mid Ulster,0.07905418304627103,0.00016237685753775293,5,Mid Ulster,population_total
+TLN0C,TLN0,Causeway Coast and Glens,0.07415369933764858,0.0005402724279608721,5,Causeway Coast and Glens,population_total
+TLN0D,TLN0,Antrim and Newtownabbey,0.07663807751107993,0.00012602473422154752,5,Antrim and Newtownabbey,population_total
+TLN0E,TLN0,Lisburn and Castlereagh,0.07839600896537448,0.0002836759170805323,5,Lisburn and Castlereagh,population_total
+TLN0F,TLN0,Mid and East Antrim,0.07290193783262958,0.0002406021250802394,5,Mid and East Antrim,population_total
+TLN0G,TLN0,Fermanagh and Omagh,0.06120987718613857,0.00016859480388380687,5,Fermanagh and Omagh,population_total

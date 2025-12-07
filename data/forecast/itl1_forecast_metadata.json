@@ -1,0 +1,58 @@
+{
+  "run_timestamp": "2025-11-14T14:09:23.442148",
+  "version": "4.0_enterprise_fixed",
+  "config": {
+    "target_year": 2050,
+    "macro_anchoring_enabled": true,
+    "reconciliation_method": "proportional",
+    "structural_breaks": [
+      {
+        "year": 2008,
+        "name": "Financial Crisis",
+        "type": "level"
+      },
+      {
+        "year": 2009,
+        "name": "Crisis Recovery",
+        "type": "trend"
+      },
+      {
+        "year": 2016,
+        "name": "Brexit Vote",
+        "type": "trend"
+      },
+      {
+        "year": 2020,
+        "name": "COVID-19",
+        "type": "level"
+      },
+      {
+        "year": 2021,
+        "name": "COVID Recovery",
+        "type": "trend"
+      }
+    ]
+  },
+  "data_summary": {
+    "regions": 12,
+    "metrics": 7,
+    "total_obs": 4332,
+    "historical_obs": 2141,
+    "forecast_obs": 2191,
+    "null_periods": "0",
+    "null_data_types": "0"
+  },
+  "model_usage": {
+    "Ensemble(2)": 1608,
+    "derived": 297,
+    "Linear": 286
+  },
+  "reconciliation_summary": {},
+  "quality_metrics": {},
+  "critical_fixes_applied": {
+    "column_mapping": true,
+    "null_period_fix": true,
+    "null_data_type_fix": true,
+    "metric_id_standardization": true
+  }
+}

@@ -1,0 +1,416 @@
+region_code,region_name,region_level,metric_id,period,value,unit,freq,source,vintage,note,metric,year,region,data_type,ci_lower,ci_upper,method
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2009.0,26643000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2010.0,26581000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2011.0,26593000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2012.0,26753000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2013.0,27096000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2014.0,27932000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2015.0,28739000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2016.0,29214000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2017.0,29543000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2018.0,29724000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2019.0,30072000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2020.0,29498000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2021.0,30306000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2022.0,30934000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2023.0,31333000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2023,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_emp_total_jobs,2024.0,31476000.0,jobs,A,NOMIS,2025-12-04T00:21:39Z,Great Britain only (excl. Northern Ireland),uk_emp_total_jobs,2024,United Kingdom,historical,,,
+K02000001,,,,,31914919.372558784,,,model,,,uk_emp_total_jobs,2025,United Kingdom,forecast,31197559.07745994,32633177.544331644,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,32220153.410944328,,,model,,,uk_emp_total_jobs,2026,United Kingdom,forecast,31322687.183813453,33120352.842988055,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,32483080.207903028,,,model,,,uk_emp_total_jobs,2027,United Kingdom,forecast,31509817.47585752,33461131.500031825,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,32758442.39314352,,,model,,,uk_emp_total_jobs,2028,United Kingdom,forecast,31767783.594336703,33755548.11537472,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,33038935.146384213,,,model,,,uk_emp_total_jobs,2029,United Kingdom,forecast,32052894.389482245,34033003.78100363,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,33280828.12625016,,,model,,,uk_emp_total_jobs,2030,United Kingdom,forecast,32304215.978588957,34267160.40908379,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,33452694.767734766,,,model,,,uk_emp_total_jobs,2031,United Kingdom,forecast,32491163.668628763,34425477.982742645,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,33566934.533718355,,,model,,,uk_emp_total_jobs,2032,United Kingdom,forecast,32613921.714505695,34532935.258748494,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,33672588.95250954,,,model,,,uk_emp_total_jobs,2033,United Kingdom,forecast,32709195.20556805,34651418.036713906,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,33820398.69063042,,,model,,,uk_emp_total_jobs,2034,United Kingdom,forecast,32839650.372827325,34819225.434132636,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,34029308.48763533,,,model,,,uk_emp_total_jobs,2035,United Kingdom,forecast,33037095.054550767,35041767.03320249,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,34277384.21821081,,,model,,,uk_emp_total_jobs,2036,United Kingdom,forecast,33276102.167554855,35300739.61669401,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,34520492.32797788,,,model,,,uk_emp_total_jobs,2037,United Kingdom,forecast,33506448.12999927,35558452.68786856,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,34723871.040680215,,,model,,,uk_emp_total_jobs,2038,United Kingdom,forecast,33694703.898355074,35778791.26056023,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,34884508.47072911,,,model,,,uk_emp_total_jobs,2039,United Kingdom,forecast,33836576.95527374,35960130.90244098,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,35029863.37163337,,,model,,,uk_emp_total_jobs,2040,United Kingdom,forecast,33954949.82588919,36134866.07823302,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,35197259.88956141,,,model,,,uk_emp_total_jobs,2041,United Kingdom,forecast,34087568.53454107,36339813.53614304,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,35408191.009586684,,,model,,,uk_emp_total_jobs,2042,United Kingdom,forecast,34263977.62138364,36587926.19711476,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,35656263.21614286,,,model,,,uk_emp_total_jobs,2043,United Kingdom,forecast,34480438.1115507,36869985.01064892,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,35914067.94274644,,,model,,,uk_emp_total_jobs,2044,United Kingdom,forecast,34707079.09805578,37161236.53618199,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,36152750.56824665,,,model,,,uk_emp_total_jobs,2045,United Kingdom,forecast,34913967.70777379,37434024.653726734,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,36360576.31442995,,,model,,,uk_emp_total_jobs,2046,United Kingdom,forecast,35088940.76719059,37677106.493572734,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,36548569.63795623,,,model,,,uk_emp_total_jobs,2047,United Kingdom,forecast,35240492.28366361,37904231.83832068,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,36740859.582700536,,,model,,,uk_emp_total_jobs,2048,United Kingdom,forecast,35391799.03603154,38140553.50329044,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,36957701.60272425,,,model,,,uk_emp_total_jobs,2049,United Kingdom,forecast,35566184.77678543,38403018.29212716,VAR(2)+Ensemble(2)+blend
+K02000001,,,,,37202920.03439458,,,model,,,uk_emp_total_jobs,2050,United Kingdom,forecast,35770391.24286496,38692297.244267724,VAR(2)+Ensemble(2)+blend
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2005.0,72.5,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2005,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2006.0,72.4,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2006,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2007.0,72.5,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2007,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2008.0,72.6,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2008,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2009.0,71.3,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2010.0,70.2,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2011.0,70.0,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2012.0,70.0,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2013.0,70.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2014.0,71.7,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2015.0,72.9,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2016.0,73.6,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2017.0,74.2,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2018.0,74.9,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2019.0,75.5,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2020.0,75.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2021.0,74.3,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2022.0,75.4,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2023.0,75.5,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2023,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2024.0,75.3,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2024,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_employment_rate_pct,2025.0,75.4,pct,A,NOMIS,2025-12-04T00:21:39Z,Employment rate ages 16-64,uk_employment_rate_pct,2025,United Kingdom,historical,,,
+K02000001,,,,,75.61985460627726,,,model,,,uk_employment_rate_pct,2026,United Kingdom,forecast,15.402637753030351,18.095706072999974,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,75.52247159540323,,,model,,,uk_employment_rate_pct,2027,United Kingdom,forecast,27.640891962354253,31.512416441292824,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,75.26663179861444,,,model,,,uk_employment_rate_pct,2028,United Kingdom,forecast,36.864003841066435,41.97328140332004,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,74.94589857303359,,,model,,,uk_employment_rate_pct,2029,United Kingdom,forecast,43.73944235110808,50.225545170877524,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,74.61390343272178,,,model,,,uk_employment_rate_pct,2030,United Kingdom,forecast,48.81110332953501,56.797819683282604,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,74.29992200900956,,,model,,,uk_employment_rate_pct,2031,United Kingdom,forecast,52.505352498550145,62.079248716910456,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,74.01852126451958,,,model,,,uk_employment_rate_pct,2032,United Kingdom,forecast,55.1517665155308,66.36197874657641,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.77554581802771,,,model,,,uk_employment_rate_pct,2033,United Kingdom,forecast,57.00343298345717,69.86799005763457,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.57182479400424,,,model,,,uk_employment_rate_pct,2034,United Kingdom,forecast,58.25400783341761,72.76734526571191,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.4054517327837,,,model,,,uk_employment_rate_pct,2035,United Kingdom,forecast,59.05134785779768,75.19111836457955,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.27316924761067,,,model,,,uk_employment_rate_pct,2036,United Kingdom,forecast,59.50817150300758,77.24079529154812,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.17119260502511,,,model,,,uk_employment_rate_pct,2037,United Kingdom,forecast,59.71030508142194,78.99523318083307,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.09568332902165,,,model,,,uk_employment_rate_pct,2038,United Kingdom,forecast,59.72302355389387,80.51588094565038,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.04300649160564,,,model,,,uk_employment_rate_pct,2039,United Kingdom,forecast,59.59590995205054,81.85073505169582,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.00985628156326,,,model,,,uk_employment_rate_pct,2040,United Kingdom,forecast,59.36657256735907,83.03736015884881,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,72.99339066036163,,,model,,,uk_employment_rate_pct,2041,United Kingdom,forecast,60.472528639341306,85.51425268138198,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,72.99097431917184,,,model,,,uk_employment_rate_pct,2042,United Kingdom,forecast,59.806345459630485,86.17560317871319,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.00039611412508,,,model,,,uk_employment_rate_pct,2043,United Kingdom,forecast,59.17270291382334,86.82808931442682,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.01977809019047,,,model,,,uk_employment_rate_pct,2044,United Kingdom,forecast,58.5686306983609,87.47092548202004,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.04753315501628,,,model,,,uk_employment_rate_pct,2045,United Kingdom,forecast,57.99141954373612,88.10364676629645,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.08232461182914,,,model,,,uk_employment_rate_pct,2046,United Kingdom,forecast,57.43862257614111,88.72602664751716,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.12302922079444,,,model,,,uk_employment_rate_pct,2047,United Kingdom,forecast,56.90804471088983,89.338013730699,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.16870445435669,,,model,,,uk_employment_rate_pct,2048,United Kingdom,forecast,56.397725411383995,89.9396834973294,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.21856003379439,,,model,,,uk_employment_rate_pct,2049,United Kingdom,forecast,55.90591830462847,90.53120176296028,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,73.27193352055747,,,model,,,uk_employment_rate_pct,2050,United Kingdom,forecast,55.4310698748617,91.11279716625323,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,10595.575019752032,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,1997,United Kingdom,historical,8518.842315880633,12672.307723623431,computed_from_components
+K02000001,,,,,10813.657398520252,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,1998,United Kingdom,historical,8694.180548410282,12933.134248630222,computed_from_components
+K02000001,,,,,11298.414824771144,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,1999,United Kingdom,historical,9083.925519116,13512.904130426288,computed_from_components
+K02000001,,,,,11888.822932895924,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2000,United Kingdom,historical,9558.613638048322,14219.032227743526,computed_from_components
+K02000001,,,,,12353.303035663077,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2001,United Kingdom,historical,9932.055640673114,14774.55043065304,computed_from_components
+K02000001,,,,,12642.62513169015,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2002,United Kingdom,historical,10164.67060587888,15120.579657501421,computed_from_components
+K02000001,,,,,13022.19094690444,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2003,United Kingdom,historical,10469.84152131117,15574.540372497711,computed_from_components
+K02000001,,,,,13555.630788163355,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2004,United Kingdom,historical,10898.727153683338,16212.534422643372,computed_from_components
+K02000001,,,,,14037.82506348439,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2005,United Kingdom,historical,11286.41135104145,16789.23877592733,computed_from_components
+K02000001,,,,,14617.82567590457,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2006,United Kingdom,historical,11752.731843427275,17482.919508381867,computed_from_components
+K02000001,,,,,15296.855016159327,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2007,United Kingdom,historical,12298.671432992098,18295.038599326555,computed_from_components
+K02000001,,,,,15694.917482550238,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2008,United Kingdom,historical,12618.71365597039,18771.121309130085,computed_from_components
+K02000001,,,,,15963.415383554828,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2009,United Kingdom,historical,12834.585968378082,19092.244798731575,computed_from_components
+K02000001,,,,,16110.671832464577,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2010,United Kingdom,historical,12952.98015330152,19268.363511627635,computed_from_components
+K02000001,,,,,16270.437556870573,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2011,United Kingdom,historical,13081.43179572394,19459.443318017205,computed_from_components
+K02000001,,,,,16869.625487260404,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2012,United Kingdom,historical,13563.178891757365,20176.072082763443,computed_from_components
+K02000001,,,,,17506.113866176613,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2013,United Kingdom,historical,14074.915548405996,20937.31218394723,computed_from_components
+K02000001,,,,,18060.826454660728,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2014,United Kingdom,historical,14520.904469547226,21600.74843977423,computed_from_components
+K02000001,,,,,19003.8840039198,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2015,United Kingdom,historical,15279.122739151519,22728.64526868808,computed_from_components
+K02000001,,,,,19227.845886466115,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2016,United Kingdom,historical,15459.188092718756,22996.503680213475,computed_from_components
+K02000001,,,,,19677.297529396663,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2017,United Kingdom,historical,15820.547213634916,23534.04784515841,computed_from_components
+K02000001,,,,,20406.755035589555,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2018,United Kingdom,historical,16407.031048614,24406.47902256511,computed_from_components
+K02000001,,,,,21015.899634365727,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2019,United Kingdom,historical,16896.783306030044,25135.01596270141,computed_from_components
+K02000001,,,,,20978.22580317698,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2020,United Kingdom,historical,16866.493545754292,25089.95806059967,computed_from_components
+K02000001,,,,,21729.3478567914,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2021,United Kingdom,historical,17470.395676860284,25988.300036722514,computed_from_components
+K02000001,,,,,22895.21751790249,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2022,United Kingdom,historical,18407.754884393602,27382.680151411376,computed_from_components
+K02000001,,,,,24741.448097291515,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2023,United Kingdom,historical,19892.12427022238,29590.77192436065,computed_from_components
+K02000001,,,,,24903.356546801224,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2024,United Kingdom,historical,20022.298663628186,29784.414429974262,computed_from_components
+K02000001,,,,,25815.49311821364,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2025,United Kingdom,historical,20755.656467043766,30875.329769383512,computed_from_components
+K02000001,,,,,26676.510567048084,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2026,United Kingdom,forecast,21343.34257448383,32009.678559612337,computed_from_components
+K02000001,,,,,27567.523887779207,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2027,United Kingdom,forecast,21948.159818494292,33186.88795706412,computed_from_components
+K02000001,,,,,28489.573195212717,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2028,United Kingdom,forecast,22570.57946817532,34408.56692225011,computed_from_components
+K02000001,,,,,29443.73438226011,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2029,United Kingdom,forecast,23211.08468822329,35676.384076296934,computed_from_components
+K02000001,,,,,30431.12033186723,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2030,United Kingdom,forecast,23870.170788316653,36992.06987541781,computed_from_components
+K02000001,,,,,31452.882169548127,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2031,United Kingdom,forecast,24548.345475688922,38357.418863407336,computed_from_components
+K02000001,,,,,32510.210557871822,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2032,United Kingdom,forecast,25246.12911082094,39774.2920049227,computed_from_components
+K02000001,,,,,33604.33703428737,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2033,United Kingdom,forecast,25964.054966171792,41244.61910240294,computed_from_components
+K02000001,,,,,34736.53539371682,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2034,United Kingdom,forecast,26702.66948785799,42770.40129957564,computed_from_components
+K02000001,,,,,35908.12311740122,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2035,United Kingdom,forecast,27462.532560188454,44353.71367461399,computed_from_components
+K02000001,,,,,37120.46284952131,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2036,United Kingdom,forecast,28244.217772943775,45996.70792609885,computed_from_components
+K02000001,,,,,38374.96392317747,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2037,United Kingdom,forecast,29048.312691288418,47701.61515506652,computed_from_components
+K02000001,,,,,39673.0839373546,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2038,United Kingdom,forecast,29875.419128185506,49470.74874652369,computed_from_components
+K02000001,,,,,41016.33038655763,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2039,United Kingdom,forecast,30726.153419178052,51306.50735393721,computed_from_components
+K02000001,,,,,42406.262344856426,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2040,United Kingdom,forecast,31601.146699387005,53211.37799032585,computed_from_components
+K02000001,,,,,43844.49220613571,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2041,United Kingdom,forecast,32501.045182564274,55187.93922970714,computed_from_components
+K02000001,,,,,45332.687482405454,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2042,United Kingdom,forecast,33426.51044202648,57238.864522784424,computed_from_components
+K02000001,,,,,46872.572662086146,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2043,United Kingdom,forecast,34378.219693280465,59366.92563089183,computed_from_components
+K02000001,,,,,48465.93113024945,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2044,United Kingdom,forecast,35356.86607813958,61574.996182359326,computed_from_components
+K02000001,,,,,50114.60715285564,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2045,United Kingdom,forecast,36363.158950112054,63866.05535559923,computed_from_components
+K02000001,,,,,51820.50792710018,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2046,United Kingdom,forecast,37397.82416082966,66243.19169337071,computed_from_components
+K02000001,,,,,53585.60570004543,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2047,United Kingdom,forecast,38461.604347264605,68709.60705282625,computed_from_components
+K02000001,,,,,55411.93995779319,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2048,United Kingdom,forecast,39555.25921947109,71268.6206961153,computed_from_components
+K02000001,,,,,57301.61968751842,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2049,United Kingdom,forecast,40679.56584856307,73923.67352647377,computed_from_components
+K02000001,,,,,59256.82571476551,,,gdhi_total / population,,,uk_gdhi_per_head_gbp,2050,United Kingdom,forecast,41835.318954624454,76678.33247490657,computed_from_components
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,1997.0,617873.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,1997,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,1998.0,632328.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,1998,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,1999.0,663041.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,1999,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2000.0,700086.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2000,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2001.0,730241.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2001,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2002.0,750538.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2002,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2003.0,776600.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2003,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2004.0,812665.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2004,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2005.0,848071.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2005,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2006.0,889158.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2006,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2007.0,937989.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2007,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2008.0,970319.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2008,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2009.0,993890.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2010.0,1011097.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2011.0,1029677.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2012.0,1074773.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2013.0,1122811.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2014.0,1167067.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2015.0,1236905.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2016.0,1261459.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2017.0,1297999.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2018.0,1352697.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2019.0,1400237.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2020.0,1400084.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2021.0,1455388.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2022.0,1548544.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_gdhi_total_mn_gbp,2023.0,1695437.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_gdhi_total_mn_gbp,2023,United Kingdom,historical,,,
+K02000001,,,,,1725340.3276857466,,,model,,,uk_gdhi_total_mn_gbp,2024,United Kingdom,forecast,1691060.8459406383,1760314.6885486227,Ensemble(3)
+K02000001,,,,,1793781.2779819735,,,model,,,uk_gdhi_total_mn_gbp,2025,United Kingdom,forecast,1749322.3618250473,1839370.114654971,Ensemble(3)
+K02000001,,,,,1864895.2242320953,,,model,,,uk_gdhi_total_mn_gbp,2026,United Kingdom,forecast,1810285.417209601,1921152.4129297016,Ensemble(3)
+K02000001,,,,,1938785.0379471194,,,model,,,uk_gdhi_total_mn_gbp,2027,United Kingdom,forecast,1873518.056744057,2006325.6982428567,Ensemble(3)
+K02000001,,,,,2015557.4958508257,,,model,,,uk_gdhi_total_mn_gbp,2028,United Kingdom,forecast,1938905.7594036767,2095239.5439424987,Ensemble(3)
+K02000001,,,,,2095323.426283133,,,model,,,uk_gdhi_total_mn_gbp,2029,United Kingdom,forecast,2006426.358876055,2188159.1822738377,Ensemble(3)
+K02000001,,,,,2178197.8610308445,,,model,,,uk_gdhi_total_mn_gbp,2030,United Kingdom,forecast,2076095.5419291991,2285321.569252311,Ensemble(3)
+K02000001,,,,,2264300.1927848514,,,model,,,uk_gdhi_total_mn_gbp,2031,United Kingdom,forecast,2147947.8509787065,2386955.2329724287,Ensemble(3)
+K02000001,,,,,2353754.3384303735,,,model,,,uk_gdhi_total_mn_gbp,2032,United Kingdom,forecast,2222028.6149728214,2493288.992026581,Ensemble(3)
+K02000001,,,,,2446688.908384312,,,model,,,uk_gdhi_total_mn_gbp,2033,United Kingdom,forecast,2298390.0611206708,2604556.4309010133,Ensemble(3)
+K02000001,,,,,2543237.3822012986,,,model,,,uk_gdhi_total_mn_gbp,2034,United Kingdom,forecast,2377089.271536701,2720998.516830945,Ensemble(3)
+K02000001,,,,,2643538.290678589,,,model,,,uk_gdhi_total_mn_gbp,2035,United Kingdom,forecast,2458187.041508013,2842865.321589524,Ensemble(3)
+K02000001,,,,,2747735.40469776,,,model,,,uk_gdhi_total_mn_gbp,2036,United Kingdom,forecast,2541747.2137050605,2970417.2836385146,Ensemble(3)
+K02000001,,,,,2855977.9310503164,,,model,,,uk_gdhi_total_mn_gbp,2037,United Kingdom,forecast,2627836.279323689,3103926.2250940837,Ensemble(3)
+K02000001,,,,,2968420.715502976,,,model,,,uk_gdhi_total_mn_gbp,2038,United Kingdom,forecast,2716523.1364799924,3243676.2366931154,Ensemble(3)
+K02000001,,,,,3085224.4533677725,,,model,,,uk_gdhi_total_mn_gbp,2039,United Kingdom,forecast,2807878.9451278658,3389964.4940800657,Ensemble(3)
+K02000001,,,,,3206555.907851904,,,model,,,uk_gdhi_total_mn_gbp,2040,United Kingdom,forecast,2901977.0433473773,3543102.042709431,Ensemble(3)
+K02000001,,,,,3332588.136472059,,,model,,,uk_gdhi_total_mn_gbp,2041,United Kingdom,forecast,2998892.9038861734,3703414.5744125172,Ensemble(3)
+K02000001,,,,,3463500.7258282946,,,model,,,uk_gdhi_total_mn_gbp,2042,United Kingdom,forecast,3098704.1178602283,3871243.2105640164,Ensemble(3)
+K02000001,,,,,3599480.0350435073,,,model,,,uk_gdhi_total_mn_gbp,2043,United Kingdom,forecast,3201490.397272095,4046945.302011991,Ensemble(3)
+K02000001,,,,,3740719.448185267,,,model,,,uk_gdhi_total_mn_gbp,2044,United Kingdom,forecast,3307333.5909064813,4230895.253053763,Ensemble(3)
+K02000001,,,,,3887419.6359986775,,,model,,,uk_gdhi_total_mn_gbp,2045,United Kingdom,forecast,3416317.70998271,4423485.374966663,Ensemble(3)
+K02000001,,,,,4039788.8272906174,,,model,,,uk_gdhi_total_mn_gbp,2046,United Kingdom,forecast,3528528.9611118427,4625126.77349818,Ensemble(3)
+K02000001,,,,,4198043.090317927,,,model,,,uk_gdhi_total_mn_gbp,2047,United Kingdom,forecast,3644055.7848722707,4836250.27402916,Ensemble(3)
+K02000001,,,,,4362406.624545483,,,model,,,uk_gdhi_total_mn_gbp,2048,United Kingdom,forecast,3762988.8988297554,5057307.387698273,Ensemble(3)
+K02000001,,,,,4533112.063152682,,,model,,,uk_gdhi_total_mn_gbp,2049,United Kingdom,forecast,3885421.3441751455,5288771.321521329,Ensemble(3)
+K02000001,,,,,4710400.786680967,,,model,,,uk_gdhi_total_mn_gbp,2050,United Kingdom,forecast,4011448.5353934625,5531138.035400095,Ensemble(3)
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,1998.0,887891.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,1998,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,1999.0,922815.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,1999,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2000.0,967452.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2000,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2001.0,1011368.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2001,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2002.0,1054818.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2002,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2003.0,1115143.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2003,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2004.0,1170386.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2004,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2005.0,1237594.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2005,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2006.0,1302547.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2006,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2007.0,1367553.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2007,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2008.0,1415110.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2008,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2009.0,1391616.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2010.0,1425050.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2011.0,1458138.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2012.0,1508290.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2013.0,1568070.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2014.0,1643112.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2015.0,1698525.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2016.0,1764123.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2017.0,1842009.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2018.0,1900108.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2019.0,1977202.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2020.0,1884947.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2021.0,2029101.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2022.0,2228798.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_nominal_gva_mn_gbp,2023.0,2434407.0,GBP_m,A,NOMIS,2025-12-04T00:21:39Z,,uk_nominal_gva_mn_gbp,2023,United Kingdom,historical,,,
+K02000001,,,,,2526823.1971129803,,,model,,,uk_nominal_gva_mn_gbp,2024,United Kingdom,forecast,2399109.8728610044,2655002.2479396374,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,2608434.3384490237,,,model,,,uk_nominal_gva_mn_gbp,2025,United Kingdom,forecast,2437939.7040105844,2780740.689706449,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,2682256.5458375113,,,model,,,uk_nominal_gva_mn_gbp,2026,United Kingdom,forecast,2475957.7756435815,2893240.1756079337,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,2750949.8111481816,,,model,,,uk_nominal_gva_mn_gbp,2027,United Kingdom,forecast,2507778.8378420193,3003724.179835636,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,2816695.550177802,,,model,,,uk_nominal_gva_mn_gbp,2028,United Kingdom,forecast,2534095.956120164,3116105.304900542,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,2881192.433299404,,,model,,,uk_nominal_gva_mn_gbp,2029,United Kingdom,forecast,2557005.022899294,3231659.2990273405,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,2945711.3969669505,,,model,,,uk_nominal_gva_mn_gbp,2030,United Kingdom,forecast,2578573.7551074126,3350655.9612746187,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3011172.4423030997,,,model,,,uk_nominal_gva_mn_gbp,2031,United Kingdom,forecast,2600409.098747367,3473047.4150495743,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3078222.3880016627,,,model,,,uk_nominal_gva_mn_gbp,2032,United Kingdom,forecast,2623605.9537211997,3598751.7805724125,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3147303.6696645697,,,model,,,uk_nominal_gva_mn_gbp,2033,United Kingdom,forecast,2648831.0933648935,3727750.35729917,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3218710.7390385508,,,model,,,uk_nominal_gva_mn_gbp,2034,United Kingdom,forecast,2676437.3142622965,3860102.7993000676,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3292634.0373996557,,,model,,,uk_nominal_gva_mn_gbp,2035,United Kingdom,forecast,2706566.5780002982,3995931.5707746707,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3369193.0671374546,,,model,,,uk_nominal_gva_mn_gbp,2036,United Kingdom,forecast,2739229.9339578766,4135399.5217363993,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3448460.5830746507,,,model,,,uk_nominal_gva_mn_gbp,2037,United Kingdom,forecast,2774364.235674258,4278690.279370979,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3530479.889003206,,,model,,,uk_nominal_gva_mn_gbp,2038,United Kingdom,forecast,2811869.8957085395,4425994.272686877,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3615029.7407237636,,,model,,,uk_nominal_gva_mn_gbp,2039,United Kingdom,forecast,2852265.478203132,4576374.93120715,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3702347.6184461163,,,model,,,uk_nominal_gva_mn_gbp,2040,United Kingdom,forecast,2894467.795458347,4731428.243332098,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3792496.3693901747,,,model,,,uk_nominal_gva_mn_gbp,2041,United Kingdom,forecast,2938505.8203292484,4891297.195134582,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3885513.9649577825,,,model,,,uk_nominal_gva_mn_gbp,2042,United Kingdom,forecast,2984377.980972157,5056110.653934182,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,3981425.4804095794,,,model,,,uk_nominal_gva_mn_gbp,2043,United Kingdom,forecast,3032066.1391551564,5225991.224867366,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4080250.9742507655,,,model,,,uk_nominal_gva_mn_gbp,2044,United Kingdom,forecast,3081544.6000073627,5401060.743855252,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4182010.5314920694,,,model,,,uk_nominal_gva_mn_gbp,2045,United Kingdom,forecast,3132785.7761387727,5581444.036596459,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4286727.367614476,,,model,,,uk_nominal_gva_mn_gbp,2046,United Kingdom,forecast,3185763.626550428,5767271.4091417715,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4394429.625049459,,,model,,,uk_nominal_gva_mn_gbp,2047,United Kingdom,forecast,3240455.6354162307,5958680.219934125,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4505151.303997262,,,model,,,uk_nominal_gva_mn_gbp,2048,United Kingdom,forecast,3296843.8478461984,6155815.798225785,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4618932.634003762,,,model,,,uk_nominal_gva_mn_gbp,2049,United Kingdom,forecast,3354915.3086560634,6358831.909446757,VAR(2)+Ensemble(3)+blend
+K02000001,,,,,4735820.096764663,,,model,,,uk_nominal_gva_mn_gbp,2050,United Kingdom,forecast,3414662.133352375,6567890.918397253,VAR(2)+Ensemble(3)+blend
+K02000001,United Kingdom,UK,uk_population_16_64,1991.0,36695001.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1991,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1992.0,36690573.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1992,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1993.0,36676306.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1993,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1994.0,36704336.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1994,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1995.0,36798216.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1995,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1996.0,36923269.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1996,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1997.0,37053466.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1997,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1998.0,37192390.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1998,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,1999.0,37395652.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,1999,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2000.0,37618816.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2000,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2001.0,37877045.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2001,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2002.0,38136534.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2002,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2003.0,38388802.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2003,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2004.0,38689471.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2004,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2005.0,39111186.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2005,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2006.0,39501769.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2006,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2007.0,39898748.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2007,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2008.0,40218225.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2008,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2009.0,40428051.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2010.0,40683167.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2011.0,40944079.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2012.0,40917089.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2013.0,41004326.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2014.0,41148359.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2015.0,41352353.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2016.0,41583534.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2017.0,41705149.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2018.0,41820238.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2019.0,41952870.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2020.0,41998608.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2021.0,42137842.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2022.0,42487430.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2023.0,43057927.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2023,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_16_64,2024.0,43523647.0,persons,A,NOMIS,2025-12-04T00:21:39Z,Working age population 16-64,uk_population_16_64,2024,United Kingdom,historical,,,
+K02000001,,,,,43769708.36074814,,,model,,,uk_population_16_64,2025,United Kingdom,forecast,43541872.93530452,43997543.78619175,Ensemble(3)
+K02000001,,,,,43919376.44946684,,,model,,,uk_population_16_64,2026,United Kingdom,forecast,43636336.86867315,44202416.03026053,Ensemble(3)
+K02000001,,,,,44068089.66575308,,,model,,,uk_population_16_64,2027,United Kingdom,forecast,43741236.69655469,44394942.63495147,Ensemble(3)
+K02000001,,,,,44215885.36503531,,,model,,,uk_population_16_64,2028,United Kingdom,forecast,43851080.33989209,44580690.39017853,Ensemble(3)
+K02000001,,,,,44362799.44136557,,,model,,,uk_population_16_64,2029,United Kingdom,forecast,43963763.592761114,44761835.289970025,Ensemble(3)
+K02000001,,,,,44508866.38458982,,,model,,,uk_population_16_64,2030,United Kingdom,forecast,44078227.0673314,44939505.70184824,Ensemble(3)
+K02000001,,,,,44654119.33528166,,,model,,,uk_population_16_64,2031,United Kingdom,forecast,44193856.96428754,45114381.70627579,Ensemble(3)
+K02000001,,,,,44798590.13752705,,,model,,,uk_population_16_64,2032,United Kingdom,forecast,44310265.703179985,45286914.57187411,Ensemble(3)
+K02000001,,,,,44942309.38964395,,,model,,,uk_population_16_64,2033,United Kingdom,forecast,44427194.07557902,45457424.7037089,Ensemble(3)
+K02000001,,,,,45085306.49291795,,,model,,,uk_population_16_64,2034,United Kingdom,forecast,44544461.60436386,45626151.381472036,Ensemble(3)
+K02000001,,,,,45227609.69843105,,,model,,,uk_population_16_64,2035,United Kingdom,forecast,44661938.944752365,45793280.45210974,Ensemble(3)
+K02000001,,,,,45369246.15205878,,,model,,,uk_population_16_64,2036,United Kingdom,forecast,44779531.447785586,45958960.85633196,Ensemble(3)
+K02000001,,,,,45510241.937706664,,,model,,,uk_population_16_64,2037,United Kingdom,forecast,44897168.83227241,46123315.04314093,Ensemble(3)
+K02000001,,,,,45650622.118855536,,,model,,,uk_population_16_64,2038,United Kingdom,forecast,45014798.40980007,46286445.827911004,Ensemble(3)
+K02000001,,,,,45790410.77848131,,,model,,,uk_population_16_64,2039,United Kingdom,forecast,45132380.481055155,46448441.075907476,Ensemble(3)
+K02000001,,,,,45929631.05741328,,,model,,,uk_population_16_64,2040,United Kingdom,forecast,45249885.114353776,46609377.00047278,Ensemble(3)
+K02000001,,,,,46068305.1911916,,,model,,,uk_population_16_64,2041,United Kingdom,forecast,45367289.83479931,46769320.54758389,Ensemble(3)
+K02000001,,,,,46206454.54548307,,,model,,,uk_population_16_64,2042,United Kingdom,forecast,45484577.931212276,46928331.15975386,Ensemble(3)
+K02000001,,,,,46344099.65011125,,,model,,,uk_population_16_64,2043,United Kingdom,forecast,45601737.19288497,47086462.10733753,Ensemble(3)
+K02000001,,,,,46481260.23175542,,,model,,,uk_population_16_64,2044,United Kingdom,forecast,45718758.952050745,47243761.511460096,Ensemble(3)
+K02000001,,,,,46617955.24537024,,,model,,,uk_population_16_64,2045,United Kingdom,forecast,45835637.34804021,47400273.142700255,Ensemble(3)
+K02000001,,,,,46754202.90437627,,,model,,,uk_population_16_64,2046,United Kingdom,forecast,45952368.75496555,47556037.05378699,Ensemble(3)
+K02000001,,,,,46890020.70966947,,,model,,,uk_population_16_64,2047,United Kingdom,forecast,46068951.331882074,47711090.08745687,Ensemble(3)
+K02000001,,,,,47025425.477495715,,,model,,,uk_population_16_64,2048,United Kingdom,forecast,46185384.665938005,47865466.28905344,Ensemble(3)
+K02000001,,,,,47160433.36623495,,,model,,,uk_population_16_64,2049,United Kingdom,forecast,46301669.48699196,48019197.24547793,Ensemble(3)
+K02000001,,,,,47295059.9021374,,,model,,,uk_population_16_64,2050,United Kingdom,forecast,46417807.43776639,48172312.3665084,Ensemble(3)
+K02000001,United Kingdom,UK,uk_population_total,1991.0,57438658.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1991,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1992.0,57584530.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1992,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1993.0,57713889.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1993,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1994.0,57862145.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1994,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1995.0,58024799.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1995,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1996.0,58164374.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1996,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1997.0,58314249.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1997,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1998.0,58474943.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1998,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,1999.0,58684427.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,1999,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2000.0,58886065.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2000,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2001.0,59113016.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2001,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2002.0,59365677.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2002,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2003.0,59636662.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2003,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2004.0,59950364.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2004,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2005.0,60413276.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2005,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2006.0,60826967.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2006,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2007.0,61319075.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2007,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2008.0,61823772.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2008,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2009.0,62260486.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2010.0,62759456.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2011.0,63285145.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2012.0,63710543.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2013.0,64138221.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2014.0,64618693.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2015.0,65086958.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2016.0,65605841.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2017.0,65964292.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2018.0,66286727.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2019.0,66627507.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2020.0,66739867.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2021.0,66977988.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2022.0,67636134.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2023.0,68526183.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2023,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_population_total,2024.0,69281437.0,persons,A,NOMIS,2025-12-04T00:21:39Z,,uk_population_total,2024,United Kingdom,historical,,,
+K02000001,,,,,69484679.98530714,,,model,,,uk_population_total,2025,United Kingdom,forecast,69207092.43161672,69763380.93427648,Ensemble(3)
+K02000001,,,,,69907764.71851195,,,model,,,uk_population_total,2026,United Kingdom,forecast,69521797.76295906,70295874.46230642,Ensemble(3)
+K02000001,,,,,70328588.29974899,,,model,,,uk_population_total,2027,United Kingdom,forecast,69816201.85254024,70844735.19029827,Ensemble(3)
+K02000001,,,,,70747198.70459528,,,model,,,uk_population_total,2028,United Kingdom,forecast,70092861.32945566,71407644.51064242,Ensemble(3)
+K02000001,,,,,71163643.81909274,,,model,,,uk_population_total,2029,United Kingdom,forecast,70353772.40447342,71982837.99901326,Ensemble(3)
+K02000001,,,,,71577971.40810004,,,model,,,uk_population_total,2030,United Kingdom,forecast,70600489.68375736,72568986.6153645,Ensemble(3)
+K02000001,,,,,71990229.08549502,,,model,,,uk_population_total,2031,United Kingdom,forecast,70834267.0691772,73165055.53337201,Ensemble(3)
+K02000001,,,,,72400464.28614871,,,model,,,uk_population_total,2032,United Kingdom,forecast,71056147.62217984,73770214.17938063,Ensemble(3)
+K02000001,,,,,72808724.23960908,,,model,,,uk_population_total,2033,United Kingdom,forecast,71267020.46694832,74383779.35075828,Ensemble(3)
+K02000001,,,,,73215055.94542748,,,model,,,uk_population_total,2034,United Kingdom,forecast,71467658.19148122,75005177.90480798,Ensemble(3)
+K02000001,,,,,73619506.15005884,,,model,,,uk_population_total,2035,United Kingdom,forecast,71658742.42472139,75633921.3107482,Ensemble(3)
+K02000001,,,,,74022121.3252785,,,model,,,uk_population_total,2036,United Kingdom,forecast,71840881.9589654,76269587.67883644,Ensemble(3)
+K02000001,,,,,74422947.64804667,,,model,,,uk_population_total,2037,United Kingdom,forecast,72014625.98960944,76911808.68485066,Ensemble(3)
+K02000001,,,,,74822030.98176669,,,model,,,uk_population_total,2038,United Kingdom,forecast,72180474.04596224,77560259.81031395,Ensemble(3)
+K02000001,,,,,75219416.85887384,,,model,,,uk_population_total,2039,United Kingdom,forecast,72338883.61174141,78214652.89617305,Ensemble(3)
+K02000001,,,,,75615150.46470103,,,model,,,uk_population_total,2040,United Kingdom,forecast,72490276.08995384,78874730.35285851,Ensemble(3)
+K02000001,,,,,76009276.62256488,,,model,,,uk_population_total,2041,United Kingdom,forecast,72635041.55401656,79540260.58330394,Ensemble(3)
+K02000001,,,,,76401839.78001636,,,model,,,uk_population_total,2042,United Kingdom,forecast,72773542.59101167,80211034.3119706,Ensemble(3)
+K02000001,,,,,76792883.99621004,,,model,,,uk_population_total,2043,United Kingdom,forecast,72906117.45371968,80886861.60251012,Ensemble(3)
+K02000001,,,,,77182452.93033357,,,model,,,uk_population_total,2044,United Kingdom,forecast,73033082.67795359,81567569.40702778,Ensemble(3)
+K02000001,,,,,77570589.83105615,,,model,,,uk_population_total,2045,United Kingdom,forecast,73154735.28035855,82252999.53144033,Ensemble(3)
+K02000001,,,,,77957337.52694383,,,model,,,uk_population_total,2046,United Kingdom,forecast,73271354.62276801,82943006.93058868,Ensemble(3)
+K02000001,,,,,78342738.41779804,,,model,,,uk_population_total,2047,United Kingdom,forecast,73383204.00842291,83637458.26763077,Ensemble(3)
+K02000001,,,,,78726834.46687287,,,model,,,uk_population_total,2048,United Kingdom,forecast,73490532.06026356,84336230.68740338,Ensemble(3)
+K02000001,,,,,79109667.19392918,,,model,,,uk_population_total,2049,United Kingdom,forecast,73593573.92034496,85039210.76462483,Ensemble(3)
+K02000001,,,,,79491277.66908441,,,model,,,uk_population_total,2050,United Kingdom,forecast,73692552.30110364,85746293.59619592,Ensemble(3)
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2005.0,4.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2005,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2006.0,5.3,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2006,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2007.0,5.3,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2007,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2008.0,5.1,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2008,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2009.0,6.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2009,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2010.0,7.7,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2010,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2011.0,7.7,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2011,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2012.0,8.1,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2012,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2013.0,7.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2013,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2014.0,6.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2014,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2015.0,5.7,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2015,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2016.0,5.1,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2016,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2017.0,4.6,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2017,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2018.0,4.2,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2018,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2019.0,4.0,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2019,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2020.0,3.9,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2020,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2021.0,5.0,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2021,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2022.0,3.8,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2022,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2023.0,3.7,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2023,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2024.0,3.7,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2024,United Kingdom,historical,,,
+K02000001,United Kingdom,UK,uk_unemployment_rate_pct,2025.0,4.0,pct,A,NOMIS,2025-12-04T00:21:39Z,Unemployment rate ages 16+,uk_unemployment_rate_pct,2025,United Kingdom,historical,,,
+K02000001,,,,,3.8476444336544793,,,model,,,uk_unemployment_rate_pct,2026,United Kingdom,forecast,-0.3787730276828405,2.1199849567739464,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,3.87295739868018,,,model,,,uk_unemployment_rate_pct,2027,United Kingdom,forecast,-0.18805048334754393,3.4692213525893925,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,3.9709607321106764,,,model,,,uk_unemployment_rate_pct,2028,United Kingdom,forecast,-0.07429601984716128,4.6502824758053904,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.088469517494558,,,model,,,uk_unemployment_rate_pct,2029,United Kingdom,forecast,-0.07468670057378601,5.70425716426935,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.200122762430884,,,model,,,uk_unemployment_rate_pct,2030,United Kingdom,forecast,-0.17828310947619663,6.645191165213014,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.295239255730475,,,model,,,uk_unemployment_rate_pct,2031,United Kingdom,forecast,-0.36380935477626636,7.483842389494612,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.370645455202864,,,model,,,uk_unemployment_rate_pct,2032,United Kingdom,forecast,-0.5681937529784071,8.231157456822896,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.426799712388953,,,model,,,uk_unemployment_rate_pct,2033,United Kingdom,forecast,-0.4730628104219836,8.898234145744166,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.46573295799286,,,model,,,uk_unemployment_rate_pct,2034,United Kingdom,forecast,-0.390770210031479,9.495770965181313,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.489985682424036,,,model,,,uk_unemployment_rate_pct,2035,United Kingdom,forecast,-0.32079424840605625,10.033634891330975,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.502086424891002,,,model,,,uk_unemployment_rate_pct,2036,United Kingdom,forecast,-0.26202896126330033,10.52063130541385,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.504319974077443,,,model,,,uk_unemployment_rate_pct,2037,United Kingdom,forecast,-0.21314245081013503,10.96443426233265,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.498646480580244,,,model,,,uk_unemployment_rate_pct,2038,United Kingdom,forecast,-0.17277360211407744,11.37161960793257,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.486695616599269,,,model,,,uk_unemployment_rate_pct,2039,United Kingdom,forecast,-0.1396355850714395,11.747754830508779,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.469794921584208,,,model,,,uk_unemployment_rate_pct,2040,United Kingdom,forecast,-0.11256518780405037,12.097514242378116,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.448944564791588,,,model,,,uk_unemployment_rate_pct,2041,United Kingdom,forecast,-0.040024257478852354,12.47531670224926,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.425057017308095,,,model,,,uk_unemployment_rate_pct,2042,United Kingdom,forecast,-0.033958498525671565,12.771583279512543,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.398814966155712,,,model,,,uk_unemployment_rate_pct,2043,United Kingdom,forecast,-0.028568851065789897,13.054062290545527,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.37074967192664,,,model,,,uk_unemployment_rate_pct,2044,United Kingdom,forecast,-0.023866980642940475,13.324352885203254,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.341273569704779,,,model,,,uk_unemployment_rate_pct,2045,United Kingdom,forecast,-0.019822204333090763,13.583822493963844,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.310706306833534,,,model,,,uk_unemployment_rate_pct,2046,United Kingdom,forecast,-0.016380900410542593,13.833639526169316,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.279295328737868,,,model,,,uk_unemployment_rate_pct,2047,United Kingdom,forecast,-0.01347901153955367,14.074802874943808,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.247232038002332,,,model,,,uk_unemployment_rate_pct,2048,United Kingdom,forecast,-0.011049875373734475,14.308167861189302,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.214664413849872,,,model,,,uk_unemployment_rate_pct,2049,United Kingdom,forecast,-0.00902892236926309,14.534468649163898,VAR(1)+Ensemble(3)+blend
+K02000001,,,,,4.18170683129975,,,model,,,uk_unemployment_rate_pct,2050,United Kingdom,forecast,-0.007356299895299213,14.754337376949104,VAR(1)+Ensemble(3)+blend

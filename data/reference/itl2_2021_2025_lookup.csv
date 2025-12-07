@@ -1,0 +1,53 @@
+﻿ITL221CD,ITL221NM,ITL225CD,ITL225NM,ObjectId
+TLC1,Tees Valley and Durham,TLC3,Tees Valley,1
+TLC1,Tees Valley and Durham,TLC4,"Northumberland, Durham and Tyne & Wear",2
+TLC2,"Northumberland, and Tyne and Wear",TLC4,"Northumberland, Durham and Tyne & Wear",3
+TLD1,Cumbria,TLD1,Cumbria,4
+TLD3,Greater Manchester,TLD3,Greater Manchester,5
+TLD4,Lancashire,TLD4,Lancashire,6
+TLD6,Cheshire,TLD6,Cheshire,7
+TLD7,Merseyside,TLD7,Merseyside,8
+TLE1,East Yorkshire and Northern Lincolnshire,TLE1,East Yorkshire and Northern Lincolnshire,9
+TLE2,North Yorkshire,TLE2,North Yorkshire,10
+TLE3,South Yorkshire,TLE3,South Yorkshire,11
+TLE4,West Yorkshire,TLE4,West Yorkshire,12
+TLF1,Derbyshire and Nottinghamshire,TLF1,Derbyshire and Nottinghamshire,13
+TLF2,"Leicestershire, Rutland and Northamptonshire",TLF2,"Leicestershire, Rutland and Northamptonshire",14
+TLF3,Lincolnshire,TLF3,Lincolnshire,15
+TLG1,"Herefordshire, Worcestershire and Warwickshire",TLG1,"Herefordshire, Worcestershire and Warwickshire",16
+TLG2,Shropshire and Staffordshire,TLG2,Shropshire and Staffordshire,17
+TLG3,West Midlands,TLG3,West Midlands,18
+TLH1,East Anglia,TLH4,Cambridgeshire and Peterborough,19
+TLH1,East Anglia,TLH5,Norfolk,20
+TLH1,East Anglia,TLH6,Suffolk,21
+TLH2,Bedfordshire and Hertfordshire,TLH2,Bedfordshire and Hertfordshire,22
+TLH3,Essex,TLH3,Essex,23
+TLI3,Inner London - West,TLI3,Inner London - West,24
+TLI4,Inner London - East,TLI4,Inner London - East,25
+TLI5,Outer London - East and North East,TLI5,Outer London - East and North East,26
+TLI6,Outer London - South,TLI6,Outer London - South,27
+TLI7,Outer London - West and North West,TLI7,Outer London - West and North West,28
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",29
+TLJ2,"Surrey, East and West Sussex",TLJ2,"Surrey, East and West Sussex",30
+TLJ3,Hampshire and Isle of Wight,TLJ3,Hampshire and Isle of Wight,31
+TLJ4,Kent,TLJ4,Kent,32
+TLK1,"Gloucestershire, Wiltshire and Bristol/Bath area",TLK5,West of England,33
+TLK1,"Gloucestershire, Wiltshire and Bristol/Bath area",TLK6,"North Somerset, Somerset and Dorset",34
+TLK1,"Gloucestershire, Wiltshire and Bristol/Bath area",TLK7,Gloucestershire and Wiltshire,35
+TLK2,Dorset and Somerset,TLK6,"North Somerset, Somerset and Dorset",36
+TLK3,Cornwall and Isles of Scilly,TLK3,Cornwall and Isles of Scilly,37
+TLK4,Devon,TLK4,Devon,38
+TLL1,West Wales and The Valleys,TLL3,North Wales,39
+TLL1,West Wales and The Valleys,TLL4,Mid and South West Wales,40
+TLL1,West Wales and The Valleys,TLL5,South East Wales,41
+TLL2,East Wales,TLL3,North Wales,42
+TLL2,East Wales,TLL4,Mid and South West Wales,43
+TLL2,East Wales,TLL5,South East Wales,44
+TLM5,North Eastern Scotland,TLM5,North Eastern Scotland,45
+TLM6,Highlands and Islands,TLM2,Highlands and Islands,46
+TLM7,Eastern Scotland,TLM0,Eastern Scotland,47
+TLM7,Eastern Scotland,TLM1,East Central Scotland,48
+TLM8,West Central Scotland,TLM2,Highlands and Islands,49
+TLM8,West Central Scotland,TLM3,West Central Scotland,50
+TLM9,Southern Scotland,TLM9,Southern Scotland,51
+TLN0,Northern Ireland,TLN0,Northern Ireland,52

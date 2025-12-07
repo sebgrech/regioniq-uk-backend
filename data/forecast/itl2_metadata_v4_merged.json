@@ -1,0 +1,23 @@
+{
+  "run_timestamp": "2025-12-01T23:01:55.315253",
+  "version": "4.1_itl2_merged_nomis_growth_dampening",
+  "level": "ITL2",
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true,
+    "min_history_years": 12,
+    "reconciled_to_itl1": true
+  },
+  "data_summary": {
+    "regions": 46,
+    "metrics": 9,
+    "total_obs": 18118,
+    "forecast_obs": 9552
+  },
+  "model_usage": {
+    "Ensemble(3)": 3680,
+    "derived_monte_carlo": 3068,
+    "Ensemble(2)": 2726,
+    "Linear": 78
+  }
+}

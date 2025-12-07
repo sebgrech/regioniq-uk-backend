@@ -1,0 +1,88 @@
+======================================================================
+REGION IQ - FORECAST DIAGNOSTICS REPORT V3.1
+======================================================================
+Generated: 2025-11-15T14:21:59.742289
+
+## EXECUTIVE SUMMARY
+----------------------------------------
+✓ Successfully generated forecasts for 12 regions
+✓ Covered 8 metrics
+✓ Total observations: 4,511
+✓ Forecast horizon: to 2050
+
+## DATA COVERAGE
+----------------------------------------
+
+emp_total_jobs:
+  Regions: 11/12
+  Missing: N92000002
+  Years: 2009-2024
+  Observations: 187
+
+gdhi_total_mn_gbp:
+  Regions: 12/12
+  Years: 1997-2023
+  Observations: 324
+
+gdhi_per_head_gbp:
+  Regions: 12/12
+  Years: 1997-2023
+  Observations: 324
+
+population_total:
+  Regions: 12/12
+  Years: 1991-2024
+  Observations: 408
+
+nominal_gva_mn_gbp:
+  Regions: 12/12
+  Years: 1998-2023
+  Observations: 312
+
+## MODEL USAGE
+----------------------------------------
+  Ensemble(2 models): 1284 series
+  derived_monte_carlo: 891 series
+  Linear: 286 series
+
+## QUALITY INDICATORS
+----------------------------------------
+  Average uncertainty (CV): 18.0%
+  Median uncertainty (CV): 16.2%
+  Maximum uncertainty (CV): 72.0%
+  Model diversity: 3 different methods
+  Ensemble usage: 33.3%
+  Data gaps detected: 0
+  Average history length: 22.3 years
+
+## COHERENCE VALIDATION
+----------------------------------------
+✓ All coherence checks passed
+
+## CONFIGURATION
+----------------------------------------
+  Target year: 2050
+  Confidence levels: [0.8, 0.95]
+  CV windows: 3
+  Bootstrap samples: 200
+  Constraints applied:
+    - non_negative: True
+    - monotonic_population: True
+    - growth_caps: (2, 98)
+
+## STRUCTURAL BREAKS CONSIDERED
+----------------------------------------
+  2008: Financial Crisis (level)
+  2009: Crisis Recovery (trend)
+  2016: Brexit Vote (trend)
+  2020: COVID-19 (level)
+  2021: COVID Recovery (trend)
+
+## TECHNICAL ENVIRONMENT
+----------------------------------------
+  ✓ statsmodels
+  ✗ arch
+  ✗ sklearn
+
+======================================================================
+END OF REPORT

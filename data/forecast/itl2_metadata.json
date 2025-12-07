@@ -1,0 +1,36 @@
+{
+  "run_timestamp": "2025-12-06T19:12:48.228027",
+  "version": "itl2_aligned_with_itl1_v3.5",
+  "level": "ITL2",
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true,
+    "min_history_years": 12,
+    "reconciled_to_itl1": true
+  },
+  "data_summary": {
+    "regions": 46,
+    "metrics": 10,
+    "total_obs": 20498,
+    "forecast_obs": 10666,
+    "base_metrics": [
+      "nominal_gva_mn_gbp",
+      "gdhi_total_mn_gbp",
+      "emp_total_jobs",
+      "population_total",
+      "population_16_64",
+      "employment_rate_pct",
+      "unemployment_rate_pct",
+      "gdhi_per_head_gbp"
+    ],
+    "derived_metrics": [
+      "productivity_gbp_per_job",
+      "income_per_worker_gbp"
+    ]
+  },
+  "model_usage": {
+    "Linear": 5812,
+    "derived_monte_carlo": 3068,
+    "mean_revert_regional": 1786
+  }
+}

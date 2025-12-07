@@ -1,0 +1,625 @@
+region,region_code,year,metric,value
+North East (England),E12000001,1998,chained_gva_mn_gbp,42708.0
+North East (England),E12000001,1999,chained_gva_mn_gbp,43452.0
+North East (England),E12000001,2000,chained_gva_mn_gbp,44582.0
+North East (England),E12000001,2001,chained_gva_mn_gbp,46419.0
+North East (England),E12000001,2002,chained_gva_mn_gbp,48477.0
+North East (England),E12000001,2003,chained_gva_mn_gbp,50255.0
+North East (England),E12000001,2004,chained_gva_mn_gbp,53174.0
+North East (England),E12000001,2005,chained_gva_mn_gbp,53912.0
+North East (England),E12000001,2006,chained_gva_mn_gbp,55600.0
+North East (England),E12000001,2007,chained_gva_mn_gbp,55381.0
+North East (England),E12000001,2008,chained_gva_mn_gbp,54739.0
+North East (England),E12000001,2009,chained_gva_mn_gbp,52833.0
+North East (England),E12000001,2010,chained_gva_mn_gbp,53692.0
+North East (England),E12000001,2011,chained_gva_mn_gbp,54363.0
+North East (England),E12000001,2012,chained_gva_mn_gbp,55505.0
+North East (England),E12000001,2013,chained_gva_mn_gbp,55223.0
+North East (England),E12000001,2014,chained_gva_mn_gbp,56425.0
+North East (England),E12000001,2015,chained_gva_mn_gbp,58299.0
+North East (England),E12000001,2016,chained_gva_mn_gbp,58090.0
+North East (England),E12000001,2017,chained_gva_mn_gbp,59263.0
+North East (England),E12000001,2018,chained_gva_mn_gbp,59575.0
+North East (England),E12000001,2019,chained_gva_mn_gbp,61102.0
+North East (England),E12000001,2020,chained_gva_mn_gbp,54146.0
+North East (England),E12000001,2021,chained_gva_mn_gbp,59981.0
+North East (England),E12000001,2022,chained_gva_mn_gbp,62364.0
+North East (England),E12000001,2023,chained_gva_mn_gbp,63502.0
+North East (England),E12000001,1998,nominal_gva_mn_gbp,28817.0
+North East (England),E12000001,1999,nominal_gva_mn_gbp,29252.0
+North East (England),E12000001,2000,nominal_gva_mn_gbp,30140.0
+North East (England),E12000001,2001,nominal_gva_mn_gbp,31410.0
+North East (England),E12000001,2002,nominal_gva_mn_gbp,33536.0
+North East (England),E12000001,2003,nominal_gva_mn_gbp,35461.0
+North East (England),E12000001,2004,nominal_gva_mn_gbp,38415.0
+North East (England),E12000001,2005,nominal_gva_mn_gbp,40232.0
+North East (England),E12000001,2006,nominal_gva_mn_gbp,42379.0
+North East (England),E12000001,2007,nominal_gva_mn_gbp,43248.0
+North East (England),E12000001,2008,nominal_gva_mn_gbp,44424.0
+North East (England),E12000001,2009,nominal_gva_mn_gbp,44217.0
+North East (England),E12000001,2010,nominal_gva_mn_gbp,44838.0
+North East (England),E12000001,2011,nominal_gva_mn_gbp,45621.0
+North East (England),E12000001,2012,nominal_gva_mn_gbp,46772.0
+North East (England),E12000001,2013,nominal_gva_mn_gbp,47447.0
+North East (England),E12000001,2014,nominal_gva_mn_gbp,48865.0
+North East (England),E12000001,2015,nominal_gva_mn_gbp,50570.0
+North East (England),E12000001,2016,nominal_gva_mn_gbp,51319.0
+North East (England),E12000001,2017,nominal_gva_mn_gbp,52719.0
+North East (England),E12000001,2018,nominal_gva_mn_gbp,53545.0
+North East (England),E12000001,2019,nominal_gva_mn_gbp,56060.0
+North East (England),E12000001,2020,nominal_gva_mn_gbp,52695.0
+North East (England),E12000001,2021,nominal_gva_mn_gbp,57240.0
+North East (England),E12000001,2022,nominal_gva_mn_gbp,62364.0
+North East (England),E12000001,2023,nominal_gva_mn_gbp,68891.0
+North West (England),E12000002,1998,chained_gva_mn_gbp,138875.0
+North West (England),E12000002,1999,chained_gva_mn_gbp,144432.0
+North West (England),E12000002,2000,chained_gva_mn_gbp,147486.0
+North West (England),E12000002,2001,chained_gva_mn_gbp,153660.0
+North West (England),E12000002,2002,chained_gva_mn_gbp,157217.0
+North West (England),E12000002,2003,chained_gva_mn_gbp,162190.0
+North West (England),E12000002,2004,chained_gva_mn_gbp,167715.0
+North West (England),E12000002,2005,chained_gva_mn_gbp,172129.0
+North West (England),E12000002,2006,chained_gva_mn_gbp,178202.0
+North West (England),E12000002,2007,chained_gva_mn_gbp,181147.0
+North West (England),E12000002,2008,chained_gva_mn_gbp,179128.0
+North West (England),E12000002,2009,chained_gva_mn_gbp,172853.0
+North West (England),E12000002,2010,chained_gva_mn_gbp,176810.0
+North West (England),E12000002,2011,chained_gva_mn_gbp,176037.0
+North West (England),E12000002,2012,chained_gva_mn_gbp,179724.0
+North West (England),E12000002,2013,chained_gva_mn_gbp,182560.0
+North West (England),E12000002,2014,chained_gva_mn_gbp,187866.0
+North West (England),E12000002,2015,chained_gva_mn_gbp,193054.0
+North West (England),E12000002,2016,chained_gva_mn_gbp,195924.0
+North West (England),E12000002,2017,chained_gva_mn_gbp,202563.0
+North West (England),E12000002,2018,chained_gva_mn_gbp,204476.0
+North West (England),E12000002,2019,chained_gva_mn_gbp,209462.0
+North West (England),E12000002,2020,chained_gva_mn_gbp,192257.0
+North West (England),E12000002,2021,chained_gva_mn_gbp,209825.0
+North West (England),E12000002,2022,chained_gva_mn_gbp,221845.0
+North West (England),E12000002,2023,chained_gva_mn_gbp,223858.0
+North West (England),E12000002,1998,nominal_gva_mn_gbp,88083.0
+North West (England),E12000002,1999,nominal_gva_mn_gbp,92290.0
+North West (England),E12000002,2000,nominal_gva_mn_gbp,94655.0
+North West (England),E12000002,2001,nominal_gva_mn_gbp,100553.0
+North West (England),E12000002,2002,nominal_gva_mn_gbp,105245.0
+North West (England),E12000002,2003,nominal_gva_mn_gbp,111059.0
+North West (England),E12000002,2004,nominal_gva_mn_gbp,117278.0
+North West (England),E12000002,2005,nominal_gva_mn_gbp,123348.0
+North West (England),E12000002,2006,nominal_gva_mn_gbp,130397.0
+North West (England),E12000002,2007,nominal_gva_mn_gbp,135269.0
+North West (England),E12000002,2008,nominal_gva_mn_gbp,138451.0
+North West (England),E12000002,2009,nominal_gva_mn_gbp,137614.0
+North West (England),E12000002,2010,nominal_gva_mn_gbp,140494.0
+North West (England),E12000002,2011,nominal_gva_mn_gbp,141439.0
+North West (England),E12000002,2012,nominal_gva_mn_gbp,145795.0
+North West (England),E12000002,2013,nominal_gva_mn_gbp,150838.0
+North West (England),E12000002,2014,nominal_gva_mn_gbp,156789.0
+North West (England),E12000002,2015,nominal_gva_mn_gbp,162866.0
+North West (England),E12000002,2016,nominal_gva_mn_gbp,168631.0
+North West (England),E12000002,2017,nominal_gva_mn_gbp,176803.0
+North West (England),E12000002,2018,nominal_gva_mn_gbp,181321.0
+North West (England),E12000002,2019,nominal_gva_mn_gbp,190043.0
+North West (England),E12000002,2020,nominal_gva_mn_gbp,185588.0
+North West (England),E12000002,2021,nominal_gva_mn_gbp,199341.0
+North West (England),E12000002,2022,nominal_gva_mn_gbp,221845.0
+North West (England),E12000002,2023,nominal_gva_mn_gbp,243386.0
+Yorkshire and The Humber,E12000003,1998,chained_gva_mn_gbp,100732.0
+Yorkshire and The Humber,E12000003,1999,chained_gva_mn_gbp,103663.0
+Yorkshire and The Humber,E12000003,2000,chained_gva_mn_gbp,106854.0
+Yorkshire and The Humber,E12000003,2001,chained_gva_mn_gbp,110910.0
+Yorkshire and The Humber,E12000003,2002,chained_gva_mn_gbp,114317.0
+Yorkshire and The Humber,E12000003,2003,chained_gva_mn_gbp,119074.0
+Yorkshire and The Humber,E12000003,2004,chained_gva_mn_gbp,122556.0
+Yorkshire and The Humber,E12000003,2005,chained_gva_mn_gbp,124621.0
+Yorkshire and The Humber,E12000003,2006,chained_gva_mn_gbp,127648.0
+Yorkshire and The Humber,E12000003,2007,chained_gva_mn_gbp,131635.0
+Yorkshire and The Humber,E12000003,2008,chained_gva_mn_gbp,128170.0
+Yorkshire and The Humber,E12000003,2009,chained_gva_mn_gbp,122327.0
+Yorkshire and The Humber,E12000003,2010,chained_gva_mn_gbp,122506.0
+Yorkshire and The Humber,E12000003,2011,chained_gva_mn_gbp,123910.0
+Yorkshire and The Humber,E12000003,2012,chained_gva_mn_gbp,125713.0
+Yorkshire and The Humber,E12000003,2013,chained_gva_mn_gbp,126800.0
+Yorkshire and The Humber,E12000003,2014,chained_gva_mn_gbp,129075.0
+Yorkshire and The Humber,E12000003,2015,chained_gva_mn_gbp,133148.0
+Yorkshire and The Humber,E12000003,2016,chained_gva_mn_gbp,134219.0
+Yorkshire and The Humber,E12000003,2017,chained_gva_mn_gbp,138061.0
+Yorkshire and The Humber,E12000003,2018,chained_gva_mn_gbp,140040.0
+Yorkshire and The Humber,E12000003,2019,chained_gva_mn_gbp,141692.0
+Yorkshire and The Humber,E12000003,2020,chained_gva_mn_gbp,128398.0
+Yorkshire and The Humber,E12000003,2021,chained_gva_mn_gbp,144897.0
+Yorkshire and The Humber,E12000003,2022,chained_gva_mn_gbp,150684.0
+Yorkshire and The Humber,E12000003,2023,chained_gva_mn_gbp,150896.0
+Yorkshire and The Humber,E12000003,1998,nominal_gva_mn_gbp,62629.0
+Yorkshire and The Humber,E12000003,1999,nominal_gva_mn_gbp,64589.0
+Yorkshire and The Humber,E12000003,2000,nominal_gva_mn_gbp,66857.0
+Yorkshire and The Humber,E12000003,2001,nominal_gva_mn_gbp,70287.0
+Yorkshire and The Humber,E12000003,2002,nominal_gva_mn_gbp,74249.0
+Yorkshire and The Humber,E12000003,2003,nominal_gva_mn_gbp,79307.0
+Yorkshire and The Humber,E12000003,2004,nominal_gva_mn_gbp,83787.0
+Yorkshire and The Humber,E12000003,2005,nominal_gva_mn_gbp,88017.0
+Yorkshire and The Humber,E12000003,2006,nominal_gva_mn_gbp,92396.0
+Yorkshire and The Humber,E12000003,2007,nominal_gva_mn_gbp,97660.0
+Yorkshire and The Humber,E12000003,2008,nominal_gva_mn_gbp,99000.0
+Yorkshire and The Humber,E12000003,2009,nominal_gva_mn_gbp,97143.0
+Yorkshire and The Humber,E12000003,2010,nominal_gva_mn_gbp,97826.0
+Yorkshire and The Humber,E12000003,2011,nominal_gva_mn_gbp,99400.0
+Yorkshire and The Humber,E12000003,2012,nominal_gva_mn_gbp,101772.0
+Yorkshire and The Humber,E12000003,2013,nominal_gva_mn_gbp,104433.0
+Yorkshire and The Humber,E12000003,2014,nominal_gva_mn_gbp,107643.0
+Yorkshire and The Humber,E12000003,2015,nominal_gva_mn_gbp,112293.0
+Yorkshire and The Humber,E12000003,2016,nominal_gva_mn_gbp,114445.0
+Yorkshire and The Humber,E12000003,2017,nominal_gva_mn_gbp,120022.0
+Yorkshire and The Humber,E12000003,2018,nominal_gva_mn_gbp,123795.0
+Yorkshire and The Humber,E12000003,2019,nominal_gva_mn_gbp,128503.0
+Yorkshire and The Humber,E12000003,2020,nominal_gva_mn_gbp,123567.0
+Yorkshire and The Humber,E12000003,2021,nominal_gva_mn_gbp,137374.0
+Yorkshire and The Humber,E12000003,2022,nominal_gva_mn_gbp,150684.0
+Yorkshire and The Humber,E12000003,2023,nominal_gva_mn_gbp,163826.0
+East Midlands (England),E12000004,1998,chained_gva_mn_gbp,89683.0
+East Midlands (England),E12000004,1999,chained_gva_mn_gbp,92036.0
+East Midlands (England),E12000004,2000,chained_gva_mn_gbp,94714.0
+East Midlands (England),E12000004,2001,chained_gva_mn_gbp,97179.0
+East Midlands (England),E12000004,2002,chained_gva_mn_gbp,98322.0
+East Midlands (England),E12000004,2003,chained_gva_mn_gbp,101177.0
+East Midlands (England),E12000004,2004,chained_gva_mn_gbp,103927.0
+East Midlands (England),E12000004,2005,chained_gva_mn_gbp,106376.0
+East Midlands (England),E12000004,2006,chained_gva_mn_gbp,110419.0
+East Midlands (England),E12000004,2007,chained_gva_mn_gbp,111372.0
+East Midlands (England),E12000004,2008,chained_gva_mn_gbp,111507.0
+East Midlands (England),E12000004,2009,chained_gva_mn_gbp,105453.0
+East Midlands (England),E12000004,2010,chained_gva_mn_gbp,109042.0
+East Midlands (England),E12000004,2011,chained_gva_mn_gbp,110398.0
+East Midlands (England),E12000004,2012,chained_gva_mn_gbp,112294.0
+East Midlands (England),E12000004,2013,chained_gva_mn_gbp,114917.0
+East Midlands (England),E12000004,2014,chained_gva_mn_gbp,117171.0
+East Midlands (England),E12000004,2015,chained_gva_mn_gbp,118599.0
+East Midlands (England),E12000004,2016,chained_gva_mn_gbp,119971.0
+East Midlands (England),E12000004,2017,chained_gva_mn_gbp,121846.0
+East Midlands (England),E12000004,2018,chained_gva_mn_gbp,124434.0
+East Midlands (England),E12000004,2019,chained_gva_mn_gbp,125899.0
+East Midlands (England),E12000004,2020,chained_gva_mn_gbp,115406.0
+East Midlands (England),E12000004,2021,chained_gva_mn_gbp,125857.0
+East Midlands (England),E12000004,2022,chained_gva_mn_gbp,128254.0
+East Midlands (England),E12000004,2023,chained_gva_mn_gbp,128538.0
+East Midlands (England),E12000004,1998,nominal_gva_mn_gbp,54263.0
+East Midlands (England),E12000004,1999,nominal_gva_mn_gbp,55733.0
+East Midlands (England),E12000004,2000,nominal_gva_mn_gbp,57797.0
+East Midlands (England),E12000004,2001,nominal_gva_mn_gbp,60160.0
+East Midlands (England),E12000004,2002,nominal_gva_mn_gbp,62582.0
+East Midlands (England),E12000004,2003,nominal_gva_mn_gbp,65730.0
+East Midlands (England),E12000004,2004,nominal_gva_mn_gbp,68954.0
+East Midlands (England),E12000004,2005,nominal_gva_mn_gbp,72582.0
+East Midlands (England),E12000004,2006,nominal_gva_mn_gbp,76609.0
+East Midlands (England),E12000004,2007,nominal_gva_mn_gbp,80126.0
+East Midlands (England),E12000004,2008,nominal_gva_mn_gbp,83432.0
+East Midlands (England),E12000004,2009,nominal_gva_mn_gbp,81084.0
+East Midlands (England),E12000004,2010,nominal_gva_mn_gbp,83954.0
+East Midlands (England),E12000004,2011,nominal_gva_mn_gbp,85178.0
+East Midlands (England),E12000004,2012,nominal_gva_mn_gbp,88426.0
+East Midlands (England),E12000004,2013,nominal_gva_mn_gbp,92063.0
+East Midlands (England),E12000004,2014,nominal_gva_mn_gbp,95446.0
+East Midlands (England),E12000004,2015,nominal_gva_mn_gbp,98321.0
+East Midlands (England),E12000004,2016,nominal_gva_mn_gbp,100929.0
+East Midlands (England),E12000004,2017,nominal_gva_mn_gbp,104692.0
+East Midlands (England),E12000004,2018,nominal_gva_mn_gbp,109384.0
+East Midlands (England),E12000004,2019,nominal_gva_mn_gbp,113395.0
+East Midlands (England),E12000004,2020,nominal_gva_mn_gbp,110619.0
+East Midlands (England),E12000004,2021,nominal_gva_mn_gbp,118965.0
+East Midlands (England),E12000004,2022,nominal_gva_mn_gbp,128254.0
+East Midlands (England),E12000004,2023,nominal_gva_mn_gbp,139722.0
+West Midlands (England),E12000005,1998,chained_gva_mn_gbp,113327.0
+West Midlands (England),E12000005,1999,chained_gva_mn_gbp,116820.0
+West Midlands (England),E12000005,2000,chained_gva_mn_gbp,120004.0
+West Midlands (England),E12000005,2001,chained_gva_mn_gbp,123387.0
+West Midlands (England),E12000005,2002,chained_gva_mn_gbp,124363.0
+West Midlands (England),E12000005,2003,chained_gva_mn_gbp,127325.0
+West Midlands (England),E12000005,2004,chained_gva_mn_gbp,129917.0
+West Midlands (England),E12000005,2005,chained_gva_mn_gbp,131591.0
+West Midlands (England),E12000005,2006,chained_gva_mn_gbp,133798.0
+West Midlands (England),E12000005,2007,chained_gva_mn_gbp,133842.0
+West Midlands (England),E12000005,2008,chained_gva_mn_gbp,133573.0
+West Midlands (England),E12000005,2009,chained_gva_mn_gbp,125541.0
+West Midlands (England),E12000005,2010,chained_gva_mn_gbp,129821.0
+West Midlands (England),E12000005,2011,chained_gva_mn_gbp,133767.0
+West Midlands (England),E12000005,2012,chained_gva_mn_gbp,135796.0
+West Midlands (England),E12000005,2013,chained_gva_mn_gbp,139004.0
+West Midlands (England),E12000005,2014,chained_gva_mn_gbp,143952.0
+West Midlands (England),E12000005,2015,chained_gva_mn_gbp,147770.0
+West Midlands (England),E12000005,2016,chained_gva_mn_gbp,151398.0
+West Midlands (England),E12000005,2017,chained_gva_mn_gbp,156659.0
+West Midlands (England),E12000005,2018,chained_gva_mn_gbp,158836.0
+West Midlands (England),E12000005,2019,chained_gva_mn_gbp,157849.0
+West Midlands (England),E12000005,2020,chained_gva_mn_gbp,141339.0
+West Midlands (England),E12000005,2021,chained_gva_mn_gbp,155226.0
+West Midlands (England),E12000005,2022,chained_gva_mn_gbp,158960.0
+West Midlands (England),E12000005,2023,chained_gva_mn_gbp,160747.0
+West Midlands (England),E12000005,1998,nominal_gva_mn_gbp,70546.0
+West Midlands (England),E12000005,1999,nominal_gva_mn_gbp,72689.0
+West Midlands (England),E12000005,2000,nominal_gva_mn_gbp,74878.0
+West Midlands (England),E12000005,2001,nominal_gva_mn_gbp,77766.0
+West Midlands (England),E12000005,2002,nominal_gva_mn_gbp,80668.0
+West Midlands (England),E12000005,2003,nominal_gva_mn_gbp,84705.0
+West Midlands (England),E12000005,2004,nominal_gva_mn_gbp,88717.0
+West Midlands (England),E12000005,2005,nominal_gva_mn_gbp,92660.0
+West Midlands (England),E12000005,2006,nominal_gva_mn_gbp,95876.0
+West Midlands (England),E12000005,2007,nominal_gva_mn_gbp,98602.0
+West Midlands (England),E12000005,2008,nominal_gva_mn_gbp,101917.0
+West Midlands (England),E12000005,2009,nominal_gva_mn_gbp,98608.0
+West Midlands (England),E12000005,2010,nominal_gva_mn_gbp,102000.0
+West Midlands (England),E12000005,2011,nominal_gva_mn_gbp,105200.0
+West Midlands (England),E12000005,2012,nominal_gva_mn_gbp,108734.0
+West Midlands (England),E12000005,2013,nominal_gva_mn_gbp,113782.0
+West Midlands (England),E12000005,2014,nominal_gva_mn_gbp,119185.0
+West Midlands (England),E12000005,2015,nominal_gva_mn_gbp,123674.0
+West Midlands (England),E12000005,2016,nominal_gva_mn_gbp,129396.0
+West Midlands (England),E12000005,2017,nominal_gva_mn_gbp,136041.0
+West Midlands (England),E12000005,2018,nominal_gva_mn_gbp,140713.0
+West Midlands (England),E12000005,2019,nominal_gva_mn_gbp,143711.0
+West Midlands (England),E12000005,2020,nominal_gva_mn_gbp,135792.0
+West Midlands (England),E12000005,2021,nominal_gva_mn_gbp,146778.0
+West Midlands (England),E12000005,2022,nominal_gva_mn_gbp,158960.0
+West Midlands (England),E12000005,2023,nominal_gva_mn_gbp,174608.0
+East of England,E12000006,1998,chained_gva_mn_gbp,119888.0
+East of England,E12000006,1999,chained_gva_mn_gbp,124102.0
+East of England,E12000006,2000,chained_gva_mn_gbp,131125.0
+East of England,E12000006,2001,chained_gva_mn_gbp,135234.0
+East of England,E12000006,2002,chained_gva_mn_gbp,136638.0
+East of England,E12000006,2003,chained_gva_mn_gbp,141989.0
+East of England,E12000006,2004,chained_gva_mn_gbp,143366.0
+East of England,E12000006,2005,chained_gva_mn_gbp,148455.0
+East of England,E12000006,2006,chained_gva_mn_gbp,152252.0
+East of England,E12000006,2007,chained_gva_mn_gbp,154759.0
+East of England,E12000006,2008,chained_gva_mn_gbp,155785.0
+East of England,E12000006,2009,chained_gva_mn_gbp,148304.0
+East of England,E12000006,2010,chained_gva_mn_gbp,151009.0
+East of England,E12000006,2011,chained_gva_mn_gbp,151373.0
+East of England,E12000006,2012,chained_gva_mn_gbp,153741.0
+East of England,E12000006,2013,chained_gva_mn_gbp,157639.0
+East of England,E12000006,2014,chained_gva_mn_gbp,164496.0
+East of England,E12000006,2015,chained_gva_mn_gbp,167327.0
+East of England,E12000006,2016,chained_gva_mn_gbp,171040.0
+East of England,E12000006,2017,chained_gva_mn_gbp,180176.0
+East of England,E12000006,2018,chained_gva_mn_gbp,180461.0
+East of England,E12000006,2019,chained_gva_mn_gbp,183978.0
+East of England,E12000006,2020,chained_gva_mn_gbp,165281.0
+East of England,E12000006,2021,chained_gva_mn_gbp,181286.0
+East of England,E12000006,2022,chained_gva_mn_gbp,187608.0
+East of England,E12000006,2023,chained_gva_mn_gbp,189294.0
+East of England,E12000006,1998,nominal_gva_mn_gbp,77552.0
+East of England,E12000006,1999,nominal_gva_mn_gbp,80595.0
+East of England,E12000006,2000,nominal_gva_mn_gbp,84942.0
+East of England,E12000006,2001,nominal_gva_mn_gbp,89423.0
+East of England,E12000006,2002,nominal_gva_mn_gbp,92845.0
+East of England,E12000006,2003,nominal_gva_mn_gbp,98776.0
+East of England,E12000006,2004,nominal_gva_mn_gbp,101960.0
+East of England,E12000006,2005,nominal_gva_mn_gbp,107535.0
+East of England,E12000006,2006,nominal_gva_mn_gbp,112826.0
+East of England,E12000006,2007,nominal_gva_mn_gbp,117070.0
+East of England,E12000006,2008,nominal_gva_mn_gbp,121766.0
+East of England,E12000006,2009,nominal_gva_mn_gbp,118559.0
+East of England,E12000006,2010,nominal_gva_mn_gbp,119996.0
+East of England,E12000006,2011,nominal_gva_mn_gbp,120744.0
+East of England,E12000006,2012,nominal_gva_mn_gbp,124608.0
+East of England,E12000006,2013,nominal_gva_mn_gbp,130010.0
+East of England,E12000006,2014,nominal_gva_mn_gbp,137035.0
+East of England,E12000006,2015,nominal_gva_mn_gbp,141969.0
+East of England,E12000006,2016,nominal_gva_mn_gbp,148110.0
+East of England,E12000006,2017,nominal_gva_mn_gbp,158305.0
+East of England,E12000006,2018,nominal_gva_mn_gbp,161802.0
+East of England,E12000006,2019,nominal_gva_mn_gbp,168571.0
+East of England,E12000006,2020,nominal_gva_mn_gbp,159982.0
+East of England,E12000006,2021,nominal_gva_mn_gbp,173622.0
+East of England,E12000006,2022,nominal_gva_mn_gbp,187608.0
+East of England,E12000006,2023,nominal_gva_mn_gbp,205310.0
+London,E12000007,1998,chained_gva_mn_gbp,291424.0
+London,E12000007,1999,chained_gva_mn_gbp,301911.0
+London,E12000007,2000,chained_gva_mn_gbp,324406.0
+London,E12000007,2001,chained_gva_mn_gbp,328952.0
+London,E12000007,2002,chained_gva_mn_gbp,334055.0
+London,E12000007,2003,chained_gva_mn_gbp,347791.0
+London,E12000007,2004,chained_gva_mn_gbp,357516.0
+London,E12000007,2005,chained_gva_mn_gbp,378745.0
+London,E12000007,2006,chained_gva_mn_gbp,392788.0
+London,E12000007,2007,chained_gva_mn_gbp,421240.0
+London,E12000007,2008,chained_gva_mn_gbp,422128.0
+London,E12000007,2009,chained_gva_mn_gbp,398270.0
+London,E12000007,2010,chained_gva_mn_gbp,411224.0
+London,E12000007,2011,chained_gva_mn_gbp,423693.0
+London,E12000007,2012,chained_gva_mn_gbp,437373.0
+London,E12000007,2013,chained_gva_mn_gbp,450399.0
+London,E12000007,2014,chained_gva_mn_gbp,469765.0
+London,E12000007,2015,chained_gva_mn_gbp,476078.0
+London,E12000007,2016,chained_gva_mn_gbp,495864.0
+London,E12000007,2017,chained_gva_mn_gbp,505319.0
+London,E12000007,2018,chained_gva_mn_gbp,515106.0
+London,E12000007,2019,chained_gva_mn_gbp,521458.0
+London,E12000007,2020,chained_gva_mn_gbp,455122.0
+London,E12000007,2021,chained_gva_mn_gbp,490253.0
+London,E12000007,2022,chained_gva_mn_gbp,529771.0
+London,E12000007,2023,chained_gva_mn_gbp,531531.0
+London,E12000007,1998,nominal_gva_mn_gbp,180822.0
+London,E12000007,1999,nominal_gva_mn_gbp,189934.0
+London,E12000007,2000,nominal_gva_mn_gbp,204138.0
+London,E12000007,2001,nominal_gva_mn_gbp,211431.0
+London,E12000007,2002,nominal_gva_mn_gbp,219404.0
+London,E12000007,2003,nominal_gva_mn_gbp,232216.0
+London,E12000007,2004,nominal_gva_mn_gbp,243884.0
+London,E12000007,2005,nominal_gva_mn_gbp,263752.0
+London,E12000007,2006,nominal_gva_mn_gbp,279614.0
+London,E12000007,2007,nominal_gva_mn_gbp,303485.0
+London,E12000007,2008,nominal_gva_mn_gbp,311931.0
+London,E12000007,2009,nominal_gva_mn_gbp,307243.0
+London,E12000007,2010,nominal_gva_mn_gbp,319155.0
+London,E12000007,2011,nominal_gva_mn_gbp,331055.0
+London,E12000007,2012,nominal_gva_mn_gbp,344979.0
+London,E12000007,2013,nominal_gva_mn_gbp,362515.0
+London,E12000007,2014,nominal_gva_mn_gbp,386936.0
+London,E12000007,2015,nominal_gva_mn_gbp,400610.0
+London,E12000007,2016,nominal_gva_mn_gbp,425828.0
+London,E12000007,2017,nominal_gva_mn_gbp,441034.0
+London,E12000007,2018,nominal_gva_mn_gbp,457797.0
+London,E12000007,2019,nominal_gva_mn_gbp,472257.0
+London,E12000007,2020,nominal_gva_mn_gbp,435749.0
+London,E12000007,2021,nominal_gva_mn_gbp,468464.0
+London,E12000007,2022,nominal_gva_mn_gbp,529771.0
+London,E12000007,2023,nominal_gva_mn_gbp,577141.0
+South East (England),E12000008,1998,chained_gva_mn_gbp,202977.0
+South East (England),E12000008,1999,chained_gva_mn_gbp,211394.0
+South East (England),E12000008,2000,chained_gva_mn_gbp,222556.0
+South East (England),E12000008,2001,chained_gva_mn_gbp,226412.0
+South East (England),E12000008,2002,chained_gva_mn_gbp,230958.0
+South East (England),E12000008,2003,chained_gva_mn_gbp,236583.0
+South East (England),E12000008,2004,chained_gva_mn_gbp,238867.0
+South East (England),E12000008,2005,chained_gva_mn_gbp,246620.0
+South East (England),E12000008,2006,chained_gva_mn_gbp,251963.0
+South East (England),E12000008,2007,chained_gva_mn_gbp,258454.0
+South East (England),E12000008,2008,chained_gva_mn_gbp,263852.0
+South East (England),E12000008,2009,chained_gva_mn_gbp,253869.0
+South East (England),E12000008,2010,chained_gva_mn_gbp,265012.0
+South East (England),E12000008,2011,chained_gva_mn_gbp,270609.0
+South East (England),E12000008,2012,chained_gva_mn_gbp,276794.0
+South East (England),E12000008,2013,chained_gva_mn_gbp,281399.0
+South East (England),E12000008,2014,chained_gva_mn_gbp,289698.0
+South East (England),E12000008,2015,chained_gva_mn_gbp,297771.0
+South East (England),E12000008,2016,chained_gva_mn_gbp,298435.0
+South East (England),E12000008,2017,chained_gva_mn_gbp,305231.0
+South East (England),E12000008,2018,chained_gva_mn_gbp,310794.0
+South East (England),E12000008,2019,chained_gva_mn_gbp,321149.0
+South East (England),E12000008,2020,chained_gva_mn_gbp,301562.0
+South East (England),E12000008,2021,chained_gva_mn_gbp,318069.0
+South East (England),E12000008,2022,chained_gva_mn_gbp,326144.0
+South East (England),E12000008,2023,chained_gva_mn_gbp,326057.0
+South East (England),E12000008,1998,nominal_gva_mn_gbp,135775.0
+South East (England),E12000008,1999,nominal_gva_mn_gbp,142235.0
+South East (England),E12000008,2000,nominal_gva_mn_gbp,149118.0
+South East (England),E12000008,2001,nominal_gva_mn_gbp,154902.0
+South East (England),E12000008,2002,nominal_gva_mn_gbp,161906.0
+South East (England),E12000008,2003,nominal_gva_mn_gbp,169912.0
+South East (England),E12000008,2004,nominal_gva_mn_gbp,175491.0
+South East (England),E12000008,2005,nominal_gva_mn_gbp,184627.0
+South East (England),E12000008,2006,nominal_gva_mn_gbp,192653.0
+South East (England),E12000008,2007,nominal_gva_mn_gbp,201171.0
+South East (England),E12000008,2008,nominal_gva_mn_gbp,212321.0
+South East (England),E12000008,2009,nominal_gva_mn_gbp,208306.0
+South East (England),E12000008,2010,nominal_gva_mn_gbp,213782.0
+South East (England),E12000008,2011,nominal_gva_mn_gbp,219779.0
+South East (England),E12000008,2012,nominal_gva_mn_gbp,227513.0
+South East (England),E12000008,2013,nominal_gva_mn_gbp,235678.0
+South East (England),E12000008,2014,nominal_gva_mn_gbp,245399.0
+South East (England),E12000008,2015,nominal_gva_mn_gbp,255027.0
+South East (England),E12000008,2016,nominal_gva_mn_gbp,261020.0
+South East (England),E12000008,2017,nominal_gva_mn_gbp,270866.0
+South East (England),E12000008,2018,nominal_gva_mn_gbp,280390.0
+South East (England),E12000008,2019,nominal_gva_mn_gbp,296235.0
+South East (England),E12000008,2020,nominal_gva_mn_gbp,291483.0
+South East (England),E12000008,2021,nominal_gva_mn_gbp,303748.0
+South East (England),E12000008,2022,nominal_gva_mn_gbp,326144.0
+South East (England),E12000008,2023,nominal_gva_mn_gbp,354501.0
+South West (England),E12000009,1998,chained_gva_mn_gbp,113879.0
+South West (England),E12000009,1999,chained_gva_mn_gbp,117991.0
+South West (England),E12000009,2000,chained_gva_mn_gbp,122300.0
+South West (England),E12000009,2001,chained_gva_mn_gbp,126845.0
+South West (England),E12000009,2002,chained_gva_mn_gbp,128564.0
+South West (England),E12000009,2003,chained_gva_mn_gbp,131337.0
+South West (England),E12000009,2004,chained_gva_mn_gbp,134230.0
+South West (England),E12000009,2005,chained_gva_mn_gbp,136608.0
+South West (England),E12000009,2006,chained_gva_mn_gbp,138899.0
+South West (England),E12000009,2007,chained_gva_mn_gbp,141274.0
+South West (England),E12000009,2008,chained_gva_mn_gbp,142557.0
+South West (England),E12000009,2009,chained_gva_mn_gbp,136591.0
+South West (England),E12000009,2010,chained_gva_mn_gbp,141600.0
+South West (England),E12000009,2011,chained_gva_mn_gbp,142295.0
+South West (England),E12000009,2012,chained_gva_mn_gbp,143799.0
+South West (England),E12000009,2013,chained_gva_mn_gbp,144861.0
+South West (England),E12000009,2014,chained_gva_mn_gbp,150594.0
+South West (England),E12000009,2015,chained_gva_mn_gbp,151429.0
+South West (England),E12000009,2016,chained_gva_mn_gbp,153973.0
+South West (England),E12000009,2017,chained_gva_mn_gbp,159266.0
+South West (England),E12000009,2018,chained_gva_mn_gbp,160105.0
+South West (England),E12000009,2019,chained_gva_mn_gbp,163301.0
+South West (England),E12000009,2020,chained_gva_mn_gbp,148165.0
+South West (England),E12000009,2021,chained_gva_mn_gbp,165780.0
+South West (England),E12000009,2022,chained_gva_mn_gbp,170624.0
+South West (England),E12000009,2023,chained_gva_mn_gbp,170832.0
+South West (England),E12000009,1998,nominal_gva_mn_gbp,67066.0
+South West (England),E12000009,1999,nominal_gva_mn_gbp,70346.0
+South West (England),E12000009,2000,nominal_gva_mn_gbp,73631.0
+South West (England),E12000009,2001,nominal_gva_mn_gbp,77699.0
+South West (England),E12000009,2002,nominal_gva_mn_gbp,81089.0
+South West (England),E12000009,2003,nominal_gva_mn_gbp,85434.0
+South West (England),E12000009,2004,nominal_gva_mn_gbp,90018.0
+South West (England),E12000009,2005,nominal_gva_mn_gbp,94098.0
+South West (England),E12000009,2006,nominal_gva_mn_gbp,98523.0
+South West (England),E12000009,2007,nominal_gva_mn_gbp,102473.0
+South West (England),E12000009,2008,nominal_gva_mn_gbp,107440.0
+South West (England),E12000009,2009,nominal_gva_mn_gbp,105857.0
+South West (England),E12000009,2010,nominal_gva_mn_gbp,109239.0
+South West (England),E12000009,2011,nominal_gva_mn_gbp,110531.0
+South West (England),E12000009,2012,nominal_gva_mn_gbp,113873.0
+South West (England),E12000009,2013,nominal_gva_mn_gbp,117149.0
+South West (England),E12000009,2014,nominal_gva_mn_gbp,123383.0
+South West (England),E12000009,2015,nominal_gva_mn_gbp,126159.0
+South West (England),E12000009,2016,nominal_gva_mn_gbp,130719.0
+South West (England),E12000009,2017,nominal_gva_mn_gbp,137276.0
+South West (England),E12000009,2018,nominal_gva_mn_gbp,141038.0
+South West (England),E12000009,2019,nominal_gva_mn_gbp,147026.0
+South West (England),E12000009,2020,nominal_gva_mn_gbp,140831.0
+South West (England),E12000009,2021,nominal_gva_mn_gbp,156691.0
+South West (England),E12000009,2022,nominal_gva_mn_gbp,170624.0
+South West (England),E12000009,2023,nominal_gva_mn_gbp,185952.0
+Northern Ireland,N92000002,1998,chained_gva_mn_gbp,34512.0
+Northern Ireland,N92000002,1999,chained_gva_mn_gbp,35857.0
+Northern Ireland,N92000002,2000,chained_gva_mn_gbp,38268.0
+Northern Ireland,N92000002,2001,chained_gva_mn_gbp,39147.0
+Northern Ireland,N92000002,2002,chained_gva_mn_gbp,39405.0
+Northern Ireland,N92000002,2003,chained_gva_mn_gbp,41164.0
+Northern Ireland,N92000002,2004,chained_gva_mn_gbp,42113.0
+Northern Ireland,N92000002,2005,chained_gva_mn_gbp,43497.0
+Northern Ireland,N92000002,2006,chained_gva_mn_gbp,44772.0
+Northern Ireland,N92000002,2007,chained_gva_mn_gbp,44531.0
+Northern Ireland,N92000002,2008,chained_gva_mn_gbp,43255.0
+Northern Ireland,N92000002,2009,chained_gva_mn_gbp,41216.0
+Northern Ireland,N92000002,2010,chained_gva_mn_gbp,40655.0
+Northern Ireland,N92000002,2011,chained_gva_mn_gbp,41387.0
+Northern Ireland,N92000002,2012,chained_gva_mn_gbp,42233.0
+Northern Ireland,N92000002,2013,chained_gva_mn_gbp,42811.0
+Northern Ireland,N92000002,2014,chained_gva_mn_gbp,43702.0
+Northern Ireland,N92000002,2015,chained_gva_mn_gbp,44177.0
+Northern Ireland,N92000002,2016,chained_gva_mn_gbp,46116.0
+Northern Ireland,N92000002,2017,chained_gva_mn_gbp,47169.0
+Northern Ireland,N92000002,2018,chained_gva_mn_gbp,47460.0
+Northern Ireland,N92000002,2019,chained_gva_mn_gbp,49047.0
+Northern Ireland,N92000002,2020,chained_gva_mn_gbp,43793.0
+Northern Ireland,N92000002,2021,chained_gva_mn_gbp,49270.0
+Northern Ireland,N92000002,2022,chained_gva_mn_gbp,50701.0
+Northern Ireland,N92000002,2023,chained_gva_mn_gbp,51465.0
+Northern Ireland,N92000002,1998,nominal_gva_mn_gbp,19603.0
+Northern Ireland,N92000002,1999,nominal_gva_mn_gbp,20710.0
+Northern Ireland,N92000002,2000,nominal_gva_mn_gbp,22344.0
+Northern Ireland,N92000002,2001,nominal_gva_mn_gbp,23267.0
+Northern Ireland,N92000002,2002,nominal_gva_mn_gbp,24039.0
+Northern Ireland,N92000002,2003,nominal_gva_mn_gbp,25961.0
+Northern Ireland,N92000002,2004,nominal_gva_mn_gbp,27232.0
+Northern Ireland,N92000002,2005,nominal_gva_mn_gbp,28747.0
+Northern Ireland,N92000002,2006,nominal_gva_mn_gbp,30484.0
+Northern Ireland,N92000002,2007,nominal_gva_mn_gbp,31574.0
+Northern Ireland,N92000002,2008,nominal_gva_mn_gbp,31939.0
+Northern Ireland,N92000002,2009,nominal_gva_mn_gbp,31354.0
+Northern Ireland,N92000002,2010,nominal_gva_mn_gbp,31000.0
+Northern Ireland,N92000002,2011,nominal_gva_mn_gbp,31636.0
+Northern Ireland,N92000002,2012,nominal_gva_mn_gbp,32952.0
+Northern Ireland,N92000002,2013,nominal_gva_mn_gbp,34012.0
+Northern Ireland,N92000002,2014,nominal_gva_mn_gbp,35071.0
+Northern Ireland,N92000002,2015,nominal_gva_mn_gbp,36351.0
+Northern Ireland,N92000002,2016,nominal_gva_mn_gbp,38547.0
+Northern Ireland,N92000002,2017,nominal_gva_mn_gbp,40230.0
+Northern Ireland,N92000002,2018,nominal_gva_mn_gbp,41386.0
+Northern Ireland,N92000002,2019,nominal_gva_mn_gbp,43818.0
+Northern Ireland,N92000002,2020,nominal_gva_mn_gbp,42146.0
+Northern Ireland,N92000002,2021,nominal_gva_mn_gbp,46614.0
+Northern Ireland,N92000002,2022,nominal_gva_mn_gbp,50701.0
+Northern Ireland,N92000002,2023,nominal_gva_mn_gbp,56141.0
+Scotland,S92000003,1998,chained_gva_mn_gbp,112749.0
+Scotland,S92000003,1999,chained_gva_mn_gbp,114295.0
+Scotland,S92000003,2000,chained_gva_mn_gbp,118328.0
+Scotland,S92000003,2001,chained_gva_mn_gbp,122867.0
+Scotland,S92000003,2002,chained_gva_mn_gbp,124460.0
+Scotland,S92000003,2003,chained_gva_mn_gbp,128253.0
+Scotland,S92000003,2004,chained_gva_mn_gbp,132498.0
+Scotland,S92000003,2005,chained_gva_mn_gbp,137345.0
+Scotland,S92000003,2006,chained_gva_mn_gbp,141842.0
+Scotland,S92000003,2007,chained_gva_mn_gbp,145185.0
+Scotland,S92000003,2008,chained_gva_mn_gbp,147329.0
+Scotland,S92000003,2009,chained_gva_mn_gbp,142595.0
+Scotland,S92000003,2010,chained_gva_mn_gbp,143242.0
+Scotland,S92000003,2011,chained_gva_mn_gbp,145327.0
+Scotland,S92000003,2012,chained_gva_mn_gbp,147443.0
+Scotland,S92000003,2013,chained_gva_mn_gbp,151086.0
+Scotland,S92000003,2014,chained_gva_mn_gbp,155861.0
+Scotland,S92000003,2015,chained_gva_mn_gbp,157361.0
+Scotland,S92000003,2016,chained_gva_mn_gbp,158021.0
+Scotland,S92000003,2017,chained_gva_mn_gbp,163282.0
+Scotland,S92000003,2018,chained_gva_mn_gbp,163026.0
+Scotland,S92000003,2019,chained_gva_mn_gbp,165620.0
+Scotland,S92000003,2020,chained_gva_mn_gbp,147123.0
+Scotland,S92000003,2021,chained_gva_mn_gbp,160321.0
+Scotland,S92000003,2022,chained_gva_mn_gbp,166866.0
+Scotland,S92000003,2023,chained_gva_mn_gbp,168245.0
+Scotland,S92000003,1998,nominal_gva_mn_gbp,69990.0
+Scotland,S92000003,1999,nominal_gva_mn_gbp,71019.0
+Scotland,S92000003,2000,nominal_gva_mn_gbp,73905.0
+Scotland,S92000003,2001,nominal_gva_mn_gbp,78263.0
+Scotland,S92000003,2002,nominal_gva_mn_gbp,81408.0
+Scotland,S92000003,2003,nominal_gva_mn_gbp,86231.0
+Scotland,S92000003,2004,nominal_gva_mn_gbp,91899.0
+Scotland,S92000003,2005,nominal_gva_mn_gbp,97381.0
+Scotland,S92000003,2006,nominal_gva_mn_gbp,103898.0
+Scotland,S92000003,2007,nominal_gva_mn_gbp,108168.0
+Scotland,S92000003,2008,nominal_gva_mn_gbp,113289.0
+Scotland,S92000003,2009,nominal_gva_mn_gbp,112920.0
+Scotland,S92000003,2010,nominal_gva_mn_gbp,112827.0
+Scotland,S92000003,2011,nominal_gva_mn_gbp,115662.0
+Scotland,S92000003,2012,nominal_gva_mn_gbp,119265.0
+Scotland,S92000003,2013,nominal_gva_mn_gbp,124638.0
+Scotland,S92000003,2014,nominal_gva_mn_gbp,130440.0
+Scotland,S92000003,2015,nominal_gva_mn_gbp,131988.0
+Scotland,S92000003,2016,nominal_gva_mn_gbp,134155.0
+Scotland,S92000003,2017,nominal_gva_mn_gbp,140881.0
+Scotland,S92000003,2018,nominal_gva_mn_gbp,143492.0
+Scotland,S92000003,2019,nominal_gva_mn_gbp,149254.0
+Scotland,S92000003,2020,nominal_gva_mn_gbp,141398.0
+Scotland,S92000003,2021,nominal_gva_mn_gbp,151916.0
+Scotland,S92000003,2022,nominal_gva_mn_gbp,166866.0
+Scotland,S92000003,2023,nominal_gva_mn_gbp,183471.0
+Wales,W92000004,1998,chained_gva_mn_gbp,52766.0
+Wales,W92000004,1999,chained_gva_mn_gbp,53843.0
+Wales,W92000004,2000,chained_gva_mn_gbp,56205.0
+Wales,W92000004,2001,chained_gva_mn_gbp,57651.0
+Wales,W92000004,2002,chained_gva_mn_gbp,58663.0
+Wales,W92000004,2003,chained_gva_mn_gbp,60787.0
+Wales,W92000004,2004,chained_gva_mn_gbp,62499.0
+Wales,W92000004,2005,chained_gva_mn_gbp,63224.0
+Wales,W92000004,2006,chained_gva_mn_gbp,65271.0
+Wales,W92000004,2007,chained_gva_mn_gbp,65835.0
+Wales,W92000004,2008,chained_gva_mn_gbp,63979.0
+Wales,W92000004,2009,chained_gva_mn_gbp,62030.0
+Wales,W92000004,2010,chained_gva_mn_gbp,63113.0
+Wales,W92000004,2011,chained_gva_mn_gbp,64951.0
+Wales,W92000004,2012,chained_gva_mn_gbp,66019.0
+Wales,W92000004,2013,chained_gva_mn_gbp,67089.0
+Wales,W92000004,2014,chained_gva_mn_gbp,68096.0
+Wales,W92000004,2015,chained_gva_mn_gbp,69625.0
+Wales,W92000004,2016,chained_gva_mn_gbp,71332.0
+Wales,W92000004,2017,chained_gva_mn_gbp,72688.0
+Wales,W92000004,2018,chained_gva_mn_gbp,74542.0
+Wales,W92000004,2019,chained_gva_mn_gbp,75779.0
+Wales,W92000004,2020,chained_gva_mn_gbp,68578.0
+Wales,W92000004,2021,chained_gva_mn_gbp,72608.0
+Wales,W92000004,2022,chained_gva_mn_gbp,74977.0
+Wales,W92000004,2023,chained_gva_mn_gbp,74903.0
+Wales,W92000004,1998,nominal_gva_mn_gbp,32745.0
+Wales,W92000004,1999,nominal_gva_mn_gbp,33423.0
+Wales,W92000004,2000,nominal_gva_mn_gbp,35048.0
+Wales,W92000004,2001,nominal_gva_mn_gbp,36206.0
+Wales,W92000004,2002,nominal_gva_mn_gbp,37848.0
+Wales,W92000004,2003,nominal_gva_mn_gbp,40351.0
+Wales,W92000004,2004,nominal_gva_mn_gbp,42750.0
+Wales,W92000004,2005,nominal_gva_mn_gbp,44614.0
+Wales,W92000004,2006,nominal_gva_mn_gbp,46892.0
+Wales,W92000004,2007,nominal_gva_mn_gbp,48706.0
+Wales,W92000004,2008,nominal_gva_mn_gbp,49201.0
+Wales,W92000004,2009,nominal_gva_mn_gbp,48710.0
+Wales,W92000004,2010,nominal_gva_mn_gbp,49938.0
+Wales,W92000004,2011,nominal_gva_mn_gbp,51893.0
+Wales,W92000004,2012,nominal_gva_mn_gbp,53603.0
+Wales,W92000004,2013,nominal_gva_mn_gbp,55504.0
+Wales,W92000004,2014,nominal_gva_mn_gbp,56920.0
+Wales,W92000004,2015,nominal_gva_mn_gbp,58697.0
+Wales,W92000004,2016,nominal_gva_mn_gbp,61023.0
+Wales,W92000004,2017,nominal_gva_mn_gbp,63140.0
+Wales,W92000004,2018,nominal_gva_mn_gbp,65445.0
+Wales,W92000004,2019,nominal_gva_mn_gbp,68327.0
+Wales,W92000004,2020,nominal_gva_mn_gbp,65096.0
+Wales,W92000004,2021,nominal_gva_mn_gbp,68348.0
+Wales,W92000004,2022,nominal_gva_mn_gbp,74977.0
+Wales,W92000004,2023,nominal_gva_mn_gbp,81458.0

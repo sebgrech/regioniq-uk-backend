@@ -1,0 +1,625 @@
+region,region_code,year,metric,value
+North East,E12000001,1997,gdhi_per_head_gbp,9107
+North East,E12000001,1998,gdhi_per_head_gbp,9150
+North East,E12000001,1999,gdhi_per_head_gbp,9494
+North East,E12000001,2000,gdhi_per_head_gbp,9987
+North East,E12000001,2001,gdhi_per_head_gbp,10448
+North East,E12000001,2002,gdhi_per_head_gbp,10631
+North East,E12000001,2003,gdhi_per_head_gbp,10962
+North East,E12000001,2004,gdhi_per_head_gbp,11470
+North East,E12000001,2005,gdhi_per_head_gbp,11697
+North East,E12000001,2006,gdhi_per_head_gbp,12121
+North East,E12000001,2007,gdhi_per_head_gbp,12434
+North East,E12000001,2008,gdhi_per_head_gbp,12721
+North East,E12000001,2009,gdhi_per_head_gbp,13291
+North East,E12000001,2010,gdhi_per_head_gbp,13509
+North East,E12000001,2011,gdhi_per_head_gbp,13654
+North East,E12000001,2012,gdhi_per_head_gbp,14227
+North East,E12000001,2013,gdhi_per_head_gbp,14564
+North East,E12000001,2014,gdhi_per_head_gbp,14959
+North East,E12000001,2015,gdhi_per_head_gbp,15516
+North East,E12000001,2016,gdhi_per_head_gbp,15718
+North East,E12000001,2017,gdhi_per_head_gbp,16038
+North East,E12000001,2018,gdhi_per_head_gbp,16474
+North East,E12000001,2019,gdhi_per_head_gbp,16991
+North East,E12000001,2020,gdhi_per_head_gbp,17239
+North East,E12000001,2021,gdhi_per_head_gbp,17592
+North East,E12000001,2022,gdhi_per_head_gbp,18388
+North East,E12000001,1997,gdhi_total_mn_gbp,23387
+North East,E12000001,1998,gdhi_total_mn_gbp,23431
+North East,E12000001,1999,gdhi_total_mn_gbp,24212
+North East,E12000001,2000,gdhi_total_mn_gbp,25401
+North East,E12000001,2001,gdhi_total_mn_gbp,26538
+North East,E12000001,2002,gdhi_total_mn_gbp,27009
+North East,E12000001,2003,gdhi_total_mn_gbp,27848
+North East,E12000001,2004,gdhi_total_mn_gbp,29140
+North East,E12000001,2005,gdhi_total_mn_gbp,29795
+North East,E12000001,2006,gdhi_total_mn_gbp,30941
+North East,E12000001,2007,gdhi_total_mn_gbp,31856
+North East,E12000001,2008,gdhi_total_mn_gbp,32683
+North East,E12000001,2009,gdhi_total_mn_gbp,34230
+North East,E12000001,2010,gdhi_total_mn_gbp,34945
+North East,E12000001,2011,gdhi_total_mn_gbp,35451
+North East,E12000001,2012,gdhi_total_mn_gbp,36975
+North East,E12000001,2013,gdhi_total_mn_gbp,37914
+North East,E12000001,2014,gdhi_total_mn_gbp,39050
+North East,E12000001,2015,gdhi_total_mn_gbp,40523
+North East,E12000001,2016,gdhi_total_mn_gbp,41153
+North East,E12000001,2017,gdhi_total_mn_gbp,42080
+North East,E12000001,2018,gdhi_total_mn_gbp,43317
+North East,E12000001,2019,gdhi_total_mn_gbp,44800
+North East,E12000001,2020,gdhi_total_mn_gbp,45467
+North East,E12000001,2021,gdhi_total_mn_gbp,46574
+North East,E12000001,2022,gdhi_total_mn_gbp,49319
+North West,E12000002,1997,gdhi_per_head_gbp,9608
+North West,E12000002,1998,gdhi_per_head_gbp,9752
+North West,E12000002,1999,gdhi_per_head_gbp,10261
+North West,E12000002,2000,gdhi_per_head_gbp,10710
+North West,E12000002,2001,gdhi_per_head_gbp,11091
+North West,E12000002,2002,gdhi_per_head_gbp,11383
+North West,E12000002,2003,gdhi_per_head_gbp,11768
+North West,E12000002,2004,gdhi_per_head_gbp,12215
+North West,E12000002,2005,gdhi_per_head_gbp,12598
+North West,E12000002,2006,gdhi_per_head_gbp,13014
+North West,E12000002,2007,gdhi_per_head_gbp,13531
+North West,E12000002,2008,gdhi_per_head_gbp,13756
+North West,E12000002,2009,gdhi_per_head_gbp,14260
+North West,E12000002,2010,gdhi_per_head_gbp,14378
+North West,E12000002,2011,gdhi_per_head_gbp,14506
+North West,E12000002,2012,gdhi_per_head_gbp,14972
+North West,E12000002,2013,gdhi_per_head_gbp,15427
+North West,E12000002,2014,gdhi_per_head_gbp,15828
+North West,E12000002,2015,gdhi_per_head_gbp,16551
+North West,E12000002,2016,gdhi_per_head_gbp,16664
+North West,E12000002,2017,gdhi_per_head_gbp,17108
+North West,E12000002,2018,gdhi_per_head_gbp,17629
+North West,E12000002,2019,gdhi_per_head_gbp,18229
+North West,E12000002,2020,gdhi_per_head_gbp,18372
+North West,E12000002,2021,gdhi_per_head_gbp,18805
+North West,E12000002,2022,gdhi_per_head_gbp,19752
+North West,E12000002,1997,gdhi_total_mn_gbp,65278
+North West,E12000002,1998,gdhi_total_mn_gbp,66235
+North West,E12000002,1999,gdhi_total_mn_gbp,69497
+North West,E12000002,2000,gdhi_total_mn_gbp,72551
+North West,E12000002,2001,gdhi_total_mn_gbp,75120
+North West,E12000002,2002,gdhi_total_mn_gbp,77236
+North West,E12000002,2003,gdhi_total_mn_gbp,80195
+North West,E12000002,2004,gdhi_total_mn_gbp,83555
+North West,E12000002,2005,gdhi_total_mn_gbp,86551
+North West,E12000002,2006,gdhi_total_mn_gbp,89819
+North West,E12000002,2007,gdhi_total_mn_gbp,93757
+North West,E12000002,2008,gdhi_total_mn_gbp,95724
+North West,E12000002,2009,gdhi_total_mn_gbp,99623
+North West,E12000002,2010,gdhi_total_mn_gbp,100933
+North West,E12000002,2011,gdhi_total_mn_gbp,102352
+North West,E12000002,2012,gdhi_total_mn_gbp,105992
+North West,E12000002,2013,gdhi_total_mn_gbp,109608
+North West,E12000002,2014,gdhi_total_mn_gbp,113028
+North West,E12000002,2015,gdhi_total_mn_gbp,118881
+North West,E12000002,2016,gdhi_total_mn_gbp,120551
+North West,E12000002,2017,gdhi_total_mn_gbp,124473
+North West,E12000002,2018,gdhi_total_mn_gbp,128977
+North West,E12000002,2019,gdhi_total_mn_gbp,134222
+North West,E12000002,2020,gdhi_total_mn_gbp,135598
+North West,E12000002,2021,gdhi_total_mn_gbp,139613
+North West,E12000002,2022,gdhi_total_mn_gbp,148447
+Yorkshire & Humber,E12000003,1997,gdhi_per_head_gbp,9482
+Yorkshire & Humber,E12000003,1998,gdhi_per_head_gbp,9729
+Yorkshire & Humber,E12000003,1999,gdhi_per_head_gbp,10199
+Yorkshire & Humber,E12000003,2000,gdhi_per_head_gbp,10629
+Yorkshire & Humber,E12000003,2001,gdhi_per_head_gbp,10983
+Yorkshire & Humber,E12000003,2002,gdhi_per_head_gbp,11264
+Yorkshire & Humber,E12000003,2003,gdhi_per_head_gbp,11618
+Yorkshire & Humber,E12000003,2004,gdhi_per_head_gbp,12004
+Yorkshire & Humber,E12000003,2005,gdhi_per_head_gbp,12302
+Yorkshire & Humber,E12000003,2006,gdhi_per_head_gbp,12729
+Yorkshire & Humber,E12000003,2007,gdhi_per_head_gbp,13247
+Yorkshire & Humber,E12000003,2008,gdhi_per_head_gbp,13417
+Yorkshire & Humber,E12000003,2009,gdhi_per_head_gbp,13784
+Yorkshire & Humber,E12000003,2010,gdhi_per_head_gbp,13841
+Yorkshire & Humber,E12000003,2011,gdhi_per_head_gbp,14067
+Yorkshire & Humber,E12000003,2012,gdhi_per_head_gbp,14477
+Yorkshire & Humber,E12000003,2013,gdhi_per_head_gbp,14883
+Yorkshire & Humber,E12000003,2014,gdhi_per_head_gbp,15300
+Yorkshire & Humber,E12000003,2015,gdhi_per_head_gbp,16021
+Yorkshire & Humber,E12000003,2016,gdhi_per_head_gbp,16106
+Yorkshire & Humber,E12000003,2017,gdhi_per_head_gbp,16582
+Yorkshire & Humber,E12000003,2018,gdhi_per_head_gbp,17189
+Yorkshire & Humber,E12000003,2019,gdhi_per_head_gbp,17693
+Yorkshire & Humber,E12000003,2020,gdhi_per_head_gbp,17876
+Yorkshire & Humber,E12000003,2021,gdhi_per_head_gbp,18347
+Yorkshire & Humber,E12000003,2022,gdhi_per_head_gbp,19249
+Yorkshire & Humber,E12000003,1997,gdhi_total_mn_gbp,47006
+Yorkshire & Humber,E12000003,1998,gdhi_total_mn_gbp,48233
+Yorkshire & Humber,E12000003,1999,gdhi_total_mn_gbp,50550
+Yorkshire & Humber,E12000003,2000,gdhi_total_mn_gbp,52703
+Yorkshire & Humber,E12000003,2001,gdhi_total_mn_gbp,54660
+Yorkshire & Humber,E12000003,2002,gdhi_total_mn_gbp,56320
+Yorkshire & Humber,E12000003,2003,gdhi_total_mn_gbp,58397
+Yorkshire & Humber,E12000003,2004,gdhi_total_mn_gbp,60779
+Yorkshire & Humber,E12000003,2005,gdhi_total_mn_gbp,62844
+Yorkshire & Humber,E12000003,2006,gdhi_total_mn_gbp,65350
+Yorkshire & Humber,E12000003,2007,gdhi_total_mn_gbp,68412
+Yorkshire & Humber,E12000003,2008,gdhi_total_mn_gbp,69752
+Yorkshire & Humber,E12000003,2009,gdhi_total_mn_gbp,72000
+Yorkshire & Humber,E12000003,2010,gdhi_total_mn_gbp,72733
+Yorkshire & Humber,E12000003,2011,gdhi_total_mn_gbp,74388
+Yorkshire & Humber,E12000003,2012,gdhi_total_mn_gbp,76921
+Yorkshire & Humber,E12000003,2013,gdhi_total_mn_gbp,79402
+Yorkshire & Humber,E12000003,2014,gdhi_total_mn_gbp,81955
+Yorkshire & Humber,E12000003,2015,gdhi_total_mn_gbp,86151
+Yorkshire & Humber,E12000003,2016,gdhi_total_mn_gbp,87103
+Yorkshire & Humber,E12000003,2017,gdhi_total_mn_gbp,90003
+Yorkshire & Humber,E12000003,2018,gdhi_total_mn_gbp,93573
+Yorkshire & Humber,E12000003,2019,gdhi_total_mn_gbp,96688
+Yorkshire & Humber,E12000003,2020,gdhi_total_mn_gbp,97757
+Yorkshire & Humber,E12000003,2021,gdhi_total_mn_gbp,100586
+Yorkshire & Humber,E12000003,2022,gdhi_total_mn_gbp,106606
+East Midlands,E12000004,1997,gdhi_per_head_gbp,9672
+East Midlands,E12000004,1998,gdhi_per_head_gbp,9849
+East Midlands,E12000004,1999,gdhi_per_head_gbp,10285
+East Midlands,E12000004,2000,gdhi_per_head_gbp,10672
+East Midlands,E12000004,2001,gdhi_per_head_gbp,11117
+East Midlands,E12000004,2002,gdhi_per_head_gbp,11384
+East Midlands,E12000004,2003,gdhi_per_head_gbp,11856
+East Midlands,E12000004,2004,gdhi_per_head_gbp,12309
+East Midlands,E12000004,2005,gdhi_per_head_gbp,12643
+East Midlands,E12000004,2006,gdhi_per_head_gbp,13052
+East Midlands,E12000004,2007,gdhi_per_head_gbp,13803
+East Midlands,E12000004,2008,gdhi_per_head_gbp,13968
+East Midlands,E12000004,2009,gdhi_per_head_gbp,14199
+East Midlands,E12000004,2010,gdhi_per_head_gbp,14221
+East Midlands,E12000004,2011,gdhi_per_head_gbp,14499
+East Midlands,E12000004,2012,gdhi_per_head_gbp,14981
+East Midlands,E12000004,2013,gdhi_per_head_gbp,15434
+East Midlands,E12000004,2014,gdhi_per_head_gbp,15913
+East Midlands,E12000004,2015,gdhi_per_head_gbp,16680
+East Midlands,E12000004,2016,gdhi_per_head_gbp,16703
+East Midlands,E12000004,2017,gdhi_per_head_gbp,17153
+East Midlands,E12000004,2018,gdhi_per_head_gbp,17635
+East Midlands,E12000004,2019,gdhi_per_head_gbp,18208
+East Midlands,E12000004,2020,gdhi_per_head_gbp,18444
+East Midlands,E12000004,2021,gdhi_per_head_gbp,18942
+East Midlands,E12000004,2022,gdhi_per_head_gbp,19879
+East Midlands,E12000004,1997,gdhi_total_mn_gbp,39850
+East Midlands,E12000004,1998,gdhi_total_mn_gbp,40703
+East Midlands,E12000004,1999,gdhi_total_mn_gbp,42710
+East Midlands,E12000004,2000,gdhi_total_mn_gbp,44483
+East Midlands,E12000004,2001,gdhi_total_mn_gbp,46577
+East Midlands,E12000004,2002,gdhi_total_mn_gbp,48059
+East Midlands,E12000004,2003,gdhi_total_mn_gbp,50446
+East Midlands,E12000004,2004,gdhi_total_mn_gbp,52822
+East Midlands,E12000004,2005,gdhi_total_mn_gbp,54733
+East Midlands,E12000004,2006,gdhi_total_mn_gbp,56995
+East Midlands,E12000004,2007,gdhi_total_mn_gbp,60800
+East Midlands,E12000004,2008,gdhi_total_mn_gbp,62035
+East Midlands,E12000004,2009,gdhi_total_mn_gbp,63492
+East Midlands,E12000004,2010,gdhi_total_mn_gbp,64096
+East Midlands,E12000004,2011,gdhi_total_mn_gbp,65789
+East Midlands,E12000004,2012,gdhi_total_mn_gbp,68474
+East Midlands,E12000004,2013,gdhi_total_mn_gbp,71066
+East Midlands,E12000004,2014,gdhi_total_mn_gbp,73877
+East Midlands,E12000004,2015,gdhi_total_mn_gbp,78090
+East Midlands,E12000004,2016,gdhi_total_mn_gbp,79032
+East Midlands,E12000004,2017,gdhi_total_mn_gbp,81964
+East Midlands,E12000004,2018,gdhi_total_mn_gbp,84915
+East Midlands,E12000004,2019,gdhi_total_mn_gbp,88199
+East Midlands,E12000004,2020,gdhi_total_mn_gbp,89552
+East Midlands,E12000004,2021,gdhi_total_mn_gbp,92464
+East Midlands,E12000004,2022,gdhi_total_mn_gbp,98101
+West Midlands,E12000005,1997,gdhi_per_head_gbp,9681
+West Midlands,E12000005,1998,gdhi_per_head_gbp,9974
+West Midlands,E12000005,1999,gdhi_per_head_gbp,10351
+West Midlands,E12000005,2000,gdhi_per_head_gbp,10808
+West Midlands,E12000005,2001,gdhi_per_head_gbp,11228
+West Midlands,E12000005,2002,gdhi_per_head_gbp,11486
+West Midlands,E12000005,2003,gdhi_per_head_gbp,11780
+West Midlands,E12000005,2004,gdhi_per_head_gbp,12190
+West Midlands,E12000005,2005,gdhi_per_head_gbp,12391
+West Midlands,E12000005,2006,gdhi_per_head_gbp,12852
+West Midlands,E12000005,2007,gdhi_per_head_gbp,13201
+West Midlands,E12000005,2008,gdhi_per_head_gbp,13548
+West Midlands,E12000005,2009,gdhi_per_head_gbp,13873
+West Midlands,E12000005,2010,gdhi_per_head_gbp,14012
+West Midlands,E12000005,2011,gdhi_per_head_gbp,14188
+West Midlands,E12000005,2012,gdhi_per_head_gbp,14568
+West Midlands,E12000005,2013,gdhi_per_head_gbp,15057
+West Midlands,E12000005,2014,gdhi_per_head_gbp,15606
+West Midlands,E12000005,2015,gdhi_per_head_gbp,16391
+West Midlands,E12000005,2016,gdhi_per_head_gbp,16671
+West Midlands,E12000005,2017,gdhi_per_head_gbp,16915
+West Midlands,E12000005,2018,gdhi_per_head_gbp,17439
+West Midlands,E12000005,2019,gdhi_per_head_gbp,17910
+West Midlands,E12000005,2020,gdhi_per_head_gbp,18027
+West Midlands,E12000005,2021,gdhi_per_head_gbp,18507
+West Midlands,E12000005,2022,gdhi_per_head_gbp,19480
+West Midlands,E12000005,1997,gdhi_total_mn_gbp,50945
+West Midlands,E12000005,1998,gdhi_total_mn_gbp,52576
+West Midlands,E12000005,1999,gdhi_total_mn_gbp,54568
+West Midlands,E12000005,2000,gdhi_total_mn_gbp,56955
+West Midlands,E12000005,2001,gdhi_total_mn_gbp,59293
+West Midlands,E12000005,2002,gdhi_total_mn_gbp,60892
+West Midlands,E12000005,2003,gdhi_total_mn_gbp,62735
+West Midlands,E12000005,2004,gdhi_total_mn_gbp,65175
+West Midlands,E12000005,2005,gdhi_total_mn_gbp,66673
+West Midlands,E12000005,2006,gdhi_total_mn_gbp,69601
+West Midlands,E12000005,2007,gdhi_total_mn_gbp,71970
+West Midlands,E12000005,2008,gdhi_total_mn_gbp,74461
+West Midlands,E12000005,2009,gdhi_total_mn_gbp,76687
+West Midlands,E12000005,2010,gdhi_total_mn_gbp,77988
+West Midlands,E12000005,2011,gdhi_total_mn_gbp,79575
+West Midlands,E12000005,2012,gdhi_total_mn_gbp,82167
+West Midlands,E12000005,2013,gdhi_total_mn_gbp,85478
+West Midlands,E12000005,2014,gdhi_total_mn_gbp,89217
+West Midlands,E12000005,2015,gdhi_total_mn_gbp,94351
+West Midlands,E12000005,2016,gdhi_total_mn_gbp,96898
+West Midlands,E12000005,2017,gdhi_total_mn_gbp,99039
+West Midlands,E12000005,2018,gdhi_total_mn_gbp,102703
+West Midlands,E12000005,2019,gdhi_total_mn_gbp,106044
+West Midlands,E12000005,2020,gdhi_total_mn_gbp,106937
+West Midlands,E12000005,2021,gdhi_total_mn_gbp,110231
+West Midlands,E12000005,2022,gdhi_total_mn_gbp,117212
+East,E12000006,1997,gdhi_per_head_gbp,11164
+East,E12000006,1998,gdhi_per_head_gbp,11340
+East,E12000006,1999,gdhi_per_head_gbp,11819
+East,E12000006,2000,gdhi_per_head_gbp,12441
+East,E12000006,2001,gdhi_per_head_gbp,13008
+East,E12000006,2002,gdhi_per_head_gbp,13333
+East,E12000006,2003,gdhi_per_head_gbp,13598
+East,E12000006,2004,gdhi_per_head_gbp,14026
+East,E12000006,2005,gdhi_per_head_gbp,14532
+East,E12000006,2006,gdhi_per_head_gbp,14977
+East,E12000006,2007,gdhi_per_head_gbp,15609
+East,E12000006,2008,gdhi_per_head_gbp,16119
+East,E12000006,2009,gdhi_per_head_gbp,16536
+East,E12000006,2010,gdhi_per_head_gbp,16657
+East,E12000006,2011,gdhi_per_head_gbp,16778
+East,E12000006,2012,gdhi_per_head_gbp,17370
+East,E12000006,2013,gdhi_per_head_gbp,17984
+East,E12000006,2014,gdhi_per_head_gbp,18537
+East,E12000006,2015,gdhi_per_head_gbp,19582
+East,E12000006,2016,gdhi_per_head_gbp,19882
+East,E12000006,2017,gdhi_per_head_gbp,20439
+East,E12000006,2018,gdhi_per_head_gbp,21185
+East,E12000006,2019,gdhi_per_head_gbp,21787
+East,E12000006,2020,gdhi_per_head_gbp,21613
+East,E12000006,2021,gdhi_per_head_gbp,22377
+East,E12000006,2022,gdhi_per_head_gbp,23661
+East,E12000006,1997,gdhi_total_mn_gbp,58801
+East,E12000006,1998,gdhi_total_mn_gbp,60124
+East,E12000006,1999,gdhi_total_mn_gbp,63096
+East,E12000006,2000,gdhi_total_mn_gbp,66870
+East,E12000006,2001,gdhi_total_mn_gbp,70247
+East,E12000006,2002,gdhi_total_mn_gbp,72434
+East,E12000006,2003,gdhi_total_mn_gbp,74438
+East,E12000006,2004,gdhi_total_mn_gbp,77263
+East,E12000006,2005,gdhi_total_mn_gbp,80835
+East,E12000006,2006,gdhi_total_mn_gbp,83967
+East,E12000006,2007,gdhi_total_mn_gbp,88245
+East,E12000006,2008,gdhi_total_mn_gbp,92015
+East,E12000006,2009,gdhi_total_mn_gbp,95104
+East,E12000006,2010,gdhi_total_mn_gbp,96736
+East,E12000006,2011,gdhi_total_mn_gbp,98360
+East,E12000006,2012,gdhi_total_mn_gbp,102743
+East,E12000006,2013,gdhi_total_mn_gbp,107375
+East,E12000006,2014,gdhi_total_mn_gbp,111953
+East,E12000006,2015,gdhi_total_mn_gbp,119419
+East,E12000006,2016,gdhi_total_mn_gbp,122496
+East,E12000006,2017,gdhi_total_mn_gbp,126779
+East,E12000006,2018,gdhi_total_mn_gbp,132141
+East,E12000006,2019,gdhi_total_mn_gbp,136696
+East,E12000006,2020,gdhi_total_mn_gbp,136115
+East,E12000006,2021,gdhi_total_mn_gbp,142087
+East,E12000006,2022,gdhi_total_mn_gbp,151461
+London,E12000007,1997,gdhi_per_head_gbp,12898
+London,E12000007,1998,gdhi_per_head_gbp,13329
+London,E12000007,1999,gdhi_per_head_gbp,14169
+London,E12000007,2000,gdhi_per_head_gbp,15207
+London,E12000007,2001,gdhi_per_head_gbp,15765
+London,E12000007,2002,gdhi_per_head_gbp,15982
+London,E12000007,2003,gdhi_per_head_gbp,16664
+London,E12000007,2004,gdhi_per_head_gbp,17569
+London,E12000007,2005,gdhi_per_head_gbp,18587
+London,E12000007,2006,gdhi_per_head_gbp,19521
+London,E12000007,2007,gdhi_per_head_gbp,20924
+London,E12000007,2008,gdhi_per_head_gbp,21540
+London,E12000007,2009,gdhi_per_head_gbp,21431
+London,E12000007,2010,gdhi_per_head_gbp,21575
+London,E12000007,2011,gdhi_per_head_gbp,21391
+London,E12000007,2012,gdhi_per_head_gbp,22698
+London,E12000007,2013,gdhi_per_head_gbp,23906
+London,E12000007,2014,gdhi_per_head_gbp,24890
+London,E12000007,2015,gdhi_per_head_gbp,26652
+London,E12000007,2016,gdhi_per_head_gbp,27099
+London,E12000007,2017,gdhi_per_head_gbp,27599
+London,E12000007,2018,gdhi_per_head_gbp,29104
+London,E12000007,2019,gdhi_per_head_gbp,29719
+London,E12000007,2020,gdhi_per_head_gbp,29245
+London,E12000007,2021,gdhi_per_head_gbp,30662
+London,E12000007,2022,gdhi_per_head_gbp,32330
+London,E12000007,1997,gdhi_total_mn_gbp,90477
+London,E12000007,1998,gdhi_total_mn_gbp,94173
+London,E12000007,1999,gdhi_total_mn_gbp,101362
+London,E12000007,2000,gdhi_total_mn_gbp,110047
+London,E12000007,2001,gdhi_total_mn_gbp,115438
+London,E12000007,2002,gdhi_total_mn_gbp,117894
+London,E12000007,2003,gdhi_total_mn_gbp,123224
+London,E12000007,2004,gdhi_total_mn_gbp,130588
+London,E12000007,2005,gdhi_total_mn_gbp,139759
+London,E12000007,2006,gdhi_total_mn_gbp,148319
+London,E12000007,2007,gdhi_total_mn_gbp,160976
+London,E12000007,2008,gdhi_total_mn_gbp,168277
+London,E12000007,2009,gdhi_total_mn_gbp,170218
+London,E12000007,2010,gdhi_total_mn_gbp,173927
+London,E12000007,2011,gdhi_total_mn_gbp,175499
+London,E12000007,2012,gdhi_total_mn_gbp,188863
+London,E12000007,2013,gdhi_total_mn_gbp,201744
+London,E12000007,2014,gdhi_total_mn_gbp,212736
+London,E12000007,2015,gdhi_total_mn_gbp,230795
+London,E12000007,2016,gdhi_total_mn_gbp,236948
+London,E12000007,2017,gdhi_total_mn_gbp,242212
+London,E12000007,2018,gdhi_total_mn_gbp,257085
+London,E12000007,2019,gdhi_total_mn_gbp,264193
+London,E12000007,2020,gdhi_total_mn_gbp,259315
+London,E12000007,2021,gdhi_total_mn_gbp,269968
+London,E12000007,2022,gdhi_total_mn_gbp,286734
+South East,E12000008,1997,gdhi_per_head_gbp,12683
+South East,E12000008,1998,gdhi_per_head_gbp,12905
+South East,E12000008,1999,gdhi_per_head_gbp,13339
+South East,E12000008,2000,gdhi_per_head_gbp,14039
+South East,E12000008,2001,gdhi_per_head_gbp,14504
+South East,E12000008,2002,gdhi_per_head_gbp,14840
+South East,E12000008,2003,gdhi_per_head_gbp,15047
+South East,E12000008,2004,gdhi_per_head_gbp,15627
+South East,E12000008,2005,gdhi_per_head_gbp,16185
+South East,E12000008,2006,gdhi_per_head_gbp,16918
+South East,E12000008,2007,gdhi_per_head_gbp,17730
+South East,E12000008,2008,gdhi_per_head_gbp,18086
+South East,E12000008,2009,gdhi_per_head_gbp,18443
+South East,E12000008,2010,gdhi_per_head_gbp,18484
+South East,E12000008,2011,gdhi_per_head_gbp,18661
+South East,E12000008,2012,gdhi_per_head_gbp,19310
+South East,E12000008,2013,gdhi_per_head_gbp,20083
+South East,E12000008,2014,gdhi_per_head_gbp,20575
+South East,E12000008,2015,gdhi_per_head_gbp,21790
+South East,E12000008,2016,gdhi_per_head_gbp,22082
+South East,E12000008,2017,gdhi_per_head_gbp,22624
+South East,E12000008,2018,gdhi_per_head_gbp,23405
+South East,E12000008,2019,gdhi_per_head_gbp,24148
+South East,E12000008,2020,gdhi_per_head_gbp,23816
+South East,E12000008,2021,gdhi_per_head_gbp,24606
+South East,E12000008,2022,gdhi_per_head_gbp,26058
+South East,E12000008,1997,gdhi_total_mn_gbp,99604
+South East,E12000008,1998,gdhi_total_mn_gbp,101808
+South East,E12000008,1999,gdhi_total_mn_gbp,106113
+South East,E12000008,2000,gdhi_total_mn_gbp,112177
+South East,E12000008,2001,gdhi_total_mn_gbp,116375
+South East,E12000008,2002,gdhi_total_mn_gbp,119391
+South East,E12000008,2003,gdhi_total_mn_gbp,121701
+South East,E12000008,2004,gdhi_total_mn_gbp,127094
+South East,E12000008,2005,gdhi_total_mn_gbp,132765
+South East,E12000008,2006,gdhi_total_mn_gbp,139927
+South East,E12000008,2007,gdhi_total_mn_gbp,148072
+South East,E12000008,2008,gdhi_total_mn_gbp,152399
+South East,E12000008,2009,gdhi_total_mn_gbp,156600
+South East,E12000008,2010,gdhi_total_mn_gbp,158556
+South East,E12000008,2011,gdhi_total_mn_gbp,161471
+South East,E12000008,2012,gdhi_total_mn_gbp,168611
+South East,E12000008,2013,gdhi_total_mn_gbp,176915
+South East,E12000008,2014,gdhi_total_mn_gbp,182990
+South East,E12000008,2015,gdhi_total_mn_gbp,195449
+South East,E12000008,2016,gdhi_total_mn_gbp,199906
+South East,E12000008,2017,gdhi_total_mn_gbp,205990
+South East,E12000008,2018,gdhi_total_mn_gbp,214157
+South East,E12000008,2019,gdhi_total_mn_gbp,222009
+South East,E12000008,2020,gdhi_total_mn_gbp,219706
+South East,E12000008,2021,gdhi_total_mn_gbp,228729
+South East,E12000008,2022,gdhi_total_mn_gbp,244613
+South West,E12000009,1997,gdhi_per_head_gbp,10914
+South West,E12000009,1998,gdhi_per_head_gbp,11127
+South West,E12000009,1999,gdhi_per_head_gbp,11525
+South West,E12000009,2000,gdhi_per_head_gbp,11959
+South West,E12000009,2001,gdhi_per_head_gbp,12423
+South West,E12000009,2002,gdhi_per_head_gbp,12597
+South West,E12000009,2003,gdhi_per_head_gbp,12930
+South West,E12000009,2004,gdhi_per_head_gbp,13396
+South West,E12000009,2005,gdhi_per_head_gbp,13901
+South West,E12000009,2006,gdhi_per_head_gbp,14614
+South West,E12000009,2007,gdhi_per_head_gbp,15134
+South West,E12000009,2008,gdhi_per_head_gbp,15612
+South West,E12000009,2009,gdhi_per_head_gbp,15699
+South West,E12000009,2010,gdhi_per_head_gbp,16065
+South West,E12000009,2011,gdhi_per_head_gbp,16312
+South West,E12000009,2012,gdhi_per_head_gbp,16685
+South West,E12000009,2013,gdhi_per_head_gbp,17306
+South West,E12000009,2014,gdhi_per_head_gbp,17888
+South West,E12000009,2015,gdhi_per_head_gbp,18686
+South West,E12000009,2016,gdhi_per_head_gbp,18841
+South West,E12000009,2017,gdhi_per_head_gbp,19265
+South West,E12000009,2018,gdhi_per_head_gbp,19996
+South West,E12000009,2019,gdhi_per_head_gbp,20725
+South West,E12000009,2020,gdhi_per_head_gbp,20627
+South West,E12000009,2021,gdhi_per_head_gbp,21304
+South West,E12000009,2022,gdhi_per_head_gbp,22612
+South West,E12000009,1997,gdhi_total_mn_gbp,52685
+South West,E12000009,1998,gdhi_total_mn_gbp,53962
+South West,E12000009,1999,gdhi_total_mn_gbp,56252
+South West,E12000009,2000,gdhi_total_mn_gbp,58802
+South West,E12000009,2001,gdhi_total_mn_gbp,61409
+South West,E12000009,2002,gdhi_total_mn_gbp,62686
+South West,E12000009,2003,gdhi_total_mn_gbp,64734
+South West,E12000009,2004,gdhi_total_mn_gbp,67495
+South West,E12000009,2005,gdhi_total_mn_gbp,70703
+South West,E12000009,2006,gdhi_total_mn_gbp,74819
+South West,E12000009,2007,gdhi_total_mn_gbp,78253
+South West,E12000009,2008,gdhi_total_mn_gbp,81260
+South West,E12000009,2009,gdhi_total_mn_gbp,82058
+South West,E12000009,2010,gdhi_total_mn_gbp,84524
+South West,E12000009,2011,gdhi_total_mn_gbp,86466
+South West,E12000009,2012,gdhi_total_mn_gbp,89039
+South West,E12000009,2013,gdhi_total_mn_gbp,93014
+South West,E12000009,2014,gdhi_total_mn_gbp,96992
+South West,E12000009,2015,gdhi_total_mn_gbp,102242
+South West,E12000009,2016,gdhi_total_mn_gbp,104133
+South West,E12000009,2017,gdhi_total_mn_gbp,107397
+South West,E12000009,2018,gdhi_total_mn_gbp,112171
+South West,E12000009,2019,gdhi_total_mn_gbp,116946
+South West,E12000009,2020,gdhi_total_mn_gbp,116792
+South West,E12000009,2021,gdhi_total_mn_gbp,121705
+South West,E12000009,2022,gdhi_total_mn_gbp,130402
+Northern Ireland,N92000002,1997,gdhi_per_head_gbp,8567
+Northern Ireland,N92000002,1998,gdhi_per_head_gbp,8590
+Northern Ireland,N92000002,1999,gdhi_per_head_gbp,8919
+Northern Ireland,N92000002,2000,gdhi_per_head_gbp,9383
+Northern Ireland,N92000002,2001,gdhi_per_head_gbp,9641
+Northern Ireland,N92000002,2002,gdhi_per_head_gbp,10173
+Northern Ireland,N92000002,2003,gdhi_per_head_gbp,10643
+Northern Ireland,N92000002,2004,gdhi_per_head_gbp,11241
+Northern Ireland,N92000002,2005,gdhi_per_head_gbp,11814
+Northern Ireland,N92000002,2006,gdhi_per_head_gbp,12403
+Northern Ireland,N92000002,2007,gdhi_per_head_gbp,12659
+Northern Ireland,N92000002,2008,gdhi_per_head_gbp,12869
+Northern Ireland,N92000002,2009,gdhi_per_head_gbp,13041
+Northern Ireland,N92000002,2010,gdhi_per_head_gbp,13226
+Northern Ireland,N92000002,2011,gdhi_per_head_gbp,13519
+Northern Ireland,N92000002,2012,gdhi_per_head_gbp,13749
+Northern Ireland,N92000002,2013,gdhi_per_head_gbp,14305
+Northern Ireland,N92000002,2014,gdhi_per_head_gbp,14760
+Northern Ireland,N92000002,2015,gdhi_per_head_gbp,15248
+Northern Ireland,N92000002,2016,gdhi_per_head_gbp,15480
+Northern Ireland,N92000002,2017,gdhi_per_head_gbp,15965
+Northern Ireland,N92000002,2018,gdhi_per_head_gbp,16347
+Northern Ireland,N92000002,2019,gdhi_per_head_gbp,16871
+Northern Ireland,N92000002,2020,gdhi_per_head_gbp,16992
+Northern Ireland,N92000002,2021,gdhi_per_head_gbp,17635
+Northern Ireland,N92000002,2022,gdhi_per_head_gbp,18685
+Northern Ireland,N92000002,1997,gdhi_total_mn_gbp,14318
+Northern Ireland,N92000002,1998,gdhi_total_mn_gbp,14413
+Northern Ireland,N92000002,1999,gdhi_total_mn_gbp,14975
+Northern Ireland,N92000002,2000,gdhi_total_mn_gbp,15791
+Northern Ireland,N92000002,2001,gdhi_total_mn_gbp,16281
+Northern Ireland,N92000002,2002,gdhi_total_mn_gbp,17269
+Northern Ireland,N92000002,2003,gdhi_total_mn_gbp,18145
+Northern Ireland,N92000002,2004,gdhi_total_mn_gbp,19267
+Northern Ireland,N92000002,2005,gdhi_total_mn_gbp,20412
+Northern Ireland,N92000002,2006,gdhi_total_mn_gbp,21619
+Northern Ireland,N92000002,2007,gdhi_total_mn_gbp,22301
+Northern Ireland,N92000002,2008,gdhi_total_mn_gbp,22896
+Northern Ireland,N92000002,2009,gdhi_total_mn_gbp,23387
+Northern Ireland,N92000002,2010,gdhi_total_mn_gbp,23870
+Northern Ireland,N92000002,2011,gdhi_total_mn_gbp,24528
+Northern Ireland,N92000002,2012,gdhi_total_mn_gbp,25086
+Northern Ireland,N92000002,2013,gdhi_total_mn_gbp,26203
+Northern Ireland,N92000002,2014,gdhi_total_mn_gbp,27205
+Northern Ireland,N92000002,2015,gdhi_total_mn_gbp,28284
+Northern Ireland,N92000002,2016,gdhi_total_mn_gbp,28886
+Northern Ireland,N92000002,2017,gdhi_total_mn_gbp,29937
+Northern Ireland,N92000002,2018,gdhi_total_mn_gbp,30834
+Northern Ireland,N92000002,2019,gdhi_total_mn_gbp,32030
+Northern Ireland,N92000002,2020,gdhi_total_mn_gbp,32293
+Northern Ireland,N92000002,2021,gdhi_total_mn_gbp,33587
+Northern Ireland,N92000002,2022,gdhi_total_mn_gbp,35698
+Scotland,S92000003,1997,gdhi_per_head_gbp,9581
+Scotland,S92000003,1998,gdhi_per_head_gbp,9792
+Scotland,S92000003,1999,gdhi_per_head_gbp,10156
+Scotland,S92000003,2000,gdhi_per_head_gbp,10751
+Scotland,S92000003,2001,gdhi_per_head_gbp,11286
+Scotland,S92000003,2002,gdhi_per_head_gbp,11689
+Scotland,S92000003,2003,gdhi_per_head_gbp,12081
+Scotland,S92000003,2004,gdhi_per_head_gbp,12664
+Scotland,S92000003,2005,gdhi_per_head_gbp,13089
+Scotland,S92000003,2006,gdhi_per_head_gbp,13704
+Scotland,S92000003,2007,gdhi_per_head_gbp,14415
+Scotland,S92000003,2008,gdhi_per_head_gbp,15021
+Scotland,S92000003,2009,gdhi_per_head_gbp,15214
+Scotland,S92000003,2010,gdhi_per_head_gbp,15417
+Scotland,S92000003,2011,gdhi_per_head_gbp,15711
+Scotland,S92000003,2012,gdhi_per_head_gbp,16198
+Scotland,S92000003,2013,gdhi_per_head_gbp,16777
+Scotland,S92000003,2014,gdhi_per_head_gbp,17192
+Scotland,S92000003,2015,gdhi_per_head_gbp,17717
+Scotland,S92000003,2016,gdhi_per_head_gbp,17859
+Scotland,S92000003,2017,gdhi_per_head_gbp,18199
+Scotland,S92000003,2018,gdhi_per_head_gbp,18692
+Scotland,S92000003,2019,gdhi_per_head_gbp,19391
+Scotland,S92000003,2020,gdhi_per_head_gbp,19339
+Scotland,S92000003,2021,gdhi_per_head_gbp,19872
+Scotland,S92000003,2022,gdhi_per_head_gbp,20854
+Scotland,S92000003,1997,gdhi_total_mn_gbp,48705
+Scotland,S92000003,1998,gdhi_total_mn_gbp,49714
+Scotland,S92000003,1999,gdhi_total_mn_gbp,51508
+Scotland,S92000003,2000,gdhi_total_mn_gbp,54432
+Scotland,S92000003,2001,gdhi_total_mn_gbp,57157
+Scotland,S92000003,2002,gdhi_total_mn_gbp,59216
+Scotland,S92000003,2003,gdhi_total_mn_gbp,61232
+Scotland,S92000003,2004,gdhi_total_mn_gbp,64389
+Scotland,S92000003,2005,gdhi_total_mn_gbp,66887
+Scotland,S92000003,2006,gdhi_total_mn_gbp,70345
+Scotland,S92000003,2007,gdhi_total_mn_gbp,74527
+Scotland,S92000003,2008,gdhi_total_mn_gbp,78150
+Scotland,S92000003,2009,gdhi_total_mn_gbp,79598
+Scotland,S92000003,2010,gdhi_total_mn_gbp,81128
+Scotland,S92000003,2011,gdhi_total_mn_gbp,83264
+Scotland,S92000003,2012,gdhi_total_mn_gbp,85988
+Scotland,S92000003,2013,gdhi_total_mn_gbp,89208
+Scotland,S92000003,2014,gdhi_total_mn_gbp,91673
+Scotland,S92000003,2015,gdhi_total_mn_gbp,94815
+Scotland,S92000003,2016,gdhi_total_mn_gbp,95989
+Scotland,S92000003,2017,gdhi_total_mn_gbp,98092
+Scotland,S92000003,2018,gdhi_total_mn_gbp,100830
+Scotland,S92000003,2019,gdhi_total_mn_gbp,104990
+Scotland,S92000003,2020,gdhi_total_mn_gbp,104686
+Scotland,S92000003,2021,gdhi_total_mn_gbp,107674
+Scotland,S92000003,2022,gdhi_total_mn_gbp,113605
+Wales,W92000004,1997,gdhi_per_head_gbp,9264
+Wales,W92000004,1998,gdhi_per_head_gbp,9297
+Wales,W92000004,1999,gdhi_per_head_gbp,9721
+Wales,W92000004,2000,gdhi_per_head_gbp,10277
+Wales,W92000004,2001,gdhi_per_head_gbp,10702
+Wales,W92000004,2002,gdhi_per_head_gbp,10993
+Wales,W92000004,2003,gdhi_per_head_gbp,11404
+Wales,W92000004,2004,gdhi_per_head_gbp,11868
+Wales,W92000004,2005,gdhi_per_head_gbp,12162
+Wales,W92000004,2006,gdhi_per_head_gbp,12545
+Wales,W92000004,2007,gdhi_per_head_gbp,12912
+Wales,W92000004,2008,gdhi_per_head_gbp,13440
+Wales,W92000004,2009,gdhi_per_head_gbp,13456
+Wales,W92000004,2010,gdhi_per_head_gbp,13660
+Wales,W92000004,2011,gdhi_per_head_gbp,13883
+Wales,W92000004,2012,gdhi_per_head_gbp,14300
+Wales,W92000004,2013,gdhi_per_head_gbp,14616
+Wales,W92000004,2014,gdhi_per_head_gbp,15092
+Wales,W92000004,2015,gdhi_per_head_gbp,15591
+Wales,W92000004,2016,gdhi_per_head_gbp,15717
+Wales,W92000004,2017,gdhi_per_head_gbp,16237
+Wales,W92000004,2018,gdhi_per_head_gbp,16860
+Wales,W92000004,2019,gdhi_per_head_gbp,17300
+Wales,W92000004,2020,gdhi_per_head_gbp,17668
+Wales,W92000004,2021,gdhi_per_head_gbp,18015
+Wales,W92000004,2022,gdhi_per_head_gbp,18652
+Wales,W92000004,1997,gdhi_total_mn_gbp,26817
+Wales,W92000004,1998,gdhi_total_mn_gbp,26957
+Wales,W92000004,1999,gdhi_total_mn_gbp,28198
+Wales,W92000004,2000,gdhi_total_mn_gbp,29875
+Wales,W92000004,2001,gdhi_total_mn_gbp,31146
+Wales,W92000004,2002,gdhi_total_mn_gbp,32132
+Wales,W92000004,2003,gdhi_total_mn_gbp,33503
+Wales,W92000004,2004,gdhi_total_mn_gbp,35098
+Wales,W92000004,2005,gdhi_total_mn_gbp,36114
+Wales,W92000004,2006,gdhi_total_mn_gbp,37456
+Wales,W92000004,2007,gdhi_total_mn_gbp,38819
+Wales,W92000004,2008,gdhi_total_mn_gbp,40667
+Wales,W92000004,2009,gdhi_total_mn_gbp,40892
+Wales,W92000004,2010,gdhi_total_mn_gbp,41662
+Wales,W92000004,2011,gdhi_total_mn_gbp,42535
+Wales,W92000004,2012,gdhi_total_mn_gbp,43914
+Wales,W92000004,2013,gdhi_total_mn_gbp,44886
+Wales,W92000004,2014,gdhi_total_mn_gbp,46391
+Wales,W92000004,2015,gdhi_total_mn_gbp,47906
+Wales,W92000004,2016,gdhi_total_mn_gbp,48364
+Wales,W92000004,2017,gdhi_total_mn_gbp,50033
+Wales,W92000004,2018,gdhi_total_mn_gbp,51993
+Wales,W92000004,2019,gdhi_total_mn_gbp,53419
+Wales,W92000004,2020,gdhi_total_mn_gbp,54849
+Wales,W92000004,2021,gdhi_total_mn_gbp,55948
+Wales,W92000004,2022,gdhi_total_mn_gbp,58432

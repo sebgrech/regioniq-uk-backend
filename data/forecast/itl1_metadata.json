@@ -1,0 +1,62 @@
+{
+  "run_timestamp": "2025-12-04T00:22:20.593177",
+  "version": "3.5",
+  "base_metrics": [
+    "population_total",
+    "population_16_64",
+    "nominal_gva_mn_gbp",
+    "gdhi_total_mn_gbp",
+    "emp_total_jobs",
+    "employment_rate_pct",
+    "unemployment_rate_pct"
+  ],
+  "derived_metrics": [
+    "productivity_gbp_per_job",
+    "income_per_worker_gbp"
+  ],
+  "calculated_in_base": [
+    "gdhi_per_head_gbp"
+  ],
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true,
+    "var_max_horizon": 15,
+    "var_blend_decay": 0.25,
+    "macro_anchoring": true
+  },
+  "growth_caps": {
+    "nominal_gva_mn_gbp": {
+      "min": -0.05,
+      "max": 0.06
+    },
+    "gdhi_total_mn_gbp": {
+      "min": -0.05,
+      "max": 0.06
+    },
+    "emp_total_jobs": {
+      "min": -0.03,
+      "max": 0.025
+    },
+    "population_total": {
+      "min": -0.005,
+      "max": 0.015
+    },
+    "population_16_64": {
+      "min": -0.01,
+      "max": 0.012
+    }
+  },
+  "sanity_caps": {
+    "nominal_gva_mn_gbp": 1500000,
+    "gdhi_total_mn_gbp": 1200000,
+    "emp_total_jobs": 12000000,
+    "population_total": 15000000,
+    "population_16_64": 10000000
+  },
+  "data_summary": {
+    "regions": 12,
+    "base_metrics": 8,
+    "base_forecast_obs": 2458,
+    "derived_obs": 924
+  }
+}

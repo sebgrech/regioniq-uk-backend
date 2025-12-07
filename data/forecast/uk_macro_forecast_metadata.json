@@ -1,0 +1,147 @@
+{
+  "run_timestamp": "2025-11-13T13:55:12.764837+00:00",
+  "version": "1.0_VAR",
+  "config": {
+    "target_year": 2050,
+    "confidence_level": 0.95,
+    "structural_breaks": [
+      {
+        "year": 2008,
+        "name": "Financial Crisis",
+        "type": "level"
+      },
+      {
+        "year": 2009,
+        "name": "Crisis Recovery",
+        "type": "trend"
+      },
+      {
+        "year": 2016,
+        "name": "Brexit Vote",
+        "type": "trend"
+      },
+      {
+        "year": 2020,
+        "name": "COVID-19",
+        "type": "level"
+      },
+      {
+        "year": 2021,
+        "name": "COVID Recovery",
+        "type": "trend"
+      }
+    ],
+    "var_enabled": true,
+    "var_systems": {
+      "core_macro": [
+        "uk_gdp_m_index",
+        "uk_cpih_index",
+        "uk_emp_rate"
+      ],
+      "labour_market": [
+        "uk_emp_rate",
+        "uk_unemp_rate"
+      ]
+    },
+    "exogenous_policy_rates": true,
+    "boe_scenario": "baseline",
+    "boe_terminal_rate": 3.0
+  },
+  "metrics_forecasted": [
+    "boe_base_rate",
+    "uk_cpih_index",
+    "uk_emp_rate",
+    "uk_gdp_m_index",
+    "uk_unemp_rate"
+  ],
+  "forecast_summary": {
+    "boe_base_rate": {
+      "periods": 7,
+      "period_range": "2026-01 to 2030-01",
+      "value_range": "3.00 to 4.25",
+      "mean_value": 3.5357142857142856,
+      "model": "exogenous_assumption",
+      "var_system": false,
+      "exogenous": true
+    },
+    "uk_cpih_index": {
+      "periods": 300,
+      "period_range": "2025-05 to 2050-04",
+      "value_range": "138.25 to 380.67",
+      "mean_value": 242.25844117884068,
+      "model": "VAR(4)_system",
+      "var_system": true,
+      "exogenous": false
+    },
+    "uk_emp_rate": {
+      "periods": 600,
+      "period_range": "2025-05 to 2050-04",
+      "value_range": "57.58 to 60.60",
+      "mean_value": 59.86275950006064,
+      "model": "VAR(4)_system",
+      "var_system": true,
+      "exogenous": false
+    },
+    "uk_gdp_m_index": {
+      "periods": 300,
+      "period_range": "2025-05 to 2050-04",
+      "value_range": "102.15 to 174.50",
+      "mean_value": 133.55229525091363,
+      "model": "VAR(4)_system",
+      "var_system": true,
+      "exogenous": false
+    },
+    "uk_unemp_rate": {
+      "periods": 300,
+      "period_range": "2025-05 to 2050-04",
+      "value_range": "4.31 to 4.67",
+      "mean_value": 4.330313262311777,
+      "model": "VECM_system",
+      "var_system": true,
+      "exogenous": false
+    }
+  },
+  "model_usage": {
+    "VAR(4)_system": 900,
+    "VECM_system": 600,
+    "exogenous_assumption": 7
+  },
+  "var_diagnostics": {
+    "uk_emp_rate": {
+      "system_metrics": [
+        "uk_emp_rate",
+        "uk_unemp_rate"
+      ],
+      "cointegrated": true,
+      "method": "VECM_system"
+    },
+    "uk_unemp_rate": {
+      "system_metrics": [
+        "uk_emp_rate",
+        "uk_unemp_rate"
+      ],
+      "cointegrated": true,
+      "method": "VECM_system"
+    }
+  },
+  "exogenous_assumptions": {
+    "boe_base_rate": {
+      "source": "baseline_scenario",
+      "note": "Policy rate scenario assumption (baseline): discrete MPC decisions, not statistical forecast",
+      "range": "3.00 \u2192 4.25",
+      "scenario": "baseline",
+      "terminal_rate": 3.0,
+      "dynamic": true
+    }
+  },
+  "var_metrics": [
+    "uk_emp_rate",
+    "uk_cpih_index",
+    "uk_unemp_rate",
+    "uk_gdp_m_index"
+  ],
+  "exogenous_metrics": [
+    "boe_base_rate"
+  ],
+  "univariate_metrics": []
+}

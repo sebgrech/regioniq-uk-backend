@@ -1,0 +1,1806 @@
+lad_code,itl3_code,lad_name,share,share_std,share_years,region_name,metric,share_quality
+E06000001,TLC31,Hartlepool,0.2015488700377172,0.006416290153483486,3,Hartlepool,nominal_gva_mn_gbp,good
+E06000002,TLC32,Middlesbrough,0.6321779178522076,0.004566733611890178,3,Middlesbrough,nominal_gva_mn_gbp,good
+E06000003,TLC32,Redcar and Cleveland,0.36782208214779244,0.004566733611890165,3,Redcar and Cleveland,nominal_gva_mn_gbp,good
+E06000004,TLC31,Stockton-on-Tees,0.7984511299622828,0.006416290153483511,3,Stockton-on-Tees,nominal_gva_mn_gbp,good
+E06000005,TLC33,Darlington,1.0,0.0,3,Darlington,nominal_gva_mn_gbp,good
+E06000006,TLD71,Halton,0.39321149787561616,0.008992731396460457,3,Halton,nominal_gva_mn_gbp,good
+E06000007,TLD61,Warrington,1.0,0.0,3,Warrington,nominal_gva_mn_gbp,good
+E06000008,TLD41,Blackburn with Darwen,1.0,0.0,3,Blackburn with Darwen,nominal_gva_mn_gbp,good
+E06000009,TLD42,Blackpool,1.0,0.0,3,Blackpool,nominal_gva_mn_gbp,good
+E06000010,TLE11,"Kingston upon Hull, City of",1.0,0.0,3,"Kingston upon Hull, City of",nominal_gva_mn_gbp,good
+E06000011,TLE12,East Riding of Yorkshire,1.0,0.0,3,East Riding of Yorkshire,nominal_gva_mn_gbp,good
+E06000012,TLE13,North East Lincolnshire,0.41007232207796956,0.019565893383179767,3,North East Lincolnshire,nominal_gva_mn_gbp,good
+E06000013,TLE13,North Lincolnshire,0.5899276779220305,0.019565893383179767,3,North Lincolnshire,nominal_gva_mn_gbp,good
+E06000014,TLE21,York,1.0,0.0,3,York,nominal_gva_mn_gbp,good
+E06000015,TLF11,Derby,1.0,0.0,3,Derby,nominal_gva_mn_gbp,good
+E06000016,TLF21,Leicester,1.0,0.0,3,Leicester,nominal_gva_mn_gbp,good
+E06000017,TLF22,Rutland,0.04636357157944566,0.0012623043778199974,3,Rutland,nominal_gva_mn_gbp,good
+E06000018,TLF14,Nottingham,1.0,0.0,3,Nottingham,nominal_gva_mn_gbp,good
+E06000019,TLG11,"Herefordshire, County of",1.0,0.0,3,"Herefordshire, County of",nominal_gva_mn_gbp,good
+E06000020,TLG21,Telford and Wrekin,1.0,0.0,3,Telford and Wrekin,nominal_gva_mn_gbp,good
+E06000021,TLG23,Stoke-on-Trent,1.0,0.0,3,Stoke-on-Trent,nominal_gva_mn_gbp,good
+E06000022,TLK52,Bath and North East Somerset,0.25660619627708825,0.005560148470410936,3,Bath and North East Somerset,nominal_gva_mn_gbp,good
+E06000023,TLK51,"Bristol, City of",1.0,0.0,3,"Bristol, City of",nominal_gva_mn_gbp,good
+E06000024,TLK61,North Somerset,1.0,0.0,3,North Somerset,nominal_gva_mn_gbp,good
+E06000025,TLK52,South Gloucestershire,0.7433938037229119,0.005560148470410952,3,South Gloucestershire,nominal_gva_mn_gbp,good
+E06000026,TLK41,Plymouth,1.0,0.0,3,Plymouth,nominal_gva_mn_gbp,good
+E06000027,TLK42,Torbay,1.0,0.0,3,Torbay,nominal_gva_mn_gbp,good
+E06000030,TLK71,Swindon,1.0,0.0,3,Swindon,nominal_gva_mn_gbp,good
+E06000031,TLH41,Peterborough,1.0,0.0,3,Peterborough,nominal_gva_mn_gbp,good
+E06000032,TLH21,Luton,1.0,0.0,3,Luton,nominal_gva_mn_gbp,good
+E06000033,TLH31,Southend-on-Sea,1.0,0.0,3,Southend-on-Sea,nominal_gva_mn_gbp,good
+E06000034,TLH32,Thurrock,1.0,0.0,3,Thurrock,nominal_gva_mn_gbp,good
+E06000035,TLJ41,Medway,1.0,0.0,3,Medway,nominal_gva_mn_gbp,good
+E06000036,TLJ15,Bracknell Forest,0.2273598201470862,0.0023895912537917723,3,Bracknell Forest,nominal_gva_mn_gbp,good
+E06000037,TLJ16,West Berkshire,0.3132424219143235,0.011610065388846114,3,West Berkshire,nominal_gva_mn_gbp,good
+E06000038,TLJ16,Reading,0.3504173161792828,0.011352112048434742,3,Reading,nominal_gva_mn_gbp,good
+E06000039,TLJ15,Slough,0.43274828454456776,0.00862534042091501,3,Slough,nominal_gva_mn_gbp,good
+E06000040,TLJ15,Windsor and Maidenhead,0.3398918953083461,0.006919309084977429,3,Windsor and Maidenhead,nominal_gva_mn_gbp,good
+E06000041,TLJ16,Wokingham,0.3363402619063937,0.0018331760049209236,3,Wokingham,nominal_gva_mn_gbp,good
+E06000042,TLJ12,Milton Keynes,1.0,0.0,3,Milton Keynes,nominal_gva_mn_gbp,good
+E06000043,TLJ21,Brighton and Hove,1.0,0.0,3,Brighton and Hove,nominal_gva_mn_gbp,good
+E06000044,TLJ31,Portsmouth,1.0,0.0,3,Portsmouth,nominal_gva_mn_gbp,good
+E06000045,TLJ32,Southampton,1.0,0.0,3,Southampton,nominal_gva_mn_gbp,good
+E06000046,TLJ34,Isle of Wight,1.0,0.0,3,Isle of Wight,nominal_gva_mn_gbp,good
+E06000047,TLC41,County Durham,1.0,0.0,3,County Durham,nominal_gva_mn_gbp,good
+E06000049,TLD62,Cheshire East,1.0,0.0,3,Cheshire East,nominal_gva_mn_gbp,good
+E06000050,TLD63,Cheshire West and Chester,1.0,0.0,3,Cheshire West and Chester,nominal_gva_mn_gbp,good
+E06000051,TLG22,Shropshire,1.0,0.0,3,Shropshire,nominal_gva_mn_gbp,good
+E06000052,TLK30,Cornwall,0.9949000972948895,0.00045339625429364355,3,Cornwall,nominal_gva_mn_gbp,good
+E06000053,TLK30,Isles of Scilly,0.005099902705110471,0.00045339625429359834,3,Isles of Scilly,nominal_gva_mn_gbp,good
+E06000054,TLK72,Wiltshire,1.0,0.0,3,Wiltshire,nominal_gva_mn_gbp,good
+E06000055,TLH24,Bedford,1.0,0.0,3,Bedford,nominal_gva_mn_gbp,good
+E06000056,TLH25,Central Bedfordshire,1.0,0.0,3,Central Bedfordshire,nominal_gva_mn_gbp,good
+E06000057,TLC42,Northumberland,1.0,0.0,3,Northumberland,nominal_gva_mn_gbp,good
+E06000058,TLK63,"Bournemouth, Christchurch and Poole",1.0,0.0,3,"Bournemouth, Christchurch and Poole",nominal_gva_mn_gbp,good
+E06000059,TLK64,Dorset,1.0,0.0,3,Dorset,nominal_gva_mn_gbp,good
+E06000060,TLJ13,Buckinghamshire,1.0,0.0,3,Buckinghamshire,nominal_gva_mn_gbp,good
+E06000061,TLF25,North Northamptonshire,1.0,0.0,3,North Northamptonshire,nominal_gva_mn_gbp,good
+E06000062,TLF24,West Northamptonshire,1.0,0.0,3,West Northamptonshire,nominal_gva_mn_gbp,good
+E06000063,TLD13,Cumberland,1.0,0.0,3,Cumberland,nominal_gva_mn_gbp,good
+E06000064,TLD14,Westmorland and Furness,1.0,0.0,3,Westmorland and Furness,nominal_gva_mn_gbp,good
+E06000065,TLE22,North Yorkshire,1.0,0.0,3,North Yorkshire,nominal_gva_mn_gbp,good
+E06000066,TLK62,Somerset,1.0,0.0,3,Somerset,nominal_gva_mn_gbp,good
+E07000008,TLH42,Cambridge,0.33391676920664976,0.006827530861737881,3,Cambridge,nominal_gva_mn_gbp,good
+E07000009,TLH42,East Cambridgeshire,0.09101202332883777,0.0030654036842143297,3,East Cambridgeshire,nominal_gva_mn_gbp,good
+E07000010,TLH42,Fenland,0.08713340492764271,0.0007692414886331795,3,Fenland,nominal_gva_mn_gbp,good
+E07000011,TLH42,Huntingdonshire,0.2148310536059305,0.004198370141896489,3,Huntingdonshire,nominal_gva_mn_gbp,good
+E07000012,TLH42,South Cambridgeshire,0.2731067489309393,0.004231416785983783,3,South Cambridgeshire,nominal_gva_mn_gbp,good
+E07000032,TLF13,Amber Valley,0.2706677461063406,0.008333910516077875,3,Amber Valley,nominal_gva_mn_gbp,good
+E07000033,TLF12,Bolsover,0.33417320351767316,0.0021095075479552394,3,Bolsover,nominal_gva_mn_gbp,good
+E07000034,TLF12,Chesterfield,0.41968822887064006,0.0028504023771532823,3,Chesterfield,nominal_gva_mn_gbp,good
+E07000035,TLF13,Derbyshire Dales,0.15442733036524833,0.006242378538332149,3,Derbyshire Dales,nominal_gva_mn_gbp,good
+E07000036,TLF13,Erewash,0.1671384349930647,0.0022716877099786844,3,Erewash,nominal_gva_mn_gbp,good
+E07000037,TLF13,High Peak,0.14629674755759947,0.006171178818190907,3,High Peak,nominal_gva_mn_gbp,good
+E07000038,TLF12,North East Derbyshire,0.24613856761168676,0.0007790558391338009,3,North East Derbyshire,nominal_gva_mn_gbp,good
+E07000039,TLF13,South Derbyshire,0.26146974097774695,0.020556879537010752,3,South Derbyshire,nominal_gva_mn_gbp,good
+E07000040,TLK43,East Devon,0.1626288452318515,0.0024007400626072,3,East Devon,nominal_gva_mn_gbp,good
+E07000041,TLK43,Exeter,0.2936521734843848,0.00845494568882152,3,Exeter,nominal_gva_mn_gbp,good
+E07000042,TLK43,Mid Devon,0.07564181701585937,0.0020896206327650473,3,Mid Devon,nominal_gva_mn_gbp,good
+E07000043,TLK43,North Devon,0.1272394999737166,0.0029597730610461085,3,North Devon,nominal_gva_mn_gbp,good
+E07000044,TLK43,South Hams,0.1134841717095888,0.00044593062254509537,3,South Hams,nominal_gva_mn_gbp,good
+E07000045,TLK43,Teignbridge,0.13020953201084426,0.0009219143221180471,3,Teignbridge,nominal_gva_mn_gbp,good
+E07000046,TLK43,Torridge,0.05512952228359905,0.00218699927109092,3,Torridge,nominal_gva_mn_gbp,good
+E07000047,TLK43,West Devon,0.04201443829015559,0.0007585927359241648,3,West Devon,nominal_gva_mn_gbp,good
+E07000061,TLJ22,Eastbourne,0.2057898614532454,0.003726710692802025,3,Eastbourne,nominal_gva_mn_gbp,good
+E07000062,TLJ22,Hastings,0.16359437959478018,0.0023044707672344516,3,Hastings,nominal_gva_mn_gbp,good
+E07000063,TLJ22,Lewes,0.20352000085759325,0.007111568204413953,3,Lewes,nominal_gva_mn_gbp,good
+E07000064,TLJ22,Rother,0.1461708446373097,0.002598408230127241,3,Rother,nominal_gva_mn_gbp,good
+E07000065,TLJ22,Wealden,0.28092491345707143,0.0010025314400791002,3,Wealden,nominal_gva_mn_gbp,good
+E07000066,TLH37,Basildon,0.7021425762603131,0.02539745478772732,3,Basildon,nominal_gva_mn_gbp,good
+E07000067,TLH34,Braintree,0.34718977124927775,0.008479630093532075,3,Braintree,nominal_gva_mn_gbp,good
+E07000068,TLH36,Brentwood,0.30432216087583996,0.004891231157196194,3,Brentwood,nominal_gva_mn_gbp,good
+E07000069,TLH37,Castle Point,0.12108995486197738,0.0010206736716402167,3,Castle Point,nominal_gva_mn_gbp,good
+E07000070,TLH36,Chelmsford,0.5773149936522018,0.0053533707723188275,3,Chelmsford,nominal_gva_mn_gbp,good
+E07000071,TLH34,Colchester,0.4558089597996235,0.007378619198174935,3,Colchester,nominal_gva_mn_gbp,good
+E07000072,TLH35,Epping Forest,0.44213688155496067,0.013341425431845763,3,Epping Forest,nominal_gva_mn_gbp,good
+E07000073,TLH35,Harlow,0.2589594509102186,0.0022078975179876804,3,Harlow,nominal_gva_mn_gbp,good
+E07000074,TLH36,Maldon,0.11836284547195819,0.0004920791913745817,3,Maldon,nominal_gva_mn_gbp,good
+E07000075,TLH37,Rochford,0.17676746887770958,0.02641679502195177,3,Rochford,nominal_gva_mn_gbp,good
+E07000076,TLH34,Tendring,0.1970012689510988,0.0011200766917362247,3,Tendring,nominal_gva_mn_gbp,good
+E07000077,TLH35,Uttlesford,0.2989036675348208,0.013985910394089694,3,Uttlesford,nominal_gva_mn_gbp,good
+E07000078,TLK73,Cheltenham,0.1996942939867875,0.0034744546088892503,3,Cheltenham,nominal_gva_mn_gbp,good
+E07000079,TLK73,Cotswold,0.19914090506402293,0.0043823262073870665,3,Cotswold,nominal_gva_mn_gbp,good
+E07000080,TLK73,Forest of Dean,0.09883952519139555,0.01161221374818994,3,Forest of Dean,nominal_gva_mn_gbp,good
+E07000081,TLK73,Gloucester,0.1740524862539529,0.0041420363242103304,3,Gloucester,nominal_gva_mn_gbp,good
+E07000082,TLK73,Stroud,0.14830598595433084,0.0036002895386057967,3,Stroud,nominal_gva_mn_gbp,good
+E07000083,TLK73,Tewkesbury,0.17996680354951033,0.005185729736863539,3,Tewkesbury,nominal_gva_mn_gbp,good
+E07000084,TLJ37,Basingstoke and Deane,0.4182825156999714,0.01050157787944506,3,Basingstoke and Deane,nominal_gva_mn_gbp,good
+E07000085,TLJ36,East Hampshire,0.1604889802132681,0.002638054990504981,3,East Hampshire,nominal_gva_mn_gbp,good
+E07000086,TLJ35,Eastleigh,0.39524123902544567,0.0024111358141310417,3,Eastleigh,nominal_gva_mn_gbp,good
+E07000087,TLJ35,Fareham,0.28459210209968766,0.004235661361188892,3,Fareham,nominal_gva_mn_gbp,good
+E07000088,TLJ35,Gosport,0.10181594475016117,0.002741015789791291,3,Gosport,nominal_gva_mn_gbp,good
+E07000089,TLJ37,Hart,0.187298653535012,0.002073997905475542,3,Hart,nominal_gva_mn_gbp,good
+E07000090,TLJ35,Havant,0.21835071412470555,0.0009566041785845133,3,Havant,nominal_gva_mn_gbp,good
+E07000091,TLJ36,New Forest,0.2925424396575548,0.007460737832198206,3,New Forest,nominal_gva_mn_gbp,good
+E07000092,TLJ37,Rushmoor,0.39441883076501666,0.011900941315495338,3,Rushmoor,nominal_gva_mn_gbp,good
+E07000093,TLJ36,Test Valley,0.2210073948482664,0.0021804473555972967,3,Test Valley,nominal_gva_mn_gbp,good
+E07000094,TLJ36,Winchester,0.3259611852809107,0.006947806976946794,3,Winchester,nominal_gva_mn_gbp,good
+E07000095,TLH26,Broxbourne,0.11718530302666108,0.0029200054606896737,3,Broxbourne,nominal_gva_mn_gbp,good
+E07000096,TLH27,Dacorum,0.22442042994695285,0.008549881300795047,3,Dacorum,nominal_gva_mn_gbp,good
+E07000098,TLH27,Hertsmere,0.19827066013616915,0.006516586653197397,3,Hertsmere,nominal_gva_mn_gbp,good
+E07000099,TLH26,North Hertfordshire,0.21260020912342584,0.0021408826936030394,3,North Hertfordshire,nominal_gva_mn_gbp,good
+E07000102,TLH27,Three Rivers,0.18631489648497776,0.005344590507858995,3,Three Rivers,nominal_gva_mn_gbp,good
+E07000103,TLH27,Watford,0.1986082335372766,0.005278714190939728,3,Watford,nominal_gva_mn_gbp,good
+E07000105,TLJ45,Ashford,0.4074143684488934,0.006671385566863983,3,Ashford,nominal_gva_mn_gbp,good
+E07000106,TLJ44,Canterbury,0.33700348882707476,0.011155733826615331,3,Canterbury,nominal_gva_mn_gbp,good
+E07000107,TLJ43,Dartford,0.4202764303858671,0.0054463320913923675,3,Dartford,nominal_gva_mn_gbp,good
+E07000108,TLJ44,Dover,0.2505675687649181,0.008824725011931782,3,Dover,nominal_gva_mn_gbp,good
+E07000109,TLJ43,Gravesham,0.2161035715638887,0.009441204512542907,3,Gravesham,nominal_gva_mn_gbp,good
+E07000110,TLJ45,Maidstone,0.5925856315511067,0.006671385566863983,3,Maidstone,nominal_gva_mn_gbp,good
+E07000111,TLJ46,Sevenoaks,0.3361897405622465,0.010880920130683504,3,Sevenoaks,nominal_gva_mn_gbp,good
+E07000112,TLJ44,Folkestone and Hythe,0.20872613493219264,0.007578146307432673,3,Folkestone and Hythe,nominal_gva_mn_gbp,good
+E07000113,TLJ43,Swale,0.36361999805024414,0.011563955565990875,3,Swale,nominal_gva_mn_gbp,good
+E07000114,TLJ44,Thanet,0.20370280747581446,0.005174841763576225,3,Thanet,nominal_gva_mn_gbp,good
+E07000115,TLJ46,Tonbridge and Malling,0.3838819896811723,0.012911158141857563,3,Tonbridge and Malling,nominal_gva_mn_gbp,good
+E07000116,TLJ46,Tunbridge Wells,0.2799282697565812,0.004162086800863493,3,Tunbridge Wells,nominal_gva_mn_gbp,good
+E07000117,TLD46,Burnley,0.32916981704382803,0.010518042648233302,3,Burnley,nominal_gva_mn_gbp,good
+E07000118,TLD47,Chorley,0.44026014612800307,0.0073962602272211785,3,Chorley,nominal_gva_mn_gbp,good
+E07000119,TLD45,Fylde,0.2043885270828981,0.0057414093157503055,3,Fylde,nominal_gva_mn_gbp,good
+E07000120,TLD46,Hyndburn,0.2332115976085062,0.003978092433225489,3,Hyndburn,nominal_gva_mn_gbp,good
+E07000121,TLD44,Lancaster,0.6352563923196276,0.012873240376605434,3,Lancaster,nominal_gva_mn_gbp,good
+E07000122,TLD46,Pendle,0.2676984704407785,0.006854735433840138,3,Pendle,nominal_gva_mn_gbp,good
+E07000123,TLD45,Preston,0.3462592562478086,0.005964446514232996,3,Preston,nominal_gva_mn_gbp,good
+E07000124,TLD45,Ribble Valley,0.14619216239603386,0.007664469216708331,3,Ribble Valley,nominal_gva_mn_gbp,good
+E07000125,TLD46,Rossendale,0.1699201149068873,0.004005425190910809,3,Rossendale,nominal_gva_mn_gbp,good
+E07000126,TLD45,South Ribble,0.30316005427325937,0.003997348440617067,3,South Ribble,nominal_gva_mn_gbp,good
+E07000127,TLD47,West Lancashire,0.559739853871997,0.007396260227221228,3,West Lancashire,nominal_gva_mn_gbp,good
+E07000128,TLD44,Wyre,0.36474360768037234,0.01287324037660547,3,Wyre,nominal_gva_mn_gbp,good
+E07000129,TLF22,Blaby,0.19766472992647785,0.01322572245330967,3,Blaby,nominal_gva_mn_gbp,good
+E07000130,TLF22,Charnwood,0.20229410791330446,0.005072808636723368,3,Charnwood,nominal_gva_mn_gbp,good
+E07000131,TLF22,Harborough,0.11415913661373657,0.0034517341660042756,3,Harborough,nominal_gva_mn_gbp,good
+E07000132,TLF22,Hinckley and Bosworth,0.12774174097776006,0.005013079414517029,3,Hinckley and Bosworth,nominal_gva_mn_gbp,good
+E07000133,TLF22,Melton,0.06573209250728242,0.003686687349922605,3,Melton,nominal_gva_mn_gbp,good
+E07000134,TLF22,North West Leicestershire,0.20389300331543989,0.0008992519329318963,3,North West Leicestershire,nominal_gva_mn_gbp,good
+E07000135,TLF22,Oadby and Wigston,0.04215161716655311,0.0010583165230229187,3,Oadby and Wigston,nominal_gva_mn_gbp,good
+E07000136,TLF30,Boston,0.08658579227536178,0.0005417125794492624,3,Boston,nominal_gva_mn_gbp,good
+E07000137,TLF30,East Lindsey,0.15146209093619076,0.0004536487261438696,3,East Lindsey,nominal_gva_mn_gbp,good
+E07000138,TLF30,Lincoln,0.16666733047528828,0.0018260859310128797,3,Lincoln,nominal_gva_mn_gbp,good
+E07000139,TLF30,North Kesteven,0.1736970929712506,0.0023620696689747155,3,North Kesteven,nominal_gva_mn_gbp,good
+E07000140,TLF30,South Holland,0.13758140904493474,0.005149157250164879,3,South Holland,nominal_gva_mn_gbp,good
+E07000141,TLF30,South Kesteven,0.1758683104766141,0.0025467667721957997,3,South Kesteven,nominal_gva_mn_gbp,good
+E07000142,TLF30,West Lindsey,0.10813797382035971,0.001163175669090777,3,West Lindsey,nominal_gva_mn_gbp,good
+E07000143,TLH53,Breckland,0.4646395838622195,0.004573736620856361,3,Breckland,nominal_gva_mn_gbp,good
+E07000144,TLH51,Broadland,0.4088403969264094,0.004490680477548342,3,Broadland,nominal_gva_mn_gbp,good
+E07000145,TLH51,Great Yarmouth,0.18990257393710366,0.008865418585318393,3,Great Yarmouth,nominal_gva_mn_gbp,good
+E07000146,TLH52,King's Lynn and West Norfolk,0.6574024502354462,0.0031343250681992365,3,King's Lynn and West Norfolk,nominal_gva_mn_gbp,good
+E07000147,TLH52,North Norfolk,0.34259754976455375,0.003134325068199239,3,North Norfolk,nominal_gva_mn_gbp,good
+E07000148,TLH51,Norwich,0.401257029136487,0.005438764893867097,3,Norwich,nominal_gva_mn_gbp,good
+E07000149,TLH53,South Norfolk,0.5353604161377805,0.0045737366208562944,3,South Norfolk,nominal_gva_mn_gbp,good
+E07000170,TLF15,Ashfield,0.2897021856009237,0.006339974391190998,3,Ashfield,nominal_gva_mn_gbp,good
+E07000171,TLF15,Bassetlaw,0.25393296870551674,0.0016382092284139076,3,Bassetlaw,nominal_gva_mn_gbp,good
+E07000172,TLF16,Broxtowe,0.32504247584889834,0.0041434754152670835,3,Broxtowe,nominal_gva_mn_gbp,good
+E07000173,TLF16,Gedling,0.23705065077607024,0.006492459949619798,3,Gedling,nominal_gva_mn_gbp,good
+E07000174,TLF15,Mansfield,0.18544135808073658,0.004033837623898569,3,Mansfield,nominal_gva_mn_gbp,good
+E07000175,TLF15,Newark and Sherwood,0.27092348761282303,0.005431448990452599,3,Newark and Sherwood,nominal_gva_mn_gbp,good
+E07000176,TLF16,Rushcliffe,0.4379068733750315,0.004888336932935574,3,Rushcliffe,nominal_gva_mn_gbp,good
+E07000177,TLJ14,Cherwell,0.20448470132126695,0.0035678316805238283,3,Cherwell,nominal_gva_mn_gbp,good
+E07000178,TLJ14,Oxford,0.2976218395668156,0.00470081344350864,3,Oxford,nominal_gva_mn_gbp,good
+E07000179,TLJ14,South Oxfordshire,0.17684690034463488,0.006320156434564658,3,South Oxfordshire,nominal_gva_mn_gbp,good
+E07000180,TLJ14,Vale of White Horse,0.197801166795903,0.00524482909070464,3,Vale of White Horse,nominal_gva_mn_gbp,good
+E07000181,TLJ14,West Oxfordshire,0.12324539197137956,0.0024910285231846577,3,West Oxfordshire,nominal_gva_mn_gbp,good
+E07000192,TLG24,Cannock Chase,0.10812902254964214,0.002189886255961472,3,Cannock Chase,nominal_gva_mn_gbp,good
+E07000193,TLG24,East Staffordshire,0.19187161254346977,0.0025946383160888138,3,East Staffordshire,nominal_gva_mn_gbp,good
+E07000194,TLG24,Lichfield,0.13520155142498727,0.0023121799801390703,3,Lichfield,nominal_gva_mn_gbp,good
+E07000195,TLG24,Newcastle-under-Lyme,0.11942333856370126,0.0014641894875670658,3,Newcastle-under-Lyme,nominal_gva_mn_gbp,good
+E07000196,TLG24,South Staffordshire,0.10293501630683966,0.0028872611036280813,3,South Staffordshire,nominal_gva_mn_gbp,good
+E07000197,TLG24,Stafford,0.1689280744304028,0.0023221556557739722,3,Stafford,nominal_gva_mn_gbp,good
+E07000198,TLG24,Staffordshire Moorlands,0.08191536663740014,0.0004614942068909316,3,Staffordshire Moorlands,nominal_gva_mn_gbp,good
+E07000199,TLG24,Tamworth,0.09159601754355699,0.0037375065078545907,3,Tamworth,nominal_gva_mn_gbp,good
+E07000200,TLH61,Babergh,0.44135907860655116,0.006135813311780571,3,Babergh,nominal_gva_mn_gbp,good
+E07000202,TLH62,Ipswich,1.0,0.0,3,Ipswich,nominal_gva_mn_gbp,good
+E07000203,TLH61,Mid Suffolk,0.5586409213934488,0.006135813311780591,3,Mid Suffolk,nominal_gva_mn_gbp,good
+E07000207,TLJ25,Elmbridge,0.1993875095259948,0.008522170886163577,3,Elmbridge,nominal_gva_mn_gbp,good
+E07000208,TLJ26,Epsom and Ewell,0.12333495576103799,0.002728716052169154,3,Epsom and Ewell,nominal_gva_mn_gbp,good
+E07000209,TLJ25,Guildford,0.1798805401773609,0.0011042078453153358,3,Guildford,nominal_gva_mn_gbp,good
+E07000210,TLJ26,Mole Valley,0.301852265463377,0.011352934272607423,3,Mole Valley,nominal_gva_mn_gbp,good
+E07000211,TLJ26,Reigate and Banstead,0.4359121813987528,0.010003743214326106,3,Reigate and Banstead,nominal_gva_mn_gbp,good
+E07000212,TLJ25,Runnymede,0.19935880950976914,0.008389822592065242,3,Runnymede,nominal_gva_mn_gbp,good
+E07000213,TLJ25,Spelthorne,0.11300338503361002,0.00419120918856887,3,Spelthorne,nominal_gva_mn_gbp,good
+E07000214,TLJ25,Surrey Heath,0.10991529589542608,0.003142744993318306,3,Surrey Heath,nominal_gva_mn_gbp,good
+E07000215,TLJ26,Tandridge,0.13890059737683222,0.0018501110906919338,3,Tandridge,nominal_gva_mn_gbp,good
+E07000216,TLJ25,Waverley,0.10877962239526773,0.0006082015339374823,3,Waverley,nominal_gva_mn_gbp,good
+E07000217,TLJ25,Woking,0.08967483746257136,0.0022935404978446537,3,Woking,nominal_gva_mn_gbp,good
+E07000218,TLG13,North Warwickshire,0.15235691137506688,0.003902992474423589,3,North Warwickshire,nominal_gva_mn_gbp,good
+E07000219,TLG13,Nuneaton and Bedworth,0.11070300734864225,0.004136548997491276,3,Nuneaton and Bedworth,nominal_gva_mn_gbp,good
+E07000220,TLG13,Rugby,0.15933664956019197,0.0018236241780399346,3,Rugby,nominal_gva_mn_gbp,good
+E07000221,TLG13,Stratford-on-Avon,0.25053049128033206,0.004671306239083019,3,Stratford-on-Avon,nominal_gva_mn_gbp,good
+E07000222,TLG13,Warwick,0.3270729404357669,0.010341764386781792,3,Warwick,nominal_gva_mn_gbp,good
+E07000223,TLJ27,Adur,0.10032424674239737,0.0022590986806132777,3,Adur,nominal_gva_mn_gbp,good
+E07000224,TLJ27,Arun,0.22500951960707324,0.0069260227752982705,3,Arun,nominal_gva_mn_gbp,good
+E07000225,TLJ27,Chichester,0.30774871013273003,0.0018220784872230648,3,Chichester,nominal_gva_mn_gbp,good
+E07000226,TLJ28,Crawley,0.41306492063473615,0.00835520852543995,3,Crawley,nominal_gva_mn_gbp,good
+E07000227,TLJ28,Horsham,0.29157368325814476,0.008617117092736713,3,Horsham,nominal_gva_mn_gbp,good
+E07000228,TLJ28,Mid Sussex,0.2953613961071191,0.0013523133115783776,3,Mid Sussex,nominal_gva_mn_gbp,good
+E07000229,TLJ27,Worthing,0.3669175235177993,0.010395560854492801,3,Worthing,nominal_gva_mn_gbp,good
+E07000234,TLG12,Bromsgrove,0.21109435298938475,0.008149452843637542,3,Bromsgrove,nominal_gva_mn_gbp,good
+E07000235,TLG12,Malvern Hills,0.11602896601858449,0.0018076132222804835,3,Malvern Hills,nominal_gva_mn_gbp,good
+E07000236,TLG12,Redditch,0.13870116975303798,0.0013607521567834374,3,Redditch,nominal_gva_mn_gbp,good
+E07000237,TLG12,Worcester,0.21801741542939776,0.001335932696593684,3,Worcester,nominal_gva_mn_gbp,good
+E07000238,TLG12,Wychavon,0.2137798160159632,0.0072448668099936026,3,Wychavon,nominal_gva_mn_gbp,good
+E07000239,TLG12,Wyre Forest,0.10237827979363183,0.0022361287717073976,3,Wyre Forest,nominal_gva_mn_gbp,good
+E07000240,TLH27,St Albans,0.1923857798946236,0.004268624255131735,3,St Albans,nominal_gva_mn_gbp,good
+E07000241,TLH26,Welwyn Hatfield,0.3016798721688303,0.009740074829395689,3,Welwyn Hatfield,nominal_gva_mn_gbp,good
+E07000242,TLH26,East Hertfordshire,0.23016838912546667,0.00878663031371776,3,East Hertfordshire,nominal_gva_mn_gbp,good
+E07000243,TLH26,Stevenage,0.13836622655561612,0.003689080307574088,3,Stevenage,nominal_gva_mn_gbp,good
+E07000244,TLH63,East Suffolk,1.0,0.0,3,East Suffolk,nominal_gva_mn_gbp,good
+E07000245,TLH64,West Suffolk,1.0,0.0,3,West Suffolk,nominal_gva_mn_gbp,good
+E08000001,TLD36,Bolton,0.5234119087717205,0.005953910641661231,3,Bolton,nominal_gva_mn_gbp,good
+E08000002,TLD37,Bury,0.30535205089379125,0.008331903133434479,3,Bury,nominal_gva_mn_gbp,good
+E08000003,TLD33,Manchester,1.0,0.0,3,Manchester,nominal_gva_mn_gbp,good
+E08000004,TLD37,Oldham,0.356183968003062,0.004443477621598767,3,Oldham,nominal_gva_mn_gbp,good
+E08000005,TLD37,Rochdale,0.33846398110314685,0.004844018188952465,3,Rochdale,nominal_gva_mn_gbp,good
+E08000006,TLD34,Salford,0.47154550781612664,0.005714568864400264,3,Salford,nominal_gva_mn_gbp,good
+E08000007,TLD35,Stockport,0.6919443701334952,0.008984272101570453,3,Stockport,nominal_gva_mn_gbp,good
+E08000008,TLD35,Tameside,0.30805562986650475,0.00898427210157049,3,Tameside,nominal_gva_mn_gbp,good
+E08000009,TLD34,Trafford,0.5284544921838733,0.005714568864400292,3,Trafford,nominal_gva_mn_gbp,good
+E08000010,TLD36,Wigan,0.47658809122827944,0.005953910641661303,3,Wigan,nominal_gva_mn_gbp,good
+E08000011,TLD71,Knowsley,0.3534889322512354,0.0013715738505621045,3,Knowsley,nominal_gva_mn_gbp,good
+E08000012,TLD72,Liverpool,1.0,0.0,3,Liverpool,nominal_gva_mn_gbp,good
+E08000013,TLD71,St. Helens,0.2532995698731485,0.00852136018024993,3,St. Helens,nominal_gva_mn_gbp,good
+E08000014,TLD73,Sefton,1.0,0.0,3,Sefton,nominal_gva_mn_gbp,good
+E08000015,TLD74,Wirral,1.0,0.0,3,Wirral,nominal_gva_mn_gbp,good
+E08000016,TLE33,Barnsley,1.0,0.0,3,Barnsley,nominal_gva_mn_gbp,good
+E08000017,TLE35,Doncaster,1.0,0.0,3,Doncaster,nominal_gva_mn_gbp,good
+E08000018,TLE34,Rotherham,1.0,0.0,3,Rotherham,nominal_gva_mn_gbp,good
+E08000019,TLE36,Sheffield,1.0,0.0,3,Sheffield,nominal_gva_mn_gbp,good
+E08000021,TLC43,Newcastle upon Tyne,0.4747638217483608,0.0070997937437734995,3,Newcastle upon Tyne,nominal_gva_mn_gbp,good
+E08000022,TLC43,North Tyneside,0.23099727288022429,0.004120487926500856,3,North Tyneside,nominal_gva_mn_gbp,good
+E08000023,TLC43,South Tyneside,0.08953160983965529,0.002701182885667609,3,South Tyneside,nominal_gva_mn_gbp,good
+E08000024,TLC44,Sunderland,1.0,0.0,3,Sunderland,nominal_gva_mn_gbp,good
+E08000025,TLG31,Birmingham,1.0,0.0,3,Birmingham,nominal_gva_mn_gbp,good
+E08000026,TLG33,Coventry,1.0,0.0,3,Coventry,nominal_gva_mn_gbp,good
+E08000027,TLG36,Dudley,1.0,0.0,3,Dudley,nominal_gva_mn_gbp,good
+E08000028,TLG37,Sandwell,1.0,0.0,3,Sandwell,nominal_gva_mn_gbp,good
+E08000029,TLG32,Solihull,1.0,0.0,3,Solihull,nominal_gva_mn_gbp,good
+E08000030,TLG38,Walsall,1.0,0.0,3,Walsall,nominal_gva_mn_gbp,good
+E08000031,TLG39,Wolverhampton,1.0,0.0,3,Wolverhampton,nominal_gva_mn_gbp,good
+E08000032,TLE41,Bradford,1.0,0.0,3,Bradford,nominal_gva_mn_gbp,good
+E08000033,TLE44,Calderdale,0.39711939971173454,0.016829282977553383,3,Calderdale,nominal_gva_mn_gbp,good
+E08000034,TLE44,Kirklees,0.6028806002882655,0.016829282977553425,3,Kirklees,nominal_gva_mn_gbp,good
+E08000035,TLE42,Leeds,1.0,0.0,3,Leeds,nominal_gva_mn_gbp,good
+E08000036,TLE45,Wakefield,1.0,0.0,3,Wakefield,nominal_gva_mn_gbp,good
+E08000037,TLC43,Gateshead,0.20470729553175962,0.007771707427592554,3,Gateshead,nominal_gva_mn_gbp,good
+E09000001,TLI35,City of London,0.5328410098030634,0.007524863377039093,3,City of London,nominal_gva_mn_gbp,good
+E09000002,TLI52,Barking and Dagenham,0.35796691874790926,0.0034542773672345947,3,Barking and Dagenham,nominal_gva_mn_gbp,good
+E09000003,TLI71,Barnet,1.0,0.0,3,Barnet,nominal_gva_mn_gbp,good
+E09000004,TLI51,Bexley,0.5152727778168885,0.009282908463109741,3,Bexley,nominal_gva_mn_gbp,good
+E09000005,TLI72,Brent,1.0,0.0,3,Brent,nominal_gva_mn_gbp,good
+E09000006,TLI61,Bromley,1.0,0.0,3,Bromley,nominal_gva_mn_gbp,good
+E09000007,TLI36,Camden,1.0,0.0,3,Camden,nominal_gva_mn_gbp,good
+E09000008,TLI62,Croydon,1.0,0.0,3,Croydon,nominal_gva_mn_gbp,good
+E09000009,TLI73,Ealing,1.0,0.0,3,Ealing,nominal_gva_mn_gbp,good
+E09000010,TLI54,Enfield,1.0,0.0,3,Enfield,nominal_gva_mn_gbp,good
+E09000011,TLI51,Greenwich,0.48472722218311154,0.009282908463109727,3,Greenwich,nominal_gva_mn_gbp,good
+E09000012,TLI41,Hackney,0.6031228833515125,0.007650019641764241,3,Hackney,nominal_gva_mn_gbp,good
+E09000013,TLI33,Hammersmith and Fulham,0.5385999934049169,0.020496984427759955,3,Hammersmith and Fulham,nominal_gva_mn_gbp,good
+E09000014,TLI43,Haringey,0.15765364954244127,0.0037823505431480004,3,Haringey,nominal_gva_mn_gbp,good
+E09000015,TLI74,Harrow,0.30266007777208026,0.011733871558094591,3,Harrow,nominal_gva_mn_gbp,good
+E09000016,TLI52,Havering,0.6420330812520908,0.0034542773672346237,3,Havering,nominal_gva_mn_gbp,good
+E09000017,TLI74,Hillingdon,0.6973399222279197,0.01173387155809464,3,Hillingdon,nominal_gva_mn_gbp,good
+E09000018,TLI75,Hounslow,0.6673003561702134,0.015258120852489709,3,Hounslow,nominal_gva_mn_gbp,good
+E09000019,TLI43,Islington,0.8423463504575588,0.00378235054314801,3,Islington,nominal_gva_mn_gbp,good
+E09000020,TLI33,Kensington and Chelsea,0.4614000065950831,0.02049698442775996,3,Kensington and Chelsea,nominal_gva_mn_gbp,good
+E09000021,TLI63,Kingston upon Thames,0.3150422714119871,0.0028187312653260785,3,Kingston upon Thames,nominal_gva_mn_gbp,good
+E09000022,TLI45,Lambeth,1.0,0.0,3,Lambeth,nominal_gva_mn_gbp,good
+E09000023,TLI44,Lewisham,0.14392427540673403,0.0065048678728694374,3,Lewisham,nominal_gva_mn_gbp,good
+E09000024,TLI63,Merton,0.3859666867933203,0.006674341446363658,3,Merton,nominal_gva_mn_gbp,good
+E09000025,TLI41,Newham,0.39687711664848746,0.007650019641764227,3,Newham,nominal_gva_mn_gbp,good
+E09000026,TLI53,Redbridge,0.5363242262233573,0.002908017040059594,3,Redbridge,nominal_gva_mn_gbp,good
+E09000027,TLI75,Richmond upon Thames,0.3326996438297865,0.015258120852489662,3,Richmond upon Thames,nominal_gva_mn_gbp,good
+E09000028,TLI44,Southwark,0.856075724593266,0.006504867872869416,3,Southwark,nominal_gva_mn_gbp,good
+E09000029,TLI63,Sutton,0.29899104179469266,0.004197706233597265,3,Sutton,nominal_gva_mn_gbp,good
+E09000030,TLI42,Tower Hamlets,1.0,0.0,3,Tower Hamlets,nominal_gva_mn_gbp,good
+E09000031,TLI53,Waltham Forest,0.46367577377664276,0.002908017040059639,3,Waltham Forest,nominal_gva_mn_gbp,good
+E09000032,TLI34,Wandsworth,1.0,0.0,3,Wandsworth,nominal_gva_mn_gbp,good
+E09000033,TLI35,Westminster,0.46715899019693663,0.007524863377039144,3,Westminster,nominal_gva_mn_gbp,good
+N09000001,TLN0D,Antrim and Newtownabbey,1.0,0.0,3,Antrim and Newtownabbey,nominal_gva_mn_gbp,good
+N09000002,TLN07,"Armagh City, Banbridge and Craigavon",1.0,0.0,3,"Armagh City, Banbridge and Craigavon",nominal_gva_mn_gbp,good
+N09000003,TLN06,Belfast,1.0,0.0,3,Belfast,nominal_gva_mn_gbp,good
+N09000004,TLN0C,Causeway Coast and Glens,1.0,0.0,3,Causeway Coast and Glens,nominal_gva_mn_gbp,good
+N09000005,TLN0A,Derry City and Strabane,1.0,0.0,3,Derry City and Strabane,nominal_gva_mn_gbp,good
+N09000006,TLN0G,Fermanagh and Omagh,1.0,0.0,3,Fermanagh and Omagh,nominal_gva_mn_gbp,good
+N09000007,TLN0E,Lisburn and Castlereagh,1.0,0.0,3,Lisburn and Castlereagh,nominal_gva_mn_gbp,good
+N09000008,TLN0F,Mid and East Antrim,1.0,0.0,3,Mid and East Antrim,nominal_gva_mn_gbp,good
+N09000009,TLN0B,Mid Ulster,1.0,0.0,3,Mid Ulster,nominal_gva_mn_gbp,good
+N09000010,TLN08,"Newry, Mourne and Down",1.0,0.0,3,"Newry, Mourne and Down",nominal_gva_mn_gbp,good
+N09000011,TLN09,Ards and North Down,1.0,0.0,3,Ards and North Down,nominal_gva_mn_gbp,good
+S12000005,TLM01,Clackmannanshire,0.12815278641032588,0.005347276115018096,3,Clackmannanshire,nominal_gva_mn_gbp,good
+S12000006,TLM92,Dumfries and Galloway,1.0,0.0,3,Dumfries and Galloway,nominal_gva_mn_gbp,good
+S12000008,TLM93,East Ayrshire,1.0,0.0,3,East Ayrshire,nominal_gva_mn_gbp,good
+S12000010,TLM11,East Lothian,0.5285594539635875,0.010211761835896832,3,East Lothian,nominal_gva_mn_gbp,good
+S12000011,TLM33,East Renfrewshire,0.17336069998684267,0.008012775290665835,3,East Renfrewshire,nominal_gva_mn_gbp,good
+S12000013,TLM20,Na h-Eileanan Siar,0.03604707546423964,0.002067610725412977,3,Na h-Eileanan Siar,nominal_gva_mn_gbp,good
+S12000014,TLM12,Falkirk,1.0,0.0,3,Falkirk,nominal_gva_mn_gbp,good
+S12000017,TLM20,Highland,0.4158327824717256,0.0031931574247915403,3,Highland,nominal_gva_mn_gbp,good
+S12000018,TLM33,Inverclyde,0.15773900089399515,0.0024929884700659695,3,Inverclyde,nominal_gva_mn_gbp,good
+S12000019,TLM11,Midlothian,0.47144054603641244,0.010211761835896857,3,Midlothian,nominal_gva_mn_gbp,good
+S12000020,TLM20,Moray,0.1586391296971568,0.0014726284902768989,3,Moray,nominal_gva_mn_gbp,good
+S12000021,TLM20,North Ayrshire,0.16257832901990774,0.0032030704166808705,3,North Ayrshire,nominal_gva_mn_gbp,good
+S12000023,TLM20,Orkney Islands,0.037776908968108126,0.0005712258209862333,3,Orkney Islands,nominal_gva_mn_gbp,good
+S12000026,TLM91,Scottish Borders,1.0,0.0,3,Scottish Borders,nominal_gva_mn_gbp,good
+S12000027,TLM20,Shetland Islands,0.04790495652902488,0.0023381060297309793,3,Shetland Islands,nominal_gva_mn_gbp,good
+S12000028,TLM94,South Ayrshire,1.0,0.0,3,South Ayrshire,nominal_gva_mn_gbp,good
+S12000029,TLM95,South Lanarkshire,1.0,0.0,3,South Lanarkshire,nominal_gva_mn_gbp,good
+S12000030,TLM02,Stirling,0.3988951825448639,0.004937324493840665,3,Stirling,nominal_gva_mn_gbp,good
+S12000033,TLM50,Aberdeen City,0.5998956718056863,0.005473594683401585,3,Aberdeen City,nominal_gva_mn_gbp,good
+S12000034,TLM50,Aberdeenshire,0.40010432819431374,0.005473594683401587,3,Aberdeenshire,nominal_gva_mn_gbp,good
+S12000035,TLM20,Argyll and Bute,0.14122081784983725,0.0013453450305984415,3,Argyll and Bute,nominal_gva_mn_gbp,good
+S12000036,TLM13,City of Edinburgh,1.0,0.0,3,City of Edinburgh,nominal_gva_mn_gbp,good
+S12000038,TLM33,Renfrewshire,0.6689002991191623,0.009502317059705554,3,Renfrewshire,nominal_gva_mn_gbp,good
+S12000039,TLM31,West Dunbartonshire,0.5774919471285637,0.014740202582738287,3,West Dunbartonshire,nominal_gva_mn_gbp,good
+S12000040,TLM14,West Lothian,1.0,0.0,3,West Lothian,nominal_gva_mn_gbp,good
+S12000041,TLM03,Angus,0.3747577368489867,0.007688748483531076,3,Angus,nominal_gva_mn_gbp,good
+S12000042,TLM03,Dundee City,0.6252422631510133,0.007688748483531108,3,Dundee City,nominal_gva_mn_gbp,good
+S12000045,TLM31,East Dunbartonshire,0.4225080528714364,0.014740202582738358,3,East Dunbartonshire,nominal_gva_mn_gbp,good
+S12000047,TLM01,Fife,0.8718472135896741,0.005347276115018125,3,Fife,nominal_gva_mn_gbp,good
+S12000048,TLM02,Perth and Kinross,0.6011048174551361,0.004937324493840645,3,Perth and Kinross,nominal_gva_mn_gbp,good
+S12000049,TLM32,Glasgow City,1.0,0.0,3,Glasgow City,nominal_gva_mn_gbp,good
+S12000050,TLM34,North Lanarkshire,1.0,0.0,3,North Lanarkshire,nominal_gva_mn_gbp,good
+W06000001,TLL31,Isle of Anglesey,1.0,0.0,3,Isle of Anglesey,nominal_gva_mn_gbp,good
+W06000002,TLL32,Gwynedd,1.0,0.0,3,Gwynedd,nominal_gva_mn_gbp,good
+W06000003,TLL33,Conwy,0.4741774787512066,0.006350184415638459,3,Conwy,nominal_gva_mn_gbp,good
+W06000004,TLL33,Denbighshire,0.5258225212487934,0.006350184415638468,3,Denbighshire,nominal_gva_mn_gbp,good
+W06000005,TLL34,Flintshire,0.5574941076540432,0.004013276860454034,3,Flintshire,nominal_gva_mn_gbp,good
+W06000006,TLL34,Wrexham,0.44250589234595683,0.0040132768604540766,3,Wrexham,nominal_gva_mn_gbp,good
+W06000008,TLL41,Ceredigion,0.379487468743054,0.004405938151850312,3,Ceredigion,nominal_gva_mn_gbp,good
+W06000009,TLL42,Pembrokeshire,0.42064986839136614,0.01127901414797342,3,Pembrokeshire,nominal_gva_mn_gbp,good
+W06000010,TLL42,Carmarthenshire,0.5793501316086339,0.01127901414797345,3,Carmarthenshire,nominal_gva_mn_gbp,good
+W06000011,TLL43,Swansea,1.0,0.0,3,Swansea,nominal_gva_mn_gbp,good
+W06000012,TLL44,Neath Port Talbot,1.0,0.0,3,Neath Port Talbot,nominal_gva_mn_gbp,good
+W06000013,TLL51,Bridgend,0.3801303911540566,0.00786591677407963,3,Bridgend,nominal_gva_mn_gbp,good
+W06000014,TLL52,Vale of Glamorgan,0.1326976076471232,0.00280565596234419,3,Vale of Glamorgan,nominal_gva_mn_gbp,good
+W06000015,TLL52,Cardiff,0.8673023923528769,0.0028056559623442037,3,Cardiff,nominal_gva_mn_gbp,good
+W06000016,TLL51,Rhondda Cynon Taf,0.49918446052487353,0.009190492506731516,3,Rhondda Cynon Taf,nominal_gva_mn_gbp,good
+W06000018,TLL53,Caerphilly,0.5316510273118921,0.01116352835313664,3,Caerphilly,nominal_gva_mn_gbp,good
+W06000019,TLL53,Blaenau Gwent,0.17316551923277898,0.007181345251784224,3,Blaenau Gwent,nominal_gva_mn_gbp,good
+W06000020,TLL53,Torfaen,0.295183453455329,0.005047091508203208,3,Torfaen,nominal_gva_mn_gbp,good
+W06000021,TLL54,Monmouthshire,0.3390511999231096,0.004342646584828221,3,Monmouthshire,nominal_gva_mn_gbp,good
+W06000022,TLL54,Newport,0.6609488000768904,0.004342646584828259,3,Newport,nominal_gva_mn_gbp,good
+W06000023,TLL41,Powys,0.620512531256946,0.00440593815185028,3,Powys,nominal_gva_mn_gbp,good
+W06000024,TLL51,Merthyr Tydfil,0.12068514832106988,0.004572557342552883,3,Merthyr Tydfil,nominal_gva_mn_gbp,good
+E06000001,TLC31,Hartlepool,0.31259647264188944,0.00036282517052965756,3,Hartlepool,gdhi_total_mn_gbp,good
+E06000002,TLC32,Middlesbrough,0.5053609864207526,0.0023170958841149426,3,Middlesbrough,gdhi_total_mn_gbp,good
+E06000003,TLC32,Redcar and Cleveland,0.49463901357924756,0.0023170958841149795,3,Redcar and Cleveland,gdhi_total_mn_gbp,good
+E06000004,TLC31,Stockton-on-Tees,0.6874035273581106,0.0003628251705296576,3,Stockton-on-Tees,gdhi_total_mn_gbp,good
+E06000005,TLC33,Darlington,1.0,0.0,3,Darlington,gdhi_total_mn_gbp,good
+E06000006,TLD71,Halton,0.28121719259178407,0.004215699619394167,3,Halton,gdhi_total_mn_gbp,good
+E06000007,TLD61,Warrington,1.0,0.0,3,Warrington,gdhi_total_mn_gbp,good
+E06000008,TLD41,Blackburn with Darwen,1.0,0.0,3,Blackburn with Darwen,gdhi_total_mn_gbp,good
+E06000009,TLD42,Blackpool,1.0,0.0,3,Blackpool,gdhi_total_mn_gbp,good
+E06000010,TLE11,"Kingston upon Hull, City of",1.0,0.0,3,"Kingston upon Hull, City of",gdhi_total_mn_gbp,good
+E06000011,TLE12,East Riding of Yorkshire,1.0,0.0,3,East Riding of Yorkshire,gdhi_total_mn_gbp,good
+E06000012,TLE13,North East Lincolnshire,0.480627103674432,0.0007086156737872152,3,North East Lincolnshire,gdhi_total_mn_gbp,good
+E06000013,TLE13,North Lincolnshire,0.519372896325568,0.0007086156737872128,3,North Lincolnshire,gdhi_total_mn_gbp,good
+E06000014,TLE21,York,1.0,0.0,3,York,gdhi_total_mn_gbp,good
+E06000015,TLF11,Derby,1.0,0.0,3,Derby,gdhi_total_mn_gbp,good
+E06000016,TLF21,Leicester,1.0,0.0,3,Leicester,gdhi_total_mn_gbp,good
+E06000017,TLF22,Rutland,0.06677093566110516,0.0030850040675826254,3,Rutland,gdhi_total_mn_gbp,good
+E06000018,TLF14,Nottingham,1.0,0.0,3,Nottingham,gdhi_total_mn_gbp,good
+E06000019,TLG11,"Herefordshire, County of",1.0,0.0,3,"Herefordshire, County of",gdhi_total_mn_gbp,good
+E06000020,TLG21,Telford and Wrekin,1.0,0.0,3,Telford and Wrekin,gdhi_total_mn_gbp,good
+E06000021,TLG23,Stoke-on-Trent,1.0,0.0,3,Stoke-on-Trent,gdhi_total_mn_gbp,good
+E06000022,TLK52,Bath and North East Somerset,0.41683014132580437,0.0006302916500072867,3,Bath and North East Somerset,gdhi_total_mn_gbp,good
+E06000023,TLK51,"Bristol, City of",1.0,0.0,3,"Bristol, City of",gdhi_total_mn_gbp,good
+E06000024,TLK61,North Somerset,1.0,0.0,3,North Somerset,gdhi_total_mn_gbp,good
+E06000025,TLK52,South Gloucestershire,0.5831698586741957,0.0006302916500072182,3,South Gloucestershire,gdhi_total_mn_gbp,good
+E06000026,TLK41,Plymouth,1.0,0.0,3,Plymouth,gdhi_total_mn_gbp,good
+E06000027,TLK42,Torbay,1.0,0.0,3,Torbay,gdhi_total_mn_gbp,good
+E06000030,TLK71,Swindon,1.0,0.0,3,Swindon,gdhi_total_mn_gbp,good
+E06000031,TLH41,Peterborough,1.0,0.0,3,Peterborough,gdhi_total_mn_gbp,good
+E06000032,TLH21,Luton,1.0,0.0,3,Luton,gdhi_total_mn_gbp,good
+E06000033,TLH31,Southend-on-Sea,1.0,0.0,3,Southend-on-Sea,gdhi_total_mn_gbp,good
+E06000034,TLH32,Thurrock,1.0,0.0,3,Thurrock,gdhi_total_mn_gbp,good
+E06000035,TLJ41,Medway,1.0,0.0,3,Medway,gdhi_total_mn_gbp,good
+E06000036,TLJ15,Bracknell Forest,0.2746644437840846,0.0018051847239695575,3,Bracknell Forest,gdhi_total_mn_gbp,good
+E06000037,TLJ16,West Berkshire,0.33703553225630256,0.005196152415216157,3,West Berkshire,gdhi_total_mn_gbp,good
+E06000038,TLJ16,Reading,0.2916122298742619,0.0027680867610128082,3,Reading,gdhi_total_mn_gbp,good
+E06000039,TLJ15,Slough,0.2704351703081572,0.00023128205218098035,3,Slough,gdhi_total_mn_gbp,good
+E06000040,TLJ15,Windsor and Maidenhead,0.4549003859077582,0.0017218630517923453,3,Windsor and Maidenhead,gdhi_total_mn_gbp,good
+E06000041,TLJ16,Wokingham,0.37135223786943555,0.002542805148404932,3,Wokingham,gdhi_total_mn_gbp,good
+E06000042,TLJ12,Milton Keynes,1.0,0.0,3,Milton Keynes,gdhi_total_mn_gbp,good
+E06000043,TLJ21,Brighton and Hove,1.0,0.0,3,Brighton and Hove,gdhi_total_mn_gbp,good
+E06000044,TLJ31,Portsmouth,1.0,0.0,3,Portsmouth,gdhi_total_mn_gbp,good
+E06000045,TLJ32,Southampton,1.0,0.0,3,Southampton,gdhi_total_mn_gbp,good
+E06000046,TLJ34,Isle of Wight,1.0,0.0,3,Isle of Wight,gdhi_total_mn_gbp,good
+E06000047,TLC41,County Durham,1.0,0.0,3,County Durham,gdhi_total_mn_gbp,good
+E06000049,TLD62,Cheshire East,1.0,0.0,3,Cheshire East,gdhi_total_mn_gbp,good
+E06000050,TLD63,Cheshire West and Chester,1.0,0.0,3,Cheshire West and Chester,gdhi_total_mn_gbp,good
+E06000051,TLG22,Shropshire,1.0,0.0,3,Shropshire,gdhi_total_mn_gbp,good
+E06000052,TLK30,Cornwall,0.9957787729413045,0.00032784464887971736,3,Cornwall,gdhi_total_mn_gbp,good
+E06000053,TLK30,Isles of Scilly,0.004221227058695569,0.00032784464887968646,3,Isles of Scilly,gdhi_total_mn_gbp,good
+E06000054,TLK72,Wiltshire,1.0,0.0,3,Wiltshire,gdhi_total_mn_gbp,good
+E06000055,TLH24,Bedford,1.0,0.0,3,Bedford,gdhi_total_mn_gbp,good
+E06000056,TLH25,Central Bedfordshire,1.0,0.0,3,Central Bedfordshire,gdhi_total_mn_gbp,good
+E06000057,TLC42,Northumberland,1.0,0.0,3,Northumberland,gdhi_total_mn_gbp,good
+E06000058,TLK63,"Bournemouth, Christchurch and Poole",1.0,0.0,3,"Bournemouth, Christchurch and Poole",gdhi_total_mn_gbp,good
+E06000059,TLK64,Dorset,1.0,0.0,3,Dorset,gdhi_total_mn_gbp,good
+E06000060,TLJ13,Buckinghamshire,1.0,0.0,3,Buckinghamshire,gdhi_total_mn_gbp,good
+E06000061,TLF25,North Northamptonshire,1.0,0.0,3,North Northamptonshire,gdhi_total_mn_gbp,good
+E06000062,TLF24,West Northamptonshire,1.0,0.0,3,West Northamptonshire,gdhi_total_mn_gbp,good
+E06000063,TLD13,Cumberland,1.0,0.0,3,Cumberland,gdhi_total_mn_gbp,good
+E06000064,TLD14,Westmorland and Furness,1.0,0.0,3,Westmorland and Furness,gdhi_total_mn_gbp,good
+E06000065,TLE22,North Yorkshire,1.0,0.0,3,North Yorkshire,gdhi_total_mn_gbp,good
+E06000066,TLK62,Somerset,1.0,0.0,3,Somerset,gdhi_total_mn_gbp,good
+E07000008,TLH42,Cambridge,0.21194268092514248,0.0010843176813335102,3,Cambridge,gdhi_total_mn_gbp,good
+E07000009,TLH42,East Cambridgeshire,0.13367510487809958,0.00046019353479488683,3,East Cambridgeshire,gdhi_total_mn_gbp,good
+E07000010,TLH42,Fenland,0.12094813031082104,0.0005076388786548859,3,Fenland,gdhi_total_mn_gbp,good
+E07000011,TLH42,Huntingdonshire,0.24932814263093825,0.0004393956106919213,3,Huntingdonshire,gdhi_total_mn_gbp,good
+E07000012,TLH42,South Cambridgeshire,0.2841059412549987,0.0014120548917838911,3,South Cambridgeshire,gdhi_total_mn_gbp,good
+E07000032,TLF13,Amber Valley,0.23793609280167313,0.0013710832444068662,3,Amber Valley,gdhi_total_mn_gbp,good
+E07000033,TLF12,Bolsover,0.26317836011351986,0.0006451294536791992,3,Bolsover,gdhi_total_mn_gbp,good
+E07000034,TLF12,Chesterfield,0.35284367861017896,0.0002492536857732289,3,Chesterfield,gdhi_total_mn_gbp,good
+E07000035,TLF13,Derbyshire Dales,0.17649570721685862,0.005160901441387747,3,Derbyshire Dales,gdhi_total_mn_gbp,good
+E07000036,TLF13,Erewash,0.1979783481538351,0.0019539953755591173,3,Erewash,gdhi_total_mn_gbp,good
+E07000037,TLF13,High Peak,0.1757211471794117,0.002821418059772189,3,High Peak,gdhi_total_mn_gbp,good
+E07000038,TLF12,North East Derbyshire,0.3839779612763012,0.0008940313325714212,3,North East Derbyshire,gdhi_total_mn_gbp,good
+E07000039,TLF13,South Derbyshire,0.2118687046482214,0.0009825855097803737,3,South Derbyshire,gdhi_total_mn_gbp,good
+E07000040,TLK43,East Devon,0.19897668524116804,0.002922628707872159,3,East Devon,gdhi_total_mn_gbp,good
+E07000041,TLK43,Exeter,0.1390529945273555,0.0008737239623862134,3,Exeter,gdhi_total_mn_gbp,good
+E07000042,TLK43,Mid Devon,0.1001197718435309,0.0016951200457524353,3,Mid Devon,gdhi_total_mn_gbp,good
+E07000043,TLK43,North Devon,0.11556676107199237,0.001992987898662017,3,North Devon,gdhi_total_mn_gbp,good
+E07000044,TLK43,South Hams,0.13145364223652609,0.002104004490155128,3,South Hams,gdhi_total_mn_gbp,good
+E07000045,TLK43,Teignbridge,0.16803303587308818,0.001137738776925437,3,Teignbridge,gdhi_total_mn_gbp,good
+E07000046,TLK43,Torridge,0.07649444125514372,0.0004895991841096598,3,Torridge,gdhi_total_mn_gbp,good
+E07000047,TLK43,West Devon,0.07030266795119516,0.0002276509274747516,3,West Devon,gdhi_total_mn_gbp,good
+E07000061,TLJ22,Eastbourne,0.16335369516754683,0.0029687688429918665,3,Eastbourne,gdhi_total_mn_gbp,good
+E07000062,TLJ22,Hastings,0.13302436941874304,0.002355794177253005,3,Hastings,gdhi_total_mn_gbp,good
+E07000063,TLJ22,Lewes,0.1960699550232782,0.004934811212411443,3,Lewes,gdhi_total_mn_gbp,good
+E07000064,TLJ22,Rother,0.17297371839552778,0.0006945504866242083,3,Rother,gdhi_total_mn_gbp,good
+E07000065,TLJ22,Wealden,0.3345782619949041,0.00039599236513229496,3,Wealden,gdhi_total_mn_gbp,good
+E07000066,TLH37,Basildon,0.5005740239850703,0.0018872467604051154,3,Basildon,gdhi_total_mn_gbp,good
+E07000067,TLH34,Braintree,0.3295582264209688,0.0006601195315002888,3,Braintree,gdhi_total_mn_gbp,good
+E07000068,TLH36,Brentwood,0.279216194525591,0.00162381215959256,3,Brentwood,gdhi_total_mn_gbp,good
+E07000069,TLH37,Castle Point,0.24882490423806558,0.0004480322041722852,3,Castle Point,gdhi_total_mn_gbp,good
+E07000070,TLH36,Chelmsford,0.5319376872876603,0.0010714102930182467,3,Chelmsford,gdhi_total_mn_gbp,good
+E07000071,TLH34,Colchester,0.38074911215018786,0.0015297297000535616,3,Colchester,gdhi_total_mn_gbp,good
+E07000072,TLH35,Epping Forest,0.4958741785231213,0.019886436685119864,3,Epping Forest,gdhi_total_mn_gbp,good
+E07000073,TLH35,Harlow,0.20495008674682205,0.0029501165013328438,3,Harlow,gdhi_total_mn_gbp,good
+E07000074,TLH36,Maldon,0.18884611818674876,0.0005836561617635015,3,Maldon,gdhi_total_mn_gbp,good
+E07000075,TLH37,Rochford,0.250601071776864,0.0023352736106458803,3,Rochford,gdhi_total_mn_gbp,good
+E07000076,TLH34,Tendring,0.28969266142884337,0.0018133506375336186,3,Tendring,gdhi_total_mn_gbp,good
+E07000077,TLH35,Uttlesford,0.2991757347300566,0.016938491103177807,3,Uttlesford,gdhi_total_mn_gbp,good
+E07000078,TLK73,Cheltenham,0.18467546046235897,0.002418223317914564,3,Cheltenham,gdhi_total_mn_gbp,good
+E07000079,TLK73,Cotswold,0.1947078031595104,0.0022276287187774123,3,Cotswold,gdhi_total_mn_gbp,good
+E07000080,TLK73,Forest of Dean,0.1170726368979114,0.00015787105770788802,3,Forest of Dean,gdhi_total_mn_gbp,good
+E07000081,TLK73,Gloucester,0.16031408873589326,0.002033258077968166,3,Gloucester,gdhi_total_mn_gbp,good
+E07000082,TLK73,Stroud,0.19771978587474706,0.0009450420510750169,3,Stroud,gdhi_total_mn_gbp,good
+E07000083,TLK73,Tewkesbury,0.1455102248695789,0.0031833965862298925,3,Tewkesbury,gdhi_total_mn_gbp,good
+E07000084,TLJ37,Basingstoke and Deane,0.4838918729577655,0.0027186949707694616,3,Basingstoke and Deane,gdhi_total_mn_gbp,good
+E07000085,TLJ36,East Hampshire,0.23181182567210548,0.0017190041825386427,3,East Hampshire,gdhi_total_mn_gbp,good
+E07000086,TLJ35,Eastleigh,0.3036874741082714,0.0020525479940812397,3,Eastleigh,gdhi_total_mn_gbp,good
+E07000087,TLJ35,Fareham,0.2656175148868118,0.0021265570707030296,3,Fareham,gdhi_total_mn_gbp,good
+E07000088,TLJ35,Gosport,0.15904264529649828,0.0022926772635301668,3,Gosport,gdhi_total_mn_gbp,good
+E07000089,TLJ37,Hart,0.302053555078494,0.0012440201453395444,3,Hart,gdhi_total_mn_gbp,good
+E07000090,TLJ35,Havant,0.2716523657084185,0.0023381759005743014,3,Havant,gdhi_total_mn_gbp,good
+E07000091,TLJ36,New Forest,0.2973723429609807,0.0037099065408342452,3,New Forest,gdhi_total_mn_gbp,good
+E07000092,TLJ37,Rushmoor,0.21405457196374048,0.00160343426450367,3,Rushmoor,gdhi_total_mn_gbp,good
+E07000093,TLJ36,Test Valley,0.2223927137922155,0.00128201394430691,3,Test Valley,gdhi_total_mn_gbp,good
+E07000094,TLJ36,Winchester,0.2484231175746983,0.004152914645147489,3,Winchester,gdhi_total_mn_gbp,good
+E07000095,TLH26,Broxbourne,0.15415768588156276,0.0009693850148865368,3,Broxbourne,gdhi_total_mn_gbp,good
+E07000096,TLH27,Dacorum,0.23175980526534368,0.0014375368979873272,3,Dacorum,gdhi_total_mn_gbp,good
+E07000098,TLH27,Hertsmere,0.19576940644475405,0.0002750764960677933,3,Hertsmere,gdhi_total_mn_gbp,good
+E07000099,TLH26,North Hertfordshire,0.2345696405879835,0.0005169308847361241,3,North Hertfordshire,gdhi_total_mn_gbp,good
+E07000102,TLH27,Three Rivers,0.1636876979350337,0.0030117798410579577,3,Three Rivers,gdhi_total_mn_gbp,good
+E07000103,TLH27,Watford,0.13181385566528156,0.0005053978347832412,3,Watford,gdhi_total_mn_gbp,good
+E07000105,TLJ45,Ashford,0.4267136890880064,0.0014598442006917662,3,Ashford,gdhi_total_mn_gbp,good
+E07000106,TLJ44,Canterbury,0.2999872192975706,0.0005814228639385402,3,Canterbury,gdhi_total_mn_gbp,good
+E07000107,TLJ43,Dartford,0.3217485842261754,0.002019165370886066,3,Dartford,gdhi_total_mn_gbp,good
+E07000108,TLJ44,Dover,0.22193398169167053,0.0009287827936004361,3,Dover,gdhi_total_mn_gbp,good
+E07000109,TLJ43,Gravesham,0.2857382364189289,0.0009801873784778309,3,Gravesham,gdhi_total_mn_gbp,good
+E07000110,TLJ45,Maidstone,0.5732863109119936,0.0014598442006917391,3,Maidstone,gdhi_total_mn_gbp,good
+E07000111,TLJ46,Sevenoaks,0.36880594097355973,0.004272625949820113,3,Sevenoaks,gdhi_total_mn_gbp,good
+E07000112,TLJ44,Folkestone and Hythe,0.2180409920428199,0.0019966183366203006,3,Folkestone and Hythe,gdhi_total_mn_gbp,good
+E07000113,TLJ43,Swale,0.39251317935489566,0.0010404221045967124,3,Swale,gdhi_total_mn_gbp,good
+E07000114,TLJ44,Thanet,0.260037806967939,0.001085463873006325,3,Thanet,gdhi_total_mn_gbp,good
+E07000115,TLJ46,Tonbridge and Malling,0.3129814726677789,0.0024468920139025254,3,Tonbridge and Malling,gdhi_total_mn_gbp,good
+E07000116,TLJ46,Tunbridge Wells,0.31821258635866134,0.0020686913218669212,3,Tunbridge Wells,gdhi_total_mn_gbp,good
+E07000117,TLD46,Burnley,0.25964275645971585,0.001616662419450994,3,Burnley,gdhi_total_mn_gbp,good
+E07000118,TLD47,Chorley,0.4896494683176347,0.005781926542124309,3,Chorley,gdhi_total_mn_gbp,good
+E07000119,TLD45,Fylde,0.2346744752762343,0.0037395101959266414,3,Fylde,gdhi_total_mn_gbp,good
+E07000120,TLD46,Hyndburn,0.2253891866212899,0.003804415197030233,3,Hyndburn,gdhi_total_mn_gbp,good
+E07000121,TLD44,Lancaster,0.5264357679451683,0.005020790216229756,3,Lancaster,gdhi_total_mn_gbp,good
+E07000122,TLD46,Pendle,0.27429743066372353,0.0005911864054818334,3,Pendle,gdhi_total_mn_gbp,good
+E07000123,TLD45,Preston,0.3054464220576436,0.0017247053272996722,3,Preston,gdhi_total_mn_gbp,good
+E07000124,TLD45,Ribble Valley,0.1979086642484231,0.001609397748587193,3,Ribble Valley,gdhi_total_mn_gbp,good
+E07000125,TLD46,Rossendale,0.24067062625527078,0.00567483926752076,3,Rossendale,gdhi_total_mn_gbp,good
+E07000126,TLD45,South Ribble,0.261970438417699,0.0037332942134555274,3,South Ribble,gdhi_total_mn_gbp,good
+E07000127,TLD47,West Lancashire,0.5103505316823653,0.0057819265421243495,3,West Lancashire,gdhi_total_mn_gbp,good
+E07000128,TLD44,Wyre,0.47356423205483167,0.005020790216229756,3,Wyre,gdhi_total_mn_gbp,good
+E07000129,TLF22,Blaby,0.12380624434105875,0.001233604890945299,3,Blaby,gdhi_total_mn_gbp,good
+E07000130,TLF22,Charnwood,0.22795217301892046,0.0012240079263665616,3,Charnwood,gdhi_total_mn_gbp,good
+E07000131,TLF22,Harborough,0.15680826020486852,0.0021962206690480037,3,Harborough,gdhi_total_mn_gbp,good
+E07000132,TLF22,Hinckley and Bosworth,0.14420387381112673,0.001000105986250112,3,Hinckley and Bosworth,gdhi_total_mn_gbp,good
+E07000133,TLF22,Melton,0.07362677692668412,0.0015078084080433344,3,Melton,gdhi_total_mn_gbp,good
+E07000134,TLF22,North West Leicestershire,0.13625509274110734,0.0006728060783362449,3,North West Leicestershire,gdhi_total_mn_gbp,good
+E07000135,TLF22,Oadby and Wigston,0.0705766432951289,0.0002031126684755863,3,Oadby and Wigston,gdhi_total_mn_gbp,good
+E07000136,TLF30,Boston,0.08239953359323085,0.001401188306210398,3,Boston,gdhi_total_mn_gbp,good
+E07000137,TLF30,East Lindsey,0.18788806003657732,0.0028697433408335776,3,East Lindsey,gdhi_total_mn_gbp,good
+E07000138,TLF30,Lincoln,0.10957203995175971,0.00019136974248306078,3,Lincoln,gdhi_total_mn_gbp,good
+E07000139,TLF30,North Kesteven,0.15870383080534373,0.0018435050394829584,3,North Kesteven,gdhi_total_mn_gbp,good
+E07000140,TLF30,South Holland,0.11942836185884677,0.0005228625973106827,3,South Holland,gdhi_total_mn_gbp,good
+E07000141,TLF30,South Kesteven,0.21203354444826478,0.00033150392468205063,3,South Kesteven,gdhi_total_mn_gbp,good
+E07000142,TLF30,West Lindsey,0.12997462930597695,0.0025516415880115313,3,West Lindsey,gdhi_total_mn_gbp,good
+E07000143,TLH53,Breckland,0.46927571724047845,0.0008635662180801061,3,Breckland,gdhi_total_mn_gbp,good
+E07000144,TLH51,Broadland,0.40327069352278033,0.006984042033929784,3,Broadland,gdhi_total_mn_gbp,good
+E07000145,TLH51,Great Yarmouth,0.2475472469167229,0.005745358233636977,3,Great Yarmouth,gdhi_total_mn_gbp,good
+E07000146,TLH52,King's Lynn and West Norfolk,0.5826033221626051,0.001496496609000194,3,King's Lynn and West Norfolk,gdhi_total_mn_gbp,good
+E07000147,TLH52,North Norfolk,0.4173966778373949,0.0014964966090002352,3,North Norfolk,gdhi_total_mn_gbp,good
+E07000148,TLH51,Norwich,0.3491820595604968,0.0012732976261485187,3,Norwich,gdhi_total_mn_gbp,good
+E07000149,TLH53,South Norfolk,0.5307242827595217,0.0008635662180800841,3,South Norfolk,gdhi_total_mn_gbp,good
+E07000170,TLF15,Ashfield,0.23523005533670505,0.0013670067664821022,3,Ashfield,gdhi_total_mn_gbp,good
+E07000171,TLF15,Bassetlaw,0.255608772820072,0.0009383766451827232,3,Bassetlaw,gdhi_total_mn_gbp,good
+E07000172,TLF16,Broxtowe,0.2861926956560025,0.0038337923175046,3,Broxtowe,gdhi_total_mn_gbp,good
+E07000173,TLF16,Gedling,0.31220050298939067,0.0023487650087865735,3,Gedling,gdhi_total_mn_gbp,good
+E07000174,TLF15,Mansfield,0.21914961950263093,0.001987354894222775,3,Mansfield,gdhi_total_mn_gbp,good
+E07000175,TLF15,Newark and Sherwood,0.290011552340592,0.0017137817840070669,3,Newark and Sherwood,gdhi_total_mn_gbp,good
+E07000176,TLF16,Rushcliffe,0.4016068013546068,0.0061814851363497245,3,Rushcliffe,gdhi_total_mn_gbp,good
+E07000177,TLJ14,Cherwell,0.20638953529654092,0.0007016426620782241,3,Cherwell,gdhi_total_mn_gbp,good
+E07000178,TLJ14,Oxford,0.18979754013358294,0.002113008581739961,3,Oxford,gdhi_total_mn_gbp,good
+E07000179,TLJ14,South Oxfordshire,0.23701597010350137,0.0025439463754908073,3,South Oxfordshire,gdhi_total_mn_gbp,good
+E07000180,TLJ14,Vale of White Horse,0.19441125586268068,0.0008770581729582221,3,Vale of White Horse,gdhi_total_mn_gbp,good
+E07000181,TLJ14,West Oxfordshire,0.1723856986036941,0.004202800577706647,3,West Oxfordshire,gdhi_total_mn_gbp,good
+E07000192,TLG24,Cannock Chase,0.10151416206263941,0.0003904508465324701,3,Cannock Chase,gdhi_total_mn_gbp,good
+E07000193,TLG24,East Staffordshire,0.13357472282086724,0.0012412571037662228,3,East Staffordshire,gdhi_total_mn_gbp,good
+E07000194,TLG24,Lichfield,0.143292101868599,0.0011575037692914331,3,Lichfield,gdhi_total_mn_gbp,good
+E07000195,TLG24,Newcastle-under-Lyme,0.12998569543893185,0.0030779123557754277,3,Newcastle-under-Lyme,gdhi_total_mn_gbp,good
+E07000196,TLG24,South Staffordshire,0.14070415885779644,0.001147286378133008,3,South Staffordshire,gdhi_total_mn_gbp,good
+E07000197,TLG24,Stafford,0.16533742374683605,0.0012902750595729859,3,Stafford,gdhi_total_mn_gbp,good
+E07000198,TLG24,Staffordshire Moorlands,0.10798464507155026,0.0008741134890342934,3,Staffordshire Moorlands,gdhi_total_mn_gbp,good
+E07000199,TLG24,Tamworth,0.07760709013277976,0.0012630038313733538,3,Tamworth,gdhi_total_mn_gbp,good
+E07000200,TLH61,Babergh,0.4848704204330856,0.005233119966314495,3,Babergh,gdhi_total_mn_gbp,good
+E07000202,TLH62,Ipswich,1.0,0.0,3,Ipswich,gdhi_total_mn_gbp,good
+E07000203,TLH61,Mid Suffolk,0.5151295795669144,0.005233119966314439,3,Mid Suffolk,gdhi_total_mn_gbp,good
+E07000207,TLJ25,Elmbridge,0.22961717338176435,0.00048394403941288863,3,Elmbridge,gdhi_total_mn_gbp,good
+E07000208,TLJ26,Epsom and Ewell,0.1842944602668836,0.002672147945505446,3,Epsom and Ewell,gdhi_total_mn_gbp,good
+E07000209,TLJ25,Guildford,0.1778547053628242,0.0023357717223803877,3,Guildford,gdhi_total_mn_gbp,good
+E07000210,TLJ26,Mole Valley,0.24041612168050638,0.0016589003132198568,3,Mole Valley,gdhi_total_mn_gbp,good
+E07000211,TLJ26,Reigate and Banstead,0.35675007523892727,0.0010265515083737401,3,Reigate and Banstead,gdhi_total_mn_gbp,good
+E07000212,TLJ25,Runnymede,0.09609243773579274,0.0003554978404148406,3,Runnymede,gdhi_total_mn_gbp,good
+E07000213,TLJ25,Spelthorne,0.10086671448440802,0.0031878147109275787,3,Spelthorne,gdhi_total_mn_gbp,good
+E07000214,TLJ25,Surrey Heath,0.1032719654417057,0.0008586481844028368,3,Surrey Heath,gdhi_total_mn_gbp,good
+E07000215,TLJ26,Tandridge,0.2185393428136827,0.0007581237400927542,3,Tandridge,gdhi_total_mn_gbp,good
+E07000216,TLJ25,Waverley,0.17520165382293018,0.0017346915729186784,3,Waverley,gdhi_total_mn_gbp,good
+E07000217,TLJ25,Woking,0.1170953497705748,9.670829286990618e-05,3,Woking,gdhi_total_mn_gbp,good
+E07000218,TLG13,North Warwickshire,0.09373551312172228,0.0013425380142626233,3,North Warwickshire,gdhi_total_mn_gbp,good
+E07000219,TLG13,Nuneaton and Bedworth,0.17531620435993778,0.0020433911185394143,3,Nuneaton and Bedworth,gdhi_total_mn_gbp,good
+E07000220,TLG13,Rugby,0.17366735710961348,0.0016171968019985433,3,Rugby,gdhi_total_mn_gbp,good
+E07000221,TLG13,Stratford-on-Avon,0.28309758141933555,0.00435090919076953,3,Stratford-on-Avon,gdhi_total_mn_gbp,good
+E07000222,TLG13,Warwick,0.274183343989391,0.0004551629615820324,3,Warwick,gdhi_total_mn_gbp,good
+E07000223,TLJ27,Adur,0.1220806564946254,0.0019274524797809462,3,Adur,gdhi_total_mn_gbp,good
+E07000224,TLJ27,Arun,0.3351625889286378,0.0005319587912290308,3,Arun,gdhi_total_mn_gbp,good
+E07000225,TLJ27,Chichester,0.3165144199503634,0.0019272903413541517,3,Chichester,gdhi_total_mn_gbp,good
+E07000226,TLJ28,Crawley,0.2172058891190464,0.0005201118843542746,3,Crawley,gdhi_total_mn_gbp,good
+E07000227,TLJ28,Horsham,0.3902882525227703,0.0013222518463738907,3,Horsham,gdhi_total_mn_gbp,good
+E07000228,TLJ28,Mid Sussex,0.3925058583581833,0.0013162357390475465,3,Mid Sussex,gdhi_total_mn_gbp,good
+E07000229,TLJ27,Worthing,0.22624233462637341,0.0005367851344632033,3,Worthing,gdhi_total_mn_gbp,good
+E07000234,TLG12,Bromsgrove,0.18802009302461084,0.004198760696575602,3,Bromsgrove,gdhi_total_mn_gbp,good
+E07000235,TLG12,Malvern Hills,0.1459143032635201,0.0005517095684467687,3,Malvern Hills,gdhi_total_mn_gbp,good
+E07000236,TLG12,Redditch,0.12753755685104365,0.0030123664851663835,3,Redditch,gdhi_total_mn_gbp,good
+E07000237,TLG12,Worcester,0.14353318692691244,0.0019535131175990434,3,Worcester,gdhi_total_mn_gbp,good
+E07000238,TLG12,Wychavon,0.2408481175233128,0.0020524259270320636,3,Wychavon,gdhi_total_mn_gbp,good
+E07000239,TLG12,Wyre Forest,0.15414674241060014,0.0015850477088595323,3,Wyre Forest,gdhi_total_mn_gbp,good
+E07000240,TLH27,St Albans,0.276969234689587,0.0018105143978819646,3,St Albans,gdhi_total_mn_gbp,good
+E07000241,TLH26,Welwyn Hatfield,0.19825453793601752,0.002087528894561523,3,Welwyn Hatfield,gdhi_total_mn_gbp,good
+E07000242,TLH26,East Hertfordshire,0.2936711815727768,0.0016047244173137583,3,East Hertfordshire,gdhi_total_mn_gbp,good
+E07000243,TLH26,Stevenage,0.11934695402165944,0.0024606206745355296,3,Stevenage,gdhi_total_mn_gbp,good
+E07000244,TLH63,East Suffolk,1.0,0.0,3,East Suffolk,gdhi_total_mn_gbp,good
+E07000245,TLH64,West Suffolk,1.0,0.0,3,West Suffolk,gdhi_total_mn_gbp,good
+E08000001,TLD36,Bolton,0.47375029511725203,0.003527491758383019,3,Bolton,gdhi_total_mn_gbp,good
+E08000002,TLD37,Bury,0.33341396376049454,0.00028821789474567014,3,Bury,gdhi_total_mn_gbp,good
+E08000003,TLD33,Manchester,1.0,0.0,3,Manchester,gdhi_total_mn_gbp,good
+E08000004,TLD37,Oldham,0.34094484861378754,8.133781650764933e-05,3,Oldham,gdhi_total_mn_gbp,good
+E08000005,TLD37,Rochdale,0.3256411876257179,0.00033017458747872997,3,Rochdale,gdhi_total_mn_gbp,good
+E08000006,TLD34,Salford,0.4704181455213195,0.0011205202212043175,3,Salford,gdhi_total_mn_gbp,good
+E08000007,TLD35,Stockport,0.6221349794258119,0.0027614220712520576,3,Stockport,gdhi_total_mn_gbp,good
+E08000008,TLD35,Tameside,0.3778650205741882,0.0027614220712520936,3,Tameside,gdhi_total_mn_gbp,good
+E08000009,TLD34,Trafford,0.5295818544786804,0.0011205202212043247,3,Trafford,gdhi_total_mn_gbp,good
+E08000010,TLD36,Wigan,0.526249704882748,0.0035274917583829482,3,Wigan,gdhi_total_mn_gbp,good
+E08000011,TLD71,Knowsley,0.32557380740498765,0.0012296365089771548,3,Knowsley,gdhi_total_mn_gbp,good
+E08000012,TLD72,Liverpool,1.0,0.0,3,Liverpool,gdhi_total_mn_gbp,good
+E08000013,TLD71,St. Helens,0.3932090000032282,0.0032234630577658847,3,St. Helens,gdhi_total_mn_gbp,good
+E08000014,TLD73,Sefton,1.0,0.0,3,Sefton,gdhi_total_mn_gbp,good
+E08000015,TLD74,Wirral,1.0,0.0,3,Wirral,gdhi_total_mn_gbp,good
+E08000016,TLE33,Barnsley,1.0,0.0,3,Barnsley,gdhi_total_mn_gbp,good
+E08000017,TLE35,Doncaster,1.0,0.0,3,Doncaster,gdhi_total_mn_gbp,good
+E08000018,TLE34,Rotherham,1.0,0.0,3,Rotherham,gdhi_total_mn_gbp,good
+E08000019,TLE36,Sheffield,1.0,0.0,3,Sheffield,gdhi_total_mn_gbp,good
+E08000021,TLC43,Newcastle upon Tyne,0.35245978563584485,0.001889262228390818,3,Newcastle upon Tyne,gdhi_total_mn_gbp,good
+E08000022,TLC43,North Tyneside,0.258587117394131,0.0006780885763349219,3,North Tyneside,gdhi_total_mn_gbp,good
+E08000023,TLC43,South Tyneside,0.16798215172393569,0.0004063469251231462,3,South Tyneside,gdhi_total_mn_gbp,good
+E08000024,TLC44,Sunderland,1.0,0.0,3,Sunderland,gdhi_total_mn_gbp,good
+E08000025,TLG31,Birmingham,1.0,0.0,3,Birmingham,gdhi_total_mn_gbp,good
+E08000026,TLG33,Coventry,1.0,0.0,3,Coventry,gdhi_total_mn_gbp,good
+E08000027,TLG36,Dudley,1.0,0.0,3,Dudley,gdhi_total_mn_gbp,good
+E08000028,TLG37,Sandwell,1.0,0.0,3,Sandwell,gdhi_total_mn_gbp,good
+E08000029,TLG32,Solihull,1.0,0.0,3,Solihull,gdhi_total_mn_gbp,good
+E08000030,TLG38,Walsall,1.0,0.0,3,Walsall,gdhi_total_mn_gbp,good
+E08000031,TLG39,Wolverhampton,1.0,0.0,3,Wolverhampton,gdhi_total_mn_gbp,good
+E08000032,TLE41,Bradford,1.0,0.0,3,Bradford,gdhi_total_mn_gbp,good
+E08000033,TLE44,Calderdale,0.3339653659491772,0.002011065153801356,3,Calderdale,gdhi_total_mn_gbp,good
+E08000034,TLE44,Kirklees,0.6660346340508229,0.002011065153801293,3,Kirklees,gdhi_total_mn_gbp,good
+E08000035,TLE42,Leeds,1.0,0.0,3,Leeds,gdhi_total_mn_gbp,good
+E08000036,TLE45,Wakefield,1.0,0.0,3,Wakefield,gdhi_total_mn_gbp,good
+E08000037,TLC43,Gateshead,0.22097094524608848,0.0017474686482770014,3,Gateshead,gdhi_total_mn_gbp,good
+E09000001,TLI35,City of London,0.09769625177481929,0.001883402509770378,3,City of London,gdhi_total_mn_gbp,good
+E09000002,TLI52,Barking and Dagenham,0.39368508308701616,0.0011043384154732947,3,Barking and Dagenham,gdhi_total_mn_gbp,good
+E09000003,TLI71,Barnet,1.0,0.0,3,Barnet,gdhi_total_mn_gbp,good
+E09000004,TLI51,Bexley,0.4371882554131008,0.0030620635123029595,3,Bexley,gdhi_total_mn_gbp,good
+E09000005,TLI72,Brent,1.0,0.0,3,Brent,gdhi_total_mn_gbp,good
+E09000006,TLI61,Bromley,1.0,0.0,3,Bromley,gdhi_total_mn_gbp,good
+E09000007,TLI36,Camden,1.0,0.0,3,Camden,gdhi_total_mn_gbp,good
+E09000008,TLI62,Croydon,1.0,0.0,3,Croydon,gdhi_total_mn_gbp,good
+E09000009,TLI73,Ealing,1.0,0.0,3,Ealing,gdhi_total_mn_gbp,good
+E09000010,TLI54,Enfield,1.0,0.0,3,Enfield,gdhi_total_mn_gbp,good
+E09000011,TLI51,Greenwich,0.5628117445868992,0.0030620635123029946,3,Greenwich,gdhi_total_mn_gbp,good
+E09000012,TLI41,Hackney,0.5053004172663589,0.0007887233621678284,3,Hackney,gdhi_total_mn_gbp,good
+E09000013,TLI33,Hammersmith and Fulham,0.37270026146165464,0.0026665360079664467,3,Hammersmith and Fulham,gdhi_total_mn_gbp,good
+E09000014,TLI43,Haringey,0.5127205541852496,0.004996673004802967,3,Haringey,gdhi_total_mn_gbp,good
+E09000015,TLI74,Harrow,0.5020367472111329,0.0009575468778034784,3,Harrow,gdhi_total_mn_gbp,good
+E09000016,TLI52,Havering,0.6063149169129838,0.001104338415473303,3,Havering,gdhi_total_mn_gbp,good
+E09000017,TLI74,Hillingdon,0.4979632527888671,0.0009575468778034266,3,Hillingdon,gdhi_total_mn_gbp,good
+E09000018,TLI75,Hounslow,0.46589585856377763,0.001459571545987034,3,Hounslow,gdhi_total_mn_gbp,good
+E09000019,TLI43,Islington,0.4872794458147503,0.00499667300480294,3,Islington,gdhi_total_mn_gbp,good
+E09000020,TLI33,Kensington and Chelsea,0.6272997385383453,0.0026665360079664436,3,Kensington and Chelsea,gdhi_total_mn_gbp,good
+E09000021,TLI63,Kingston upon Thames,0.2955153297970705,0.001107466282294359,3,Kingston upon Thames,gdhi_total_mn_gbp,good
+E09000022,TLI45,Lambeth,1.0,0.0,3,Lambeth,gdhi_total_mn_gbp,good
+E09000023,TLI44,Lewisham,0.4473109845268492,0.0020128371470701533,3,Lewisham,gdhi_total_mn_gbp,good
+E09000024,TLI63,Merton,0.4078588603130124,0.0017546050421247484,3,Merton,gdhi_total_mn_gbp,good
+E09000025,TLI41,Newham,0.4946995827336411,0.000788723362167852,3,Newham,gdhi_total_mn_gbp,good
+E09000026,TLI53,Redbridge,0.5243249578765042,0.002396108286056032,3,Redbridge,gdhi_total_mn_gbp,good
+E09000027,TLI75,Richmond upon Thames,0.5341041414362223,0.0014595715459870026,3,Richmond upon Thames,gdhi_total_mn_gbp,good
+E09000028,TLI44,Southwark,0.5526890154731509,0.002012837147070173,3,Southwark,gdhi_total_mn_gbp,good
+E09000029,TLI63,Sutton,0.29662580988991705,0.0028086706931348014,3,Sutton,gdhi_total_mn_gbp,good
+E09000030,TLI42,Tower Hamlets,1.0,0.0,3,Tower Hamlets,gdhi_total_mn_gbp,good
+E09000031,TLI53,Waltham Forest,0.4756750421234957,0.002396108286056005,3,Waltham Forest,gdhi_total_mn_gbp,good
+E09000032,TLI34,Wandsworth,1.0,0.0,3,Wandsworth,gdhi_total_mn_gbp,good
+E09000033,TLI35,Westminster,0.9023037482251808,0.001883402509770375,3,Westminster,gdhi_total_mn_gbp,good
+N09000001,TLN0D,Antrim and Newtownabbey,1.0,0.0,3,Antrim and Newtownabbey,gdhi_total_mn_gbp,good
+N09000002,TLN07,"Armagh City, Banbridge and Craigavon",1.0,0.0,3,"Armagh City, Banbridge and Craigavon",gdhi_total_mn_gbp,good
+N09000003,TLN06,Belfast,1.0,0.0,3,Belfast,gdhi_total_mn_gbp,good
+N09000004,TLN0C,Causeway Coast and Glens,1.0,0.0,3,Causeway Coast and Glens,gdhi_total_mn_gbp,good
+N09000005,TLN0A,Derry City and Strabane,1.0,0.0,3,Derry City and Strabane,gdhi_total_mn_gbp,good
+N09000006,TLN0G,Fermanagh and Omagh,1.0,0.0,3,Fermanagh and Omagh,gdhi_total_mn_gbp,good
+N09000007,TLN0E,Lisburn and Castlereagh,1.0,0.0,3,Lisburn and Castlereagh,gdhi_total_mn_gbp,good
+N09000008,TLN0F,Mid and East Antrim,1.0,0.0,3,Mid and East Antrim,gdhi_total_mn_gbp,good
+N09000009,TLN0B,Mid Ulster,1.0,0.0,3,Mid Ulster,gdhi_total_mn_gbp,good
+N09000010,TLN08,"Newry, Mourne and Down",1.0,0.0,3,"Newry, Mourne and Down",gdhi_total_mn_gbp,good
+N09000011,TLN09,Ards and North Down,1.0,0.0,3,Ards and North Down,gdhi_total_mn_gbp,good
+S12000005,TLM01,Clackmannanshire,0.12060492180378662,0.0006086815567862596,3,Clackmannanshire,gdhi_total_mn_gbp,good
+S12000006,TLM92,Dumfries and Galloway,1.0,0.0,3,Dumfries and Galloway,gdhi_total_mn_gbp,good
+S12000008,TLM93,East Ayrshire,1.0,0.0,3,East Ayrshire,gdhi_total_mn_gbp,good
+S12000010,TLM11,East Lothian,0.5613781966736817,0.002728629690008233,3,East Lothian,gdhi_total_mn_gbp,good
+S12000011,TLM33,East Renfrewshire,0.33144663538952357,0.008558476665197143,3,East Renfrewshire,gdhi_total_mn_gbp,good
+S12000013,TLM20,Na h-Eileanan Siar,0.04276260460913695,0.00040154600214571874,3,Na h-Eileanan Siar,gdhi_total_mn_gbp,good
+S12000014,TLM12,Falkirk,1.0,0.0,3,Falkirk,gdhi_total_mn_gbp,good
+S12000017,TLM20,Highland,0.3955176493559036,0.0015858839994205938,3,Highland,gdhi_total_mn_gbp,good
+S12000018,TLM33,Inverclyde,0.2051590848839193,0.00376384525107122,3,Inverclyde,gdhi_total_mn_gbp,good
+S12000019,TLM11,Midlothian,0.4386218033263183,0.002728629690008248,3,Midlothian,gdhi_total_mn_gbp,good
+S12000020,TLM20,Moray,0.14707454895103722,2.7043224113155834e-05,3,Moray,gdhi_total_mn_gbp,good
+S12000021,TLM20,North Ayrshire,0.19409249326237812,0.0006898198101897807,3,North Ayrshire,gdhi_total_mn_gbp,good
+S12000023,TLM20,Orkney Islands,0.034798278573386195,0.0010905115777828688,3,Orkney Islands,gdhi_total_mn_gbp,good
+S12000026,TLM91,Scottish Borders,1.0,0.0,3,Scottish Borders,gdhi_total_mn_gbp,good
+S12000027,TLM20,Shetland Islands,0.04087609223375188,0.00010578846995315804,3,Shetland Islands,gdhi_total_mn_gbp,good
+S12000028,TLM94,South Ayrshire,1.0,0.0,3,South Ayrshire,gdhi_total_mn_gbp,good
+S12000029,TLM95,South Lanarkshire,1.0,0.0,3,South Lanarkshire,gdhi_total_mn_gbp,good
+S12000030,TLM02,Stirling,0.37858673655556374,0.0017839068294785681,3,Stirling,gdhi_total_mn_gbp,good
+S12000033,TLM50,Aberdeen City,0.4393998404249424,0.002702863964112673,3,Aberdeen City,gdhi_total_mn_gbp,good
+S12000034,TLM50,Aberdeenshire,0.5606001595750576,0.0027028639641127382,3,Aberdeenshire,gdhi_total_mn_gbp,good
+S12000035,TLM20,Argyll and Bute,0.14487833301440597,0.0017333526244824044,3,Argyll and Bute,gdhi_total_mn_gbp,good
+S12000036,TLM13,City of Edinburgh,1.0,0.0,3,City of Edinburgh,gdhi_total_mn_gbp,good
+S12000038,TLM33,Renfrewshire,0.4633942797265571,0.004947157100679047,3,Renfrewshire,gdhi_total_mn_gbp,good
+S12000039,TLM31,West Dunbartonshire,0.3551880769853069,0.00750650062180549,3,West Dunbartonshire,gdhi_total_mn_gbp,good
+S12000040,TLM14,West Lothian,1.0,0.0,3,West Lothian,gdhi_total_mn_gbp,good
+S12000041,TLM03,Angus,0.4756419455514225,0.0032721271950531153,3,Angus,gdhi_total_mn_gbp,good
+S12000042,TLM03,Dundee City,0.5243580544485775,0.0032721271950531413,3,Dundee City,gdhi_total_mn_gbp,good
+S12000045,TLM31,East Dunbartonshire,0.644811923014693,0.007506500621805496,3,East Dunbartonshire,gdhi_total_mn_gbp,good
+S12000047,TLM01,Fife,0.8793950781962134,0.0006086815567862888,3,Fife,gdhi_total_mn_gbp,good
+S12000048,TLM02,Perth and Kinross,0.6214132634444363,0.0017839068294785744,3,Perth and Kinross,gdhi_total_mn_gbp,good
+S12000049,TLM32,Glasgow City,1.0,0.0,3,Glasgow City,gdhi_total_mn_gbp,good
+S12000050,TLM34,North Lanarkshire,1.0,0.0,3,North Lanarkshire,gdhi_total_mn_gbp,good
+W06000001,TLL31,Isle of Anglesey,1.0,0.0,3,Isle of Anglesey,gdhi_total_mn_gbp,good
+W06000002,TLL32,Gwynedd,1.0,0.0,3,Gwynedd,gdhi_total_mn_gbp,good
+W06000003,TLL33,Conwy,0.5537336637567275,0.0005838020980959863,3,Conwy,gdhi_total_mn_gbp,good
+W06000004,TLL33,Denbighshire,0.44626633624327255,0.0005838020980959685,3,Denbighshire,gdhi_total_mn_gbp,good
+W06000005,TLL34,Flintshire,0.5597540591477249,0.008060862365929207,3,Flintshire,gdhi_total_mn_gbp,good
+W06000006,TLL34,Wrexham,0.44024594085227503,0.008060862365929296,3,Wrexham,gdhi_total_mn_gbp,good
+W06000008,TLL41,Ceredigion,0.3359500638470583,0.002196097871670666,3,Ceredigion,gdhi_total_mn_gbp,good
+W06000009,TLL42,Pembrokeshire,0.40637281530944963,0.0018037878869339118,3,Pembrokeshire,gdhi_total_mn_gbp,good
+W06000010,TLL42,Carmarthenshire,0.5936271846905504,0.0018037878869338597,3,Carmarthenshire,gdhi_total_mn_gbp,good
+W06000011,TLL43,Swansea,1.0,0.0,3,Swansea,gdhi_total_mn_gbp,good
+W06000012,TLL44,Neath Port Talbot,1.0,0.0,3,Neath Port Talbot,gdhi_total_mn_gbp,good
+W06000013,TLL51,Bridgend,0.35072349045664913,0.004248007504812583,3,Bridgend,gdhi_total_mn_gbp,good
+W06000014,TLL52,Vale of Glamorgan,0.298882968895047,0.0017839889108557624,3,Vale of Glamorgan,gdhi_total_mn_gbp,good
+W06000015,TLL52,Cardiff,0.701117031104953,0.0017839889108557925,3,Cardiff,gdhi_total_mn_gbp,good
+W06000016,TLL51,Rhondda Cynon Taf,0.5219508340651415,0.005608081915397358,3,Rhondda Cynon Taf,gdhi_total_mn_gbp,good
+W06000018,TLL53,Caerphilly,0.5402279844665492,0.0006131544462269547,3,Caerphilly,gdhi_total_mn_gbp,good
+W06000019,TLL53,Blaenau Gwent,0.17721721458449805,0.0022791429318362554,3,Blaenau Gwent,gdhi_total_mn_gbp,good
+W06000020,TLL53,Torfaen,0.28255480094895274,0.0026609064977955624,3,Torfaen,gdhi_total_mn_gbp,good
+W06000021,TLL54,Monmouthshire,0.43816300391258084,0.0009279555099133552,3,Monmouthshire,gdhi_total_mn_gbp,good
+W06000022,TLL54,Newport,0.5618369960874191,0.000927955509913343,3,Newport,gdhi_total_mn_gbp,good
+W06000023,TLL41,Powys,0.6640499361529417,0.002196097871670656,3,Powys,gdhi_total_mn_gbp,good
+W06000024,TLL51,Merthyr Tydfil,0.12732567547820936,0.0013636990001301451,3,Merthyr Tydfil,gdhi_total_mn_gbp,good
+E06000001,TLC31,Hartlepool,0.2686407493472711,0.004089271486263023,4,Hartlepool,emp_total_jobs,good
+E06000002,TLC32,Middlesbrough,0.618960417373347,0.0035391940518145447,4,Middlesbrough,emp_total_jobs,good
+E06000003,TLC32,Redcar and Cleveland,0.3810395826266531,0.0035391940518145217,4,Redcar and Cleveland,emp_total_jobs,good
+E06000004,TLC31,Stockton-on-Tees,0.7313592506527289,0.004089271486262991,4,Stockton-on-Tees,emp_total_jobs,good
+E06000005,TLC33,Darlington,1.0,0.0,4,Darlington,emp_total_jobs,good
+E06000006,TLD71,Halton,0.3193966358988479,0.012947572643863056,4,Halton,emp_total_jobs,good
+E06000007,TLD61,Warrington,1.0,0.0,4,Warrington,emp_total_jobs,good
+E06000008,TLD41,Blackburn with Darwen,1.0,0.0,4,Blackburn with Darwen,emp_total_jobs,good
+E06000009,TLD42,Blackpool,1.0,0.0,4,Blackpool,emp_total_jobs,good
+E06000010,TLE11,"Kingston upon Hull, City of",1.0,0.0,4,"Kingston upon Hull, City of",emp_total_jobs,good
+E06000011,TLE12,East Riding of Yorkshire,1.0,0.0,4,East Riding of Yorkshire,emp_total_jobs,good
+E06000012,TLE13,North East Lincolnshire,0.474531777240758,0.0031594782710341078,4,North East Lincolnshire,emp_total_jobs,good
+E06000013,TLE13,North Lincolnshire,0.525468222759242,0.0031594782710341546,4,North Lincolnshire,emp_total_jobs,good
+E06000014,TLE21,York,1.0,0.0,4,York,emp_total_jobs,good
+E06000015,TLF11,Derby,1.0,0.0,4,Derby,emp_total_jobs,good
+E06000016,TLF21,Leicester,1.0,0.0,4,Leicester,emp_total_jobs,good
+E06000017,TLF22,Rutland,0.04525395400226125,0.001886055594822129,4,Rutland,emp_total_jobs,good
+E06000018,TLF14,Nottingham,1.0,0.0,4,Nottingham,emp_total_jobs,good
+E06000019,TLG11,"Herefordshire, County of",1.0,0.0,4,"Herefordshire, County of",emp_total_jobs,good
+E06000020,TLG21,Telford and Wrekin,1.0,0.0,4,Telford and Wrekin,emp_total_jobs,good
+E06000021,TLG23,Stoke-on-Trent,1.0,0.0,4,Stoke-on-Trent,emp_total_jobs,good
+E06000022,TLK52,Bath and North East Somerset,0.3650956957673734,0.004324257680919935,4,Bath and North East Somerset,emp_total_jobs,good
+E06000023,TLK51,"Bristol, City of",1.0,0.0,4,"Bristol, City of",emp_total_jobs,good
+E06000024,TLK61,North Somerset,1.0,0.0,4,North Somerset,emp_total_jobs,good
+E06000025,TLK52,South Gloucestershire,0.6349043042326266,0.004324257680919913,4,South Gloucestershire,emp_total_jobs,good
+E06000026,TLK41,Plymouth,1.0,0.0,4,Plymouth,emp_total_jobs,good
+E06000027,TLK42,Torbay,1.0,0.0,4,Torbay,emp_total_jobs,good
+E06000030,TLK71,Swindon,1.0,0.0,4,Swindon,emp_total_jobs,good
+E06000031,TLH41,Peterborough,1.0,0.0,4,Peterborough,emp_total_jobs,good
+E06000032,TLH21,Luton,1.0,0.0,4,Luton,emp_total_jobs,good
+E06000033,TLH31,Southend-on-Sea,1.0,0.0,4,Southend-on-Sea,emp_total_jobs,good
+E06000034,TLH32,Thurrock,1.0,0.0,4,Thurrock,emp_total_jobs,good
+E06000035,TLJ41,Medway,1.0,0.0,4,Medway,emp_total_jobs,good
+E06000036,TLJ15,Bracknell Forest,0.25453798017928075,0.012062878408294193,4,Bracknell Forest,emp_total_jobs,good
+E06000037,TLJ16,West Berkshire,0.326184616474795,0.006640592748102214,4,West Berkshire,emp_total_jobs,good
+E06000038,TLJ16,Reading,0.3819639314058957,0.004643977524182274,4,Reading,emp_total_jobs,good
+E06000039,TLJ15,Slough,0.34987001102306525,0.026623501280706244,4,Slough,emp_total_jobs,good
+E06000040,TLJ15,Windsor and Maidenhead,0.395592008797654,0.028162774687797636,4,Windsor and Maidenhead,emp_total_jobs,good
+E06000041,TLJ16,Wokingham,0.29185145211930924,0.0063638971387152115,4,Wokingham,emp_total_jobs,good
+E06000042,TLJ12,Milton Keynes,1.0,0.0,4,Milton Keynes,emp_total_jobs,good
+E06000043,TLJ21,Brighton and Hove,1.0,0.0,4,Brighton and Hove,emp_total_jobs,good
+E06000044,TLJ31,Portsmouth,1.0,0.0,4,Portsmouth,emp_total_jobs,good
+E06000045,TLJ32,Southampton,1.0,0.0,4,Southampton,emp_total_jobs,good
+E06000046,TLJ34,Isle of Wight,1.0,0.0,4,Isle of Wight,emp_total_jobs,good
+E06000047,TLC41,County Durham,1.0,0.0,4,County Durham,emp_total_jobs,good
+E06000049,TLD62,Cheshire East,1.0,0.0,4,Cheshire East,emp_total_jobs,good
+E06000050,TLD63,Cheshire West and Chester,1.0,0.0,4,Cheshire West and Chester,emp_total_jobs,good
+E06000051,TLG22,Shropshire,1.0,0.0,4,Shropshire,emp_total_jobs,good
+E06000052,TLK30,Cornwall,0.9949574837507005,0.0007771735620318815,4,Cornwall,emp_total_jobs,good
+E06000053,TLK30,Isles of Scilly,0.005042516249299531,0.0007771735620319241,4,Isles of Scilly,emp_total_jobs,good
+E06000054,TLK72,Wiltshire,1.0,0.0,4,Wiltshire,emp_total_jobs,good
+E06000055,TLH24,Bedford,1.0,0.0,4,Bedford,emp_total_jobs,good
+E06000056,TLH25,Central Bedfordshire,1.0,0.0,4,Central Bedfordshire,emp_total_jobs,good
+E06000057,TLC42,Northumberland,1.0,0.0,4,Northumberland,emp_total_jobs,good
+E06000058,TLK63,"Bournemouth, Christchurch and Poole",1.0,0.0,4,"Bournemouth, Christchurch and Poole",emp_total_jobs,good
+E06000059,TLK64,Dorset,1.0,0.0,4,Dorset,emp_total_jobs,good
+E06000060,TLJ13,Buckinghamshire,1.0,0.0,4,Buckinghamshire,emp_total_jobs,good
+E06000061,TLF25,North Northamptonshire,1.0,0.0,4,North Northamptonshire,emp_total_jobs,good
+E06000062,TLF24,West Northamptonshire,1.0,0.0,4,West Northamptonshire,emp_total_jobs,good
+E06000063,TLD13,Cumberland,1.0,0.0,4,Cumberland,emp_total_jobs,good
+E06000064,TLD14,Westmorland and Furness,1.0,0.0,4,Westmorland and Furness,emp_total_jobs,good
+E06000065,TLE22,North Yorkshire,1.0,0.0,4,North Yorkshire,emp_total_jobs,good
+E06000066,TLK62,Somerset,1.0,0.0,4,Somerset,emp_total_jobs,good
+E07000008,TLH42,Cambridge,0.32492790937932287,0.004614545505217446,4,Cambridge,emp_total_jobs,good
+E07000009,TLH42,East Cambridgeshire,0.09288422779301278,0.0022544609934245416,4,East Cambridgeshire,emp_total_jobs,good
+E07000010,TLH42,Fenland,0.10645071687462988,0.0016060431902089156,4,Fenland,emp_total_jobs,good
+E07000011,TLH42,Huntingdonshire,0.22784573688744475,0.0012112397933253427,4,Huntingdonshire,emp_total_jobs,good
+E07000012,TLH42,South Cambridgeshire,0.2478914090655897,0.0038966226349881664,4,South Cambridgeshire,emp_total_jobs,good
+E07000032,TLF13,Amber Valley,0.2621704440333025,0.00275809135780051,4,Amber Valley,emp_total_jobs,good
+E07000033,TLF12,Bolsover,0.283641966440639,0.007135684472805457,4,Bolsover,emp_total_jobs,good
+E07000034,TLF12,Chesterfield,0.4613302350304562,0.010454896292663612,4,Chesterfield,emp_total_jobs,good
+E07000035,TLF13,Derbyshire Dales,0.17703515263644773,0.005221044923896712,4,Derbyshire Dales,emp_total_jobs,good
+E07000036,TLF13,Erewash,0.20675300647548567,0.004461522125396369,4,Erewash,emp_total_jobs,good
+E07000037,TLF13,High Peak,0.17160037002775208,0.0036651800643472655,4,High Peak,emp_total_jobs,good
+E07000038,TLF12,North East Derbyshire,0.2550277985289047,0.003799890942761628,4,North East Derbyshire,emp_total_jobs,good
+E07000039,TLF13,South Derbyshire,0.18244102682701202,0.0027725971245935025,4,South Derbyshire,emp_total_jobs,good
+E07000040,TLK43,East Devon,0.1511931299176038,0.002243603506182222,4,East Devon,emp_total_jobs,good
+E07000041,TLK43,Exeter,0.28196729678550525,0.001717393814881341,4,Exeter,emp_total_jobs,good
+E07000042,TLK43,Mid Devon,0.07889920739333714,0.0009974999441736937,4,Mid Devon,emp_total_jobs,good
+E07000043,TLK43,North Devon,0.12637268406065316,0.0007629782604556611,4,North Devon,emp_total_jobs,good
+E07000044,TLK43,South Hams,0.11175093773190041,0.0017440088597409922,4,South Hams,emp_total_jobs,good
+E07000045,TLK43,Teignbridge,0.1395256126177407,0.0013740760418117896,4,Teignbridge,emp_total_jobs,good
+E07000046,TLK43,Torridge,0.060630756077170715,0.0014081438963494059,4,Torridge,emp_total_jobs,good
+E07000047,TLK43,West Devon,0.049660375416088844,0.0019528244500359754,4,West Devon,emp_total_jobs,good
+E07000061,TLJ22,Eastbourne,0.2115213928363912,0.009179229566542185,4,Eastbourne,emp_total_jobs,good
+E07000062,TLJ22,Hastings,0.17268482527993617,0.0025447221059919254,4,Hastings,emp_total_jobs,good
+E07000063,TLJ22,Lewes,0.18611713033405225,0.005066674887290637,4,Lewes,emp_total_jobs,good
+E07000064,TLJ22,Rother,0.15918289010104292,0.00846334351876556,4,Rother,emp_total_jobs,good
+E07000065,TLJ22,Wealden,0.2704937614485774,0.004880086856124074,4,Wealden,emp_total_jobs,good
+E07000066,TLH37,Basildon,0.6654367053620784,0.005156170849194556,4,Basildon,emp_total_jobs,good
+E07000067,TLH34,Braintree,0.2991777836411048,0.006576713588312046,4,Braintree,emp_total_jobs,good
+E07000068,TLH36,Brentwood,0.23122459804197235,0.008267956631268981,4,Brentwood,emp_total_jobs,good
+E07000069,TLH37,Castle Point,0.15983969043670537,0.0036064444675747796,4,Castle Point,emp_total_jobs,good
+E07000070,TLH36,Chelmsford,0.6265744421154879,0.008235541886383185,4,Chelmsford,emp_total_jobs,good
+E07000071,TLH34,Colchester,0.47468713948961394,0.009569365034746102,4,Colchester,emp_total_jobs,good
+E07000072,TLH35,Epping Forest,0.37922934139848796,0.004206904441345116,4,Epping Forest,emp_total_jobs,good
+E07000073,TLH35,Harlow,0.29588667437290084,0.010150730230611239,4,Harlow,emp_total_jobs,good
+E07000074,TLH36,Maldon,0.14220095984253983,0.0049602600998831315,4,Maldon,emp_total_jobs,good
+E07000075,TLH37,Rochford,0.17472360420121613,0.004357684599026728,4,Rochford,emp_total_jobs,good
+E07000076,TLH34,Tendring,0.22613507686928125,0.00371631816561278,4,Tendring,emp_total_jobs,good
+E07000077,TLH35,Uttlesford,0.32488398422861126,0.013421870024430313,4,Uttlesford,emp_total_jobs,good
+E07000078,TLK73,Cheltenham,0.21305280622536174,0.0033416914950835964,4,Cheltenham,emp_total_jobs,good
+E07000079,TLK73,Cotswold,0.15286349351050796,0.002179882081382193,4,Cotswold,emp_total_jobs,good
+E07000080,TLK73,Forest of Dean,0.081064862736821,0.002757644250697584,4,Forest of Dean,emp_total_jobs,good
+E07000081,TLK73,Gloucester,0.22387646575848955,0.003954977537388946,4,Gloucester,emp_total_jobs,good
+E07000082,TLK73,Stroud,0.16373505613049488,0.0023048428936377043,4,Stroud,emp_total_jobs,good
+E07000083,TLK73,Tewkesbury,0.16540731563832486,0.003098732105418704,4,Tewkesbury,emp_total_jobs,good
+E07000084,TLJ37,Basingstoke and Deane,0.4958082543761767,0.009070055461794985,4,Basingstoke and Deane,emp_total_jobs,good
+E07000085,TLJ36,East Hampshire,0.1629845754971942,0.002501837262186535,4,East Hampshire,emp_total_jobs,good
+E07000086,TLJ35,Eastleigh,0.3769788085956254,0.00475393327584327,4,Eastleigh,emp_total_jobs,good
+E07000087,TLJ35,Fareham,0.2805766904153784,0.005010632005995293,4,Fareham,emp_total_jobs,good
+E07000088,TLJ35,Gosport,0.10935864075432566,0.0009456338696876042,4,Gosport,emp_total_jobs,good
+E07000089,TLJ37,Hart,0.2028382256929813,0.0036054535871653053,4,Hart,emp_total_jobs,good
+E07000090,TLJ35,Havant,0.23308586023467057,0.0014902041760519252,4,Havant,emp_total_jobs,good
+E07000091,TLJ36,New Forest,0.2631502229491049,0.004016184805177994,4,New Forest,emp_total_jobs,good
+E07000092,TLJ37,Rushmoor,0.30135351993084203,0.0056603125342190004,4,Rushmoor,emp_total_jobs,good
+E07000093,TLJ36,Test Valley,0.22571789264772468,0.003279295904068351,4,Test Valley,emp_total_jobs,good
+E07000094,TLJ36,Winchester,0.34814730890597617,0.008604615300456331,4,Winchester,emp_total_jobs,good
+E07000095,TLH26,Broxbourne,0.12166438432524289,0.004068290850605207,4,Broxbourne,emp_total_jobs,good
+E07000096,TLH27,Dacorum,0.3450378145878383,0.014147600900765153,4,Dacorum,emp_total_jobs,good
+E07000098,TLH27,Hertsmere,0.16192423181041588,0.005138386637057501,4,Hertsmere,emp_total_jobs,good
+E07000099,TLH26,North Hertfordshire,0.18241488996226876,0.005630033028700324,4,North Hertfordshire,emp_total_jobs,good
+E07000102,TLH27,Three Rivers,0.11743747855352339,0.0034297313654504964,4,Three Rivers,emp_total_jobs,good
+E07000103,TLH27,Watford,0.1874437512096514,0.002661457529653651,4,Watford,emp_total_jobs,good
+E07000105,TLJ45,Ashford,0.4366383036583031,0.009468767364427703,4,Ashford,emp_total_jobs,good
+E07000106,TLJ44,Canterbury,0.371213068169829,0.0042575320345790545,4,Canterbury,emp_total_jobs,good
+E07000107,TLJ43,Dartford,0.43954603277906434,0.006380874677301322,4,Dartford,emp_total_jobs,good
+E07000108,TLJ44,Dover,0.19864294098990437,0.005143230651749423,4,Dover,emp_total_jobs,good
+E07000109,TLJ43,Gravesham,0.2190358232081497,0.005084364163486057,4,Gravesham,emp_total_jobs,good
+E07000110,TLJ45,Maidstone,0.563361696341697,0.009468767364427646,4,Maidstone,emp_total_jobs,good
+E07000111,TLJ46,Sevenoaks,0.2923342198083725,0.0029274093443885014,4,Sevenoaks,emp_total_jobs,good
+E07000112,TLJ44,Folkestone and Hythe,0.1958795239899248,0.005864169765768765,4,Folkestone and Hythe,emp_total_jobs,good
+E07000113,TLJ43,Swale,0.3414181440127859,0.0022371215840356977,4,Swale,emp_total_jobs,good
+E07000114,TLJ44,Thanet,0.2342644668503418,0.00269478571619083,4,Thanet,emp_total_jobs,good
+E07000115,TLJ46,Tonbridge and Malling,0.3958241035573396,0.005551048363752885,4,Tonbridge and Malling,emp_total_jobs,good
+E07000116,TLJ46,Tunbridge Wells,0.31184167663428786,0.005989202201623947,4,Tunbridge Wells,emp_total_jobs,good
+E07000117,TLD46,Burnley,0.32492850019368824,0.0039953732866212545,4,Burnley,emp_total_jobs,good
+E07000118,TLD47,Chorley,0.45081531371853956,0.0005317263381779387,4,Chorley,emp_total_jobs,good
+E07000119,TLD45,Fylde,0.192793519599734,0.00362290777532056,4,Fylde,emp_total_jobs,good
+E07000120,TLD46,Hyndburn,0.24329244097807262,0.00980900301347562,4,Hyndburn,emp_total_jobs,good
+E07000121,TLD44,Lancaster,0.6260912798732599,0.006989536736125442,4,Lancaster,emp_total_jobs,good
+E07000122,TLD46,Pendle,0.25782759509856906,0.00454339193346853,4,Pendle,emp_total_jobs,good
+E07000123,TLD45,Preston,0.44198588058052,0.004137865002276431,4,Preston,emp_total_jobs,good
+E07000124,TLD45,Ribble Valley,0.136647003507772,0.002505639892275204,4,Ribble Valley,emp_total_jobs,good
+E07000125,TLD46,Rossendale,0.1739514637296701,0.005498383338318156,4,Rossendale,emp_total_jobs,good
+E07000126,TLD45,South Ribble,0.2285735963119739,0.0046820747919818825,4,South Ribble,emp_total_jobs,good
+E07000127,TLD47,West Lancashire,0.5491846862814604,0.0005317263381779926,4,West Lancashire,emp_total_jobs,good
+E07000128,TLD44,Wyre,0.37390872012674015,0.006989536736125452,4,Wyre,emp_total_jobs,good
+E07000129,TLF22,Blaby,0.18369222988248568,0.0038817067848705327,4,Blaby,emp_total_jobs,good
+E07000130,TLF22,Charnwood,0.2046239486475658,0.0034322047795447897,4,Charnwood,emp_total_jobs,good
+E07000131,TLF22,Harborough,0.11632667923373968,0.002273704087250611,4,Harborough,emp_total_jobs,good
+E07000132,TLF22,Hinckley and Bosworth,0.1235299010233982,0.0030765359153971895,4,Hinckley and Bosworth,emp_total_jobs,good
+E07000133,TLF22,Melton,0.06459889933254907,0.0015413083175912343,4,Melton,emp_total_jobs,good
+E07000134,TLF22,North West Leicestershire,0.2073772972691012,0.005224452686907995,4,North West Leicestershire,emp_total_jobs,good
+E07000135,TLF22,Oadby and Wigston,0.05459709060889911,0.0016717994001578152,4,Oadby and Wigston,emp_total_jobs,good
+E07000136,TLF30,Boston,0.10673888009496048,0.0023144803882123306,4,Boston,emp_total_jobs,good
+E07000137,TLF30,East Lindsey,0.15126744640017828,0.0024645301884378456,4,East Lindsey,emp_total_jobs,good
+E07000138,TLF30,Lincoln,0.19075268186723632,0.00495457738328101,4,Lincoln,emp_total_jobs,good
+E07000139,TLF30,North Kesteven,0.1403479602972961,0.005808463368530428,4,North Kesteven,emp_total_jobs,good
+E07000140,TLF30,South Holland,0.12521237381155836,0.006781830511214303,4,South Holland,emp_total_jobs,good
+E07000141,TLF30,South Kesteven,0.19071115086849885,0.005006937278081159,4,South Kesteven,emp_total_jobs,good
+E07000142,TLF30,West Lindsey,0.09496950666027162,0.002011088377802102,4,West Lindsey,emp_total_jobs,good
+E07000143,TLH53,Breckland,0.4606805825842523,0.005689401086286635,4,Breckland,emp_total_jobs,good
+E07000144,TLH51,Broadland,0.2866673261154142,0.005718309617790359,4,Broadland,emp_total_jobs,good
+E07000145,TLH51,Great Yarmouth,0.2161564813576819,0.00208623499736874,4,Great Yarmouth,emp_total_jobs,good
+E07000146,TLH52,King's Lynn and West Norfolk,0.6397799180915172,0.0036145692425761503,4,King's Lynn and West Norfolk,emp_total_jobs,good
+E07000147,TLH52,North Norfolk,0.36022008190848276,0.0036145692425761434,4,North Norfolk,emp_total_jobs,good
+E07000148,TLH51,Norwich,0.4971761925269039,0.004073362999634796,4,Norwich,emp_total_jobs,good
+E07000149,TLH53,South Norfolk,0.5393194174157476,0.005689401086286649,4,South Norfolk,emp_total_jobs,good
+E07000170,TLF15,Ashfield,0.2806698504143926,0.008297392675191992,4,Ashfield,emp_total_jobs,good
+E07000171,TLF15,Bassetlaw,0.25432080048514255,0.010653044024335456,4,Bassetlaw,emp_total_jobs,good
+E07000172,TLF16,Broxtowe,0.31356139913592557,0.005662125638134991,4,Broxtowe,emp_total_jobs,good
+E07000173,TLF16,Gedling,0.2836057304277643,0.002859310837598834,4,Gedling,emp_total_jobs,good
+E07000174,TLF15,Mansfield,0.20817439862542958,0.008282512047069373,4,Mansfield,emp_total_jobs,good
+E07000175,TLF15,Newark and Sherwood,0.2568349504750354,0.004660141291628786,4,Newark and Sherwood,emp_total_jobs,good
+E07000176,TLF16,Rushcliffe,0.4028328704363101,0.006967225023366418,4,Rushcliffe,emp_total_jobs,good
+E07000177,TLJ14,Cherwell,0.22046882475834656,0.003598961724889217,4,Cherwell,emp_total_jobs,good
+E07000178,TLJ14,Oxford,0.3157165367821775,0.002453242829381396,4,Oxford,emp_total_jobs,good
+E07000179,TLJ14,South Oxfordshire,0.1565795641001437,0.0031799302425207536,4,South Oxfordshire,emp_total_jobs,good
+E07000180,TLJ14,Vale of White Horse,0.18328442651163535,0.0011930768742652133,4,Vale of White Horse,emp_total_jobs,good
+E07000181,TLJ14,West Oxfordshire,0.12395064784769688,0.00188943021630094,4,West Oxfordshire,emp_total_jobs,good
+E07000192,TLG24,Cannock Chase,0.11338138787347044,0.00516487094220837,4,Cannock Chase,emp_total_jobs,good
+E07000193,TLG24,East Staffordshire,0.17284250805960866,0.002373279977149687,4,East Staffordshire,emp_total_jobs,good
+E07000194,TLG24,Lichfield,0.14203102619321137,0.0031441257982097286,4,Lichfield,emp_total_jobs,good
+E07000195,TLG24,Newcastle-under-Lyme,0.12667578449286382,0.004465634651241731,4,Newcastle-under-Lyme,emp_total_jobs,good
+E07000196,TLG24,South Staffordshire,0.10285598234389107,0.002724149801399354,4,South Staffordshire,emp_total_jobs,good
+E07000197,TLG24,Stafford,0.17635450261305446,0.00443337329442138,4,Stafford,emp_total_jobs,good
+E07000198,TLG24,Staffordshire Moorlands,0.08398383085886112,0.0010061456022755582,4,Staffordshire Moorlands,emp_total_jobs,good
+E07000199,TLG24,Tamworth,0.08187497756503904,0.0009359783340129916,4,Tamworth,emp_total_jobs,good
+E07000200,TLH61,Babergh,0.46765010351966874,0.009171281804050916,4,Babergh,emp_total_jobs,good
+E07000202,TLH62,Ipswich,1.0,0.0,4,Ipswich,emp_total_jobs,good
+E07000203,TLH61,Mid Suffolk,0.5323498964803313,0.00917128180405089,4,Mid Suffolk,emp_total_jobs,good
+E07000207,TLJ25,Elmbridge,0.16221042217643233,0.0023224740092613384,4,Elmbridge,emp_total_jobs,good
+E07000208,TLJ26,Epsom and Ewell,0.17781160528738987,0.005291515338592566,4,Epsom and Ewell,emp_total_jobs,good
+E07000209,TLJ25,Guildford,0.2105498718448709,0.0034593609351437887,4,Guildford,emp_total_jobs,good
+E07000210,TLJ26,Mole Valley,0.261753890401217,0.0025344621875026,4,Mole Valley,emp_total_jobs,good
+E07000211,TLJ26,Reigate and Banstead,0.3783771286507629,0.006261068873270306,4,Reigate and Banstead,emp_total_jobs,good
+E07000212,TLJ25,Runnymede,0.14694706482901973,0.004002375395111936,4,Runnymede,emp_total_jobs,good
+E07000213,TLJ25,Spelthorne,0.0973105254939345,0.0029380995298083318,4,Spelthorne,emp_total_jobs,good
+E07000214,TLJ25,Surrey Heath,0.1348931064091831,0.004255106907553007,4,Surrey Heath,emp_total_jobs,good
+E07000215,TLJ26,Tandridge,0.1820573756606302,0.003000406938612726,4,Tandridge,emp_total_jobs,good
+E07000216,TLJ25,Waverley,0.12976969782149522,0.003176460419296323,4,Waverley,emp_total_jobs,good
+E07000217,TLJ25,Woking,0.11831931142506422,0.0029215697421387235,4,Woking,emp_total_jobs,good
+E07000218,TLG13,North Warwickshire,0.16231248532992576,0.01086198293713091,4,North Warwickshire,emp_total_jobs,good
+E07000219,TLG13,Nuneaton and Bedworth,0.14319593298824304,0.008667787182993391,4,Nuneaton and Bedworth,emp_total_jobs,good
+E07000220,TLG13,Rugby,0.16577648479780974,0.002575712206115963,4,Rugby,emp_total_jobs,good
+E07000221,TLG13,Stratford-on-Avon,0.23252600047830585,0.0015048244209993863,4,Stratford-on-Avon,emp_total_jobs,good
+E07000222,TLG13,Warwick,0.29618909640571556,0.0027039484504789335,4,Warwick,emp_total_jobs,good
+E07000223,TLJ27,Adur,0.11544851797660786,0.0022291944740364836,4,Adur,emp_total_jobs,good
+E07000224,TLJ27,Arun,0.2726251660240424,0.002063269289301096,4,Arun,emp_total_jobs,good
+E07000225,TLJ27,Chichester,0.34488791651713,0.003995231202086817,4,Chichester,emp_total_jobs,good
+E07000226,TLJ28,Crawley,0.4283656238040566,0.004149446323171916,4,Crawley,emp_total_jobs,good
+E07000227,TLJ28,Horsham,0.2803185993111366,0.0022426223764098483,4,Horsham,emp_total_jobs,good
+E07000228,TLJ28,Mid Sussex,0.2913157768848067,0.00249045326603023,4,Mid Sussex,emp_total_jobs,good
+E07000229,TLJ27,Worthing,0.2670383994822197,0.005382124482133531,4,Worthing,emp_total_jobs,good
+E07000234,TLG12,Bromsgrove,0.166176516719995,0.0035080077910901414,4,Bromsgrove,emp_total_jobs,good
+E07000235,TLG12,Malvern Hills,0.11869078988644205,0.003044396722492872,4,Malvern Hills,emp_total_jobs,good
+E07000236,TLG12,Redditch,0.14638622247317898,0.0030011704722571063,4,Redditch,emp_total_jobs,good
+E07000237,TLG12,Worcester,0.215626764539808,0.00383226198771831,4,Worcester,emp_total_jobs,good
+E07000238,TLG12,Wychavon,0.21662274923144487,0.004172156346069395,4,Wychavon,emp_total_jobs,good
+E07000239,TLG12,Wyre Forest,0.13649695714913107,0.006799771615434158,4,Wyre Forest,emp_total_jobs,good
+E07000240,TLH27,St Albans,0.18815672383857102,0.0120935807527806,4,St Albans,emp_total_jobs,good
+E07000241,TLH26,Welwyn Hatfield,0.2892669360934359,0.007349202922103042,4,Welwyn Hatfield,emp_total_jobs,good
+E07000242,TLH26,East Hertfordshire,0.22673754683694633,0.004086155563537077,4,East Hertfordshire,emp_total_jobs,good
+E07000243,TLH26,Stevenage,0.17991624278210616,0.010681137135485304,4,Stevenage,emp_total_jobs,good
+E07000244,TLH63,East Suffolk,1.0,0.0,4,East Suffolk,emp_total_jobs,good
+E07000245,TLH64,West Suffolk,1.0,0.0,4,West Suffolk,emp_total_jobs,good
+E08000001,TLD36,Bolton,0.5199216837983358,0.009622660101562914,4,Bolton,emp_total_jobs,good
+E08000002,TLD37,Bury,0.29508327415064334,0.006424399244600314,4,Bury,emp_total_jobs,good
+E08000003,TLD33,Manchester,1.0,0.0,4,Manchester,emp_total_jobs,good
+E08000004,TLD37,Oldham,0.3676545068487885,0.005274125234298088,4,Oldham,emp_total_jobs,good
+E08000005,TLD37,Rochdale,0.3372622190005682,0.006686666857574062,4,Rochdale,emp_total_jobs,good
+E08000006,TLD34,Salford,0.4883011790408974,0.02209955565527409,4,Salford,emp_total_jobs,good
+E08000007,TLD35,Stockport,0.6626229416031109,0.0038754241165640762,4,Stockport,emp_total_jobs,good
+E08000008,TLD35,Tameside,0.33737705839688914,0.0038754241165641265,4,Tameside,emp_total_jobs,good
+E08000009,TLD34,Trafford,0.5116988209591026,0.022099555655274047,4,Trafford,emp_total_jobs,good
+E08000010,TLD36,Wigan,0.4800783162016642,0.009622660101562904,4,Wigan,emp_total_jobs,good
+E08000011,TLD71,Knowsley,0.35639342148438014,0.01595924809997406,4,Knowsley,emp_total_jobs,good
+E08000012,TLD72,Liverpool,1.0,0.0,4,Liverpool,emp_total_jobs,good
+E08000013,TLD71,St. Helens,0.32420994261677194,0.00425942371607175,4,St. Helens,emp_total_jobs,good
+E08000014,TLD73,Sefton,1.0,0.0,4,Sefton,emp_total_jobs,good
+E08000015,TLD74,Wirral,1.0,0.0,4,Wirral,emp_total_jobs,good
+E08000016,TLE33,Barnsley,1.0,0.0,4,Barnsley,emp_total_jobs,good
+E08000017,TLE35,Doncaster,1.0,0.0,4,Doncaster,emp_total_jobs,good
+E08000018,TLE34,Rotherham,1.0,0.0,4,Rotherham,emp_total_jobs,good
+E08000019,TLE36,Sheffield,1.0,0.0,4,Sheffield,emp_total_jobs,good
+E08000021,TLC43,Newcastle upon Tyne,0.4682545002234272,0.004066473717872916,4,Newcastle upon Tyne,emp_total_jobs,good
+E08000022,TLC43,North Tyneside,0.20875473254322371,0.0022952023103906148,4,North Tyneside,emp_total_jobs,good
+E08000023,TLC43,South Tyneside,0.09990486282016225,0.0029828632611469765,4,South Tyneside,emp_total_jobs,good
+E08000024,TLC44,Sunderland,1.0,0.0,4,Sunderland,emp_total_jobs,good
+E08000025,TLG31,Birmingham,1.0,0.0,4,Birmingham,emp_total_jobs,good
+E08000026,TLG33,Coventry,1.0,0.0,4,Coventry,emp_total_jobs,good
+E08000027,TLG36,Dudley,1.0,0.0,4,Dudley,emp_total_jobs,good
+E08000028,TLG37,Sandwell,1.0,0.0,4,Sandwell,emp_total_jobs,good
+E08000029,TLG32,Solihull,1.0,0.0,4,Solihull,emp_total_jobs,good
+E08000030,TLG38,Walsall,1.0,0.0,4,Walsall,emp_total_jobs,good
+E08000031,TLG39,Wolverhampton,1.0,0.0,4,Wolverhampton,emp_total_jobs,good
+E08000032,TLE41,Bradford,1.0,0.0,4,Bradford,emp_total_jobs,good
+E08000033,TLE44,Calderdale,0.36165476036249455,0.0034978756776218646,4,Calderdale,emp_total_jobs,good
+E08000034,TLE44,Kirklees,0.6383452396375054,0.0034978756776218554,4,Kirklees,emp_total_jobs,good
+E08000035,TLE42,Leeds,1.0,0.0,4,Leeds,emp_total_jobs,good
+E08000036,TLE45,Wakefield,1.0,0.0,4,Wakefield,emp_total_jobs,good
+E08000037,TLC43,Gateshead,0.22308590441318688,0.001479159961308829,4,Gateshead,emp_total_jobs,good
+E09000001,TLI35,City of London,0.44029370529132006,0.010599493083966363,4,City of London,emp_total_jobs,good
+E09000002,TLI52,Barking and Dagenham,0.3990177879008176,0.0064651876521506675,4,Barking and Dagenham,emp_total_jobs,good
+E09000003,TLI71,Barnet,1.0,0.0,4,Barnet,emp_total_jobs,good
+E09000004,TLI51,Bexley,0.45322148771530335,0.008226008473240452,4,Bexley,emp_total_jobs,good
+E09000005,TLI72,Brent,1.0,0.0,4,Brent,emp_total_jobs,good
+E09000006,TLI61,Bromley,1.0,0.0,4,Bromley,emp_total_jobs,good
+E09000007,TLI36,Camden,1.0,0.0,4,Camden,emp_total_jobs,good
+E09000008,TLI62,Croydon,1.0,0.0,4,Croydon,emp_total_jobs,good
+E09000009,TLI73,Ealing,1.0,0.0,4,Ealing,emp_total_jobs,good
+E09000010,TLI54,Enfield,1.0,0.0,4,Enfield,emp_total_jobs,good
+E09000011,TLI51,Greenwich,0.5467785122846966,0.0082260084732405,4,Greenwich,emp_total_jobs,good
+E09000012,TLI41,Hackney,0.5504339617524849,0.01305107061450086,4,Hackney,emp_total_jobs,good
+E09000013,TLI33,Hammersmith and Fulham,0.5228961519876416,0.013005429162802316,4,Hammersmith and Fulham,emp_total_jobs,good
+E09000014,TLI43,Haringey,0.22239038372388067,0.004270738654257435,4,Haringey,emp_total_jobs,good
+E09000015,TLI74,Harrow,0.2772781790237241,0.006376003523284125,4,Harrow,emp_total_jobs,good
+E09000016,TLI52,Havering,0.6009822120991823,0.006465187652150696,4,Havering,emp_total_jobs,good
+E09000017,TLI74,Hillingdon,0.7227218209762759,0.00637600352328407,4,Hillingdon,emp_total_jobs,good
+E09000018,TLI75,Hounslow,0.6636982071677475,0.009185405581073239,4,Hounslow,emp_total_jobs,good
+E09000019,TLI43,Islington,0.7776096162761194,0.004270738654257436,4,Islington,emp_total_jobs,good
+E09000020,TLI33,Kensington and Chelsea,0.4771038480123584,0.013005429162802338,4,Kensington and Chelsea,emp_total_jobs,good
+E09000021,TLI63,Kingston upon Thames,0.3202468480710689,0.012840977297792438,4,Kingston upon Thames,emp_total_jobs,good
+E09000022,TLI45,Lambeth,1.0,0.0,4,Lambeth,emp_total_jobs,good
+E09000023,TLI44,Lewisham,0.1973872524984331,0.009362370224918362,4,Lewisham,emp_total_jobs,good
+E09000024,TLI63,Merton,0.34000978600873044,0.018455237817364106,4,Merton,emp_total_jobs,good
+E09000025,TLI41,Newham,0.449566038247515,0.0130510706145009,4,Newham,emp_total_jobs,good
+E09000026,TLI53,Redbridge,0.4981769471739429,0.02959028152714643,4,Redbridge,emp_total_jobs,good
+E09000027,TLI75,Richmond upon Thames,0.3363017928322524,0.009185405581073159,4,Richmond upon Thames,emp_total_jobs,good
+E09000028,TLI44,Southwark,0.8026127475015669,0.009362370224918315,4,Southwark,emp_total_jobs,good
+E09000029,TLI63,Sutton,0.33974336592020066,0.027509507256974923,4,Sutton,emp_total_jobs,good
+E09000030,TLI42,Tower Hamlets,1.0,0.0,4,Tower Hamlets,emp_total_jobs,good
+E09000031,TLI53,Waltham Forest,0.5018230528260571,0.029590281527146396,4,Waltham Forest,emp_total_jobs,good
+E09000032,TLI34,Wandsworth,1.0,0.0,4,Wandsworth,emp_total_jobs,good
+E09000033,TLI35,Westminster,0.5597062947086799,0.010599493083966346,4,Westminster,emp_total_jobs,good
+W06000001,TLL31,Isle of Anglesey,1.0,,0,Isle of Anglesey,emp_total_jobs,imputed
+W06000002,TLL32,Gwynedd,1.0,,0,Gwynedd,emp_total_jobs,imputed
+W06000003,TLL33,Conwy,0.5416560425343041,,0,Conwy,emp_total_jobs,imputed
+W06000004,TLL33,Denbighshire,0.45834395746569584,,0,Denbighshire,emp_total_jobs,imputed
+W06000005,TLL34,Flintshire,0.5325266563862734,,0,Flintshire,emp_total_jobs,imputed
+W06000006,TLL34,Wrexham,0.4674733436137266,,0,Wrexham,emp_total_jobs,imputed
+W06000008,TLL41,Ceredigion,0.3487786280825231,,0,Ceredigion,emp_total_jobs,imputed
+W06000023,TLL41,Powys,0.651221371917477,,0,Powys,emp_total_jobs,imputed
+W06000009,TLL42,Pembrokeshire,0.39673805420511543,,0,Pembrokeshire,emp_total_jobs,imputed
+W06000010,TLL42,Carmarthenshire,0.6032619457948846,,0,Carmarthenshire,emp_total_jobs,imputed
+W06000011,TLL43,Swansea,1.0,,0,Swansea,emp_total_jobs,imputed
+W06000012,TLL44,Neath Port Talbot,1.0,,0,Neath Port Talbot,emp_total_jobs,imputed
+W06000013,TLL51,Bridgend,0.3286889574287031,,0,Bridgend,emp_total_jobs,imputed
+W06000016,TLL51,Rhondda Cynon Taf,0.539259971814216,,0,Rhondda Cynon Taf,emp_total_jobs,imputed
+W06000024,TLL51,Merthyr Tydfil,0.13205107075708092,,0,Merthyr Tydfil,emp_total_jobs,imputed
+W06000014,TLL52,Vale of Glamorgan,0.2643799386512436,,0,Vale of Glamorgan,emp_total_jobs,imputed
+W06000015,TLL52,Cardiff,0.7356200613487563,,0,Cardiff,emp_total_jobs,imputed
+W06000018,TLL53,Caerphilly,0.5234940603674093,,0,Caerphilly,emp_total_jobs,imputed
+W06000019,TLL53,Blaenau Gwent,0.19980504147319803,,0,Blaenau Gwent,emp_total_jobs,imputed
+W06000020,TLL53,Torfaen,0.2767008981593927,,0,Torfaen,emp_total_jobs,imputed
+W06000021,TLL54,Monmouthshire,0.3652877115497589,,0,Monmouthshire,emp_total_jobs,imputed
+W06000022,TLL54,Newport,0.6347122884502411,,0,Newport,emp_total_jobs,imputed
+S12000005,TLM01,Clackmannanshire,0.12218505606331857,,0,Clackmannanshire,emp_total_jobs,imputed
+S12000047,TLM01,Fife,0.8778149439366815,,0,Fife,emp_total_jobs,imputed
+S12000030,TLM02,Stirling,0.37903546417394673,,0,Stirling,emp_total_jobs,imputed
+S12000048,TLM02,Perth and Kinross,0.6209645358260533,,0,Perth and Kinross,emp_total_jobs,imputed
+S12000041,TLM03,Angus,0.4356170878573799,,0,Angus,emp_total_jobs,imputed
+S12000042,TLM03,Dundee City,0.56438291214262,,0,Dundee City,emp_total_jobs,imputed
+S12000010,TLM11,East Lothian,0.53664,,0,East Lothian,emp_total_jobs,imputed
+S12000019,TLM11,Midlothian,0.46336,,0,Midlothian,emp_total_jobs,imputed
+S12000014,TLM12,Falkirk,1.0,,0,Falkirk,emp_total_jobs,imputed
+S12000036,TLM13,City of Edinburgh,1.0,,0,City of Edinburgh,emp_total_jobs,imputed
+S12000040,TLM14,West Lothian,1.0,,0,West Lothian,emp_total_jobs,imputed
+S12000013,TLM20,Na h-Eileanan Siar,0.04181846601498154,,0,Na h-Eileanan Siar,emp_total_jobs,imputed
+S12000017,TLM20,Highland,0.3788951812975187,,0,Highland,emp_total_jobs,imputed
+S12000020,TLM20,Moray,0.15164704797861384,,0,Moray,emp_total_jobs,imputed
+S12000021,TLM20,North Ayrshire,0.21445490507280357,,0,North Ayrshire,emp_total_jobs,imputed
+S12000023,TLM20,Orkney Islands,0.03530963059152649,,0,Orkney Islands,emp_total_jobs,imputed
+S12000027,TLM20,Shetland Islands,0.03698092638683484,,0,Shetland Islands,emp_total_jobs,imputed
+S12000035,TLM20,Argyll and Bute,0.14089384265772104,,0,Argyll and Bute,emp_total_jobs,imputed
+S12000039,TLM31,West Dunbartonshire,0.4479567747718178,,0,West Dunbartonshire,emp_total_jobs,imputed
+S12000045,TLM31,East Dunbartonshire,0.5520432252281823,,0,East Dunbartonshire,emp_total_jobs,imputed
+S12000049,TLM32,Glasgow City,1.0,,0,Glasgow City,emp_total_jobs,imputed
+S12000011,TLM33,East Renfrewshire,0.2704379083614486,,0,East Renfrewshire,emp_total_jobs,imputed
+S12000018,TLM33,Inverclyde,0.21691884171961998,,0,Inverclyde,emp_total_jobs,imputed
+S12000038,TLM33,Renfrewshire,0.5126432499189314,,0,Renfrewshire,emp_total_jobs,imputed
+S12000050,TLM34,North Lanarkshire,1.0,,0,North Lanarkshire,emp_total_jobs,imputed
+S12000033,TLM50,Aberdeen City,0.461642718842352,,0,Aberdeen City,emp_total_jobs,imputed
+S12000034,TLM50,Aberdeenshire,0.538357281157648,,0,Aberdeenshire,emp_total_jobs,imputed
+S12000026,TLM91,Scottish Borders,1.0,,0,Scottish Borders,emp_total_jobs,imputed
+S12000006,TLM92,Dumfries and Galloway,1.0,,0,Dumfries and Galloway,emp_total_jobs,imputed
+S12000008,TLM93,East Ayrshire,1.0,,0,East Ayrshire,emp_total_jobs,imputed
+S12000028,TLM94,South Ayrshire,1.0,,0,South Ayrshire,emp_total_jobs,imputed
+S12000029,TLM95,South Lanarkshire,1.0,,0,South Lanarkshire,emp_total_jobs,imputed
+N09000003,TLN06,Belfast,1.0,,0,Belfast,emp_total_jobs,imputed
+N09000002,TLN07,"Armagh City, Banbridge and Craigavon",1.0,,0,"Armagh City, Banbridge and Craigavon",emp_total_jobs,imputed
+N09000010,TLN08,"Newry, Mourne and Down",1.0,,0,"Newry, Mourne and Down",emp_total_jobs,imputed
+N09000011,TLN09,Ards and North Down,1.0,,0,Ards and North Down,emp_total_jobs,imputed
+N09000005,TLN0A,Derry City and Strabane,1.0,,0,Derry City and Strabane,emp_total_jobs,imputed
+N09000009,TLN0B,Mid Ulster,1.0,,0,Mid Ulster,emp_total_jobs,imputed
+N09000004,TLN0C,Causeway Coast and Glens,1.0,,0,Causeway Coast and Glens,emp_total_jobs,imputed
+N09000001,TLN0D,Antrim and Newtownabbey,1.0,,0,Antrim and Newtownabbey,emp_total_jobs,imputed
+N09000007,TLN0E,Lisburn and Castlereagh,1.0,,0,Lisburn and Castlereagh,emp_total_jobs,imputed
+N09000008,TLN0F,Mid and East Antrim,1.0,,0,Mid and East Antrim,emp_total_jobs,imputed
+N09000006,TLN0G,Fermanagh and Omagh,1.0,,0,Fermanagh and Omagh,emp_total_jobs,imputed
+E06000001,TLC31,Hartlepool,0.3202447748983324,0.0011693914578936465,4,Hartlepool,population_total,good
+E06000002,TLC32,Middlesbrough,0.5223667193615164,0.006962343131416143,4,Middlesbrough,population_total,good
+E06000003,TLC32,Redcar and Cleveland,0.47763328063848365,0.006962343131416238,4,Redcar and Cleveland,population_total,good
+E06000004,TLC31,Stockton-on-Tees,0.6797552251016676,0.0011693914578936098,4,Stockton-on-Tees,population_total,good
+E06000005,TLC33,Darlington,1.0,0.0,4,Darlington,population_total,good
+E06000006,TLD71,Halton,0.2738756012935976,0.001296746773654307,4,Halton,population_total,good
+E06000007,TLD61,Warrington,1.0,0.0,4,Warrington,population_total,good
+E06000008,TLD41,Blackburn with Darwen,1.0,0.0,4,Blackburn with Darwen,population_total,good
+E06000009,TLD42,Blackpool,1.0,0.0,4,Blackpool,population_total,good
+E06000010,TLE11,"Kingston upon Hull, City of",1.0,0.0,4,"Kingston upon Hull, City of",population_total,good
+E06000011,TLE12,East Riding of Yorkshire,1.0,0.0,4,East Riding of Yorkshire,population_total,good
+E06000012,TLE13,North East Lincolnshire,0.4816517844183789,0.0009641752274415222,4,North East Lincolnshire,population_total,good
+E06000013,TLE13,North Lincolnshire,0.518348215581621,0.0009641752274414323,4,North Lincolnshire,population_total,good
+E06000014,TLE21,York,1.0,0.0,4,York,population_total,good
+E06000015,TLF11,Derby,1.0,0.0,4,Derby,population_total,good
+E06000016,TLF21,Leicester,1.0,0.0,4,Leicester,population_total,good
+E06000017,TLF22,Rutland,0.05349950380160492,0.0010535804866032977,4,Rutland,population_total,good
+E06000018,TLF14,Nottingham,1.0,0.0,4,Nottingham,population_total,good
+E06000019,TLG11,"Herefordshire, County of",1.0,0.0,4,"Herefordshire, County of",population_total,good
+E06000020,TLG21,Telford and Wrekin,1.0,0.0,4,Telford and Wrekin,population_total,good
+E06000021,TLG23,Stoke-on-Trent,1.0,0.0,4,Stoke-on-Trent,population_total,good
+E06000022,TLK52,Bath and North East Somerset,0.39723505939874115,0.0014975750636564429,4,Bath and North East Somerset,population_total,good
+E06000023,TLK51,"Bristol, City of",1.0,0.0,4,"Bristol, City of",population_total,good
+E06000024,TLK61,North Somerset,1.0,0.0,4,North Somerset,population_total,good
+E06000025,TLK52,South Gloucestershire,0.6027649406012588,0.0014975750636564429,4,South Gloucestershire,population_total,good
+E06000026,TLK41,Plymouth,1.0,0.0,4,Plymouth,population_total,good
+E06000027,TLK42,Torbay,1.0,0.0,4,Torbay,population_total,good
+E06000030,TLK71,Swindon,1.0,0.0,4,Swindon,population_total,good
+E06000031,TLH41,Peterborough,1.0,0.0,4,Peterborough,population_total,good
+E06000032,TLH21,Luton,1.0,0.0,4,Luton,population_total,good
+E06000033,TLH31,Southend-on-Sea,1.0,0.0,4,Southend-on-Sea,population_total,good
+E06000034,TLH32,Thurrock,1.0,0.0,4,Thurrock,population_total,good
+E06000035,TLJ41,Medway,1.0,0.0,4,Medway,population_total,good
+E06000036,TLJ15,Bracknell Forest,0.28668651706212417,0.000745776113537455,4,Bracknell Forest,population_total,good
+E06000037,TLJ16,West Berkshire,0.3117042371016886,0.002863968414954124,4,West Berkshire,population_total,good
+E06000038,TLJ16,Reading,0.33961556811235555,0.0017737919189291158,4,Reading,population_total,good
+E06000039,TLJ15,Slough,0.36344851106337633,0.002125748205207944,4,Slough,population_total,good
+E06000040,TLJ15,Windsor and Maidenhead,0.3498649718744995,0.0018095573456308408,4,Windsor and Maidenhead,population_total,good
+E06000041,TLJ16,Wokingham,0.34868019478595585,0.00113157866077455,4,Wokingham,population_total,good
+E06000042,TLJ12,Milton Keynes,1.0,0.0,4,Milton Keynes,population_total,good
+E06000043,TLJ21,Brighton and Hove,1.0,0.0,4,Brighton and Hove,population_total,good
+E06000044,TLJ31,Portsmouth,1.0,0.0,4,Portsmouth,population_total,good
+E06000045,TLJ32,Southampton,1.0,0.0,4,Southampton,population_total,good
+E06000046,TLJ34,Isle of Wight,1.0,0.0,4,Isle of Wight,population_total,good
+E06000047,TLC41,County Durham,1.0,0.0,4,County Durham,population_total,good
+E06000049,TLD62,Cheshire East,1.0,0.0,4,Cheshire East,population_total,good
+E06000050,TLD63,Cheshire West and Chester,1.0,0.0,4,Cheshire West and Chester,population_total,good
+E06000051,TLG22,Shropshire,1.0,0.0,4,Shropshire,population_total,good
+E06000052,TLK30,Cornwall,0.9959436166925447,9.369180354117645e-05,4,Cornwall,population_total,good
+E06000053,TLK30,Isles of Scilly,0.004056383307455332,9.369180354121498e-05,4,Isles of Scilly,population_total,good
+E06000054,TLK72,Wiltshire,1.0,0.0,4,Wiltshire,population_total,good
+E06000055,TLH24,Bedford,1.0,0.0,4,Bedford,population_total,good
+E06000056,TLH25,Central Bedfordshire,1.0,0.0,4,Central Bedfordshire,population_total,good
+E06000057,TLC42,Northumberland,1.0,0.0,4,Northumberland,population_total,good
+E06000058,TLK63,"Bournemouth, Christchurch and Poole",1.0,0.0,4,"Bournemouth, Christchurch and Poole",population_total,good
+E06000059,TLK64,Dorset,1.0,0.0,4,Dorset,population_total,good
+E06000060,TLJ13,Buckinghamshire,1.0,0.0,4,Buckinghamshire,population_total,good
+E06000061,TLF25,North Northamptonshire,1.0,0.0,4,North Northamptonshire,population_total,good
+E06000062,TLF24,West Northamptonshire,1.0,0.0,4,West Northamptonshire,population_total,good
+E06000063,TLD13,Cumberland,1.0,0.0,4,Cumberland,population_total,good
+E06000064,TLD14,Westmorland and Furness,1.0,0.0,4,Westmorland and Furness,population_total,good
+E06000065,TLE22,North Yorkshire,1.0,0.0,4,North Yorkshire,population_total,good
+E06000066,TLK62,Somerset,1.0,0.0,4,Somerset,population_total,good
+E07000008,TLH42,Cambridge,0.2125453639453494,0.001702546576343334,4,Cambridge,population_total,good
+E07000009,TLH42,East Cambridgeshire,0.13002607102807653,0.000675648513517397,4,East Cambridgeshire,population_total,good
+E07000010,TLH42,Fenland,0.14898430028175946,0.001451481377232058,4,Fenland,population_total,good
+E07000011,TLH42,Huntingdonshire,0.26735766754372225,0.0006892653598727786,4,Huntingdonshire,population_total,good
+E07000012,TLH42,South Cambridgeshire,0.24108659720109232,0.0015533004881710544,4,South Cambridgeshire,population_total,good
+E07000032,TLF13,Amber Valley,0.2473776371701833,0.0006593974862419582,4,Amber Valley,population_total,good
+E07000033,TLF12,Bolsover,0.28188681039917146,0.0008038137933508554,4,Bolsover,population_total,good
+E07000034,TLF12,Chesterfield,0.35975408939897174,0.0017366322233907916,4,Chesterfield,population_total,good
+E07000035,TLF13,Derbyshire Dales,0.13865887825402803,0.0017456434251650194,4,Derbyshire Dales,population_total,good
+E07000036,TLF13,Erewash,0.2194446660219354,0.0017613291152762767,4,Erewash,population_total,good
+E07000037,TLF13,High Peak,0.17671106946368687,0.0015469276482271085,4,High Peak,population_total,good
+E07000038,TLF12,North East Derbyshire,0.3583591002018568,0.0011040651994957199,4,North East Derbyshire,population_total,good
+E07000039,TLF13,South Derbyshire,0.21780774909016637,0.004964458510672696,4,South Derbyshire,population_total,good
+E07000040,TLK43,East Devon,0.18726007136203737,0.000562453521136772,4,East Devon,population_total,good
+E07000041,TLK43,Exeter,0.16224471565473464,0.0022499280174000024,4,Exeter,population_total,good
+E07000042,TLK43,Mid Devon,0.10141144752252568,0.000539545862520834,4,Mid Devon,population_total,good
+E07000043,TLK43,North Devon,0.12117382486541178,0.0008593693178400772,4,North Devon,population_total,good
+E07000044,TLK43,South Hams,0.10917737491671509,0.0003362800077575152,4,South Hams,population_total,good
+E07000045,TLK43,Teignbridge,0.1649859151553908,0.0006822968233003739,4,Teignbridge,population_total,good
+E07000046,TLK43,Torridge,0.08331763690974565,0.000494589062044123,4,Torridge,population_total,good
+E07000047,TLK43,West Devon,0.07042901361343894,0.0003261984095595772,4,West Devon,population_total,good
+E07000061,TLJ22,Eastbourne,0.18597058900717073,0.0004257897533870122,4,Eastbourne,population_total,good
+E07000062,TLJ22,Hastings,0.1643745798950984,0.0015562439138898333,4,Hastings,population_total,good
+E07000063,TLJ22,Lewes,0.18272504827897826,0.00030572432737230543,4,Lewes,population_total,good
+E07000064,TLJ22,Rother,0.17104324122584855,0.0002799934589623857,4,Rother,population_total,good
+E07000065,TLJ22,Wealden,0.29588654159290406,0.001525866571639668,4,Wealden,population_total,good
+E07000066,TLH37,Basildon,0.5166985370416401,0.0007336428696700811,4,Basildon,population_total,good
+E07000067,TLH34,Braintree,0.31349144521880756,0.001147968918516435,4,Braintree,population_total,good
+E07000068,TLH36,Brentwood,0.23574677220500895,0.0007549271235644488,4,Brentwood,population_total,good
+E07000069,TLH37,Castle Point,0.24451121880941004,0.001978110726741923,4,Castle Point,population_total,good
+E07000070,TLH36,Chelmsford,0.5590017567654535,0.0005783128739293199,4,Chelmsford,population_total,good
+E07000071,TLH34,Colchester,0.3860853004991973,0.0014312544233779064,4,Colchester,population_total,good
+E07000072,TLH35,Epping Forest,0.4182042095640203,0.0024949470627287757,4,Epping Forest,population_total,good
+E07000073,TLH35,Harlow,0.2943303979246524,0.0023017744526146397,4,Harlow,population_total,good
+E07000074,TLH36,Maldon,0.2052514710295376,0.0005730623953282296,4,Maldon,population_total,good
+E07000075,TLH37,Rochford,0.2387902441489498,0.0013495068708377026,4,Rochford,population_total,good
+E07000076,TLH34,Tendring,0.3004232542819951,0.000634305894275084,4,Tendring,population_total,good
+E07000077,TLH35,Uttlesford,0.2874653925113273,0.00032931908459366785,4,Uttlesford,population_total,good
+E07000078,TLK73,Cheltenham,0.18288268763535548,0.0008302483184587234,4,Cheltenham,population_total,good
+E07000079,TLK73,Cotswold,0.13900959475466834,0.001748353984905389,4,Cotswold,population_total,good
+E07000080,TLK73,Forest of Dean,0.13451912041352554,0.0002991631242302855,4,Forest of Dean,population_total,good
+E07000081,TLK73,Gloucester,0.20570983845879953,0.0010376139354613247,4,Gloucester,population_total,good
+E07000082,TLK73,Stroud,0.1881435008714828,0.0004642289984875029,4,Stroud,population_total,good
+E07000083,TLK73,Tewkesbury,0.14973525786616831,0.0020812034026687193,4,Tewkesbury,population_total,good
+E07000084,TLJ37,Basingstoke and Deane,0.48123578022861757,0.0007150833504763374,4,Basingstoke and Deane,population_total,good
+E07000085,TLJ36,East Hampshire,0.22501959732700128,0.0003337653790742101,4,East Hampshire,population_total,good
+E07000086,TLJ35,Eastleigh,0.30231531838775727,0.0027918880977904565,4,Eastleigh,population_total,good
+E07000087,TLJ35,Fareham,0.24823275407677137,0.0018770481455269012,4,Fareham,population_total,good
+E07000088,TLJ35,Gosport,0.17828174345854164,0.0009153755762874405,4,Gosport,population_total,good
+E07000089,TLJ37,Hart,0.25824954127981,0.0013254054451004393,4,Hart,population_total,good
+E07000090,TLJ35,Havant,0.2711701840769297,0.0002951642843023963,4,Havant,population_total,good
+E07000091,TLJ36,New Forest,0.3091346485472392,0.0037793900519898192,4,New Forest,population_total,good
+E07000092,TLJ37,Rushmoor,0.26051467849157245,0.0018062152978030267,4,Rushmoor,population_total,good
+E07000093,TLJ36,Test Valley,0.23430289021868705,0.0005025126457850909,4,Test Valley,population_total,good
+E07000094,TLJ36,Winchester,0.23154286390707246,0.003134530582495062,4,Winchester,population_total,good
+E07000095,TLH26,Broxbourne,0.16692824273550838,0.0004495758884685928,4,Broxbourne,population_total,good
+E07000096,TLH27,Dacorum,0.2564658098905862,0.001231054577314659,4,Dacorum,population_total,good
+E07000098,TLH27,Hertsmere,0.1770860984225165,0.0006712817439607331,4,Hertsmere,population_total,good
+E07000099,TLH26,North Hertfordshire,0.2252699785940082,0.00040422237606045945,4,North Hertfordshire,population_total,good
+E07000102,TLH27,Three Rivers,0.15391412918548758,0.0005831300122533127,4,Three Rivers,population_total,good
+E07000103,TLH27,Watford,0.16969510664218154,0.001320014580439382,4,Watford,population_total,good
+E07000105,TLJ45,Ashford,0.4296156117396355,0.0005709148200243063,4,Ashford,population_total,good
+E07000106,TLJ44,Canterbury,0.30103306833929727,0.001452994897322126,4,Canterbury,population_total,good
+E07000107,TLJ43,Dartford,0.313950382291754,0.0027917480716315255,4,Dartford,population_total,good
+E07000108,TLJ44,Dover,0.2228713534440666,0.0003257770528072405,4,Dover,population_total,good
+E07000109,TLJ43,Gravesham,0.2819986245751483,0.0015854757059331267,4,Gravesham,population_total,good
+E07000110,TLJ45,Maidstone,0.5703843882603645,0.0005709148200242901,4,Maidstone,population_total,good
+E07000111,TLJ46,Sevenoaks,0.3256367738964184,0.0017743676653081478,4,Sevenoaks,population_total,good
+E07000112,TLJ44,Folkestone and Hythe,0.20955897457173467,0.00033552340458328143,4,Folkestone and Hythe,population_total,good
+E07000113,TLJ43,Swale,0.4040509931330977,0.0017951676801455114,4,Swale,population_total,good
+E07000114,TLJ44,Thanet,0.26653660364490145,0.0015014913411275017,4,Thanet,population_total,good
+E07000115,TLJ46,Tonbridge and Malling,0.3602565183790722,0.0010237533902324198,4,Tonbridge and Malling,population_total,good
+E07000116,TLJ46,Tunbridge Wells,0.31410670772450944,0.0010217753055233546,4,Tunbridge Wells,population_total,good
+E07000117,TLD46,Burnley,0.2764218456017409,0.0006824541449872302,4,Burnley,population_total,good
+E07000118,TLD47,Chorley,0.4992811492735953,0.0017660998960630765,4,Chorley,population_total,good
+E07000119,TLD45,Fylde,0.2008905971070634,0.0019988246667718766,4,Fylde,population_total,good
+E07000120,TLD46,Hyndburn,0.2401574179770912,0.000623645270748165,4,Hyndburn,population_total,good
+E07000121,TLD44,Lancaster,0.5547626764661641,0.003861248320857815,4,Lancaster,population_total,good
+E07000122,TLD46,Pendle,0.2783573671454118,0.00033797318140894227,4,Pendle,population_total,good
+E07000123,TLD45,Preston,0.3731225911634251,0.005102772992189006,4,Preston,population_total,good
+E07000124,TLD45,Ribble Valley,0.15351692224770186,0.00039380816448011014,4,Ribble Valley,population_total,good
+E07000125,TLD46,Rossendale,0.20506336927575614,0.0011235360471812553,4,Rossendale,population_total,good
+E07000126,TLD45,South Ribble,0.27246988948180967,0.002882870880921744,4,South Ribble,population_total,good
+E07000127,TLD47,West Lancashire,0.5007188507264048,0.0017660998960631804,4,West Lancashire,population_total,good
+E07000128,TLD44,Wyre,0.44523732353383594,0.003861248320857809,4,Wyre,population_total,good
+E07000129,TLF22,Blaby,0.1367457053278151,0.0005746563763553735,4,Blaby,population_total,good
+E07000130,TLF22,Charnwood,0.24143167034554147,0.00144958272785843,4,Charnwood,population_total,good
+E07000131,TLF22,Harborough,0.1319616690011489,0.00124296642101617,4,Harborough,population_total,good
+E07000132,TLF22,Hinckley and Bosworth,0.1493388774736338,0.0010784579183902392,4,Hinckley and Bosworth,population_total,good
+E07000133,TLF22,Melton,0.06867610456969617,6.004975740898279e-05,4,Melton,population_total,good
+E07000134,TLF22,North West Leicestershire,0.14114261848582932,0.0013759383328639276,4,North West Leicestershire,population_total,good
+E07000135,TLF22,Oadby and Wigston,0.0772038509947303,0.0008366847862566393,4,Oadby and Wigston,population_total,good
+E07000136,TLF30,Boston,0.09098657826620264,0.0008383187674956898,4,Boston,population_total,good
+E07000137,TLF30,East Lindsey,0.18509958711713695,0.0009067575081687376,4,East Lindsey,population_total,good
+E07000138,TLF30,Lincoln,0.13295201719576943,0.00019457962886176134,4,Lincoln,population_total,good
+E07000139,TLF30,North Kesteven,0.15449761126840802,0.0004622055183416815,4,North Kesteven,population_total,good
+E07000140,TLF30,South Holland,0.12508794466572665,0.0007157149986018996,4,South Holland,population_total,good
+E07000141,TLF30,South Kesteven,0.1863891546226242,0.00034830569678305897,4,South Kesteven,population_total,good
+E07000142,TLF30,West Lindsey,0.12498710686413211,0.000635413734949813,4,West Lindsey,population_total,good
+E07000143,TLH53,Breckland,0.49780988374018287,0.0011357440700362706,4,Breckland,population_total,good
+E07000144,TLH51,Broadland,0.3547609859454466,0.0025941547905450626,4,Broadland,population_total,good
+E07000145,TLH51,Great Yarmouth,0.263182839602604,0.0026567271620267464,4,Great Yarmouth,population_total,good
+E07000146,TLH52,King's Lynn and West Norfolk,0.60139657122485,0.000924387865406655,4,King's Lynn and West Norfolk,population_total,good
+E07000147,TLH52,North Norfolk,0.39860342877515,0.0009243878654066353,4,North Norfolk,population_total,good
+E07000148,TLH51,Norwich,0.3820561744519494,0.0008247072222812991,4,Norwich,population_total,good
+E07000149,TLH53,South Norfolk,0.5021901162598171,0.0011357440700362877,4,South Norfolk,population_total,good
+E07000170,TLF15,Ashfield,0.2627068722899273,0.001069411021188713,4,Ashfield,population_total,good
+E07000171,TLF15,Bassetlaw,0.24951709513738518,0.002158864145294106,4,Bassetlaw,population_total,good
+E07000172,TLF16,Broxtowe,0.31833809133907315,0.001025154452457598,4,Broxtowe,population_total,good
+E07000173,TLF16,Gedling,0.3344560833828639,0.002192967103398726,4,Gedling,population_total,good
+E07000174,TLF15,Mansfield,0.22962722695860632,0.0011455227318153982,4,Mansfield,population_total,good
+E07000175,TLF15,Newark and Sherwood,0.25814880561408116,0.00041826947082877205,4,Newark and Sherwood,population_total,good
+E07000176,TLF16,Rushcliffe,0.3472058252780629,0.002956736483281018,4,Rushcliffe,population_total,good
+E07000177,TLJ14,Cherwell,0.22279001113822494,0.00036610043655851477,4,Cherwell,population_total,good
+E07000178,TLJ14,Oxford,0.2197492958060083,0.0015037048643428562,4,Oxford,population_total,good
+E07000179,TLJ14,South Oxfordshire,0.20543056792952744,0.0007327286642259371,4,South Oxfordshire,population_total,good
+E07000180,TLJ14,Vale of White Horse,0.19356470436764162,0.0016481001048912712,4,Vale of White Horse,population_total,good
+E07000181,TLJ14,West Oxfordshire,0.1584654207585977,6.945511218058712e-05,4,West Oxfordshire,population_total,good
+E07000192,TLG24,Cannock Chase,0.11458840606089946,0.0003377560739536934,4,Cannock Chase,population_total,good
+E07000193,TLG24,East Staffordshire,0.14228240402860304,0.000514933811375654,4,East Staffordshire,population_total,good
+E07000194,TLG24,Lichfield,0.12251159739760797,0.0007057264313778567,4,Lichfield,population_total,good
+E07000195,TLG24,Newcastle-under-Lyme,0.14077458027847867,0.0005454250738753044,4,Newcastle-under-Lyme,population_total,good
+E07000196,TLG24,South Staffordshire,0.12614728640162526,0.00016029152752040297,4,South Staffordshire,population_total,good
+E07000197,TLG24,Stafford,0.15621528571129933,0.00013305354565985666,4,Stafford,population_total,good
+E07000198,TLG24,Staffordshire Moorlands,0.10776750665831135,0.0012468686024598343,4,Staffordshire Moorlands,population_total,good
+E07000199,TLG24,Tamworth,0.08971293346317491,0.00020086642514882523,4,Tamworth,population_total,good
+E07000200,TLH61,Babergh,0.47022579059072495,0.002516751756405191,4,Babergh,population_total,good
+E07000202,TLH62,Ipswich,1.0,0.0,4,Ipswich,population_total,good
+E07000203,TLH61,Mid Suffolk,0.529774209409275,0.002516751756405167,4,Mid Suffolk,population_total,good
+E07000207,TLJ25,Elmbridge,0.17336967093371858,0.001449118451948354,4,Elmbridge,population_total,good
+E07000208,TLJ26,Epsom and Ewell,0.1977777665119675,0.0004500313285596625,4,Epsom and Ewell,population_total,good
+E07000209,TLJ25,Guildford,0.18186621808637135,0.0011018690320099764,4,Guildford,population_total,good
+E07000210,TLJ26,Mole Valley,0.21253799870997947,0.0018317774416894174,4,Mole Valley,population_total,good
+E07000211,TLJ26,Reigate and Banstead,0.3741511088346006,0.0026393549198170142,4,Reigate and Banstead,population_total,good
+E07000212,TLJ25,Runnymede,0.11088852593027969,0.0006610237594862192,4,Runnymede,population_total,good
+E07000213,TLJ25,Spelthorne,0.12893300900579063,0.0005009950054489696,4,Spelthorne,population_total,good
+E07000214,TLJ25,Surrey Heath,0.11387037073431927,0.00035301810831575104,4,Surrey Heath,population_total,good
+E07000215,TLJ26,Tandridge,0.21553312594345242,0.0005238901888474174,4,Tandridge,population_total,good
+E07000216,TLJ25,Waverley,0.16202723420405957,0.00044626900446104726,4,Waverley,population_total,good
+E07000217,TLJ25,Woking,0.1290449711054609,0.0010884743545991021,4,Woking,population_total,good
+E07000218,TLG13,North Warwickshire,0.10766637483811436,0.0013365324788057976,4,North Warwickshire,population_total,good
+E07000219,TLG13,Nuneaton and Bedworth,0.22358920883908648,0.0005775889700064796,4,Nuneaton and Bedworth,population_total,good
+E07000220,TLG13,Rugby,0.1923268508227651,0.0009163155245190531,4,Rugby,population_total,good
+E07000221,TLG13,Stratford-on-Avon,0.22915723193952237,0.002062326275753882,4,Stratford-on-Avon,population_total,good
+E07000222,TLG13,Warwick,0.24726033356051172,0.0017764050124184849,4,Warwick,population_total,good
+E07000223,TLJ27,Adur,0.1372998474136026,0.0012861182785330392,4,Adur,population_total,good
+E07000224,TLJ27,Arun,0.35501417880712777,0.0007407889059956644,4,Arun,population_total,good
+E07000225,TLJ27,Chichester,0.26886069522706846,0.0011889546034678366,4,Chichester,population_total,good
+E07000226,TLJ28,Crawley,0.2835847498833757,0.0007970016564885415,4,Crawley,population_total,good
+E07000227,TLJ28,Horsham,0.34927043425919096,0.0026412452782813784,4,Horsham,population_total,good
+E07000228,TLJ28,Mid Sussex,0.36714481585743336,0.002165608367177736,4,Mid Sussex,population_total,good
+E07000229,TLJ27,Worthing,0.2388252785522012,0.0005444596388221177,4,Worthing,population_total,good
+E07000234,TLG12,Bromsgrove,0.16413716037148585,0.0003667596277187157,4,Bromsgrove,population_total,good
+E07000235,TLG12,Malvern Hills,0.13307797188187262,0.0007111702495900063,4,Malvern Hills,population_total,good
+E07000236,TLG12,Redditch,0.14258735218250787,0.0010517787695924308,4,Redditch,population_total,good
+E07000237,TLG12,Worcester,0.1712746689573553,0.0003160700832516746,4,Worcester,population_total,good
+E07000238,TLG12,Wychavon,0.22118739903430443,0.0010194255539158733,4,Wychavon,population_total,good
+E07000239,TLG12,Wyre Forest,0.16773544757247394,0.00044810152284666745,4,Wyre Forest,population_total,good
+E07000240,TLH27,St Albans,0.24283885585922818,0.0013137198406599927,4,St Albans,population_total,good
+E07000241,TLH26,Welwyn Hatfield,0.2018402011073546,0.00047475206823006526,4,Welwyn Hatfield,population_total,good
+E07000242,TLH26,East Hertfordshire,0.2554432270799172,0.0011006253467051733,4,East Hertfordshire,population_total,good
+E07000243,TLH26,Stevenage,0.1505183504832116,0.000263611037774164,4,Stevenage,population_total,good
+E07000244,TLH63,East Suffolk,1.0,0.0,4,East Suffolk,population_total,good
+E07000245,TLH64,West Suffolk,1.0,0.0,4,West Suffolk,population_total,good
+E08000001,TLD36,Bolton,0.47309485796857914,0.00032050991121134755,4,Bolton,population_total,good
+E08000002,TLD37,Bury,0.29171947013309013,0.0016146364330908818,4,Bury,population_total,good
+E08000003,TLD33,Manchester,1.0,0.0,4,Manchester,population_total,good
+E08000004,TLD37,Oldham,0.36675370390810447,9.324947177157537e-05,4,Oldham,population_total,good
+E08000005,TLD37,Rochdale,0.34152682595880535,0.0015964094053925052,4,Rochdale,population_total,good
+E08000006,TLD34,Salford,0.5429745258714462,0.006408725826099986,4,Salford,population_total,good
+E08000007,TLD35,Stockport,0.5600352131484565,0.000728303893092041,4,Stockport,population_total,good
+E08000008,TLD35,Tameside,0.43996478685154344,0.0007283038930920563,4,Tameside,population_total,good
+E08000009,TLD34,Trafford,0.4570254741285537,0.006408725826099917,4,Trafford,population_total,good
+E08000010,TLD36,Wigan,0.5269051420314208,0.00032050991121135465,4,Wigan,population_total,good
+E08000011,TLD71,Knowsley,0.3341459552576218,0.0020055739655765095,4,Knowsley,population_total,good
+E08000012,TLD72,Liverpool,1.0,0.0,4,Liverpool,population_total,good
+E08000013,TLD71,St. Helens,0.3919784434487805,0.0007178839801117901,4,St. Helens,population_total,good
+E08000014,TLD73,Sefton,1.0,0.0,4,Sefton,population_total,good
+E08000015,TLD74,Wirral,1.0,0.0,4,Wirral,population_total,good
+E08000016,TLE33,Barnsley,1.0,0.0,4,Barnsley,population_total,good
+E08000017,TLE35,Doncaster,1.0,0.0,4,Doncaster,population_total,good
+E08000018,TLE34,Rotherham,1.0,0.0,4,Rotherham,population_total,good
+E08000019,TLE36,Sheffield,1.0,0.0,4,Sheffield,population_total,good
+E08000021,TLC43,Newcastle upon Tyne,0.355379651522005,0.00438096442520047,4,Newcastle upon Tyne,population_total,good
+E08000022,TLC43,North Tyneside,0.24347389788949947,0.001713445464868575,4,North Tyneside,population_total,good
+E08000023,TLC43,South Tyneside,0.17189633715580255,0.0015445512679387618,4,South Tyneside,population_total,good
+E08000024,TLC44,Sunderland,1.0,0.0,4,Sunderland,population_total,good
+E08000025,TLG31,Birmingham,1.0,0.0,4,Birmingham,population_total,good
+E08000026,TLG33,Coventry,1.0,0.0,4,Coventry,population_total,good
+E08000027,TLG36,Dudley,1.0,0.0,4,Dudley,population_total,good
+E08000028,TLG37,Sandwell,1.0,0.0,4,Sandwell,population_total,good
+E08000029,TLG32,Solihull,1.0,0.0,4,Solihull,population_total,good
+E08000030,TLG38,Walsall,1.0,0.0,4,Walsall,population_total,good
+E08000031,TLG39,Wolverhampton,1.0,0.0,4,Wolverhampton,population_total,good
+E08000032,TLE41,Bradford,1.0,0.0,4,Bradford,population_total,good
+E08000033,TLE44,Calderdale,0.32134294826757037,0.0012792333495777362,4,Calderdale,population_total,good
+E08000034,TLE44,Kirklees,0.6786570517324296,0.001279233349577796,4,Kirklees,population_total,good
+E08000035,TLE42,Leeds,1.0,0.0,4,Leeds,population_total,good
+E08000036,TLE45,Wakefield,1.0,0.0,4,Wakefield,population_total,good
+E08000037,TLC43,Gateshead,0.22925011343269297,0.0011467081989640878,4,Gateshead,population_total,good
+E09000001,TLI35,City of London,0.05522066563531248,0.011469626282134703,4,City of London,population_total,good
+E09000002,TLI52,Barking and Dagenham,0.455521360791515,0.0012919078101809858,4,Barking and Dagenham,population_total,good
+E09000003,TLI71,Barnet,1.0,0.0,4,Barnet,population_total,good
+E09000004,TLI51,Bexley,0.4599180937152605,0.0010127427222569123,4,Bexley,population_total,good
+E09000005,TLI72,Brent,1.0,0.0,4,Brent,population_total,good
+E09000006,TLI61,Bromley,1.0,0.0,4,Bromley,population_total,good
+E09000007,TLI36,Camden,1.0,0.0,4,Camden,population_total,good
+E09000008,TLI62,Croydon,1.0,0.0,4,Croydon,population_total,good
+E09000009,TLI73,Ealing,1.0,0.0,4,Ealing,population_total,good
+E09000010,TLI54,Enfield,1.0,0.0,4,Enfield,population_total,good
+E09000011,TLI51,Greenwich,0.5400819062847395,0.0010127427222569373,4,Greenwich,population_total,good
+E09000012,TLI41,Hackney,0.42079109648149715,0.00418826519123436,4,Hackney,population_total,good
+E09000013,TLI33,Hammersmith and Fulham,0.5616660687253608,0.0031952050761672535,4,Hammersmith and Fulham,population_total,good
+E09000014,TLI43,Haringey,0.5442909115907703,0.003319239490490883,4,Haringey,population_total,good
+E09000015,TLI74,Harrow,0.4554557741914383,0.004313977940933598,4,Harrow,population_total,good
+E09000016,TLI52,Havering,0.544478639208485,0.001291907810180982,4,Havering,population_total,good
+E09000017,TLI74,Hillingdon,0.5445442258085617,0.004313977940933575,4,Hillingdon,population_total,good
+E09000018,TLI75,Hounslow,0.5993503859658538,0.003520307195372042,4,Hounslow,population_total,good
+E09000019,TLI43,Islington,0.4557090884092298,0.0033192394904909403,4,Islington,population_total,good
+E09000020,TLI33,Kensington and Chelsea,0.43833393127463915,0.0031952050761672496,4,Kensington and Chelsea,population_total,good
+E09000021,TLI63,Kingston upon Thames,0.2843127079778486,0.000756762620199557,4,Kingston upon Thames,population_total,good
+E09000022,TLI45,Lambeth,1.0,0.0,4,Lambeth,population_total,good
+E09000023,TLI44,Lewisham,0.491075568129894,0.0025431679318228123,4,Lewisham,population_total,good
+E09000024,TLI63,Merton,0.3618914562839896,0.0010266070485926617,4,Merton,population_total,good
+E09000025,TLI41,Newham,0.5792089035185028,0.004188265191234313,4,Newham,population_total,good
+E09000026,TLI53,Redbridge,0.5310329319915449,0.003066550962841119,4,Redbridge,population_total,good
+E09000027,TLI75,Richmond upon Thames,0.40064961403414623,0.0035203071953720344,4,Richmond upon Thames,population_total,good
+E09000028,TLI44,Southwark,0.508924431870106,0.0025431679318227442,4,Southwark,population_total,good
+E09000029,TLI63,Sutton,0.3537958357381618,0.0002796514109417512,4,Sutton,population_total,good
+E09000030,TLI42,Tower Hamlets,1.0,0.0,4,Tower Hamlets,population_total,good
+E09000031,TLI53,Waltham Forest,0.46896706800845517,0.0030665509628411245,4,Waltham Forest,population_total,good
+E09000032,TLI34,Wandsworth,1.0,0.0,4,Wandsworth,population_total,good
+E09000033,TLI35,Westminster,0.9447793343646875,0.011469626282134724,4,Westminster,population_total,good
+N09000001,TLN0D,Antrim and Newtownabbey,1.0,0.0,4,Antrim and Newtownabbey,population_total,good
+N09000002,TLN07,"Armagh City, Banbridge and Craigavon",1.0,0.0,4,"Armagh City, Banbridge and Craigavon",population_total,good
+N09000003,TLN06,Belfast,1.0,0.0,4,Belfast,population_total,good
+N09000004,TLN0C,Causeway Coast and Glens,1.0,0.0,4,Causeway Coast and Glens,population_total,good
+N09000005,TLN0A,Derry City and Strabane,1.0,0.0,4,Derry City and Strabane,population_total,good
+N09000006,TLN0G,Fermanagh and Omagh,1.0,0.0,4,Fermanagh and Omagh,population_total,good
+N09000007,TLN0E,Lisburn and Castlereagh,1.0,0.0,4,Lisburn and Castlereagh,population_total,good
+N09000008,TLN0F,Mid and East Antrim,1.0,0.0,4,Mid and East Antrim,population_total,good
+N09000009,TLN0B,Mid Ulster,1.0,0.0,4,Mid Ulster,population_total,good
+N09000010,TLN08,"Newry, Mourne and Down",1.0,0.0,4,"Newry, Mourne and Down",population_total,good
+N09000011,TLN09,Ards and North Down,1.0,0.0,4,Ards and North Down,population_total,good
+S12000005,TLM01,Clackmannanshire,0.12218521474361707,9.975221820014443e-05,4,Clackmannanshire,population_total,good
+S12000006,TLM92,Dumfries and Galloway,1.0,0.0,4,Dumfries and Galloway,population_total,good
+S12000008,TLM93,East Ayrshire,1.0,0.0,4,East Ayrshire,population_total,good
+S12000010,TLM11,East Lothian,0.5366514982369984,0.0009474774133004699,4,East Lothian,population_total,good
+S12000011,TLM33,East Renfrewshire,0.27042970541174827,0.0008121451589185089,4,East Renfrewshire,population_total,good
+S12000013,TLM20,Na h-Eileanan Siar,0.041818707300833556,0.0001787868253921268,4,Na h-Eileanan Siar,population_total,good
+S12000014,TLM12,Falkirk,1.0,0.0,4,Falkirk,population_total,good
+S12000017,TLM20,Highland,0.37889455885466666,0.00046008542770323074,4,Highland,population_total,good
+S12000018,TLM33,Inverclyde,0.21694128371271187,0.002235593019375505,4,Inverclyde,population_total,good
+S12000019,TLM11,Midlothian,0.46334850176300163,0.0009474774133005168,4,Midlothian,population_total,good
+S12000020,TLM20,Moray,0.15164664769342923,0.00031974795383228437,4,Moray,population_total,good
+S12000021,TLM20,North Ayrshire,0.2144550868134416,0.00026043688391232805,4,North Ayrshire,population_total,good
+S12000023,TLM20,Orkney Islands,0.035309735581687665,7.472730718874645e-05,4,Orkney Islands,population_total,good
+S12000026,TLM91,Scottish Borders,1.0,0.0,4,Scottish Borders,population_total,good
+S12000027,TLM20,Shetland Islands,0.03698081855973309,0.00010065536113634926,4,Shetland Islands,population_total,good
+S12000028,TLM94,South Ayrshire,1.0,0.0,4,South Ayrshire,population_total,good
+S12000029,TLM95,South Lanarkshire,1.0,0.0,4,South Lanarkshire,population_total,good
+S12000030,TLM02,Stirling,0.37903249730540056,0.0009797034542749594,4,Stirling,population_total,good
+S12000033,TLM50,Aberdeen City,0.4616004426101439,0.004699076956621823,4,Aberdeen City,population_total,good
+S12000034,TLM50,Aberdeenshire,0.5383995573898561,0.004699076956621849,4,Aberdeenshire,population_total,good
+S12000035,TLM20,Argyll and Bute,0.14089444519620817,0.00044746144898466283,4,Argyll and Bute,population_total,good
+S12000036,TLM13,City of Edinburgh,1.0,0.0,4,City of Edinburgh,population_total,good
+S12000038,TLM33,Renfrewshire,0.5126290108755398,0.0014343909737302822,4,Renfrewshire,population_total,good
+S12000039,TLM31,West Dunbartonshire,0.4479568294218832,0.00046562670362897607,4,West Dunbartonshire,population_total,good
+S12000040,TLM14,West Lothian,1.0,0.0,4,West Lothian,population_total,good
+S12000041,TLM03,Angus,0.43562773284580913,0.002546067519599157,4,Angus,population_total,good
+S12000042,TLM03,Dundee City,0.5643722671541909,0.002546067519599082,4,Dundee City,population_total,good
+S12000045,TLM31,East Dunbartonshire,0.5520431705781168,0.0004656267036289797,4,East Dunbartonshire,population_total,good
+S12000047,TLM01,Fife,0.8778147852563829,9.97522182001521e-05,4,Fife,population_total,good
+S12000048,TLM02,Perth and Kinross,0.6209675026945994,0.000979703454274949,4,Perth and Kinross,population_total,good
+S12000049,TLM32,Glasgow City,1.0,0.0,4,Glasgow City,population_total,good
+S12000050,TLM34,North Lanarkshire,1.0,0.0,4,North Lanarkshire,population_total,good
+W06000001,TLL31,Isle of Anglesey,1.0,0.0,4,Isle of Anglesey,population_total,good
+W06000002,TLL32,Gwynedd,1.0,0.0,4,Gwynedd,population_total,good
+W06000003,TLL33,Conwy,0.5416636261776397,0.002201874981555137,4,Conwy,population_total,good
+W06000004,TLL33,Denbighshire,0.45833637382236025,0.002201874981555177,4,Denbighshire,population_total,good
+W06000005,TLL34,Flintshire,0.5325352769675642,0.0019846097396229835,4,Flintshire,population_total,good
+W06000006,TLL34,Wrexham,0.4674647230324358,0.0019846097396229887,4,Wrexham,population_total,good
+W06000008,TLL41,Ceredigion,0.34876955225309514,0.0017837796328872555,4,Ceredigion,population_total,good
+W06000009,TLL42,Pembrokeshire,0.39673691287806184,0.00038071466857253846,4,Pembrokeshire,population_total,good
+W06000010,TLL42,Carmarthenshire,0.6032630871219382,0.0003807146685725635,4,Carmarthenshire,population_total,good
+W06000011,TLL43,Swansea,1.0,0.0,4,Swansea,population_total,good
+W06000012,TLL44,Neath Port Talbot,1.0,0.0,4,Neath Port Talbot,population_total,good
+W06000013,TLL51,Bridgend,0.3286924171208414,0.0006930106812987606,4,Bridgend,population_total,good
+W06000014,TLL52,Vale of Glamorgan,0.2644449700391269,0.003636844054551187,4,Vale of Glamorgan,population_total,good
+W06000015,TLL52,Cardiff,0.7355550299608731,0.0036368440545512274,4,Cardiff,population_total,good
+W06000016,TLL51,Rhondda Cynon Taf,0.539251633265179,0.001577822563964099,4,Rhondda Cynon Taf,population_total,good
+W06000018,TLL53,Caerphilly,0.523498340784308,0.001233554451958349,4,Caerphilly,population_total,good
+W06000019,TLL53,Blaenau Gwent,0.19980375201521194,0.00044258208357486633,4,Blaenau Gwent,population_total,good
+W06000020,TLL53,Torfaen,0.27669790720048,0.0008926282530814096,4,Torfaen,population_total,good
+W06000021,TLL54,Monmouthshire,0.36532781308143053,0.003236250297260622,4,Monmouthshire,population_total,good
+W06000022,TLL54,Newport,0.6346721869185695,0.0032362502972606813,4,Newport,population_total,good
+W06000023,TLL41,Powys,0.6512304477469049,0.001783779632887355,4,Powys,population_total,good
+W06000024,TLL51,Merthyr Tydfil,0.1320559496139796,0.0009027173342034464,4,Merthyr Tydfil,population_total,good
+E06000001,TLC31,Hartlepool,0.31946254276893327,0.0011305095731822085,4,Hartlepool,population_16_64,good
+E06000002,TLC32,Middlesbrough,0.538735041029485,0.008858434067956767,4,Middlesbrough,population_16_64,good
+E06000003,TLC32,Redcar and Cleveland,0.461264958970515,0.008858434067956758,4,Redcar and Cleveland,population_16_64,good
+E06000004,TLC31,Stockton-on-Tees,0.6805374572310667,0.001130509573182201,4,Stockton-on-Tees,population_16_64,good
+E06000005,TLC33,Darlington,1.0,0.0,4,Darlington,population_16_64,good
+E06000006,TLD71,Halton,0.27334952676029034,0.0010558262445594993,4,Halton,population_16_64,good
+E06000007,TLD61,Warrington,1.0,0.0,4,Warrington,population_16_64,good
+E06000008,TLD41,Blackburn with Darwen,1.0,0.0,4,Blackburn with Darwen,population_16_64,good
+E06000009,TLD42,Blackpool,1.0,0.0,4,Blackpool,population_16_64,good
+E06000010,TLE11,"Kingston upon Hull, City of",1.0,0.0,4,"Kingston upon Hull, City of",population_16_64,good
+E06000011,TLE12,East Riding of Yorkshire,1.0,0.0,4,East Riding of Yorkshire,population_16_64,good
+E06000012,TLE13,North East Lincolnshire,0.4832474281337763,0.0016818288905957688,4,North East Lincolnshire,population_16_64,good
+E06000013,TLE13,North Lincolnshire,0.5167525718662237,0.001681828890595763,4,North Lincolnshire,population_16_64,good
+E06000014,TLE21,York,1.0,0.0,4,York,population_16_64,good
+E06000015,TLF11,Derby,1.0,0.0,4,Derby,population_16_64,good
+E06000016,TLF21,Leicester,1.0,0.0,4,Leicester,population_16_64,good
+E06000017,TLF22,Rutland,0.05070903199577998,0.0013066951557443407,4,Rutland,population_16_64,good
+E06000018,TLF14,Nottingham,1.0,0.0,4,Nottingham,population_16_64,good
+E06000019,TLG11,"Herefordshire, County of",1.0,0.0,4,"Herefordshire, County of",population_16_64,good
+E06000020,TLG21,Telford and Wrekin,1.0,0.0,4,Telford and Wrekin,population_16_64,good
+E06000021,TLG23,Stoke-on-Trent,1.0,0.0,4,Stoke-on-Trent,population_16_64,good
+E06000022,TLK52,Bath and North East Somerset,0.40163013799808917,0.0011430061021977217,4,Bath and North East Somerset,population_16_64,good
+E06000023,TLK51,"Bristol, City of",1.0,0.0,4,"Bristol, City of",population_16_64,good
+E06000024,TLK61,North Somerset,1.0,0.0,4,North Somerset,population_16_64,good
+E06000025,TLK52,South Gloucestershire,0.5983698620019109,0.0011430061021977266,4,South Gloucestershire,population_16_64,good
+E06000026,TLK41,Plymouth,1.0,0.0,4,Plymouth,population_16_64,good
+E06000027,TLK42,Torbay,1.0,0.0,4,Torbay,population_16_64,good
+E06000030,TLK71,Swindon,1.0,0.0,4,Swindon,population_16_64,good
+E06000031,TLH41,Peterborough,1.0,0.0,4,Peterborough,population_16_64,good
+E06000032,TLH21,Luton,1.0,0.0,4,Luton,population_16_64,good
+E06000033,TLH31,Southend-on-Sea,1.0,0.0,4,Southend-on-Sea,population_16_64,good
+E06000034,TLH32,Thurrock,1.0,0.0,4,Thurrock,population_16_64,good
+E06000035,TLJ41,Medway,1.0,0.0,4,Medway,population_16_64,good
+E06000036,TLJ15,Bracknell Forest,0.2896555591541607,0.0016616934719364872,4,Bracknell Forest,population_16_64,good
+E06000037,TLJ16,West Berkshire,0.29783646199672426,0.00309818515309687,4,West Berkshire,population_16_64,good
+E06000038,TLJ16,Reading,0.36550024459929714,0.002673651333402294,4,Reading,population_16_64,good
+E06000039,TLJ15,Slough,0.370807547868101,0.0028874871998685967,4,Slough,population_16_64,good
+E06000040,TLJ15,Windsor and Maidenhead,0.3395368929777383,0.0013501658283746052,4,Windsor and Maidenhead,population_16_64,good
+E06000041,TLJ16,Wokingham,0.3366632934039786,0.0005161029757156049,4,Wokingham,population_16_64,good
+E06000042,TLJ12,Milton Keynes,1.0,0.0,4,Milton Keynes,population_16_64,good
+E06000043,TLJ21,Brighton and Hove,1.0,0.0,4,Brighton and Hove,population_16_64,good
+E06000044,TLJ31,Portsmouth,1.0,0.0,4,Portsmouth,population_16_64,good
+E06000045,TLJ32,Southampton,1.0,0.0,4,Southampton,population_16_64,good
+E06000046,TLJ34,Isle of Wight,1.0,0.0,4,Isle of Wight,population_16_64,good
+E06000047,TLC41,County Durham,1.0,0.0,4,County Durham,population_16_64,good
+E06000049,TLD62,Cheshire East,1.0,0.0,4,Cheshire East,population_16_64,good
+E06000050,TLD63,Cheshire West and Chester,1.0,0.0,4,Cheshire West and Chester,population_16_64,good
+E06000051,TLG22,Shropshire,1.0,0.0,4,Shropshire,population_16_64,good
+E06000052,TLK30,Cornwall,0.9957932797161285,0.0001638092175384147,4,Cornwall,population_16_64,good
+E06000053,TLK30,Isles of Scilly,0.004206720283871468,0.00016380921753849,4,Isles of Scilly,population_16_64,good
+E06000054,TLK72,Wiltshire,1.0,0.0,4,Wiltshire,population_16_64,good
+E06000055,TLH24,Bedford,1.0,0.0,4,Bedford,population_16_64,good
+E06000056,TLH25,Central Bedfordshire,1.0,0.0,4,Central Bedfordshire,population_16_64,good
+E06000057,TLC42,Northumberland,1.0,0.0,4,Northumberland,population_16_64,good
+E06000058,TLK63,"Bournemouth, Christchurch and Poole",1.0,0.0,4,"Bournemouth, Christchurch and Poole",population_16_64,good
+E06000059,TLK64,Dorset,1.0,0.0,4,Dorset,population_16_64,good
+E06000060,TLJ13,Buckinghamshire,1.0,0.0,4,Buckinghamshire,population_16_64,good
+E06000061,TLF25,North Northamptonshire,1.0,0.0,4,North Northamptonshire,population_16_64,good
+E06000062,TLF24,West Northamptonshire,1.0,0.0,4,West Northamptonshire,population_16_64,good
+E06000063,TLD13,Cumberland,1.0,0.0,4,Cumberland,population_16_64,good
+E06000064,TLD14,Westmorland and Furness,1.0,0.0,4,Westmorland and Furness,population_16_64,good
+E06000065,TLE22,North Yorkshire,1.0,0.0,4,North Yorkshire,population_16_64,good
+E06000066,TLK62,Somerset,1.0,0.0,4,Somerset,population_16_64,good
+E07000008,TLH42,Cambridge,0.2476266672916673,0.0019713656109162894,4,Cambridge,population_16_64,good
+E07000009,TLH42,East Cambridgeshire,0.12409119374022598,0.000894626163624531,4,East Cambridgeshire,population_16_64,good
+E07000010,TLH42,Fenland,0.13940652539562615,0.0017040008477267434,4,Fenland,population_16_64,good
+E07000011,TLH42,Huntingdonshire,0.25898773963119776,0.0007497129729336617,4,Huntingdonshire,population_16_64,good
+E07000012,TLH42,South Cambridgeshire,0.22988787394128285,0.00140503931315808,4,South Cambridgeshire,population_16_64,good
+E07000032,TLF13,Amber Valley,0.2459629308205853,0.0006706275890172992,4,Amber Valley,population_16_64,good
+E07000033,TLF12,Bolsover,0.2898915707795964,0.0010999071999391184,4,Bolsover,population_16_64,good
+E07000034,TLF12,Chesterfield,0.36333698988258173,0.0021915986995524024,4,Chesterfield,population_16_64,good
+E07000035,TLF13,Derbyshire Dales,0.1296624256123069,0.002195688959275497,4,Derbyshire Dales,population_16_64,good
+E07000036,TLF13,Erewash,0.22350934832434016,0.0014242857983499788,4,Erewash,population_16_64,good
+E07000037,TLF13,High Peak,0.1769167390858442,0.002186618986620384,4,High Peak,population_16_64,good
+E07000038,TLF12,North East Derbyshire,0.34677143933782195,0.0012470097056733174,4,North East Derbyshire,population_16_64,good
+E07000039,TLF13,South Derbyshire,0.22394855615692344,0.0055448468639596816,4,South Derbyshire,population_16_64,good
+E07000040,TLK43,East Devon,0.17493828519446386,0.0004865713745042033,4,East Devon,population_16_64,good
+E07000041,TLK43,Exeter,0.19147426171721535,0.003978381212833409,4,Exeter,population_16_64,good
+E07000042,TLK43,Mid Devon,0.10120358609958802,0.0005838523234776956,4,Mid Devon,population_16_64,good
+E07000043,TLK43,North Devon,0.11933934302714162,0.0010631203607672603,4,North Devon,population_16_64,good
+E07000044,TLK43,South Hams,0.10474916114600843,0.0006869017044196028,4,South Hams,population_16_64,good
+E07000045,TLK43,Teignbridge,0.1609446436310038,0.0010504304624517186,4,Teignbridge,population_16_64,good
+E07000046,TLK43,Torridge,0.07955546834137846,0.0009230454346129247,4,Torridge,population_16_64,good
+E07000047,TLK43,West Devon,0.06779525084320047,0.0004476002433757145,4,West Devon,population_16_64,good
+E07000061,TLJ22,Eastbourne,0.19078406068266215,0.0008858724516232113,4,Eastbourne,population_16_64,good
+E07000062,TLJ22,Hastings,0.17714505436215097,0.001701967677169639,4,Hastings,population_16_64,good
+E07000063,TLJ22,Lewes,0.1812695576509095,0.00022561933188886487,4,Lewes,population_16_64,good
+E07000064,TLJ22,Rother,0.15809862731510302,0.0004501309622162678,4,Rother,population_16_64,good
+E07000065,TLJ22,Wealden,0.29270269998917436,0.0009098574784473617,4,Wealden,population_16_64,good
+E07000066,TLH37,Basildon,0.5325183033956148,0.0009046580599583124,4,Basildon,population_16_64,good
+E07000067,TLH34,Braintree,0.31901079942805394,0.0014451506666996053,4,Braintree,population_16_64,good
+E07000068,TLH36,Brentwood,0.2362330978835715,0.001090405150370863,4,Brentwood,population_16_64,good
+E07000069,TLH37,Castle Point,0.233125449308899,0.0026762239878270525,4,Castle Point,population_16_64,good
+E07000070,TLH36,Chelmsford,0.567538926904303,0.0012898260868433181,4,Chelmsford,population_16_64,good
+E07000071,TLH34,Colchester,0.40671890061593924,0.0021948771717955995,4,Colchester,population_16_64,good
+E07000072,TLH35,Epping Forest,0.41751562366476463,0.0026952257990742108,4,Epping Forest,population_16_64,good
+E07000073,TLH35,Harlow,0.30301452917986,0.0030127330390577775,4,Harlow,population_16_64,good
+E07000074,TLH36,Maldon,0.19622797521212548,0.0007727921337504062,4,Maldon,population_16_64,good
+E07000075,TLH37,Rochford,0.23435624729548624,0.0018094605569966928,4,Rochford,population_16_64,good
+E07000076,TLH34,Tendring,0.2742702999560068,0.0010423796314667872,4,Tendring,population_16_64,good
+E07000077,TLH35,Uttlesford,0.2794698471553754,0.0005906683445747116,4,Uttlesford,population_16_64,good
+E07000078,TLK73,Cheltenham,0.1904731627037965,0.0011170559727461701,4,Cheltenham,population_16_64,good
+E07000079,TLK73,Cotswold,0.13156247889138,0.0024280336014795567,4,Cotswold,population_16_64,good
+E07000080,TLK73,Forest of Dean,0.13022855009087872,0.0004713115157546646,4,Forest of Dean,population_16_64,good
+E07000081,TLK73,Gloucester,0.21725055287760053,0.0017169834673524337,4,Gloucester,population_16_64,good
+E07000082,TLK73,Stroud,0.18415264077471527,0.0005394499543516305,4,Stroud,population_16_64,good
+E07000083,TLK73,Tewkesbury,0.146332614661629,0.0022911852855590597,4,Tewkesbury,population_16_64,good
+E07000084,TLJ37,Basingstoke and Deane,0.480974871812369,0.0011258092851975973,4,Basingstoke and Deane,population_16_64,good
+E07000085,TLJ36,East Hampshire,0.22652057166860884,0.00039300465528652206,4,East Hampshire,population_16_64,good
+E07000086,TLJ35,Eastleigh,0.31043332646081323,0.003607118236169686,4,Eastleigh,population_16_64,good
+E07000087,TLJ35,Fareham,0.2440346014398908,0.0027443241892031894,4,Fareham,population_16_64,good
+E07000088,TLJ35,Gosport,0.18086185994103562,0.0007689361684096838,4,Gosport,population_16_64,good
+E07000089,TLJ37,Hart,0.24838408848872018,0.001535236339909447,4,Hart,population_16_64,good
+E07000090,TLJ35,Havant,0.26467021215826037,0.00044263243712780714,4,Havant,population_16_64,good
+E07000091,TLJ36,New Forest,0.28992065156738833,0.003963369527901543,4,New Forest,population_16_64,good
+E07000092,TLJ37,Rushmoor,0.27064103969891085,0.002399999339248049,4,Rushmoor,population_16_64,good
+E07000093,TLJ36,Test Valley,0.24139537468469058,0.0004245926192355397,4,Test Valley,population_16_64,good
+E07000094,TLJ36,Winchester,0.24216340207931228,0.003960317497090107,4,Winchester,population_16_64,good
+E07000095,TLH26,Broxbourne,0.1660857572011858,0.0005273927475591073,4,Broxbourne,population_16_64,good
+E07000096,TLH27,Dacorum,0.2550096793889926,0.0010180443459695556,4,Dacorum,population_16_64,good
+E07000098,TLH27,Hertsmere,0.17534296686824116,0.0009224562329776435,4,Hertsmere,population_16_64,good
+E07000099,TLH26,North Hertfordshire,0.21937972587037588,0.00044069356971628964,4,North Hertfordshire,population_16_64,good
+E07000102,TLH27,Three Rivers,0.15255456958549607,0.0003791612303628851,4,Three Rivers,population_16_64,good
+E07000103,TLH27,Watford,0.17972738098232174,0.001054529642525106,4,Watford,population_16_64,good
+E07000105,TLJ45,Ashford,0.42683266276304055,0.0004993245388407797,4,Ashford,population_16_64,good
+E07000106,TLJ44,Canterbury,0.3142962288603686,0.0014355758970547533,4,Canterbury,population_16_64,good
+E07000107,TLJ43,Dartford,0.3222409149292819,0.0029580619566190675,4,Dartford,population_16_64,good
+E07000108,TLJ44,Dover,0.2186030996321,0.00017914401801105945,4,Dover,population_16_64,good
+E07000109,TLJ43,Gravesham,0.2799654134796722,0.0016622587590673003,4,Gravesham,population_16_64,good
+E07000110,TLJ45,Maidstone,0.5731673372369595,0.0004993245388408515,4,Maidstone,population_16_64,good
+E07000111,TLJ46,Sevenoaks,0.3179988996245835,0.0017343399231637823,4,Sevenoaks,population_16_64,good
+E07000112,TLJ44,Folkestone and Hythe,0.20533565205878626,0.00040724174204403573,4,Folkestone and Hythe,population_16_64,good
+E07000113,TLJ43,Swale,0.39779367159104595,0.00194853559532929,4,Swale,population_16_64,good
+E07000114,TLJ44,Thanet,0.2617650194487451,0.0012676985039463075,4,Thanet,population_16_64,good
+E07000115,TLJ46,Tonbridge and Malling,0.36546277436095564,0.0019747621305727403,4,Tonbridge and Malling,population_16_64,good
+E07000116,TLJ46,Tunbridge Wells,0.31653832601446086,0.000629220098232033,4,Tunbridge Wells,population_16_64,good
+E07000117,TLD46,Burnley,0.2776265739645,0.0006116489271585093,4,Burnley,population_16_64,good
+E07000118,TLD47,Chorley,0.49919617838532737,0.0014673904398115982,4,Chorley,population_16_64,good
+E07000119,TLD45,Fylde,0.18556512233773942,0.0031678484681621306,4,Fylde,population_16_64,good
+E07000120,TLD46,Hyndburn,0.2418352525641213,0.0011073426950571742,4,Hyndburn,population_16_64,good
+E07000121,TLD44,Lancaster,0.5820106470460154,0.00387278612138898,4,Lancaster,population_16_64,good
+E07000122,TLD46,Pendle,0.27441188669805916,0.0008132215302104656,4,Pendle,population_16_64,good
+E07000123,TLD45,Preston,0.398447368076342,0.006804636833778976,4,Preston,population_16_64,good
+E07000124,TLD45,Ribble Valley,0.14733175659760106,0.0009149999870367602,4,Ribble Valley,population_16_64,good
+E07000125,TLD46,Rossendale,0.20612628677331954,0.0009027028145395273,4,Rossendale,population_16_64,good
+E07000126,TLD45,South Ribble,0.2686557529883175,0.0028154562018060493,4,South Ribble,population_16_64,good
+E07000127,TLD47,West Lancashire,0.5008038216146726,0.0014673904398115538,4,West Lancashire,population_16_64,good
+E07000128,TLD44,Wyre,0.4179893529539847,0.003872786121388966,4,Wyre,population_16_64,good
+E07000129,TLF22,Blaby,0.13557191375160446,0.001199914839171494,4,Blaby,population_16_64,good
+E07000130,TLF22,Charnwood,0.25204639474554585,0.0018554445935810655,4,Charnwood,population_16_64,good
+E07000131,TLF22,Harborough,0.12962339552858032,0.0010659164975177675,4,Harborough,population_16_64,good
+E07000132,TLF22,Hinckley and Bosworth,0.1463697191221667,0.0011679415472803864,4,Hinckley and Bosworth,population_16_64,good
+E07000133,TLF22,Melton,0.06619777416355706,0.0001422752331382529,4,Melton,population_16_64,good
+E07000134,TLF22,North West Leicestershire,0.14335661650479828,0.0017299726306509047,4,North West Leicestershire,population_16_64,good
+E07000135,TLF22,Oadby and Wigston,0.07612515418796736,0.0010070010071701692,4,Oadby and Wigston,population_16_64,good
+E07000136,TLF30,Boston,0.09201247746234636,0.0016253486496965112,4,Boston,population_16_64,good
+E07000137,TLF30,East Lindsey,0.17013291710779715,0.001020668197443128,4,East Lindsey,population_16_64,good
+E07000138,TLF30,Lincoln,0.1536721383830812,0.00041129356632295524,4,Lincoln,population_16_64,good
+E07000139,TLF30,North Kesteven,0.15455327193585472,0.0006348861332035686,4,North Kesteven,population_16_64,good
+E07000140,TLF30,South Holland,0.12356776657483122,0.000545445678424767,4,South Holland,population_16_64,good
+E07000141,TLF30,South Kesteven,0.1845559276262303,0.000518870911969431,4,South Kesteven,population_16_64,good
+E07000142,TLF30,West Lindsey,0.12150550090985905,0.0008778533044413824,4,West Lindsey,population_16_64,good
+E07000143,TLH53,Breckland,0.498550085160428,0.0009046512312017079,4,Breckland,population_16_64,good
+E07000144,TLH51,Broadland,0.32973568229385847,0.002556087274021831,4,Broadland,population_16_64,good
+E07000145,TLH51,Great Yarmouth,0.24670363779111432,0.0037917126215724294,4,Great Yarmouth,population_16_64,good
+E07000146,TLH52,King's Lynn and West Norfolk,0.6217066173886707,0.0016927770232851573,4,King's Lynn and West Norfolk,population_16_64,good
+E07000147,TLH52,North Norfolk,0.37829338261132933,0.0016927770232851634,4,North Norfolk,population_16_64,good
+E07000148,TLH51,Norwich,0.4235606799150272,0.001951500362367019,4,Norwich,population_16_64,good
+E07000149,TLH53,South Norfolk,0.501449914839572,0.0009046512312017219,4,South Norfolk,population_16_64,good
+E07000170,TLF15,Ashfield,0.2655381129085478,0.0005091700648680094,4,Ashfield,population_16_64,good
+E07000171,TLF15,Bassetlaw,0.24680056191006122,0.002227831723622513,4,Bassetlaw,population_16_64,good
+E07000172,TLF16,Broxtowe,0.32268492732187604,0.0008855610289542646,4,Broxtowe,population_16_64,good
+E07000173,TLF16,Gedling,0.3341684571788302,0.0019709503180442038,4,Gedling,population_16_64,good
+E07000174,TLF15,Mansfield,0.2329468793332205,0.0018376133111503597,4,Mansfield,population_16_64,good
+E07000175,TLF15,Newark and Sherwood,0.2547144458481705,0.0004497133027299159,4,Newark and Sherwood,population_16_64,good
+E07000176,TLF16,Rushcliffe,0.34314661549929376,0.0020041006918040745,4,Rushcliffe,population_16_64,good
+E07000177,TLJ14,Cherwell,0.22119039448583036,0.00045352360836932107,4,Cherwell,population_16_64,good
+E07000178,TLJ14,Oxford,0.24957819836847808,0.001492452079935698,4,Oxford,population_16_64,good
+E07000179,TLJ14,South Oxfordshire,0.1956697742645933,0.0007049089012782544,4,South Oxfordshire,population_16_64,good
+E07000180,TLJ14,Vale of White Horse,0.18409018478140712,0.0013620180992835362,4,Vale of White Horse,population_16_64,good
+E07000181,TLJ14,West Oxfordshire,0.14947144809969112,0.0002149408066905387,4,West Oxfordshire,population_16_64,good
+E07000192,TLG24,Cannock Chase,0.11826801542310342,0.0005227146390404534,4,Cannock Chase,population_16_64,good
+E07000193,TLG24,East Staffordshire,0.14544720866808084,0.00019760181700185746,4,East Staffordshire,population_16_64,good
+E07000194,TLG24,Lichfield,0.11988009204973507,0.0009926827456578585,4,Lichfield,population_16_64,good
+E07000195,TLG24,Newcastle-under-Lyme,0.14445722424270135,0.0011495906070500916,4,Newcastle-under-Lyme,population_16_64,good
+E07000196,TLG24,South Staffordshire,0.1226184825436546,0.0005401006738199771,4,South Staffordshire,population_16_64,good
+E07000197,TLG24,Stafford,0.1546779787571591,5.615422775800069e-05,4,Stafford,population_16_64,good
+E07000198,TLG24,Staffordshire Moorlands,0.10283996180036918,0.0013842300119225868,4,Staffordshire Moorlands,population_16_64,good
+E07000199,TLG24,Tamworth,0.0918110365151964,7.7348363035945e-05,4,Tamworth,population_16_64,good
+E07000200,TLH61,Babergh,0.4634348528557157,0.0025263495906306947,4,Babergh,population_16_64,good
+E07000202,TLH62,Ipswich,1.0,0.0,4,Ipswich,population_16_64,good
+E07000203,TLH61,Mid Suffolk,0.5365651471442843,0.002526349590630636,4,Mid Suffolk,population_16_64,good
+E07000207,TLJ25,Elmbridge,0.16812938158881946,0.0014816635586284016,4,Elmbridge,population_16_64,good
+E07000208,TLJ26,Epsom and Ewell,0.20090897311509573,0.0005516012181888467,4,Epsom and Ewell,population_16_64,good
+E07000209,TLJ25,Guildford,0.19082415320864715,0.0015542409886253486,4,Guildford,population_16_64,good
+E07000210,TLJ26,Mole Valley,0.2053684400272392,0.002709441293902026,4,Mole Valley,population_16_64,good
+E07000211,TLJ26,Reigate and Banstead,0.38207356485947197,0.0032926406016679636,4,Reigate and Banstead,population_16_64,good
+E07000212,TLJ25,Runnymede,0.11602651708659781,0.0009956883720798533,4,Runnymede,population_16_64,good
+E07000213,TLJ25,Spelthorne,0.12970606127248263,0.00044171178164739244,4,Spelthorne,population_16_64,good
+E07000214,TLJ25,Surrey Heath,0.11210138780857018,0.00021031602065760743,4,Surrey Heath,population_16_64,good
+E07000215,TLJ26,Tandridge,0.21164902199819313,0.000272661007496155,4,Tandridge,population_16_64,good
+E07000216,TLJ25,Waverley,0.15265266694397966,0.00041620815504738644,4,Waverley,population_16_64,good
+E07000217,TLJ25,Woking,0.13055983209090308,0.0011752598120916738,4,Woking,population_16_64,good
+E07000218,TLG13,North Warwickshire,0.10623854009837205,0.0014750927028324816,4,North Warwickshire,population_16_64,good
+E07000219,TLG13,Nuneaton and Bedworth,0.22426679890838058,0.0006557618344378829,4,Nuneaton and Bedworth,population_16_64,good
+E07000220,TLG13,Rugby,0.19502240376557417,0.0013748430674545022,4,Rugby,population_16_64,good
+E07000221,TLG13,Stratford-on-Avon,0.21753708057939286,0.002261104872604344,4,Stratford-on-Avon,population_16_64,good
+E07000222,TLG13,Warwick,0.25693517664828036,0.002547859979842844,4,Warwick,population_16_64,good
+E07000223,TLJ27,Adur,0.13861882410091386,0.001197615766717346,4,Adur,population_16_64,good
+E07000224,TLJ27,Arun,0.3442876434588966,0.0005653418635891787,4,Arun,population_16_64,good
+E07000225,TLJ27,Chichester,0.2658117504520032,0.0007884809883882083,4,Chichester,population_16_64,good
+E07000226,TLJ28,Crawley,0.3031882318709658,0.0011452868571382106,4,Crawley,population_16_64,good
+E07000227,TLJ28,Horsham,0.3366330887957021,0.0036041947855835433,4,Horsham,population_16_64,good
+E07000228,TLJ28,Mid Sussex,0.36017867933333214,0.002627775432473422,4,Mid Sussex,population_16_64,good
+E07000229,TLJ27,Worthing,0.2512817819881863,0.00042024489066419415,4,Worthing,population_16_64,good
+E07000234,TLG12,Bromsgrove,0.16168354180177724,0.00027319538515075656,4,Bromsgrove,population_16_64,good
+E07000235,TLG12,Malvern Hills,0.12551146320677575,0.0005014206724975175,4,Malvern Hills,population_16_64,good
+E07000236,TLG12,Redditch,0.1477824946318342,0.0011456237520338104,4,Redditch,population_16_64,good
+E07000237,TLG12,Worcester,0.18540012121147847,0.0003618975216887118,4,Worcester,population_16_64,good
+E07000238,TLG12,Wychavon,0.21624837150023957,0.0004121239979985018,4,Wychavon,population_16_64,good
+E07000239,TLG12,Wyre Forest,0.16337400764789478,0.00033948438898564695,4,Wyre Forest,population_16_64,good
+E07000240,TLH27,St Albans,0.23736540317494845,0.0010274623723312579,4,St Albans,population_16_64,good
+E07000241,TLH26,Welwyn Hatfield,0.20912852705231585,0.0004663476849927846,4,Welwyn Hatfield,population_16_64,good
+E07000242,TLH26,East Hertfordshire,0.2519057048327513,0.0007810553334185454,4,East Hertfordshire,population_16_64,good
+E07000243,TLH26,Stevenage,0.15350028504337115,0.00017654783693662945,4,Stevenage,population_16_64,good
+E07000244,TLH63,East Suffolk,1.0,0.0,4,East Suffolk,population_16_64,good
+E07000245,TLH64,West Suffolk,1.0,0.0,4,West Suffolk,population_16_64,good
+E08000001,TLD36,Bolton,0.46956944225878605,0.0005836091334939423,4,Bolton,population_16_64,good
+E08000002,TLD37,Bury,0.2918974522126968,0.001756531109870606,4,Bury,population_16_64,good
+E08000003,TLD33,Manchester,1.0,0.0,4,Manchester,population_16_64,good
+E08000004,TLD37,Oldham,0.366122994222169,0.0005550195349422659,4,Oldham,population_16_64,good
+E08000005,TLD37,Rochdale,0.3419795535651342,0.0012358815558203696,4,Rochdale,population_16_64,good
+E08000006,TLD34,Salford,0.5664583653713279,0.00814385491802564,4,Salford,population_16_64,good
+E08000007,TLD35,Stockport,0.5525135352886404,0.0012666029092497585,4,Stockport,population_16_64,good
+E08000008,TLD35,Tameside,0.44748646471135956,0.0012666029092497956,4,Tameside,population_16_64,good
+E08000009,TLD34,Trafford,0.4335416346286721,0.00814385491802562,4,Trafford,population_16_64,good
+E08000010,TLD36,Wigan,0.530430557741214,0.0005836091334939706,4,Wigan,population_16_64,good
+E08000011,TLD71,Knowsley,0.3382165969584473,0.0009466124414378103,4,Knowsley,population_16_64,good
+E08000012,TLD72,Liverpool,1.0,0.0,4,Liverpool,population_16_64,good
+E08000013,TLD71,St. Helens,0.38843387628126236,0.00027091644301202074,4,St. Helens,population_16_64,good
+E08000014,TLD73,Sefton,1.0,0.0,4,Sefton,population_16_64,good
+E08000015,TLD74,Wirral,1.0,0.0,4,Wirral,population_16_64,good
+E08000016,TLE33,Barnsley,1.0,0.0,4,Barnsley,population_16_64,good
+E08000017,TLE35,Doncaster,1.0,0.0,4,Doncaster,population_16_64,good
+E08000018,TLE34,Rotherham,1.0,0.0,4,Rotherham,population_16_64,good
+E08000019,TLE36,Sheffield,1.0,0.0,4,Sheffield,population_16_64,good
+E08000021,TLC43,Newcastle upon Tyne,0.37834034329136057,0.005463736165601804,4,Newcastle upon Tyne,population_16_64,good
+E08000022,TLC43,North Tyneside,0.23453660952969574,0.0020079879399399173,4,North Tyneside,population_16_64,good
+E08000023,TLC43,South Tyneside,0.1640184588827666,0.00211120362076401,4,South Tyneside,population_16_64,good
+E08000024,TLC44,Sunderland,1.0,0.0,4,Sunderland,population_16_64,good
+E08000025,TLG31,Birmingham,1.0,0.0,4,Birmingham,population_16_64,good
+E08000026,TLG33,Coventry,1.0,0.0,4,Coventry,population_16_64,good
+E08000027,TLG36,Dudley,1.0,0.0,4,Dudley,population_16_64,good
+E08000028,TLG37,Sandwell,1.0,0.0,4,Sandwell,population_16_64,good
+E08000029,TLG32,Solihull,1.0,0.0,4,Solihull,population_16_64,good
+E08000030,TLG38,Walsall,1.0,0.0,4,Walsall,population_16_64,good
+E08000031,TLG39,Wolverhampton,1.0,0.0,4,Wolverhampton,population_16_64,good
+E08000032,TLE41,Bradford,1.0,0.0,4,Bradford,population_16_64,good
+E08000033,TLE44,Calderdale,0.3190417001112383,0.001460424802611853,4,Calderdale,population_16_64,good
+E08000034,TLE44,Kirklees,0.6809582998887618,0.0014604248026118193,4,Kirklees,population_16_64,good
+E08000035,TLE42,Leeds,1.0,0.0,4,Leeds,population_16_64,good
+E08000036,TLE45,Wakefield,1.0,0.0,4,Wakefield,population_16_64,good
+E08000037,TLC43,Gateshead,0.22310458829617713,0.0013798470035434065,4,Gateshead,population_16_64,good
+E09000001,TLI35,City of London,0.06077298924416337,0.01448655036805248,4,City of London,population_16_64,good
+E09000002,TLI52,Barking and Dagenham,0.4687145156335316,0.0031438657003542195,4,Barking and Dagenham,population_16_64,good
+E09000003,TLI71,Barnet,1.0,0.0,4,Barnet,population_16_64,good
+E09000004,TLI51,Bexley,0.4355929348228675,0.0013136776790607784,4,Bexley,population_16_64,good
+E09000005,TLI72,Brent,1.0,0.0,4,Brent,population_16_64,good
+E09000006,TLI61,Bromley,1.0,0.0,4,Bromley,population_16_64,good
+E09000007,TLI36,Camden,1.0,0.0,4,Camden,population_16_64,good
+E09000008,TLI62,Croydon,1.0,0.0,4,Croydon,population_16_64,good
+E09000009,TLI73,Ealing,1.0,0.0,4,Ealing,population_16_64,good
+E09000010,TLI54,Enfield,1.0,0.0,4,Enfield,population_16_64,good
+E09000011,TLI51,Greenwich,0.5644070651771325,0.0013136776790608064,4,Greenwich,population_16_64,good
+E09000012,TLI41,Hackney,0.42537532405423123,0.004869615900134389,4,Hackney,population_16_64,good
+E09000013,TLI33,Hammersmith and Fulham,0.5713538564833837,0.004435066203638301,4,Hammersmith and Fulham,population_16_64,good
+E09000014,TLI43,Haringey,0.5277169858933932,0.005001102901608311,4,Haringey,population_16_64,good
+E09000015,TLI74,Harrow,0.450021490876725,0.006336286684784636,4,Harrow,population_16_64,good
+E09000016,TLI52,Havering,0.5312854843664684,0.0031438657003542906,4,Havering,population_16_64,good
+E09000017,TLI74,Hillingdon,0.5499785091232751,0.006336286684784644,4,Hillingdon,population_16_64,good
+E09000018,TLI75,Hounslow,0.6148563246393367,0.0045451230625885766,4,Hounslow,population_16_64,good
+E09000019,TLI43,Islington,0.4722830141066068,0.005001102901608249,4,Islington,population_16_64,good
+E09000020,TLI33,Kensington and Chelsea,0.42864614351661634,0.004435066203638259,4,Kensington and Chelsea,population_16_64,good
+E09000021,TLI63,Kingston upon Thames,0.2853846357008021,0.0009099571202372454,4,Kingston upon Thames,population_16_64,good
+E09000022,TLI45,Lambeth,1.0,0.0,4,Lambeth,population_16_64,good
+E09000023,TLI44,Lewisham,0.47779009620880736,0.0028774532970960403,4,Lewisham,population_16_64,good
+E09000024,TLI63,Merton,0.3720100062867518,0.0009919138887930878,4,Merton,population_16_64,good
+E09000025,TLI41,Newham,0.5746246759457688,0.004869615900134467,4,Newham,population_16_64,good
+E09000026,TLI53,Redbridge,0.5177206171078473,0.0037061232587011113,4,Redbridge,population_16_64,good
+E09000027,TLI75,Richmond upon Thames,0.38514367536066335,0.004545123062588654,4,Richmond upon Thames,population_16_64,good
+E09000028,TLI44,Southwark,0.5222099037911927,0.0028774532970960664,4,Southwark,population_16_64,good
+E09000029,TLI63,Sutton,0.34260535801244607,0.00022004537725309832,4,Sutton,population_16_64,good
+E09000030,TLI42,Tower Hamlets,1.0,0.0,4,Tower Hamlets,population_16_64,good
+E09000031,TLI53,Waltham Forest,0.48227938289215266,0.003706123258701132,4,Waltham Forest,population_16_64,good
+E09000032,TLI34,Wandsworth,1.0,0.0,4,Wandsworth,population_16_64,good
+E09000033,TLI35,Westminster,0.9392270107558366,0.014486550368052454,4,Westminster,population_16_64,good
+N09000001,TLN0D,Antrim and Newtownabbey,1.0,0.0,4,Antrim and Newtownabbey,population_16_64,good
+N09000002,TLN07,"Armagh City, Banbridge and Craigavon",1.0,0.0,4,"Armagh City, Banbridge and Craigavon",population_16_64,good
+N09000003,TLN06,Belfast,1.0,0.0,4,Belfast,population_16_64,good
+N09000004,TLN0C,Causeway Coast and Glens,1.0,0.0,4,Causeway Coast and Glens,population_16_64,good
+N09000005,TLN0A,Derry City and Strabane,1.0,0.0,4,Derry City and Strabane,population_16_64,good
+N09000006,TLN0G,Fermanagh and Omagh,1.0,0.0,4,Fermanagh and Omagh,population_16_64,good
+N09000007,TLN0E,Lisburn and Castlereagh,1.0,0.0,4,Lisburn and Castlereagh,population_16_64,good
+N09000008,TLN0F,Mid and East Antrim,1.0,0.0,4,Mid and East Antrim,population_16_64,good
+N09000009,TLN0B,Mid Ulster,1.0,0.0,4,Mid Ulster,population_16_64,good
+N09000010,TLN08,"Newry, Mourne and Down",1.0,0.0,4,"Newry, Mourne and Down",population_16_64,good
+N09000011,TLN09,Ards and North Down,1.0,0.0,4,Ards and North Down,population_16_64,good
+S12000005,TLM01,Clackmannanshire,0.12308302605094881,4.388825588276688e-05,4,Clackmannanshire,population_16_64,good
+S12000006,TLM92,Dumfries and Galloway,1.0,0.0,4,Dumfries and Galloway,population_16_64,good
+S12000008,TLM93,East Ayrshire,1.0,0.0,4,East Ayrshire,population_16_64,good
+S12000010,TLM11,East Lothian,0.5315573480029057,0.00109807023127839,4,East Lothian,population_16_64,good
+S12000011,TLM33,East Renfrewshire,0.2537011652606217,0.0009174256134056106,4,East Renfrewshire,population_16_64,good
+S12000013,TLM20,Na h-Eileanan Siar,0.040556210201531356,4.672662348694131e-05,4,Na h-Eileanan Siar,population_16_64,good
+S12000014,TLM12,Falkirk,1.0,0.0,4,Falkirk,population_16_64,good
+S12000017,TLM20,Highland,0.38099008587948,0.0002875048670157544,4,Highland,population_16_64,good
+S12000018,TLM33,Inverclyde,0.21685406159700873,0.00268567269745759,4,Inverclyde,population_16_64,good
+S12000019,TLM11,Midlothian,0.46844265199709434,0.0010980702312783394,4,Midlothian,population_16_64,good
+S12000020,TLM20,Moray,0.15320811054244413,0.00041407235942924144,4,Moray,population_16_64,good
+S12000021,TLM20,North Ayrshire,0.21507867889948634,0.00017218084416618156,4,North Ayrshire,population_16_64,good
+S12000023,TLM20,Orkney Islands,0.03474929207928036,0.00012548891772439392,4,Orkney Islands,population_16_64,good
+S12000026,TLM91,Scottish Borders,1.0,0.0,4,Scottish Borders,population_16_64,good
+S12000027,TLM20,Shetland Islands,0.03712416158378769,0.0003862168096294595,4,Shetland Islands,population_16_64,good
+S12000028,TLM94,South Ayrshire,1.0,0.0,4,South Ayrshire,population_16_64,good
+S12000029,TLM95,South Lanarkshire,1.0,0.0,4,South Lanarkshire,population_16_64,good
+S12000030,TLM02,Stirling,0.39448539158988577,0.0020996378696618587,4,Stirling,population_16_64,good
+S12000033,TLM50,Aberdeen City,0.48730440019908394,0.0050313929158604075,4,Aberdeen City,population_16_64,good
+S12000034,TLM50,Aberdeenshire,0.5126955998009161,0.005031392915860433,4,Aberdeenshire,population_16_64,good
+S12000035,TLM20,Argyll and Bute,0.1382934608139901,0.0006783043562868709,4,Argyll and Bute,population_16_64,good
+S12000036,TLM13,City of Edinburgh,1.0,0.0,4,City of Edinburgh,population_16_64,good
+S12000038,TLM33,Renfrewshire,0.5294447731423696,0.0018665505187496463,4,Renfrewshire,population_16_64,good
+S12000039,TLM31,West Dunbartonshire,0.46777959256403956,0.0014819176226621034,4,West Dunbartonshire,population_16_64,good
+S12000040,TLM14,West Lothian,1.0,0.0,4,West Lothian,population_16_64,good
+S12000041,TLM03,Angus,0.4085804973184588,0.0034657606899552,4,Angus,population_16_64,good
+S12000042,TLM03,Dundee City,0.5914195026815412,0.0034657606899551768,4,Dundee City,population_16_64,good
+S12000045,TLM31,East Dunbartonshire,0.5322204074359604,0.0014819176226621216,4,East Dunbartonshire,population_16_64,good
+S12000047,TLM01,Fife,0.8769169739490512,4.388825588274331e-05,4,Fife,population_16_64,good
+S12000048,TLM02,Perth and Kinross,0.6055146084101143,0.002099637869661861,4,Perth and Kinross,population_16_64,good
+S12000049,TLM32,Glasgow City,1.0,0.0,4,Glasgow City,population_16_64,good
+S12000050,TLM34,North Lanarkshire,1.0,0.0,4,North Lanarkshire,population_16_64,good
+W06000001,TLL31,Isle of Anglesey,1.0,0.0,4,Isle of Anglesey,population_16_64,good
+W06000002,TLL32,Gwynedd,1.0,0.0,4,Gwynedd,population_16_64,good
+W06000003,TLL33,Conwy,0.5368763352256885,0.003266582221701271,4,Conwy,population_16_64,good
+W06000004,TLL33,Denbighshire,0.46312366477431155,0.003266582221701298,4,Denbighshire,population_16_64,good
+W06000005,TLL34,Flintshire,0.5303351945496546,0.002429489241761733,4,Flintshire,population_16_64,good
+W06000006,TLL34,Wrexham,0.46966480545034545,0.0024294892417617226,4,Wrexham,population_16_64,good
+W06000008,TLL41,Ceredigion,0.36219525219287463,0.0030105644417278547,4,Ceredigion,population_16_64,good
+W06000009,TLL42,Pembrokeshire,0.39050797718354624,0.0005814487841631974,4,Pembrokeshire,population_16_64,good
+W06000010,TLL42,Carmarthenshire,0.6094920228164538,0.0005814487841632269,4,Carmarthenshire,population_16_64,good
+W06000011,TLL43,Swansea,1.0,0.0,4,Swansea,population_16_64,good
+W06000012,TLL44,Neath Port Talbot,1.0,0.0,4,Neath Port Talbot,population_16_64,good
+W06000013,TLL51,Bridgend,0.3259638393253863,0.001134418521324512,4,Bridgend,population_16_64,good
+W06000014,TLL52,Vale of Glamorgan,0.2397260272259134,0.005113899089933022,4,Vale of Glamorgan,population_16_64,good
+W06000015,TLL52,Cardiff,0.7602739727740866,0.005113899089933057,4,Cardiff,population_16_64,good
+W06000016,TLL51,Rhondda Cynon Taf,0.5419188960348363,0.0026113885994031743,4,Rhondda Cynon Taf,population_16_64,good
+W06000018,TLL53,Caerphilly,0.5242881515576729,0.0006222433965625167,4,Caerphilly,population_16_64,good
+W06000019,TLL53,Blaenau Gwent,0.20194313636608885,0.0003304756648392545,4,Blaenau Gwent,population_16_64,good
+W06000020,TLL53,Torfaen,0.2737687120762382,0.000904601328251688,4,Torfaen,population_16_64,good
+W06000021,TLL54,Monmouthshire,0.34683406777391623,0.0041156891621912765,4,Monmouthshire,population_16_64,good
+W06000022,TLL54,Newport,0.6531659322260838,0.004115689162191236,4,Newport,population_16_64,good
+W06000023,TLL41,Powys,0.6378047478071254,0.0030105644417278182,4,Powys,population_16_64,good
+W06000024,TLL51,Merthyr Tydfil,0.13211726463977735,0.0015165237559658128,4,Merthyr Tydfil,population_16_64,good

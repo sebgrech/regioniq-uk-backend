@@ -1,0 +1,23 @@
+{
+  "run_timestamp": "2025-11-26T19:20:40.443770",
+  "version": "3.3_fixed_ratio",
+  "enhancements": "VAR/VECM + Top-down reconciliation + Fixed ratio metrics",
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true,
+    "macro_anchoring": true,
+    "reconciliation_method": "proportional"
+  },
+  "data_summary": {
+    "regions": 12,
+    "metrics": 10,
+    "total_obs": 5615,
+    "forecast_obs": 3061
+  },
+  "model_usage": {
+    "Ensemble(3 models)": 1884,
+    "derived_monte_carlo": 891,
+    "Ensemble(2 models)": 286
+  },
+  "reconciliation_summary": {}
+}

@@ -1,0 +1,32 @@
+{
+  "run_timestamp": "2025-12-01T23:02:09.978195+00:00",
+  "version": "5.1",
+  "level": "ITL3",
+  "method": "share_allocation_from_itl2",
+  "architecture": {
+    "description": "Share-based allocation - ITL3 inherits ITL2 growth rates",
+    "share_lookback_years": 5,
+    "additive_metrics": [
+      "nominal_gva_mn_gbp",
+      "gdhi_total_mn_gbp",
+      "emp_total_jobs",
+      "population_total"
+    ],
+    "rate_metrics": [
+      "employment_rate_pct",
+      "unemployment_rate_pct"
+    ],
+    "derived_metrics": [
+      "productivity_gbp_per_job",
+      "gdhi_per_head_gbp",
+      "income_per_worker_gbp"
+    ]
+  },
+  "data_summary": {
+    "regions": 182,
+    "metrics": 9,
+    "total_rows": 69989,
+    "historical_rows": 30342,
+    "forecast_rows": 39647
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "run_timestamp": "2025-11-21T12:48:19.888645+00:00",
+  "version": "1.0_share_based",
+  "level": "ITL3",
+  "method": "share_allocation",
+  "config": {
+    "share_window_years": 5,
+    "exclude_covid": true,
+    "additive_metrics": [
+      "population_total",
+      "emp_total_jobs",
+      "nominal_gva_mn_gbp",
+      "gdhi_total_mn_gbp"
+    ],
+    "derived_metrics": [
+      "employment_rate",
+      "productivity_gbp_per_job",
+      "gdhi_per_head_gbp",
+      "income_per_worker_gbp"
+    ]
+  },
+  "data_summary": {
+    "regions": 182,
+    "metrics": 8,
+    "total_rows": 68796,
+    "historical_rows": 31025,
+    "forecast_rows": 37771,
+    "year_range": "1991-2050"
+  }
+}

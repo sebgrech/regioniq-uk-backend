@@ -1,0 +1,20 @@
+{
+  "run_timestamp": "2025-11-27T14:45:44.860229+00:00",
+  "version": "4.0",
+  "level": "ITL3",
+  "method": "forecast_reconcile_cascade",
+  "config": {
+    "forecast_start": 2024,
+    "forecast_end": 2050,
+    "min_history_years": 10,
+    "bootstrap_samples": 500,
+    "monte_carlo_samples": 3000
+  },
+  "data_summary": {
+    "regions": 182,
+    "metrics": 9,
+    "total_rows": 67821,
+    "historical_rows": 29832,
+    "forecast_rows": 37989
+  }
+}

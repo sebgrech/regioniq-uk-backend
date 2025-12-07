@@ -1,0 +1,41 @@
+{
+  "run_timestamp": "2025-11-30T23:21:47.691924+00:00",
+  "version": "1.3",
+  "level": "LAD",
+  "method": "share_allocation_from_itl3",
+  "architecture": {
+    "description": "Share-based allocation - LAD inherits ITL3 growth rates",
+    "share_lookback_years": 5,
+    "additive_metrics": [
+      "nominal_gva_mn_gbp",
+      "gdhi_total_mn_gbp",
+      "emp_total_jobs",
+      "population_total"
+    ],
+    "rate_metrics": [
+      "employment_rate_pct",
+      "unemployment_rate_pct"
+    ],
+    "derived_metrics": [
+      "productivity_gbp_per_job",
+      "gdhi_per_head_gbp",
+      "income_per_worker_gbp"
+    ]
+  },
+  "shares_summary": {
+    "avg_share_years": 4.46191135734072,
+    "min_share_years": 0,
+    "max_share_std": 0.030594029308924593,
+    "quality_breakdown": {
+      "good": 361,
+      "imputed": 11
+    }
+  },
+  "data_summary": {
+    "regions": 361,
+    "metrics": 9,
+    "total_rows": 134726,
+    "historical_rows": 56128,
+    "forecast_rows": 78598
+  }
+}

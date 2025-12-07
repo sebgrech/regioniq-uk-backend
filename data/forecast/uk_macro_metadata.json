@@ -1,0 +1,68 @@
+{
+  "run_timestamp": "2025-12-04T00:22:15.094686",
+  "version": "3.5",
+  "architecture": {
+    "base_table": "gold.uk_macro_forecast",
+    "derived_table": "gold.uk_macro_derived",
+    "forecasted_metrics": [
+      "uk_population_total",
+      "uk_population_16_64",
+      "uk_gdhi_total_mn_gbp",
+      "uk_nominal_gva_mn_gbp",
+      "uk_emp_total_jobs",
+      "uk_employment_rate_pct",
+      "uk_unemployment_rate_pct"
+    ],
+    "computed_metrics": [
+      "uk_gdhi_per_head_gbp"
+    ],
+    "derived_metrics": [
+      "uk_productivity_gbp_per_job",
+      "uk_income_per_worker_gbp"
+    ]
+  },
+  "blend_config": {
+    "var_max_horizon": 15,
+    "blend_decay": 0.25,
+    "description": "Exponential decay blend: VAR strong early, fades to univariate"
+  },
+  "growth_caps": {
+    "uk_nominal_gva_mn_gbp": {
+      "min": -0.03,
+      "max": 0.045
+    },
+    "uk_gdhi_total_mn_gbp": {
+      "min": -0.03,
+      "max": 0.045
+    },
+    "uk_emp_total_jobs": {
+      "min": -0.02,
+      "max": 0.015
+    },
+    "uk_population_total": {
+      "min": 0.0,
+      "max": 0.008
+    },
+    "uk_population_16_64": {
+      "min": -0.005,
+      "max": 0.006
+    }
+  },
+  "sanity_caps": {
+    "uk_nominal_gva_mn_gbp": 12000000,
+    "uk_gdhi_total_mn_gbp": 10000000,
+    "uk_emp_total_jobs": 42000000,
+    "uk_population_total": 85000000,
+    "uk_population_16_64": 55000000
+  },
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true
+  },
+  "data_summary": {
+    "base_metrics": 8,
+    "derived_metrics": 2,
+    "base_forecast_obs": 207,
+    "derived_obs": 84
+  }
+}

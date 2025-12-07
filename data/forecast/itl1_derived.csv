@@ -1,0 +1,925 @@
+region_code,region,year,metric,value,ci_lower,ci_upper,formula,method,data_type
+E12000001,North East,2009,productivity_gbp_per_job,43706.06408013379,42337.2966548389,45111.76429105251,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2009,income_per_worker_gbp,33796.356023063636,32492.182015421873,35123.43279026227,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2010,productivity_gbp_per_job,44370.8602595406,42994.51197326717,45804.82245220701,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2010,income_per_worker_gbp,34543.52328235908,33224.68516423072,35872.54052597011,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2011,productivity_gbp_per_job,45340.44749739571,43922.174806607814,46767.05797274177,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2011,income_per_worker_gbp,35197.24024722818,33848.972048660835,36599.50474531902,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2012,productivity_gbp_per_job,46731.586229697874,45269.85245289501,48255.58096593433,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2012,income_per_worker_gbp,36932.985012798774,35498.0834914934,38339.26303793738,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2013,productivity_gbp_per_job,47170.4530340843,45695.06966477174,48677.41358401316,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2013,income_per_worker_gbp,37681.734073133826,36241.46397701251,39182.920791089426,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2014,productivity_gbp_per_job,47266.43805069504,45779.078457932796,48805.12468033805,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2014,income_per_worker_gbp,37757.68038100432,36316.10350868606,39211.35408972293,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2015,productivity_gbp_per_job,47579.495807032254,46109.27849129083,49106.53256986654,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2015,income_per_worker_gbp,38113.67253410825,36653.54548398037,39655.76670556856,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2016,productivity_gbp_per_job,49491.77941370141,47971.41635734663,51063.50945904852,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2016,income_per_worker_gbp,39669.00566157012,38148.64518541214,41241.55141893172,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2017,productivity_gbp_per_job,49558.820281271255,48009.73848926947,51149.15607845077,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2017,income_per_worker_gbp,39530.3707493451,38040.126281785284,41072.13652369831,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2018,productivity_gbp_per_job,50895.426597192534,49292.24569627463,52513.86340997937,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2018,income_per_worker_gbp,41080.37811565047,39519.257732325554,42678.96617296541,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2019,productivity_gbp_per_job,52404.68406665652,50738.52890128773,54090.29944771531,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2019,income_per_worker_gbp,41880.92330741799,40261.63929749701,43528.31982882647,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2020,productivity_gbp_per_job,50686.8840220187,49095.00296285897,52298.90660309044,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2020,income_per_worker_gbp,43663.06878816309,41988.8853673386,45364.87399685342,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2021,productivity_gbp_per_job,52667.113891981484,51049.082883707386,54364.8959740975,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2021,income_per_worker_gbp,43028.02853888438,41405.45977809294,44704.95476900953,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2022,productivity_gbp_per_job,58351.70349634609,56532.00296375125,60224.73844920495,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2022,income_per_worker_gbp,46216.62975132823,44452.81620544593,48035.28631848851,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2023,productivity_gbp_per_job,62475.36459953315,60475.83233969375,64465.60614302846,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2023,income_per_worker_gbp,49123.658251751076,47241.464834928745,51049.817520563956,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2024,productivity_gbp_per_job,63219.29913866692,58546.294917363666,67660.85788613162,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2024,income_per_worker_gbp,48447.33597104195,46738.587338685495,50218.748770290265,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2025,productivity_gbp_per_job,65564.56120331788,57083.69157488187,73695.46009405983,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2025,income_per_worker_gbp,50516.14749487844,48724.900097399535,52314.90003864987,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000001,North East,2026,productivity_gbp_per_job,66853.8311084696,56518.744014707845,76547.95710845182,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2026,income_per_worker_gbp,52005.29361808781,49810.02545917523,54244.94846487488,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2027,productivity_gbp_per_job,67797.86930628649,55624.50396836298,79366.65195576038,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2027,income_per_worker_gbp,53588.60900253973,50988.3657181295,56187.36986234384,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2028,productivity_gbp_per_job,68795.84181320577,55278.3285749915,81826.57179332359,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2028,income_per_worker_gbp,55170.28863432324,52089.332673581885,58206.75534371397,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2029,productivity_gbp_per_job,69807.610269306,54388.52633747965,84017.94710836487,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2029,income_per_worker_gbp,56821.20091648451,53401.55502438171,60269.47609217496,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2030,productivity_gbp_per_job,70627.89438542083,53701.44215736469,86343.79132941207,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2030,income_per_worker_gbp,58623.789559741854,54798.96239466211,62397.51178537132,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2031,productivity_gbp_per_job,71677.63778546239,53155.65617930871,88738.44913011962,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2031,income_per_worker_gbp,60552.228207614746,56288.71842908693,64778.91286506129,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2032,productivity_gbp_per_job,73002.58212306471,53413.127720692224,91387.89560953363,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2032,income_per_worker_gbp,62672.39832889132,58050.499674933,67379.7980993852,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2033,productivity_gbp_per_job,74418.40128100627,53392.29321103701,94085.68779891432,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2033,income_per_worker_gbp,64907.53255982115,59772.00406074442,70033.20683037923,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2034,productivity_gbp_per_job,75660.40394859269,52902.52740343716,96592.45857444682,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2034,income_per_worker_gbp,67099.70507429102,61606.382132889106,72764.47722667847,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2035,productivity_gbp_per_job,76758.26526764662,52315.51692534462,98781.26052195628,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2035,income_per_worker_gbp,69293.66461773706,63322.621254330974,75233.64764986245,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2036,productivity_gbp_per_job,77898.1031660311,52364.942363727576,101932.08002564321,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2036,income_per_worker_gbp,71450.06472492478,65113.64575029503,77896.68589191168,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2037,productivity_gbp_per_job,78990.6993925583,51627.3400734954,103452.0534303182,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2037,income_per_worker_gbp,73631.16662600238,66906.11874005939,80479.68516943172,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2038,productivity_gbp_per_job,80389.47520045002,51702.388390768916,106296.8880136555,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2038,income_per_worker_gbp,76063.00960897605,68789.42167725394,83555.86734549845,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2039,productivity_gbp_per_job,81940.42497813626,51473.28973589501,109799.3268118815,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2039,income_per_worker_gbp,78577.3077935521,70754.79773855362,86372.16300340788,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2040,productivity_gbp_per_job,83435.31316346371,51219.00064931819,111626.73118388279,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2040,income_per_worker_gbp,81340.61370543721,73090.7568633531,89847.29332508032,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2041,productivity_gbp_per_job,84880.710345384,50984.4397577175,114426.6331573529,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2041,income_per_worker_gbp,83942.28902306332,75335.84672090835,92787.56550522216,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2042,productivity_gbp_per_job,86083.40368200417,50586.92014110214,117352.18756093706,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2042,income_per_worker_gbp,86746.48916585319,77359.09860493032,96232.1712934578,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2043,productivity_gbp_per_job,87743.51740823568,50418.52571038246,120527.02117768684,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2043,income_per_worker_gbp,89401.8970694985,79464.1916543402,99552.02647132365,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2044,productivity_gbp_per_job,89399.22779184853,51380.179021112395,123210.11356518479,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2044,income_per_worker_gbp,92114.1698110272,81674.71151274015,102931.21318043835,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2045,productivity_gbp_per_job,90429.8981370985,49709.34561257288,126372.31336376039,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2045,income_per_worker_gbp,95041.34645744093,83774.3397816527,106493.71628390248,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2046,productivity_gbp_per_job,92667.99064790615,49913.38964458864,130089.98877787923,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2046,income_per_worker_gbp,98163.9399314014,86541.6237933293,110154.06558635282,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2047,productivity_gbp_per_job,94440.57039969401,50592.41170980165,133162.5394042729,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2047,income_per_worker_gbp,101325.32941151255,89110.53173227946,114087.74891158818,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2048,productivity_gbp_per_job,96365.76455356393,49966.18385661371,136925.78780869822,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2048,income_per_worker_gbp,104660.89703597502,91854.51396424272,117875.79488228165,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2049,productivity_gbp_per_job,97272.61515825568,48398.17712053481,139796.88797142127,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2049,income_per_worker_gbp,108134.9888987087,94713.42660421565,122292.94460346595,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2050,productivity_gbp_per_job,99441.10986455237,49868.80696765454,142298.49327983535,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000001,North East,2050,income_per_worker_gbp,111584.38445170791,97393.68809913781,126271.36198781303,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2009,productivity_gbp_per_job,45685.63948324433,44238.18892870829,47172.49571452477,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2009,income_per_worker_gbp,33041.903172290185,31807.634457925455,34334.53085959354,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2010,productivity_gbp_per_job,47141.76643928119,45675.98045001984,48670.57460589072,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2010,income_per_worker_gbp,33866.67695725063,32562.99290489236,35212.648397569326,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2011,productivity_gbp_per_job,47527.23179161306,46021.27605925156,49074.51364607533,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2011,income_per_worker_gbp,34376.05814733014,33060.92340764136,35746.85658302516,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2012,productivity_gbp_per_job,48807.043805577065,47305.74487423706,50358.7178216043,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2012,income_per_worker_gbp,35465.93423143784,34119.868453975774,36879.09769247139,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2013,productivity_gbp_per_job,50010.70057984568,48440.37484031395,51607.75447256515,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2013,income_per_worker_gbp,36335.96564353452,34947.052501003476,37749.52889575206,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2014,productivity_gbp_per_job,50797.2267584881,49195.90963670254,52442.49698829262,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2014,income_per_worker_gbp,36621.31202186016,35209.88631629683,38071.27133107169,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2015,productivity_gbp_per_job,51517.253867496795,49903.62663599681,53141.63885493971,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2015,income_per_worker_gbp,37581.008765262006,36186.806379753805,39036.66460242265,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2016,productivity_gbp_per_job,51958.30684783168,50366.30544213211,53632.09580062748,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2016,income_per_worker_gbp,37133.98360515673,35704.65609941515,38625.06117398804,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2017,productivity_gbp_per_job,53605.61806120296,51895.856677874224,55356.83128091652,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2017,income_per_worker_gbp,37827.528475373976,36376.06306259122,39284.145418596556,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2018,productivity_gbp_per_job,54478.95189204788,52755.871906453576,56179.010928348194,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2018,income_per_worker_gbp,38794.18682392774,37325.827156574866,40334.607585294965,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2019,productivity_gbp_per_job,55803.14380057018,54083.68182936423,57612.42197350922,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2019,income_per_worker_gbp,39435.61101810733,37924.37376364754,40993.72610606151,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2020,productivity_gbp_per_job,55965.94093271389,54223.68436797086,57730.275292996055,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2020,income_per_worker_gbp,40948.26794640049,39351.46163529893,42561.63744779148,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2021,productivity_gbp_per_job,57973.3534717471,56154.24808119972,59806.77429870056,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2021,income_per_worker_gbp,40808.44606374288,39287.652877320936,42407.91308885408,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2022,productivity_gbp_per_job,63670.65850521781,61680.06420096503,65741.33132606038,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2022,income_per_worker_gbp,42779.5412154078,41132.81597051264,44461.19088361616,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2023,productivity_gbp_per_job,68232.10553247594,66095.24277691903,70396.75231411237,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2023,income_per_worker_gbp,45891.51361498345,44155.009983657335,47697.678375207695,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2024,productivity_gbp_per_job,68627.80684793895,65596.81616771995,71999.83613422637,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2024,income_per_worker_gbp,45236.558963942065,43669.89377989883,46905.13430125866,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2025,productivity_gbp_per_job,69669.05960022962,68211.18743115923,71178.35062673518,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2025,income_per_worker_gbp,46481.24627666422,44659.78434193018,48344.534346090484,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000002,North West,2026,productivity_gbp_per_job,70880.88406023452,68728.82218024087,73151.91755136817,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2026,income_per_worker_gbp,47671.540820650735,45377.493138202524,49885.6712132448,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2027,productivity_gbp_per_job,71908.89635871176,69253.16993116091,74785.83216684993,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2027,income_per_worker_gbp,48895.6016355029,46198.83332994023,51481.91279490005,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2028,productivity_gbp_per_job,72896.71430205369,69787.75590852866,76356.84326164365,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2028,income_per_worker_gbp,50139.350923904225,47042.94457804746,53222.37554093063,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2029,productivity_gbp_per_job,73772.9064363803,70244.42695595662,77673.85499524133,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2029,income_per_worker_gbp,51396.92518461652,48036.32958459854,54762.201078021244,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2030,productivity_gbp_per_job,74709.00839439154,70802.57226626457,78998.37213355293,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2030,income_per_worker_gbp,52781.53923930898,48930.731218687855,56598.967370238664,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2031,productivity_gbp_per_job,75805.1171750702,71561.27015228527,80473.71167995545,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2031,income_per_worker_gbp,54265.291426208445,50072.39735132065,58420.065945729,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2032,productivity_gbp_per_job,77145.22933470646,72532.33888707338,82252.63561010623,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2032,income_per_worker_gbp,55950.554506237866,51529.87653134332,60395.46998279897,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2033,productivity_gbp_per_job,78441.01268204351,73450.93322719584,84074.85631501305,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2033,income_per_worker_gbp,57657.365026753854,52753.72995505114,62574.042739459976,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2034,productivity_gbp_per_job,79681.9031507272,74374.40125328238,85658.5483323524,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2034,income_per_worker_gbp,59359.04346751788,54021.07092167905,64779.27171208532,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2035,productivity_gbp_per_job,80845.88528868544,75156.23588144452,87336.29494779579,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2035,income_per_worker_gbp,60995.76709224118,55240.77347120066,66642.2299855131,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2036,productivity_gbp_per_job,82026.98808136703,75974.67013330423,88794.59801164846,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2036,income_per_worker_gbp,62615.751328816405,56426.79217321811,68670.01587159054,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2037,productivity_gbp_per_job,83103.38843988103,76780.48450976888,90307.3518166884,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2037,income_per_worker_gbp,64284.567056944514,57759.839879547384,70798.07199859776,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2038,productivity_gbp_per_job,84389.55930710732,77716.73266417766,92077.23346300218,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2038,income_per_worker_gbp,66066.42593926977,58939.862151799025,73054.8216601002,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2039,productivity_gbp_per_job,85906.52128337737,78789.92800059769,93929.6098556724,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2039,income_per_worker_gbp,67953.92934449141,60543.27321378203,75224.23472255608,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2040,productivity_gbp_per_job,87411.6133141511,80017.86960278041,95785.6290251445,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2040,income_per_worker_gbp,69967.21543085747,62202.54065774079,77626.02554573561,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2041,productivity_gbp_per_job,88910.12452623878,81227.31260246104,97814.1022835496,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2041,income_per_worker_gbp,72055.70323707069,63684.0857745745,80304.65933061772,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2042,productivity_gbp_per_job,90494.6945433781,82435.06988487237,99891.32245296684,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2042,income_per_worker_gbp,73927.99852645681,64998.01202227858,82824.63454159089,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2043,productivity_gbp_per_job,91806.86014664486,83558.6245096902,101498.77903231965,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2043,income_per_worker_gbp,75974.26640093281,66929.84380681434,85182.8965270865,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2044,productivity_gbp_per_job,93281.65771767982,84542.1104285609,103575.58848456744,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2044,income_per_worker_gbp,77891.84206884596,68316.36076140076,87585.54392506539,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2045,productivity_gbp_per_job,94831.41581281768,85732.49817002524,105600.77161398323,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2045,income_per_worker_gbp,80035.16933736466,69897.21501354707,90201.56071119948,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2046,productivity_gbp_per_job,96471.84274930316,86897.72599299002,107921.78976174744,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2046,income_per_worker_gbp,82354.18508367307,71782.83562966745,93038.49834596417,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2047,productivity_gbp_per_job,98196.71333681548,88178.40277282838,109835.25743291026,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2047,income_per_worker_gbp,84556.74709021703,73254.14368820412,95562.78284196924,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2048,productivity_gbp_per_job,99885.08776204522,89976.15084518399,111920.29771741158,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2048,income_per_worker_gbp,86904.18764134997,75037.23022420266,98698.94740325955,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2049,productivity_gbp_per_job,101491.67750288597,90924.13394012293,114455.96942400339,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2049,income_per_worker_gbp,89426.36616253205,76713.99573574128,101827.53584901636,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2050,productivity_gbp_per_job,103231.28411317129,92111.57939943888,116372.3105190601,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000002,North West,2050,income_per_worker_gbp,91811.50644927136,78867.38476211319,104687.20139397378,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2009,productivity_gbp_per_job,43691.38146894193,42303.97267520761,45105.0774898685,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2009,income_per_worker_gbp,32380.222175513078,31167.826669563437,33683.65330170792,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2010,productivity_gbp_per_job,44425.47384508565,43054.62487931985,45831.80166053707,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2010,income_per_worker_gbp,33036.60374167311,31788.944848463932,34352.99606687184,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2011,productivity_gbp_per_job,45510.50839058302,44103.83899938303,46952.568602826876,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2011,income_per_worker_gbp,34076.95406523051,32744.429093915507,35416.76823596963,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2012,productivity_gbp_per_job,47040.07238248993,45575.17643033345,48537.55694391552,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2012,income_per_worker_gbp,35572.77504398164,34229.33497449898,36958.43421830851,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2013,productivity_gbp_per_job,47624.93124463478,46128.46941146508,49174.89236617616,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2013,income_per_worker_gbp,36212.96342873792,34842.582862346266,37616.36543736105,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2014,productivity_gbp_per_job,47616.71826949692,46109.94264998296,49145.47988484654,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2014,income_per_worker_gbp,36251.111317034985,34845.29194966469,37684.26074480524,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2015,productivity_gbp_per_job,48196.925950147604,46717.039310674365,49734.44885917529,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2015,income_per_worker_gbp,36987.23222129133,35571.16013631627,38459.067756630495,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2016,productivity_gbp_per_job,48915.59095695702,47395.48547730547,50463.6367072422,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2016,income_per_worker_gbp,37239.60687222429,35851.633121541985,38748.35850773011,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2017,productivity_gbp_per_job,50423.07660508187,48837.368053396924,52024.08413039456,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2017,income_per_worker_gbp,37803.26081503992,36368.193362439546,39289.176608567956,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2018,productivity_gbp_per_job,51806.618498099044,50145.67826516524,53505.593592805206,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2018,income_per_worker_gbp,39111.952666747275,37609.397922293094,40630.051404106445,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2019,productivity_gbp_per_job,53619.49585080845,51914.27673249922,55312.27444173734,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2019,income_per_worker_gbp,40387.723892774105,38816.61793934813,41944.62666621466,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2020,productivity_gbp_per_job,52760.5833273278,51097.51434188197,54468.01929243933,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2020,income_per_worker_gbp,41777.525690867806,40171.889000742376,43411.4714870874,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2021,productivity_gbp_per_job,56341.74587355361,54541.94594566167,58112.59206144912,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2021,income_per_worker_gbp,41446.67389585445,39865.94368009364,43121.72822502798,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2022,productivity_gbp_per_job,60950.062821399806,59038.771088191796,62846.8260254496,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2022,income_per_worker_gbp,43413.97290221482,41795.980810715904,45154.472654411045,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2023,productivity_gbp_per_job,65646.81207910304,63646.63250403076,67757.1638533343,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2023,income_per_worker_gbp,47147.14511735166,45336.08353606302,48978.69317411032,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2024,productivity_gbp_per_job,66289.95843354477,63335.523037334635,69424.59694763244,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2024,income_per_worker_gbp,46798.065109572235,45155.797344210485,48512.545967439466,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2025,productivity_gbp_per_job,67152.85019430675,65597.86538023192,68824.18271879357,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2025,income_per_worker_gbp,47969.612938752136,46040.657945109655,49916.70835731549,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000003,Yorkshire and The Humber,2026,productivity_gbp_per_job,68389.84385945115,66011.17598674049,70826.45812060227,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2026,income_per_worker_gbp,49341.29495795732,46996.48444630485,51672.52724941007,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2027,productivity_gbp_per_job,69540.02041251001,66643.95581308869,72743.75092871093,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2027,income_per_worker_gbp,50789.06429830832,47964.70900530959,53529.99357964544,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2028,productivity_gbp_per_job,70542.2110148016,67104.49577041226,74323.94964540876,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2028,income_per_worker_gbp,52228.72132487498,49004.03161050244,55415.2840398484,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2029,productivity_gbp_per_job,71512.4179679854,67636.210738352,75842.35844175058,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2029,income_per_worker_gbp,53725.36773708276,50024.69541227577,57375.56356769018,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2030,productivity_gbp_per_job,72509.33579246282,68239.41121809525,77353.69850768772,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2030,income_per_worker_gbp,55311.66534068335,51250.60661850992,59379.192231893154,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2031,productivity_gbp_per_job,73663.11789934126,68935.52650813186,78983.31115444512,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2031,income_per_worker_gbp,57132.86352720691,52604.958110408144,61585.9478879149,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2032,productivity_gbp_per_job,74975.98745639565,69812.94584867236,80683.01947709647,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2032,income_per_worker_gbp,59064.83830786102,54093.2558987036,63902.32339950232,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2033,productivity_gbp_per_job,76354.57144899346,70858.8190784813,82595.18614613541,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2033,income_per_worker_gbp,61061.20215252479,55824.146098721125,66373.44304972529,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2034,productivity_gbp_per_job,77717.06775375028,71783.13151540271,84400.91824846753,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2034,income_per_worker_gbp,63045.306853938506,57196.54443846632,68888.63094364943,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2035,productivity_gbp_per_job,78913.24158159754,72716.24085467955,86031.8358652746,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2035,income_per_worker_gbp,64952.4268629887,58709.91699425131,71220.82638478366,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2036,productivity_gbp_per_job,80078.72664307931,73396.15345664175,87652.36153124654,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2036,income_per_worker_gbp,66967.47837728269,60294.636984436926,73573.98977745687,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2037,productivity_gbp_per_job,81388.04321500723,74459.48289708153,89572.00309982196,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2037,income_per_worker_gbp,68930.35166595306,61828.17722350652,76032.61663377506,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2038,productivity_gbp_per_job,82709.96565773949,75343.11799846494,91497.6593124944,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2038,income_per_worker_gbp,71029.90881971212,63432.75853495584,78845.71914028884,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2039,productivity_gbp_per_job,84329.54106549373,76487.26321090953,93398.03769319288,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2039,income_per_worker_gbp,73341.34188551683,65207.787885539445,81519.74409432274,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2040,productivity_gbp_per_job,85994.35236633872,77882.84787061978,95525.8437145508,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2040,income_per_worker_gbp,75820.42752543985,67299.88023340734,84405.03898691847,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2041,productivity_gbp_per_job,87541.62443513346,78948.73947369207,97995.26228423088,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2041,income_per_worker_gbp,78170.3082054497,68889.66795293002,87500.39724415436,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2042,productivity_gbp_per_job,89142.71902966707,80207.16413766681,99974.21297291426,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2042,income_per_worker_gbp,80570.34129886181,70814.28130338357,90298.7276694637,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2043,productivity_gbp_per_job,90613.95858404128,81287.51163789043,102049.69692263773,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2043,income_per_worker_gbp,82989.61463627398,72614.87317570833,93309.10889666181,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2044,productivity_gbp_per_job,92085.31344901769,82560.89821599588,103804.6618534257,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2044,income_per_worker_gbp,85411.25717064588,74620.34621478368,96366.03862078002,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2045,productivity_gbp_per_job,93652.15239264145,83575.23204875248,106159.1290448167,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2045,income_per_worker_gbp,88037.17388858607,76962.62857239188,99461.00562749784,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2046,productivity_gbp_per_job,95361.90757475246,85086.09640115738,108095.10092582814,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2046,income_per_worker_gbp,90830.63226626556,78542.33207083124,103381.93214949372,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2047,productivity_gbp_per_job,97265.56810117692,86214.7449828904,110623.45442244383,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2047,income_per_worker_gbp,93635.42171063695,80931.09063561697,106311.554684608,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2048,productivity_gbp_per_job,99044.64734932796,87775.99095932998,112910.70197920967,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2048,income_per_worker_gbp,96609.01002953711,83154.27194613517,110204.95915580759,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2049,productivity_gbp_per_job,100814.55690285386,89201.11417902334,115493.65045508201,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2049,income_per_worker_gbp,99663.76857175167,85666.1735430719,114218.33123060546,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2050,productivity_gbp_per_job,102838.45024504467,90432.83121209599,118222.39458109229,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000003,Yorkshire and The Humber,2050,income_per_worker_gbp,102584.5054799013,88104.06874657492,117565.59733019646,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2009,productivity_gbp_per_job,42522.452820094084,41211.06984297134,43859.91192636297,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2009,income_per_worker_gbp,33276.412900210955,32003.18070406261,34618.183414267245,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2010,productivity_gbp_per_job,44050.33300610851,42681.72867267008,45452.373839012675,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2010,income_per_worker_gbp,33620.89278914168,32350.868086919454,34930.37482240526,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2011,productivity_gbp_per_job,44803.793468524615,43406.05271586039,46243.32385424496,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2011,income_per_worker_gbp,34571.26107525108,33238.73308031282,35922.52644905326,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2012,productivity_gbp_per_job,46481.66194424801,45000.81719780971,48000.88988881037,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2012,income_per_worker_gbp,35977.644793290936,34597.65217640426,37424.54550868987,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2013,productivity_gbp_per_job,48274.34644433686,46747.389313813284,49834.01192615064,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2013,income_per_worker_gbp,37255.2378034785,35863.08455377506,38695.48675273306,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2014,productivity_gbp_per_job,49019.14590868793,47502.01479681518,50583.450057386326,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2014,income_per_worker_gbp,37930.50714517261,36435.967956914224,39405.49131467332,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2015,productivity_gbp_per_job,48922.43052963737,47396.86542191598,50506.87268067155,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2015,income_per_worker_gbp,38848.546136450976,37329.226067928874,40409.24700995093,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2016,productivity_gbp_per_job,48950.93554745641,47429.1278120078,50531.351405382746,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2016,income_per_worker_gbp,38308.98471674904,36880.16733367276,39813.12161978256,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2017,productivity_gbp_per_job,50781.703343564644,49193.539496795245,52389.32260253633,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2017,income_per_worker_gbp,39751.52137477236,38216.36781596321,41326.571477193495,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2018,productivity_gbp_per_job,52848.928844497736,51224.04069286333,54545.33498253942,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2018,income_per_worker_gbp,41149.91475539175,39589.73041874435,42786.524898213655,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2019,productivity_gbp_per_job,54287.945655572774,52626.6169963359,56017.95869014841,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2019,income_per_worker_gbp,42444.41421504463,40877.87093429133,44111.91444787534,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2020,productivity_gbp_per_job,53993.47691548071,52287.23857565618,55734.83398008242,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2020,income_per_worker_gbp,43740.67806056242,42117.972918006475,45426.94792434261,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2021,productivity_gbp_per_job,56421.69492283258,54670.94936091942,58208.80067386825,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2021,income_per_worker_gbp,44058.54288244628,42364.705731353264,45769.534591968484,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2022,productivity_gbp_per_job,59199.88930069097,57369.80770036243,61066.2161579485,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2022,income_per_worker_gbp,45552.02906738065,43765.18344063699,47345.7307860403,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2023,productivity_gbp_per_job,65394.27073328067,63331.40899241838,67460.79027460482,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2023,income_per_worker_gbp,50576.143723346875,48691.58433205252,52564.46135067147,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2024,productivity_gbp_per_job,66176.74479706273,63739.8164581707,68632.09406593534,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2024,income_per_worker_gbp,50052.13463925468,48278.02585744163,51903.37660026224,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2025,productivity_gbp_per_job,67847.05137506,63056.413371604336,72464.26241865038,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2025,income_per_worker_gbp,51578.23360379952,49141.062696554836,53897.56616904464,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000004,East Midlands,2026,productivity_gbp_per_job,69152.35692480594,63275.44578170507,74681.14195784791,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2026,income_per_worker_gbp,53256.34045185971,50276.12591834537,56116.73122940488,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2027,productivity_gbp_per_job,70402.80020068047,63736.236678030975,76726.39277408346,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2027,income_per_worker_gbp,54979.48450267793,51551.605962885325,58309.67395492379,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2028,productivity_gbp_per_job,71449.66362837804,63999.8407217383,78610.3358974778,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2028,income_per_worker_gbp,56779.28515505124,52818.11639348009,60747.93196760934,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2029,productivity_gbp_per_job,72466.59395139824,64099.84342600683,80583.27549114652,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2029,income_per_worker_gbp,58593.61671948967,54138.31982284065,63047.72755493115,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2030,productivity_gbp_per_job,73596.85143946919,64201.99461519161,82384.89423495303,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2030,income_per_worker_gbp,60565.65541773579,55682.86459435352,65450.94363092197,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2031,productivity_gbp_per_job,74879.07802402857,64807.88104380395,84519.0382451921,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2031,income_per_worker_gbp,62700.58428085353,57191.38795623066,68016.78913673178,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2032,productivity_gbp_per_job,76324.10854130259,65562.92402025206,86672.58229212671,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2032,income_per_worker_gbp,65058.65022555909,58890.12840100505,70990.47094280507,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2033,productivity_gbp_per_job,77783.60391434886,66196.66802704983,88625.44409941691,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2033,income_per_worker_gbp,67518.42615514397,60911.10461757374,74119.62783787004,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2034,productivity_gbp_per_job,79326.74812060542,66910.21454822416,90920.93110684837,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2034,income_per_worker_gbp,70000.62000251713,62761.95430635884,76865.39742626966,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2035,productivity_gbp_per_job,80627.3797692987,66953.62215688328,93323.40210481331,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2035,income_per_worker_gbp,72369.89376011486,64675.31462051212,79984.1276824383,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2036,productivity_gbp_per_job,81848.69187675382,67831.41129309112,94769.91069727716,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2036,income_per_worker_gbp,74899.87410913812,66711.15660382842,83035.3416946427,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2037,productivity_gbp_per_job,83327.52602547048,68293.81807403197,97005.16762275886,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2037,income_per_worker_gbp,77292.49672604725,68186.94004570972,86130.27833916241,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2038,productivity_gbp_per_job,84821.68602286084,69145.79660143769,99377.02433935287,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2038,income_per_worker_gbp,79910.67765282853,70310.49923745665,89465.24224171751,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2039,productivity_gbp_per_job,86451.03813129092,70064.58620150467,101820.69216680973,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2039,income_per_worker_gbp,82862.74038022044,72459.8327542414,92991.15928355677,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2040,productivity_gbp_per_job,88140.55500728716,70634.11014916784,104041.50397659969,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2040,income_per_worker_gbp,86018.32504228808,75084.36339557108,96663.69645131557,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2041,productivity_gbp_per_job,89930.87723832314,71735.33535449715,106873.21041204841,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2041,income_per_worker_gbp,88865.21403244788,77005.97841339074,100310.20557267473,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2042,productivity_gbp_per_job,91733.18579772447,72615.52683069237,109216.66608402769,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2042,income_per_worker_gbp,91963.22286281441,79314.40253326076,104526.98661328264,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2043,productivity_gbp_per_job,93234.49762056797,73038.55171635175,111759.42750553998,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2043,income_per_worker_gbp,95032.39873875458,81830.48773476601,107798.0476763621,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2044,productivity_gbp_per_job,95149.9452073661,73810.32358112163,114600.05353006531,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2044,income_per_worker_gbp,98063.54630167919,83645.16550165218,111752.2168190083,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2045,productivity_gbp_per_job,96711.07767750711,74831.21659446033,116746.9349879422,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2045,income_per_worker_gbp,101518.1406276742,86530.86966775666,115970.94838630913,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2046,productivity_gbp_per_job,98698.84965195917,75288.33953169228,119308.84049412343,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2046,income_per_worker_gbp,104958.38174504202,88823.6267876531,120724.61502798767,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2047,productivity_gbp_per_job,100467.57261685154,76701.18032374498,122192.15841089233,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2047,income_per_worker_gbp,108747.51240062414,91738.57459395587,125371.33428663846,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2048,productivity_gbp_per_job,102650.39079788659,77509.41025057145,125238.11400315116,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2048,income_per_worker_gbp,112604.6989537637,95188.61269580045,130064.57259022481,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2049,productivity_gbp_per_job,104456.49699782462,78506.27121253293,128101.87672644842,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2049,income_per_worker_gbp,116352.06832496489,97672.3667435,134442.98655434884,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2050,productivity_gbp_per_job,106801.91895884025,79947.36902465482,131568.4120096865,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000004,East Midlands,2050,income_per_worker_gbp,120565.831641357,100726.4756553297,139199.6013788788,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2009,productivity_gbp_per_job,42841.25490278078,41499.91054783168,44193.7546242562,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2009,income_per_worker_gbp,33315.15944345274,32045.461682803118,34632.43959472025,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2010,productivity_gbp_per_job,44116.57132908842,42747.30236749928,45525.35733723082,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2010,income_per_worker_gbp,33711.77761480142,32424.5103497421,35027.564754341314,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2011,productivity_gbp_per_job,45696.61718230881,44257.759905368584,47170.153904263934,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2011,income_per_worker_gbp,34557.69416756478,33252.904620469475,35946.29236926413,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2012,productivity_gbp_per_job,46806.660083526614,45356.645469888565,48311.07139365089,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2012,income_per_worker_gbp,35363.114408957685,34016.39898367782,36748.27095744416,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2013,productivity_gbp_per_job,48630.063786258164,47118.042886295916,50176.457678365856,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2013,income_per_worker_gbp,36534.60278181028,35135.49248165687,37981.693258167965,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2014,productivity_gbp_per_job,49574.0960335784,47983.47223462171,51165.199997580974,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2014,income_per_worker_gbp,37105.10961656935,35686.46093532523,38542.75076358661,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2015,productivity_gbp_per_job,50197.98216036274,48652.20848903562,51790.70585450426,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2015,income_per_worker_gbp,38260.41378519934,36780.067375802275,39764.740607578395,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2016,productivity_gbp_per_job,51670.24800321182,50072.1125549894,53332.53522292173,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2016,income_per_worker_gbp,38676.07309469173,37219.517156693975,40201.720242788295,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2017,productivity_gbp_per_job,52752.6751780993,51095.726410785035,54434.05513957528,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2017,income_per_worker_gbp,38317.892265132075,36864.55303802823,39816.513731016246,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2018,productivity_gbp_per_job,54600.024314728034,52869.48266203907,56365.07833748549,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2018,income_per_worker_gbp,39694.80798308143,38167.44022834601,41271.87032688823,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2019,productivity_gbp_per_job,55441.329120876515,53714.45649065138,57245.09281223964,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2019,income_per_worker_gbp,40862.932042774344,39319.795645731756,42453.04564849039,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2020,productivity_gbp_per_job,52969.699881218025,51322.94824928354,54676.07099815765,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2020,income_per_worker_gbp,41657.215867464234,40118.51095800961,43292.674284416964,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2021,productivity_gbp_per_job,56348.02216878097,54585.341237624605,58171.903662407945,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2021,income_per_worker_gbp,42412.370560665884,40795.67945938236,44090.72379896909,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2022,productivity_gbp_per_job,59716.19904039126,57850.87697729344,61675.31702668697,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2022,income_per_worker_gbp,44068.88813804329,42404.60251285456,45801.69872325356,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2023,productivity_gbp_per_job,65074.20608871479,63019.29567795428,67202.13014857362,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2023,income_per_worker_gbp,47934.664375529945,46123.29656470879,49825.548364630566,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2024,productivity_gbp_per_job,66668.16389861703,64155.32611494057,69190.58091816337,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2024,income_per_worker_gbp,47875.193405293765,46207.86476777715,49622.216549301986,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2025,productivity_gbp_per_job,67216.40309678453,61357.02011307767,73041.16640058658,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2025,income_per_worker_gbp,48443.74765481124,46145.27093469143,50690.88736939855,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000005,West Midlands,2026,productivity_gbp_per_job,68192.86112320317,60936.86559261105,75533.63568547128,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2026,income_per_worker_gbp,49705.95437436916,46860.630722084,52568.055625432586,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2027,productivity_gbp_per_job,69202.0749369397,60662.29601884574,77674.16734324709,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2027,income_per_worker_gbp,51142.78893100004,47814.1297969437,54588.35666288519,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2028,productivity_gbp_per_job,69974.59770920651,60319.65020277574,79734.15031667816,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2028,income_per_worker_gbp,52488.1002392062,48654.09312812916,56357.25351493396,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2029,productivity_gbp_per_job,70858.95040698955,60219.829052309644,81517.94556743045,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2029,income_per_worker_gbp,54006.77473797255,49721.30711501152,58298.82417887686,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2030,productivity_gbp_per_job,71712.32927640092,59970.70560828633,83569.60328127666,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2030,income_per_worker_gbp,55522.29516122266,50771.117083248064,60337.524941364136,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2031,productivity_gbp_per_job,72799.95795162336,60169.86488181311,85100.5753162727,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2031,income_per_worker_gbp,57202.61917092104,51793.95562413287,62536.26777871454,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2032,productivity_gbp_per_job,74005.19600169628,60074.76688086109,87723.33212001353,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2032,income_per_worker_gbp,59091.70152418416,53278.39372372092,64790.483147078325,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2033,productivity_gbp_per_job,75217.43137786396,60677.35762657229,89611.48361124491,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2033,income_per_worker_gbp,61102.91489301853,54570.58348918655,67474.45106616935,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2034,productivity_gbp_per_job,76307.25970564925,60598.17831614258,91906.70462879213,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2034,income_per_worker_gbp,63049.591526110984,56105.85321656914,69803.434093851,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2035,productivity_gbp_per_job,77385.84728999314,60700.60257000254,93732.31377765672,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2035,income_per_worker_gbp,64951.28730455461,57518.87625516012,72244.92893524343,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2036,productivity_gbp_per_job,78596.75109645614,61265.50733668971,96388.56319385504,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2036,income_per_worker_gbp,66728.22250526158,58748.40439121366,74489.39910201676,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2037,productivity_gbp_per_job,79534.26343313995,60763.9259138712,97720.89105408912,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2037,income_per_worker_gbp,68653.85178462145,60230.25668199618,77054.73570521605,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2038,productivity_gbp_per_job,80660.15937016178,61222.81113001401,100033.36722424568,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2038,income_per_worker_gbp,70697.42999407311,61683.53949266146,79862.70474007755,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2039,productivity_gbp_per_job,82219.34540144636,61861.207782290956,102632.60919482213,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2039,income_per_worker_gbp,72907.63040691648,63204.198046813304,82383.07424608497,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2040,productivity_gbp_per_job,83541.84200970974,62065.017239068315,104872.53968012349,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2040,income_per_worker_gbp,75214.94563301426,64943.62169479801,85406.73607791822,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2041,productivity_gbp_per_job,84868.30458386948,62511.734452852834,107061.5603955576,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2041,income_per_worker_gbp,77669.62440333758,66960.72643434776,88422.94379905032,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2042,productivity_gbp_per_job,86287.36776343756,62768.72240916082,110307.5176890003,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2042,income_per_worker_gbp,79912.32677097294,68290.87907310732,91148.00423433426,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2043,productivity_gbp_per_job,87573.42422891929,62953.70640164987,112058.12371069619,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2043,income_per_worker_gbp,82268.24074793734,70204.04783333778,94292.06628458473,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2044,productivity_gbp_per_job,88809.15867585217,63185.03367417025,113806.63951229567,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2044,income_per_worker_gbp,84520.08628188346,71893.22062531351,97079.04332494331,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2045,productivity_gbp_per_job,90346.3705098424,63855.12193245938,116044.22883663642,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2045,income_per_worker_gbp,87068.52899895053,73619.34617461641,100624.04054954271,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2046,productivity_gbp_per_job,91870.26034447188,64294.49550163437,119421.32950117558,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2046,income_per_worker_gbp,89564.39030290181,75736.41866929657,103215.73103810257,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2047,productivity_gbp_per_job,93297.47405811255,64457.15672042876,121175.0927328727,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2047,income_per_worker_gbp,92310.23406870873,77499.95649402306,106859.7903695376,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2048,productivity_gbp_per_job,94963.08206605578,64786.33660218316,124384.15334476046,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2048,income_per_worker_gbp,95101.36496956724,79614.26377056907,110619.36480620017,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2049,productivity_gbp_per_job,96447.03205178704,64723.15600064137,127040.50003991534,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2049,income_per_worker_gbp,98056.48669154881,81623.51172138604,114467.86049892426,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2050,productivity_gbp_per_job,98013.88414201066,66015.24736168781,129223.93561742961,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000005,West Midlands,2050,income_per_worker_gbp,100838.41912289461,83313.30110337665,118037.96127595489,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2009,productivity_gbp_per_job,48930.97394721789,47376.927009145686,50501.47702092693,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2009,income_per_worker_gbp,39263.73691781695,37760.41314568636,40818.17367284331,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2010,productivity_gbp_per_job,50013.56670488795,48440.020286201274,51599.57652338978,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2010,income_per_worker_gbp,40334.51366717469,38806.42790202495,41890.99385524183,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2011,productivity_gbp_per_job,50206.14851410412,48667.09104610602,51816.597458804084,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2011,income_per_worker_gbp,40932.32352925524,39347.130037685696,42543.43336775175,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2012,productivity_gbp_per_job,51522.28561689236,49929.221625118815,53152.00776432176,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2012,income_per_worker_gbp,42491.26491837704,40879.583227361145,44151.42080202586,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2013,productivity_gbp_per_job,53126.893244112514,51463.34256058306,54818.54545601967,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2013,income_per_worker_gbp,43910.79461677667,42215.6799572028,45670.08456028553,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2014,productivity_gbp_per_job,53587.60579889317,51911.51484509655,55299.006096889236,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2014,income_per_worker_gbp,43809.445204881515,42162.25077816987,45510.23282983163,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2015,productivity_gbp_per_job,54016.50542178115,52321.20486772084,55738.09053932405,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2015,income_per_worker_gbp,45451.08185658163,43765.45552185619,47242.5379056191,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2016,productivity_gbp_per_job,54844.91021465987,53138.14747770922,56603.819942983704,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2016,income_per_worker_gbp,45395.30904044262,43611.3731181596,47182.36324494155,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2017,productivity_gbp_per_job,57321.33458252977,55519.046749558795,59138.276784821464,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2017,income_per_worker_gbp,45951.29947592959,44201.870234455746,47720.28875853157,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2018,productivity_gbp_per_job,58549.17675225644,56711.80955664642,60441.895960876864,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2018,income_per_worker_gbp,47947.54618112994,46118.639529998465,49868.218167252395,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2019,productivity_gbp_per_job,60556.65265388994,58641.17574732902,62532.406463919986,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2019,income_per_worker_gbp,49196.17146404308,47311.71847883202,51151.66610976918,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2020,productivity_gbp_per_job,57546.25559083559,55746.79252664142,59388.614578447814,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2020,income_per_worker_gbp,49240.952592234775,47337.901158692,51178.00166036741,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2021,productivity_gbp_per_job,61376.00971169017,59472.185333302325,63338.028154297375,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2021,income_per_worker_gbp,50468.45139261681,48557.09592624897,52477.80982954223,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2022,productivity_gbp_per_job,66524.29459428969,64440.06171664525,68653.42719134425,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2022,income_per_worker_gbp,53811.59988479495,51793.264100557884,55914.06774114979,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2023,productivity_gbp_per_job,71032.40499116013,68785.75641123581,73315.44043973667,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2023,income_per_worker_gbp,57575.59875050676,55434.49920885982,59863.01464267298,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2024,productivity_gbp_per_job,72209.28520566766,68789.44580734932,75693.51843413868,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2024,income_per_worker_gbp,57963.25781153064,55942.367950269574,60115.2793313702,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2025,productivity_gbp_per_job,72889.89051270897,64978.49974837781,80624.0686300922,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2025,income_per_worker_gbp,58940.87339416617,56074.739118376456,61808.47326520542,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000006,East,2026,productivity_gbp_per_job,73830.36991438208,63952.98742679197,83582.65184651267,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2026,income_per_worker_gbp,60582.93861493823,56947.734167622686,64202.079636512484,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2027,productivity_gbp_per_job,74778.1930408734,63494.53242209883,86185.15175542704,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2027,income_per_worker_gbp,62410.63550191074,58135.60556694407,66847.11404071137,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2028,productivity_gbp_per_job,75736.11493799624,63113.94032968766,88762.11018677386,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2028,income_per_worker_gbp,64302.10223993825,59233.69740886105,69300.19375048752,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2029,productivity_gbp_per_job,76507.96746519397,62378.90485097672,90768.61751281137,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2029,income_per_worker_gbp,66170.49133702769,60517.931780599996,71817.78386041612,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2030,productivity_gbp_per_job,77251.83390712972,61646.15535697118,92526.65600763036,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2030,income_per_worker_gbp,68236.54915605126,62062.09388057232,74448.17237671927,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2031,productivity_gbp_per_job,78419.62305708404,61422.30743594152,95458.9526148991,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2031,income_per_worker_gbp,70527.0202711248,63560.54541783656,77565.490336443,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2032,productivity_gbp_per_job,79524.00850192943,61580.08599974146,97277.35957856243,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2032,income_per_worker_gbp,72959.6176666588,65317.955851439656,80759.17094872799,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2033,productivity_gbp_per_job,80738.27759777002,61338.457626560434,100127.38917587111,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2033,income_per_worker_gbp,75612.31192829761,67405.23921352308,83751.74065014368,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2034,productivity_gbp_per_job,81789.53001752803,60867.93647326419,102434.22665916973,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2034,income_per_worker_gbp,78135.61727509089,69200.14764389115,87399.47834877133,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2035,productivity_gbp_per_job,82791.02715262654,60455.802739181825,105019.23060161821,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2035,income_per_worker_gbp,80642.43172394202,70868.96445927296,90402.5267022405,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2036,productivity_gbp_per_job,84042.30638799965,61400.2742663743,107025.40495400601,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2036,income_per_worker_gbp,83198.14071615649,72731.35349070297,93485.21333867549,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2037,productivity_gbp_per_job,84900.94395326712,60908.29720434143,109079.49786259438,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2037,income_per_worker_gbp,85768.85150153782,74748.05349466976,96816.06015279534,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2038,productivity_gbp_per_job,86237.03920434891,60919.235105239444,111503.56666200644,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2038,income_per_worker_gbp,88490.49361618113,76750.00943697803,100421.17274896067,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2039,productivity_gbp_per_job,87327.52726726524,60540.62043946717,114338.64663666379,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2039,income_per_worker_gbp,91621.644311068,79334.00477964275,104277.12579956977,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2040,productivity_gbp_per_job,88764.04528295234,60502.29038448285,116146.19790353552,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2040,income_per_worker_gbp,94659.52617571986,80935.30424810175,108039.70248496144,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2041,productivity_gbp_per_job,90218.18850230776,60751.20048070406,119715.00879202562,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2041,income_per_worker_gbp,97782.7402298558,83330.78122739194,112131.3229430623,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2042,productivity_gbp_per_job,91752.63563128083,60579.87791901478,122468.21889822873,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2042,income_per_worker_gbp,100864.90612983023,85472.06419913452,116029.43372996688,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2043,productivity_gbp_per_job,92857.10579690606,61278.87884486169,124608.11656510724,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2043,income_per_worker_gbp,104132.92036011379,88010.87205013179,120242.30865603876,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2044,productivity_gbp_per_job,94312.27790410932,61417.22519112083,127254.33805847917,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2044,income_per_worker_gbp,107291.27174206993,90081.6826880656,124485.03102801024,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2045,productivity_gbp_per_job,95653.05800545988,60502.97100903102,129870.88633077622,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2045,income_per_worker_gbp,110686.0892214666,92908.63723574272,128788.00859862618,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2046,productivity_gbp_per_job,97220.57049943537,61244.1903769382,133034.5160013766,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2046,income_per_worker_gbp,114245.81311841881,95100.87580509296,133357.79116454496,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2047,productivity_gbp_per_job,98275.38681936801,59454.94281759091,136033.73722729553,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2047,income_per_worker_gbp,118111.273933123,98215.67597692243,138456.5389648497,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2048,productivity_gbp_per_job,99931.65823221761,62152.011761674956,137811.02184806505,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2048,income_per_worker_gbp,121915.8740747365,101078.51215974605,142803.72936719938,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2049,productivity_gbp_per_job,101739.35256406204,61728.09065037805,141472.47301178542,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2049,income_per_worker_gbp,125732.89903999401,103340.77973266187,147980.22594745352,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2050,productivity_gbp_per_job,103345.2271494161,62223.74171536367,143954.56009632163,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000006,East,2050,income_per_worker_gbp,129616.7881205253,106146.17186207244,153037.6582873777,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2009,productivity_gbp_per_job,74163.05966890395,71864.65969640146,76550.59963332977,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2009,income_per_worker_gbp,41096.19977170214,39512.09078067174,42741.09840772996,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2010,productivity_gbp_per_job,75893.8523326444,73483.15615250613,78319.63499157387,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2010,income_per_worker_gbp,41367.109508802154,39751.03445392909,43001.83804565711,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2011,productivity_gbp_per_job,76908.61645305641,74474.37752370686,79396.7025961005,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2011,income_per_worker_gbp,40811.10249813516,39259.166987721874,42431.51596615543,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2012,productivity_gbp_per_job,77592.52873792067,75126.62043817925,80091.57564272157,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2012,income_per_worker_gbp,42477.52309623844,40833.33945505614,44156.71862708328,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2013,productivity_gbp_per_job,79512.627828483,77006.06804808091,82104.10593060091,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2013,income_per_worker_gbp,44188.392988361906,42478.15002460304,45921.19528423797,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2014,productivity_gbp_per_job,81685.99544166714,79073.17102534433,84290.30500491567,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2014,income_per_worker_gbp,44922.563030558355,43182.95491045609,46721.02775232312,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2015,productivity_gbp_per_job,81364.13563294346,78834.1235217041,83953.44660072781,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2015,income_per_worker_gbp,46876.70073327833,45117.197031187265,48725.11894750661,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2016,productivity_gbp_per_job,84834.96452419895,82156.14436714663,87557.6012231047,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2016,income_per_worker_gbp,47218.46779867643,45385.53490600254,49078.665095839366,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2017,productivity_gbp_per_job,85859.1835074789,83162.62022147296,88679.72505812897,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2017,income_per_worker_gbp,47103.9410960217,45320.717279170814,48969.50004309505,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2018,productivity_gbp_per_job,88930.42579802735,86182.16130233802,91765.56294640717,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2018,income_per_worker_gbp,49966.85023836216,48064.89546022679,51943.548397127575,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2019,productivity_gbp_per_job,89920.03084722682,87067.95975578643,92789.6897689674,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2019,income_per_worker_gbp,50138.81245937353,48194.351611374994,52117.65912372115,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2020,productivity_gbp_per_job,85119.91316040486,82520.20152932269,87820.59726853097,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2020,income_per_worker_gbp,50506.57680292607,48578.08700943801,52514.84349036086,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2021,productivity_gbp_per_job,87921.76762666409,85237.19648818657,90727.79756108622,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2021,income_per_worker_gbp,50752.87469069563,48821.27614846395,52733.15355249232,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2022,productivity_gbp_per_job,94327.66349026666,91389.97756987256,97357.86865983483,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2022,income_per_worker_gbp,51385.93471152998,49413.65100390825,53392.494188968834,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2023,productivity_gbp_per_job,101706.34956991796,98490.16833739786,104949.82751580256,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2023,income_per_worker_gbp,55763.95860295315,53570.221578278564,58011.761781054534,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2024,productivity_gbp_per_job,107758.11358946883,101971.90519559632,113401.23794452306,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2024,income_per_worker_gbp,58980.402474530194,55969.1881464728,61991.154280011084,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2025,productivity_gbp_per_job,109615.41679672673,96935.88001785109,122412.9987888498,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2025,income_per_worker_gbp,60444.30417542862,54459.79825152035,66383.42165316555,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000007,London,2026,productivity_gbp_per_job,111383.75832944579,95373.13083442413,126937.97968313351,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2026,income_per_worker_gbp,62249.28673271385,54777.430925461165,69875.2586983934,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2027,productivity_gbp_per_job,112991.28607238851,94468.04632603728,130912.96866928533,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2027,income_per_worker_gbp,64237.346708868885,55319.03622148034,73074.12511611498,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2028,productivity_gbp_per_job,114536.82188075743,92785.64368561926,135691.85641720533,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2028,income_per_worker_gbp,66241.23125093227,55951.06285984009,76488.15274981364,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2029,productivity_gbp_per_job,116090.27356075968,92302.80839710524,139052.42610294375,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2029,income_per_worker_gbp,68380.22250794714,56515.502789223545,80019.84065732145,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2030,productivity_gbp_per_job,117535.82071341507,91432.94345056497,143061.7129950044,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2030,income_per_worker_gbp,70676.87663950135,57622.555028051866,83563.9247566712,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2031,productivity_gbp_per_job,119373.33207975984,91505.00301971819,147136.2265756571,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2031,income_per_worker_gbp,73145.28881296095,58855.43785930229,87621.11318951883,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2032,productivity_gbp_per_job,121489.5518251249,91685.71860494874,151503.31009279034,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2032,income_per_worker_gbp,75745.37594611054,59838.50911256754,91467.6991437708,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2033,productivity_gbp_per_job,123395.81346179171,91172.60200433893,155520.72625066375,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2033,income_per_worker_gbp,78654.99363763719,61689.92865076054,95810.87111122094,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2034,productivity_gbp_per_job,125901.97669046793,91427.4523268133,159116.04099836922,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2034,income_per_worker_gbp,81566.3523284219,62616.61649620221,100384.42051858867,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2035,productivity_gbp_per_job,127319.72386141367,90128.6583466898,164939.9336819672,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2035,income_per_worker_gbp,84113.88680388189,63566.279489878485,104320.24462447023,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2036,productivity_gbp_per_job,129412.03600109444,91037.59280794022,167080.67214649927,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2036,income_per_worker_gbp,86979.7142656546,64573.85125895548,109100.56141453491,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2037,productivity_gbp_per_job,130936.04878215284,90144.99327138766,171273.01327253025,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2037,income_per_worker_gbp,89929.98594505091,66551.59748206798,113035.43293603169,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2038,productivity_gbp_per_job,133601.371027854,90657.06497412702,176380.25231947936,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2038,income_per_worker_gbp,93203.94641472845,67840.5051914348,118713.87387372302,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2039,productivity_gbp_per_job,135746.36694969234,90336.19339455962,179380.69019626928,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2039,income_per_worker_gbp,96314.8773756071,69364.41082909216,123096.94421063381,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2040,productivity_gbp_per_job,137887.78988211346,89988.06147521196,184930.07111095777,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2040,income_per_worker_gbp,99947.33104918008,71282.08522224416,129030.80008306124,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2041,productivity_gbp_per_job,141026.4493064079,90610.57918632028,190604.39332463697,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2041,income_per_worker_gbp,103018.62352678178,72091.11347430137,133226.7378412232,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2042,productivity_gbp_per_job,143416.51023873812,91485.62822093941,195031.42068843386,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2042,income_per_worker_gbp,106698.6530961792,73721.92001898141,139685.8067192907,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2043,productivity_gbp_per_job,145221.9395809174,91796.04403400446,198045.45620290696,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2043,income_per_worker_gbp,110422.08049363461,75805.22152589992,144770.19921985627,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2044,productivity_gbp_per_job,147663.0161855022,91946.19982747638,203377.80366203623,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2044,income_per_worker_gbp,113736.50929855647,76746.38741802778,150249.1130644419,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2045,productivity_gbp_per_job,149873.48898118117,92093.0025336202,207983.34163950753,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2045,income_per_worker_gbp,117819.5371226821,78654.19449679792,156179.38816420286,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2046,productivity_gbp_per_job,153808.08439757617,92148.76393369709,215003.6434908066,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2046,income_per_worker_gbp,121473.11320498919,80920.08447675679,162575.25043109784,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2047,productivity_gbp_per_job,155339.24218791822,91592.10840759147,218939.85481101787,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2047,income_per_worker_gbp,125991.82667647325,82448.61586437795,168737.69417259263,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2048,productivity_gbp_per_job,158851.14445413096,93072.1453980637,224402.9864224429,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2048,income_per_worker_gbp,130690.98221494527,84918.913669326,177414.6723581298,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2049,productivity_gbp_per_job,160713.23405871954,92167.96683442322,228975.55670983475,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2049,income_per_worker_gbp,134796.88227657255,86983.87475024312,182741.72186724943,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2050,productivity_gbp_per_job,163875.13040935143,92226.38327052846,237189.50380308848,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000007,London,2050,income_per_worker_gbp,139671.33953348416,88952.33642285502,191109.91810887062,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2009,productivity_gbp_per_job,55893.50953517734,54176.638146026766,57674.120414200814,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2009,income_per_worker_gbp,42028.043396781795,40409.06357815318,43707.099986208304,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2010,productivity_gbp_per_job,56531.87538439245,54791.83546219845,58365.98156373981,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2010,income_per_worker_gbp,41942.68778173662,40332.42843222283,43581.81489908916,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2011,productivity_gbp_per_job,58506.51533114195,56677.84502576619,60372.76659809197,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2011,income_per_worker_gbp,43019.97818561794,41365.34004372322,44720.73698386778,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2012,productivity_gbp_per_job,60215.641155317535,58297.95920898848,62135.23547134097,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2012,income_per_worker_gbp,44614.68964844003,42891.91987254867,46356.58584904742,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2013,productivity_gbp_per_job,61635.952136849686,59732.00002352909,63575.45245049061,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2013,income_per_worker_gbp,46296.335794776234,44573.08367072539,48116.377608060735,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2014,productivity_gbp_per_job,62799.89929744097,60839.09254582266,64827.206625390245,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2014,income_per_worker_gbp,46839.307383288804,45083.81594640844,48657.173211019566,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2015,productivity_gbp_per_job,62635.193234799575,60685.50734976244,64631.49302130708,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2015,income_per_worker_gbp,47992.68321729892,46128.43881327296,49894.94132079666,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2016,productivity_gbp_per_job,62942.65209159237,60967.656406378286,64952.65110722739,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2016,income_per_worker_gbp,48214.712413175715,46352.46876191016,50092.14977038165,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2017,productivity_gbp_per_job,65961.23846697422,63881.09410794159,68032.26765087502,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2017,income_per_worker_gbp,50217.32069905063,48326.50569983832,52170.28023726496,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2018,productivity_gbp_per_job,67601.77158115518,65515.50492409434,69811.38157719072,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2018,income_per_worker_gbp,51752.57511763894,49783.71595210152,53781.52696781403,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2019,productivity_gbp_per_job,70310.01400361514,68107.5286542618,72549.51575293572,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2019,income_per_worker_gbp,52802.01321163287,50772.25998507598,54901.73535007536,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2020,productivity_gbp_per_job,70996.39943140576,68789.90616237024,73273.67733280183,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2020,income_per_worker_gbp,53598.92782756744,51542.07243100146,55689.68591877774,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2021,productivity_gbp_per_job,73147.57798192442,70883.21287471813,75477.22633827195,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2021,income_per_worker_gbp,55294.193779086076,53208.4973361803,57485.47746161137,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2022,productivity_gbp_per_job,76426.49582561475,74049.36215018656,78870.75396184361,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2022,income_per_worker_gbp,57332.950867386724,55107.49388000023,59554.9756409714,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2023,productivity_gbp_per_job,82023.52661437378,79413.8579951722,84691.61204897343,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2023,income_per_worker_gbp,61867.683665711666,59519.23149205892,64280.621846089474,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2024,productivity_gbp_per_job,86345.11442540224,83643.44078174082,89153.13630203721,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2024,income_per_worker_gbp,62868.64607599527,60639.685559919824,65155.01863126888,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2025,productivity_gbp_per_job,87395.69773953267,82999.0179926598,91680.38432351538,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2025,income_per_worker_gbp,64053.87234594877,61532.740023619415,66596.1347411075,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000008,South East,2026,productivity_gbp_per_job,89165.01826790457,83825.08648771625,94220.82110093006,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2026,income_per_worker_gbp,66058.85540410483,62902.692273853805,69168.86009661791,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2027,productivity_gbp_per_job,90772.72899204258,84769.45974760738,96576.66185523666,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2027,income_per_worker_gbp,68236.23012346972,64483.88707344055,72011.16898601904,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2028,productivity_gbp_per_job,92228.05958041496,85339.11129535935,98846.70486562936,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2028,income_per_worker_gbp,70412.40546802295,66170.30088204864,74767.65410188821,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2029,productivity_gbp_per_job,93529.87224577914,86011.89261636685,100893.89444071443,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2029,income_per_worker_gbp,72747.21589781735,67865.4750798677,77668.47396362016,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2030,productivity_gbp_per_job,95047.45950036439,86563.41080282143,102927.46848737731,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2030,income_per_worker_gbp,75149.46355094126,69754.12775070792,80662.69976063239,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2031,productivity_gbp_per_job,96669.08032111383,87551.95399099495,105422.85117898943,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2031,income_per_worker_gbp,77734.89480553578,71525.72762818498,83812.16630941739,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2032,productivity_gbp_per_job,98545.70433154756,88734.99047195466,107784.18679366057,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2032,income_per_worker_gbp,80731.45087654197,74107.69156434575,87313.10781909178,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2033,productivity_gbp_per_job,100530.03130349283,90197.98192477181,110499.38897315112,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2033,income_per_worker_gbp,83769.2739283327,76608.13697581361,91038.71372846274,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2034,productivity_gbp_per_job,102437.26792969581,91327.29235128424,112804.16015987819,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2034,income_per_worker_gbp,86770.0180168253,79015.4469097008,94746.50036109169,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2035,productivity_gbp_per_job,104131.43887515472,92051.94072643314,115388.28413070092,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2035,income_per_worker_gbp,89753.98453114337,81182.60528236888,98367.40873108209,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2036,productivity_gbp_per_job,105869.34174378305,92912.55466121144,117715.34685772251,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2036,income_per_worker_gbp,92763.57661246325,83478.19495595404,101805.305244708,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2037,productivity_gbp_per_job,107683.23053954744,94386.61068503703,120219.19434741174,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2037,income_per_worker_gbp,95786.5081044786,85994.57348010597,105886.07571170249,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2038,productivity_gbp_per_job,109661.75600614562,95671.22604771805,123116.8580607118,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2038,income_per_worker_gbp,99074.29664163479,88648.95817066092,109765.1969689527,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2039,productivity_gbp_per_job,111785.86044253927,97080.68467799584,125919.26834985173,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2039,income_per_worker_gbp,102706.33831053844,91313.89026603912,114119.59891692866,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2040,productivity_gbp_per_job,114141.07312108045,98766.07109792884,128900.90309096899,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2040,income_per_worker_gbp,106341.85705731681,94311.54971032646,118558.6894605379,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2041,productivity_gbp_per_job,116319.12415392656,99883.40976912473,132092.5218264556,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2041,income_per_worker_gbp,110122.70347620652,97333.47004880426,123203.14223349231,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2042,productivity_gbp_per_job,118823.44855918278,101628.63550009509,135032.57630565512,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2042,income_per_worker_gbp,113942.8927997621,100459.37457378132,127622.53472711511,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2043,productivity_gbp_per_job,120646.72348105792,102204.32947766909,137241.05623353453,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2043,income_per_worker_gbp,117795.06705699535,103178.84344752663,132607.19971056675,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2044,productivity_gbp_per_job,122763.70107529053,103606.22162962388,140366.214067712,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2044,income_per_worker_gbp,121612.14052337002,106035.03517600677,137528.2416291534,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2045,productivity_gbp_per_job,125279.56519604854,105462.6831066763,143529.6838314464,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2045,income_per_worker_gbp,125793.22384298239,109442.0976044152,142197.8100951922,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2046,productivity_gbp_per_job,127800.83733327866,107304.48186820008,147110.93576880044,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2046,income_per_worker_gbp,130099.62455598202,113088.571325586,147774.39771046492,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2047,productivity_gbp_per_job,130248.10462143611,108784.28919771203,150063.29360321225,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2047,income_per_worker_gbp,134669.83846099762,116201.2217307353,152891.07321668274,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2048,productivity_gbp_per_job,133176.9229708552,110877.52724878804,154459.62231021436,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2048,income_per_worker_gbp,139347.29800667134,120091.63426745222,158914.1741549925,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2049,productivity_gbp_per_job,135639.8839261469,111630.65617002248,157194.72164763053,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2049,income_per_worker_gbp,144094.66782183715,124120.29392064507,164812.30815786286,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2050,productivity_gbp_per_job,138087.3791486706,114243.82144876596,160091.79215954058,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000008,South East,2050,income_per_worker_gbp,148913.26838241497,127594.76600726682,170312.1206008373,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2009,productivity_gbp_per_job,45758.27741012108,44299.83865243183,47205.09898662593,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2009,income_per_worker_gbp,35583.377118691584,34212.216878067,36958.492437802335,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2010,productivity_gbp_per_job,47831.35734695965,46336.38103219098,49341.54941807027,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2010,income_per_worker_gbp,37103.82541966224,35689.59515080497,38542.163464981255,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2011,productivity_gbp_per_job,49394.134029487774,47822.64614159484,50973.89899859153,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2011,income_per_worker_gbp,38729.933714140454,37249.74854378723,40248.62268857546,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2012,productivity_gbp_per_job,51034.47436267446,49432.73667340862,52661.97823402171,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2012,income_per_worker_gbp,39965.824709910914,38452.65826390672,41557.56376027915,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2013,productivity_gbp_per_job,51707.18611611172,50081.3792836352,53352.21140637449,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2013,income_per_worker_gbp,41125.109884280275,39550.91196253603,42724.71041359209,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2014,productivity_gbp_per_job,52459.70196949003,50830.224963876426,54182.95428481425,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2014,income_per_worker_gbp,41291.411762231466,39703.1438499305,42907.862254363354,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2015,productivity_gbp_per_job,52867.56118991355,51220.83289046597,54547.9568584166,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2015,income_per_worker_gbp,42886.5981502089,41229.176583488,44545.35326270022,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2016,productivity_gbp_per_job,54019.599773991904,52313.54277740489,55708.26741290675,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2016,income_per_worker_gbp,43088.96676917428,41426.267930058326,44774.7045188973,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2017,productivity_gbp_per_job,56335.04446665541,54584.98785622149,58114.8320942863,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2017,income_per_worker_gbp,44097.20890824759,42424.98403743372,45824.86777899066,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2018,productivity_gbp_per_job,57124.90198932761,55319.30776300682,58949.57343263386,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2018,income_per_worker_gbp,45458.321625008335,43702.47617175653,47235.345561443224,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2019,productivity_gbp_per_job,58885.999109087206,57052.13899106844,60756.50793312616,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2019,income_per_worker_gbp,46834.59412156591,45037.98280221789,48650.758514025634,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2020,productivity_gbp_per_job,56935.173348568154,55148.519106011234,58765.00073584457,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2020,income_per_worker_gbp,47550.78830868463,45766.44491611784,49420.31250233914,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2021,productivity_gbp_per_job,61743.4987435976,59741.89256481561,63773.752245227886,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2021,income_per_worker_gbp,48368.11457387557,46516.42419415921,50310.40792970232,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2022,productivity_gbp_per_job,66455.04012909291,64385.49831852558,68602.82755469174,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2022,income_per_worker_gbp,51086.7324748885,49122.197964008425,53091.99189068147,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2023,productivity_gbp_per_job,71590.56696059453,69320.87762921616,73898.94868693754,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2023,income_per_worker_gbp,55613.084521903875,53512.502144822545,57782.42718064718,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2024,productivity_gbp_per_job,71873.84368463719,68573.27738524592,75213.94686057542,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2024,income_per_worker_gbp,54561.466053853765,52647.92002502732,56584.252656305805,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2025,productivity_gbp_per_job,74223.62886236064,67845.17762137503,80404.53636056269,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2025,income_per_worker_gbp,56596.026422185925,54285.6628198959,58888.69094958668,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+E12000009,South West,2026,productivity_gbp_per_job,75699.63729688685,67991.38977359522,83143.40175046698,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2026,income_per_worker_gbp,58370.225563673965,55407.74525145439,61331.02351906806,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2027,productivity_gbp_per_job,76956.66607062948,68091.58850459855,85600.53831241155,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2027,income_per_worker_gbp,60243.291194531725,56840.58474020874,63652.5745650577,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2028,productivity_gbp_per_job,78268.29576760295,67838.97518923468,87947.53445322897,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2028,income_per_worker_gbp,62183.6368996922,58280.55276218561,66072.69553882144,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2029,productivity_gbp_per_job,79451.8195998282,68241.26584805654,90012.22624729716,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2029,income_per_worker_gbp,64126.61635669949,59659.38986926596,68618.0168457802,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2030,productivity_gbp_per_job,80644.52798343064,67912.42046668887,92553.79718638968,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2030,income_per_worker_gbp,66262.5088142805,61389.41027862803,71098.0555474114,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2031,productivity_gbp_per_job,82027.96781388138,68458.88419966672,94658.2874162825,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2031,income_per_worker_gbp,68589.69888692204,63166.42188566786,73965.22156657926,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2032,productivity_gbp_per_job,83711.7593373464,68947.03513638851,97505.3184515453,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2032,income_per_worker_gbp,71076.14925195632,65178.172418465154,77222.048145988,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2033,productivity_gbp_per_job,85337.46488526565,69696.15072910517,99873.03036279877,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2033,income_per_worker_gbp,73797.62741058606,67217.63423225161,80353.49030940038,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2034,productivity_gbp_per_job,87062.15204308982,70286.20617264783,102526.0310922793,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2034,income_per_worker_gbp,76489.7625223865,69273.27094606005,83623.52207475743,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2035,productivity_gbp_per_job,88462.68884445302,70440.61485281009,105026.07085265782,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2035,income_per_worker_gbp,79040.66711652842,71164.16115266489,86799.43630054266,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2036,productivity_gbp_per_job,89967.63344316452,70687.43263920519,107539.40103829975,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2036,income_per_worker_gbp,81614.40759209516,73140.14121686366,90120.61020339679,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2037,productivity_gbp_per_job,91647.91874807863,71138.65162885595,109919.37199512329,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2037,income_per_worker_gbp,84348.11299478776,75636.54553059483,93152.80730587656,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2038,productivity_gbp_per_job,93301.96706115127,71775.13544206048,112822.38499060259,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2038,income_per_worker_gbp,87162.36194885528,77636.82143508794,96731.96244107647,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2039,productivity_gbp_per_job,95067.24560124698,72129.22961215931,116322.59590021097,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2039,income_per_worker_gbp,90276.37911449977,79927.16632567681,100459.51617001517,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2040,productivity_gbp_per_job,97006.06638592582,73165.40241600694,118822.01731563364,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2040,income_per_worker_gbp,93614.40611790108,82646.24354935077,104573.81976516756,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2041,productivity_gbp_per_job,98981.15774019621,73711.12198557974,121366.37605525156,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2041,income_per_worker_gbp,96877.2696181149,85327.13537454783,108476.44688527215,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2042,productivity_gbp_per_job,101031.4764174943,74511.92250481143,124975.14158157946,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2042,income_per_worker_gbp,100113.72678532534,87489.84401738115,112618.32906317178,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2043,productivity_gbp_per_job,102609.30316277947,74571.95949358135,127709.54300152976,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2043,income_per_worker_gbp,103432.17570950296,90113.61150770416,116770.35498454301,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2044,productivity_gbp_per_job,104692.57634679765,75078.93678696624,130626.15942756647,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2044,income_per_worker_gbp,106800.77905093829,93211.32119568855,120891.85069390401,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2045,productivity_gbp_per_job,106475.2556523641,76583.5786092238,132924.10137829251,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2045,income_per_worker_gbp,110342.03635295702,95983.34053857546,124965.08897871645,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2046,productivity_gbp_per_job,108770.09895659923,77126.29370466698,137295.7417941607,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2046,income_per_worker_gbp,114195.46703810063,98605.86127130355,129853.86605785032,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2047,productivity_gbp_per_job,111027.54013581962,78429.83024387075,140654.70409050756,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2047,income_per_worker_gbp,117871.44105585293,101089.50146442156,134230.33451679422,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2048,productivity_gbp_per_job,113446.97883448031,79118.2427736157,143632.32528464185,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2048,income_per_worker_gbp,122016.68597394683,104277.76819511928,140001.72898032577,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2049,productivity_gbp_per_job,115471.97601415806,79350.58559789379,147445.72667062387,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2049,income_per_worker_gbp,126240.48415052285,107917.25613760225,144963.37073438382,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2050,productivity_gbp_per_job,117706.11981551113,79599.54267804699,151065.21292710476,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+E12000009,South West,2050,income_per_worker_gbp,130391.93911942479,111321.5594391603,150349.92488860074,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2009,productivity_gbp_per_job,41605.5376956441,40311.09890543674,42961.920237850165,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2009,income_per_worker_gbp,34895.62374506644,33561.70817476756,36248.16371589049,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2010,productivity_gbp_per_job,42829.59142958051,41517.923556297595,44239.74888008136,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2010,income_per_worker_gbp,35677.17017450135,34322.474207586216,37103.77766988985,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2011,productivity_gbp_per_job,44367.95383366895,42964.302483944986,45810.96596925742,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2011,income_per_worker_gbp,36310.996200602945,34964.748312413074,37707.80433931338,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2012,productivity_gbp_per_job,45511.53607650311,44093.358397711665,46936.52526036583,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2012,income_per_worker_gbp,37255.41763360151,35830.44795031049,38700.94287237999,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2013,productivity_gbp_per_job,46782.47894323387,45310.530257291735,48291.42593216913,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2013,income_per_worker_gbp,37810.94723419378,36364.28101410695,39293.46193581673,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2014,productivity_gbp_per_job,47083.530862316926,45602.72394159767,48595.54590075479,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2014,income_per_worker_gbp,38364.21896989345,36908.585433002554,39885.54000288351,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2015,productivity_gbp_per_job,47656.56157237872,46152.669074455895,49192.171449726025,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2015,income_per_worker_gbp,38884.48334260449,37427.27394318151,40408.15586496857,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2016,productivity_gbp_per_job,48581.72719706165,47008.128116563545,50139.38282369055,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2016,income_per_worker_gbp,38501.77033534141,37014.83917771467,40041.25055959686,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2017,productivity_gbp_per_job,50809.15355330334,49226.02902073576,52429.52526798936,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2017,income_per_worker_gbp,40330.0055937147,38789.53785023698,41901.65316556679,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2018,productivity_gbp_per_job,51540.372505922875,49898.05661218658,53221.50153991458,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2018,income_per_worker_gbp,41025.15573023095,39456.801657264,42643.19342272208,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2019,productivity_gbp_per_job,53850.255958348396,52162.92014643891,55532.48720611329,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2019,income_per_worker_gbp,42227.753354412045,40574.10943408175,43899.54179444409,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2020,productivity_gbp_per_job,51705.15045840905,50069.38920550546,53370.36750341053,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2020,income_per_worker_gbp,43403.52604050737,41751.36134607949,45146.298712942444,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2021,productivity_gbp_per_job,54289.892627319576,52567.688028014505,56049.35345530784,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2021,income_per_worker_gbp,44783.038109202935,43074.935256214936,46527.19269907146,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2022,productivity_gbp_per_job,58723.15084734367,56888.499993316196,60619.14838187836,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2022,income_per_worker_gbp,46270.7308738995,44500.71501023099,48107.11955822482,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2023,productivity_gbp_per_job,62671.621767472556,60711.281270163,64663.92505866127,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2023,income_per_worker_gbp,49027.007991298444,47160.11191778656,51000.6736656964,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2024,productivity_gbp_per_job,65742.33517266251,63069.37211325415,68457.5666673864,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2024,income_per_worker_gbp,50174.868092149256,48321.05851812225,52094.77064815818,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2025,productivity_gbp_per_job,66779.58953275233,61128.51352449183,72201.14651762733,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2025,income_per_worker_gbp,51066.45064210036,48240.77536761094,53827.413071808805,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+W92000004,Wales,2026,productivity_gbp_per_job,68169.68099057097,61369.8073645867,74913.97563287761,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2026,income_per_worker_gbp,52579.74227157396,49162.19794864543,56021.02801657316,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2027,productivity_gbp_per_job,69332.4389182821,61197.49742899112,77135.35310632942,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2027,income_per_worker_gbp,54134.165158655655,49961.69274281665,58075.520888932224,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2028,productivity_gbp_per_job,70504.27637454023,61420.12932735586,79063.9270295513,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2028,income_per_worker_gbp,55728.64402517493,51047.29460675655,60361.20561625926,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2029,productivity_gbp_per_job,71524.4278632764,61637.94780521927,81241.59411890073,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2029,income_per_worker_gbp,57348.068940701225,51991.72576329923,62490.26120899221,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2030,productivity_gbp_per_job,72719.43915929308,61387.97747605243,83362.87832018474,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2030,income_per_worker_gbp,59133.61543352517,53269.56901239184,64935.81226482626,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2031,productivity_gbp_per_job,73926.10720511443,61556.745951462945,85352.71635634305,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2031,income_per_worker_gbp,61009.74524506996,54501.81145446316,67343.46383090982,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2032,productivity_gbp_per_job,75463.43225072855,62264.64938406401,87647.02282272371,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2032,income_per_worker_gbp,63106.28449803498,56022.099549140614,70005.11767701694,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2033,productivity_gbp_per_job,77055.36899665162,62993.08954142698,90330.9684073913,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2033,income_per_worker_gbp,65333.355788073444,57512.26762467199,72681.10807233155,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2034,productivity_gbp_per_job,78433.40889770561,63343.82107347104,92760.62855310782,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2034,income_per_worker_gbp,67464.9293561614,59026.584426488414,75759.04610427875,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2035,productivity_gbp_per_job,79840.9798871163,63390.857728491246,95075.1770610983,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2035,income_per_worker_gbp,69643.00183269939,60619.35042826182,78313.7446401832,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2036,productivity_gbp_per_job,81333.11294513888,64497.460575857236,97384.57730889176,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2036,income_per_worker_gbp,71765.67994942704,62216.382429316065,81141.53896413065,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2037,productivity_gbp_per_job,82622.86084328232,64754.92734029144,99215.878835289,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2037,income_per_worker_gbp,73831.8448318434,63342.018645934026,84017.29336044089,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2038,productivity_gbp_per_job,84200.56292104586,65092.04961320315,101776.49964301608,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2038,income_per_worker_gbp,76168.2562048241,64905.54772310468,86992.52422019331,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2039,productivity_gbp_per_job,86062.23949338403,66492.76989625314,104499.45688793297,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2039,income_per_worker_gbp,78652.8638740009,66553.3682662194,90253.56723753223,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2040,productivity_gbp_per_job,87853.10888804978,66726.26594943009,107756.8354725485,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2040,income_per_worker_gbp,81396.67142843084,68351.75524716289,93664.72376599426,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2041,productivity_gbp_per_job,89468.78869495554,66994.22839129038,109775.25252034857,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2041,income_per_worker_gbp,84023.52365077834,70644.18736426793,97066.57358961435,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2042,productivity_gbp_per_job,91455.19840048147,68189.96718838821,113387.5545665874,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2042,income_per_worker_gbp,86779.4225798712,72294.9657454291,100503.45958273152,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2043,productivity_gbp_per_job,93034.7897227486,68502.9176237268,115737.06073122933,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2043,income_per_worker_gbp,89271.38578805831,73796.8733547352,103648.40176427466,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2044,productivity_gbp_per_job,94819.58713835732,68740.86778153542,118129.0290071566,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2044,income_per_worker_gbp,92048.4691742986,75792.72540239025,107251.47975490746,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2045,productivity_gbp_per_job,96609.72594965778,70618.55840076154,121167.47020833133,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2045,income_per_worker_gbp,94820.69877439001,77789.05726137225,111305.27474199918,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2046,productivity_gbp_per_job,98354.95853681359,70741.23438128231,124255.40085118366,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2046,income_per_worker_gbp,97726.96929291506,80151.12868849507,114592.00770737766,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2047,productivity_gbp_per_job,100719.9928439165,70967.24332697754,127716.57311249533,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2047,income_per_worker_gbp,100744.63691207803,82035.10014448967,118697.2915232287,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2048,productivity_gbp_per_job,102857.39608379964,72157.71377358976,130679.03881190704,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2048,income_per_worker_gbp,104321.43005431606,84877.520363024,123297.26910898247,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2049,productivity_gbp_per_job,104862.73789494885,73120.75356426105,134176.50757201307,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2049,income_per_worker_gbp,107530.76337167625,86401.69354806335,127504.19748230901,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2050,productivity_gbp_per_job,107177.30594725409,73644.58969034423,137089.24123315688,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+W92000004,Wales,2050,income_per_worker_gbp,110825.80680931768,88754.76919569887,131718.832796785,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2009,productivity_gbp_per_job,46913.850377416435,45426.36470540217,48424.567708809256,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2009,income_per_worker_gbp,33039.35870397659,31783.04674071974,34336.265041913706,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2010,productivity_gbp_per_job,48400.37632739649,46914.926391879526,49973.98768394487,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2010,income_per_worker_gbp,34795.80351572928,33464.06581103168,36140.21933558878,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2011,productivity_gbp_per_job,49239.16751863273,47698.69972911886,50810.58506579405,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2011,income_per_worker_gbp,35400.92938152306,34066.340296588736,36770.13032578597,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2012,productivity_gbp_per_job,51434.43305870379,49826.06701479692,53074.44944801426,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2012,income_per_worker_gbp,37060.12986927526,35636.31630979029,38508.10449158162,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2013,productivity_gbp_per_job,53075.34392455901,51412.35057364635,54789.2164543371,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2013,income_per_worker_gbp,37982.838069144746,36538.48722627794,39482.52866251508,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2014,productivity_gbp_per_job,53534.733193062544,51893.184451849316,55240.26592832309,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2014,income_per_worker_gbp,37605.34576128222,36130.46407683007,39100.94063693339,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2015,productivity_gbp_per_job,53630.25166919775,51971.50362822116,55346.27734531379,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2015,income_per_worker_gbp,38491.55074451237,36990.29600949403,39969.249036926565,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2016,productivity_gbp_per_job,54088.86408902314,52397.604207918645,55852.82107216918,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2016,income_per_worker_gbp,38682.96393319994,37172.09995877165,40242.16516462412,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2017,productivity_gbp_per_job,57038.9665037847,55270.270158309366,58887.580291736514,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2017,income_per_worker_gbp,39660.186293285864,38120.34797051686,41208.10081397494,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2018,productivity_gbp_per_job,57222.55966894872,55435.121648281034,59063.17462715112,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2018,income_per_worker_gbp,40029.021132517795,38502.304779711674,41648.6895242754,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2019,productivity_gbp_per_job,59688.8450056396,57828.14092969604,61569.04502886231,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2019,income_per_worker_gbp,41891.79556895064,40311.785920754446,43541.874303083794,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2020,productivity_gbp_per_job,57822.46470193436,56021.223024703315,59693.738654042456,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2020,income_per_worker_gbp,42798.931829636764,41162.44142000853,44495.969546391934,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2021,productivity_gbp_per_job,60272.9872220291,58388.50089094427,62201.022917228176,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2021,income_per_worker_gbp,42962.879373371026,41278.56226323108,44657.88057687459,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2022,productivity_gbp_per_job,66109.8349218835,64047.85692046987,68241.47036463543,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2022,income_per_worker_gbp,45614.934622451765,43913.42392494683,47407.98604529735,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2023,productivity_gbp_per_job,71743.12054114397,69504.36111610664,74043.05710338475,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2023,income_per_worker_gbp,49187.4015140002,47319.600287821515,51103.88732580758,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2024,productivity_gbp_per_job,75058.44849825451,70397.22633610513,79595.0574552581,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2024,income_per_worker_gbp,50772.9634227619,48460.87330748368,53080.980098483196,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2025,productivity_gbp_per_job,76988.4839555279,68350.93094355537,85355.369938538,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2025,income_per_worker_gbp,52208.10670219669,48257.96575996688,55998.13375492855,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,historical
+S92000003,Scotland,2026,productivity_gbp_per_job,78824.13051890869,67992.15279650531,89197.39289657227,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2026,income_per_worker_gbp,54029.84730877757,49171.61132377888,58692.21277877225,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2027,productivity_gbp_per_job,80446.46828222983,67969.1427854208,92182.69068151164,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2027,income_per_worker_gbp,55863.19847065031,50279.66974606819,61467.311130143346,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2028,productivity_gbp_per_job,81941.66557931472,67182.92231750653,95527.59794754416,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2028,income_per_worker_gbp,57777.85053587258,51149.109150055396,64138.94576202534,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2029,productivity_gbp_per_job,83495.20811596606,67475.88830840138,98445.24350421176,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2029,income_per_worker_gbp,59807.32543974672,52295.989631745164,66985.25356022808,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2030,productivity_gbp_per_job,85191.2236610689,67378.62100768523,101749.17748252793,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2030,income_per_worker_gbp,61845.24819926356,53420.31079873514,69959.30357424449,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2031,productivity_gbp_per_job,86838.83127498641,67880.6592687296,104742.02512213647,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2031,income_per_worker_gbp,64179.22981557031,54868.07857981402,73322.64582782029,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2032,productivity_gbp_per_job,88829.86455396703,68191.1307567904,108085.6695550198,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2032,income_per_worker_gbp,66746.8798739735,56249.40841552155,76686.17769192893,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2033,productivity_gbp_per_job,90891.80274447093,68415.30605427433,111676.8153001766,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2033,income_per_worker_gbp,69276.18698526642,57760.514470651346,79967.80486854828,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2034,productivity_gbp_per_job,92981.1934450933,68883.90554438924,115290.76993105483,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2034,income_per_worker_gbp,72012.78370837549,59573.1032451695,84024.74831433823,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2035,productivity_gbp_per_job,94979.13591712751,68789.97235452122,119180.02503518225,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2035,income_per_worker_gbp,74610.80861344186,61118.62601022948,87431.72572627936,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2036,productivity_gbp_per_job,96728.6065590263,68866.98072601002,122312.00382028919,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2036,income_per_worker_gbp,77213.47125802655,63047.59840735788,90885.61075130072,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2037,productivity_gbp_per_job,98582.46455925133,69410.12829377661,125228.48992889319,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2037,income_per_worker_gbp,79810.08580221904,63883.13222071828,94625.03578584305,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2038,productivity_gbp_per_job,100978.46776319061,69857.52600351868,128933.25658744386,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2038,income_per_worker_gbp,83005.52125883396,66104.3555741089,98727.85602243841,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2039,productivity_gbp_per_job,103219.73577551503,69404.91338969773,132725.24529985167,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2039,income_per_worker_gbp,86092.66423613981,68034.47144105649,103204.4593988046,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2040,productivity_gbp_per_job,105593.43625838424,70547.54065130468,137831.4093512111,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2040,income_per_worker_gbp,89371.86187519763,70125.84498919555,107301.85349494875,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2041,productivity_gbp_per_job,108313.529835145,71326.22156926231,141740.06017570302,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2041,income_per_worker_gbp,92634.37244629777,71988.38741614556,111538.20450851083,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2042,productivity_gbp_per_job,110750.56362117997,70766.816298611,145710.38512580495,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2042,income_per_worker_gbp,96054.87680654688,74352.79286548632,116589.27776016455,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2043,productivity_gbp_per_job,113115.1119603251,71555.09980457282,150590.66592985147,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2043,income_per_worker_gbp,99431.14128282439,76556.67512657953,121315.02855298088,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2044,productivity_gbp_per_job,115769.5573367376,72591.16719594301,154803.32369733579,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2044,income_per_worker_gbp,102865.20227615818,78276.72715834744,126130.47167878799,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2045,productivity_gbp_per_job,118300.99174307832,71958.5856672648,158704.657755709,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2045,income_per_worker_gbp,106675.02669608181,80523.33019910118,130986.86818633793,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2046,productivity_gbp_per_job,120791.01178158677,72991.40625601394,162995.2121579084,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2046,income_per_worker_gbp,110465.87759138136,82372.1093685143,136169.10277251698,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2047,productivity_gbp_per_job,123600.37960076923,74136.54944419027,168215.0380095132,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2047,income_per_worker_gbp,114517.50712895603,84458.89506154666,142081.75390320527,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2048,productivity_gbp_per_job,126648.08811800616,74042.66304710049,173287.8289732969,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2048,income_per_worker_gbp,118672.00862070895,86584.7666678618,147831.59045726492,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2049,productivity_gbp_per_job,130136.36256615007,74780.3880442484,178274.70518278284,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2049,income_per_worker_gbp,123303.32956809535,90399.87200404273,153425.91021891954,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2050,productivity_gbp_per_job,132336.31650027074,76051.0175778183,183703.76979305653,nominal_gva_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast
+S92000003,Scotland,2050,income_per_worker_gbp,127478.94979569047,92491.49334037515,159886.88299944415,gdhi_total_mn_gbp / emp_total_jobs * 1e6,derived_monte_carlo,forecast

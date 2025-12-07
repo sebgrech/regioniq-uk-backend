@@ -1,0 +1,23 @@
+{
+  "run_timestamp": "2025-11-26T21:03:59.773781",
+  "version": "3.5_itl2_validated",
+  "level": "ITL2",
+  "config": {
+    "target_year": 2050,
+    "var_enabled": true,
+    "min_history_years": 12,
+    "reconciled_to_itl1": true
+  },
+  "data_summary": {
+    "regions": 46,
+    "metrics": 8,
+    "total_obs": 17712,
+    "forecast_obs": 9737
+  },
+  "model_usage": {
+    "derived_monte_carlo": 4887,
+    "Ensemble(3)": 3680,
+    "Ensemble(2)": 1040,
+    "Linear": 130
+  }
+}

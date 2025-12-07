@@ -1,0 +1,166 @@
+region,region_code,year,metric,value
+North East,TLC,2009,emp_total_jobs,1012000
+North East,TLC,2010,emp_total_jobs,1011000
+North East,TLC,2011,emp_total_jobs,1006000
+North East,TLC,2012,emp_total_jobs,1001000
+North East,TLC,2013,emp_total_jobs,1006000
+North East,TLC,2014,emp_total_jobs,1034000
+North East,TLC,2015,emp_total_jobs,1063000
+North East,TLC,2016,emp_total_jobs,1037000
+North East,TLC,2017,emp_total_jobs,1064000
+North East,TLC,2018,emp_total_jobs,1052000
+North East,TLC,2019,emp_total_jobs,1070000
+North East,TLC,2020,emp_total_jobs,1040000
+North East,TLC,2021,emp_total_jobs,1087000
+North East,TLC,2022,emp_total_jobs,1069000
+North East,TLC,2023,emp_total_jobs,1102000
+North West,TLD,2009,emp_total_jobs,3012000
+North West,TLD,2010,emp_total_jobs,2980000
+North West,TLD,2011,emp_total_jobs,2977000
+North West,TLD,2012,emp_total_jobs,2987000
+North West,TLD,2013,emp_total_jobs,3017000
+North West,TLD,2014,emp_total_jobs,3086000
+North West,TLD,2015,emp_total_jobs,3162000
+North West,TLD,2016,emp_total_jobs,3246000
+North West,TLD,2017,emp_total_jobs,3298000
+North West,TLD,2018,emp_total_jobs,3328000
+North West,TLD,2019,emp_total_jobs,3406000
+North West,TLD,2020,emp_total_jobs,3316000
+North West,TLD,2021,emp_total_jobs,3439000
+North West,TLD,2022,emp_total_jobs,3485000
+North West,TLD,2023,emp_total_jobs,3555000
+Yorkshire & Humber,TLE,2009,emp_total_jobs,2224000
+Yorkshire & Humber,TLE,2010,emp_total_jobs,2202000
+Yorkshire & Humber,TLE,2011,emp_total_jobs,2184000
+Yorkshire & Humber,TLE,2012,emp_total_jobs,2164000
+Yorkshire & Humber,TLE,2013,emp_total_jobs,2193000
+Yorkshire & Humber,TLE,2014,emp_total_jobs,2261000
+Yorkshire & Humber,TLE,2015,emp_total_jobs,2330000
+Yorkshire & Humber,TLE,2016,emp_total_jobs,2340000
+Yorkshire & Humber,TLE,2017,emp_total_jobs,2381000
+Yorkshire & Humber,TLE,2018,emp_total_jobs,2390000
+Yorkshire & Humber,TLE,2019,emp_total_jobs,2397000
+Yorkshire & Humber,TLE,2020,emp_total_jobs,2343000
+Yorkshire & Humber,TLE,2021,emp_total_jobs,2438000
+Yorkshire & Humber,TLE,2022,emp_total_jobs,2473000
+Yorkshire & Humber,TLE,2023,emp_total_jobs,2497000
+East Midlands,TLF,2009,emp_total_jobs,1907000
+East Midlands,TLF,2010,emp_total_jobs,1906000
+East Midlands,TLF,2011,emp_total_jobs,1902000
+East Midlands,TLF,2012,emp_total_jobs,1903000
+East Midlands,TLF,2013,emp_total_jobs,1907000
+East Midlands,TLF,2014,emp_total_jobs,1947000
+East Midlands,TLF,2015,emp_total_jobs,2010000
+East Midlands,TLF,2016,emp_total_jobs,2062000
+East Midlands,TLF,2017,emp_total_jobs,2062000
+East Midlands,TLF,2018,emp_total_jobs,2070000
+East Midlands,TLF,2019,emp_total_jobs,2089000
+East Midlands,TLF,2020,emp_total_jobs,2049000
+East Midlands,TLF,2021,emp_total_jobs,2109000
+East Midlands,TLF,2022,emp_total_jobs,2167000
+East Midlands,TLF,2023,emp_total_jobs,2137000
+West Midlands,TLG,2009,emp_total_jobs,2302000
+West Midlands,TLG,2010,emp_total_jobs,2312000
+West Midlands,TLG,2011,emp_total_jobs,2302000
+West Midlands,TLG,2012,emp_total_jobs,2323000
+West Midlands,TLG,2013,emp_total_jobs,2340000
+West Midlands,TLG,2014,emp_total_jobs,2404000
+West Midlands,TLG,2015,emp_total_jobs,2465000
+West Midlands,TLG,2016,emp_total_jobs,2505000
+West Midlands,TLG,2017,emp_total_jobs,2579000
+West Midlands,TLG,2018,emp_total_jobs,2577000
+West Midlands,TLG,2019,emp_total_jobs,2593000
+West Midlands,TLG,2020,emp_total_jobs,2564000
+West Midlands,TLG,2021,emp_total_jobs,2605000
+West Midlands,TLG,2022,emp_total_jobs,2663000
+West Midlands,TLG,2023,emp_total_jobs,2701000
+East of England,TLH,2009,emp_total_jobs,2423000
+East of England,TLH,2010,emp_total_jobs,2400000
+East of England,TLH,2011,emp_total_jobs,2405000
+East of England,TLH,2012,emp_total_jobs,2419000
+East of England,TLH,2013,emp_total_jobs,2447000
+East of England,TLH,2014,emp_total_jobs,2557000
+East of England,TLH,2015,emp_total_jobs,2629000
+East of England,TLH,2016,emp_total_jobs,2701000
+East of England,TLH,2017,emp_total_jobs,2763000
+East of England,TLH,2018,emp_total_jobs,2764000
+East of England,TLH,2019,emp_total_jobs,2784000
+East of England,TLH,2020,emp_total_jobs,2780000
+East of England,TLH,2021,emp_total_jobs,2829000
+East of England,TLH,2022,emp_total_jobs,2821000
+East of England,TLH,2023,emp_total_jobs,2881000
+London,TLI,2009,emp_total_jobs,4143000
+London,TLI,2010,emp_total_jobs,4206000
+London,TLI,2011,emp_total_jobs,4304000
+London,TLI,2012,emp_total_jobs,4447000
+London,TLI,2013,emp_total_jobs,4560000
+London,TLI,2014,emp_total_jobs,4737000
+London,TLI,2015,emp_total_jobs,4924000
+London,TLI,2016,emp_total_jobs,5019000
+London,TLI,2017,emp_total_jobs,5138000
+London,TLI,2018,emp_total_jobs,5148000
+London,TLI,2019,emp_total_jobs,5252000
+London,TLI,2020,emp_total_jobs,5121000
+London,TLI,2021,emp_total_jobs,5329000
+London,TLI,2022,emp_total_jobs,5618000
+London,TLI,2023,emp_total_jobs,5700000
+South East,TLJ,2009,emp_total_jobs,3727000
+South East,TLJ,2010,emp_total_jobs,3783000
+South East,TLJ,2011,emp_total_jobs,3756000
+South East,TLJ,2012,emp_total_jobs,3780000
+South East,TLJ,2013,emp_total_jobs,3825000
+South East,TLJ,2014,emp_total_jobs,3908000
+South East,TLJ,2015,emp_total_jobs,4073000
+South East,TLJ,2016,emp_total_jobs,4147000
+South East,TLJ,2017,emp_total_jobs,4107000
+South East,TLJ,2018,emp_total_jobs,4147000
+South East,TLJ,2019,emp_total_jobs,4214000
+South East,TLJ,2020,emp_total_jobs,4107000
+South East,TLJ,2021,emp_total_jobs,4153000
+South East,TLJ,2022,emp_total_jobs,4269000
+South East,TLJ,2023,emp_total_jobs,4325000
+South West,TLK,2009,emp_total_jobs,2314000
+South West,TLK,2010,emp_total_jobs,2284000
+South West,TLK,2011,emp_total_jobs,2238000
+South West,TLK,2012,emp_total_jobs,2232000
+South West,TLK,2013,emp_total_jobs,2266000
+South West,TLK,2014,emp_total_jobs,2352000
+South West,TLK,2015,emp_total_jobs,2387000
+South West,TLK,2016,emp_total_jobs,2420000
+South West,TLK,2017,emp_total_jobs,2437000
+South West,TLK,2018,emp_total_jobs,2469000
+South West,TLK,2019,emp_total_jobs,2497000
+South West,TLK,2020,emp_total_jobs,2474000
+South West,TLK,2021,emp_total_jobs,2538000
+South West,TLK,2022,emp_total_jobs,2568000
+South West,TLK,2023,emp_total_jobs,2598000
+Wales,TLL,2009,emp_total_jobs,1171000
+Wales,TLL,2010,emp_total_jobs,1166000
+Wales,TLL,2011,emp_total_jobs,1170000
+Wales,TLL,2012,emp_total_jobs,1178000
+Wales,TLL,2013,emp_total_jobs,1187000
+Wales,TLL,2014,emp_total_jobs,1209000
+Wales,TLL,2015,emp_total_jobs,1232000
+Wales,TLL,2016,emp_total_jobs,1256000
+Wales,TLL,2017,emp_total_jobs,1243000
+Wales,TLL,2018,emp_total_jobs,1270000
+Wales,TLL,2019,emp_total_jobs,1269000
+Wales,TLL,2020,emp_total_jobs,1259000
+Wales,TLL,2021,emp_total_jobs,1259000
+Wales,TLL,2022,emp_total_jobs,1277000
+Wales,TLL,2023,emp_total_jobs,1300000
+Scotland,TLM,2009,emp_total_jobs,2407000
+Scotland,TLM,2010,emp_total_jobs,2331000
+Scotland,TLM,2011,emp_total_jobs,2350000
+Scotland,TLM,2012,emp_total_jobs,2319000
+Scotland,TLM,2013,emp_total_jobs,2348000
+Scotland,TLM,2014,emp_total_jobs,2437000
+Scotland,TLM,2015,emp_total_jobs,2462000
+Scotland,TLM,2016,emp_total_jobs,2481000
+Scotland,TLM,2017,emp_total_jobs,2471000
+Scotland,TLM,2018,emp_total_jobs,2508000
+Scotland,TLM,2019,emp_total_jobs,2501000
+Scotland,TLM,2020,emp_total_jobs,2445000
+Scotland,TLM,2021,emp_total_jobs,2521000
+Scotland,TLM,2022,emp_total_jobs,2524000
+Scotland,TLM,2023,emp_total_jobs,2562000
