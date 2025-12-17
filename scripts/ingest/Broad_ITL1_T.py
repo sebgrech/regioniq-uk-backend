@@ -26,13 +26,20 @@ import os
 import sys
 import json
 import logging
+import ssl
+import urllib.request
 from io import StringIO
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Tuple
 
-import requests
 import pandas as pd
+
+try:
+    import requests  # optional
+    HAVE_REQUESTS = True
+except Exception:
+    HAVE_REQUESTS = False
 
 try:
     import duckdb
@@ -117,9 +124,15 @@ def _fetch_nomis(url: str) -> Tuple[str, pd.DataFrame]:
     Fetch NOMIS URL and return (raw_text, DataFrame).
     Captures raw response for vintage hashing before parsing.
     """
-    resp = requests.get(url, timeout=120)
-    resp.raise_for_status()
-    raw_text = resp.text
+    if HAVE_REQUESTS:
+        resp = requests.get(url, timeout=120)
+        resp.raise_for_status()
+        raw_text = resp.text
+    else:
+        insecure = os.getenv("NOMIS_INSECURE_SSL", "0") == "1"
+        ctx = ssl._create_unverified_context() if insecure else ssl.create_default_context()
+        with urllib.request.urlopen(url, timeout=120, context=ctx) as r:
+            raw_text = r.read().decode("utf-8", errors="replace")
     df = pd.read_csv(StringIO(raw_text))
     return raw_text, df
 

@@ -36,7 +36,13 @@ Requires:
 """
 
 from dotenv import load_dotenv
-load_dotenv()
+
+# In some sandboxed / CI environments, reading a repo-root .env may be blocked.
+# Treat that as "no .env", and rely on already-provided process env vars instead.
+try:
+    load_dotenv()
+except PermissionError:
+    pass
 
 import os
 import sys
@@ -53,9 +59,12 @@ import logging
 
 SUPABASE_URI = os.getenv("SUPABASE_URI", "")
 
-if not SUPABASE_URI:
-    print("ERROR: SUPABASE_URI not set in .env")
-    sys.exit(1)
+SKIP_SUPABASE_SYNC = not bool(SUPABASE_URI)
+if SKIP_SUPABASE_SYNC:
+    # This script is used both locally and in sandboxed/CI environments.
+    # Missing SUPABASE_URI should not block CSV export (frontend can consume CSVs),
+    # so we skip the sync step when credentials aren't provided.
+    print("WARNING: SUPABASE_URI not set. Supabase sync will be skipped (CSV export will still run).")
 
 DB_PATH = Path("data/lake/warehouse.duckdb")
 EXPORT_DIR = Path("data/export")
@@ -479,7 +488,17 @@ def export_regional(con, level: str) -> Path:
         region_code, region_name, region_level, metric_id,
         period, value, unit, freq, data_type,
         ci_lower, ci_upper, vintage, forecast_run_date,
-        forecast_version, is_calculated, data_quality
+        forecast_version, is_calculated,
+        CASE
+            -- NI employment metrics: relabel historical source as NISRA (not ONS).
+            -- This is a display/metadata fix for the export layer only, and does not affect
+            -- non-employment metrics or GB geographies.
+            WHEN metric_id IN ('employment_rate_pct','unemployment_rate_pct','emp_total_jobs_ni')
+             AND (region_code LIKE 'N09%' OR region_code LIKE 'TLN%' OR region_code = 'N92000002')
+             AND data_type = 'historical'
+            THEN 'NISRA'
+            ELSE data_quality
+        END AS data_quality
     FROM ranked 
     WHERE rn = 1
     ORDER BY region_code, metric_id, period;
@@ -559,6 +578,19 @@ def main():
     con.close()
 
     # Sync to Supabase
+    if SKIP_SUPABASE_SYNC:
+        logger.warning("\n[3/5] Skipping Supabase sync (SUPABASE_URI not set).")
+        logger.info("\n[4/5] ✅ EXPORT COMPLETE (CSV only)")
+        logger.info("=" * 70)
+        logger.info("CSVs written:")
+        logger.info(f"  • {csv_files['macro']}")
+        logger.info(f"  • {csv_files['itl1']}")
+        logger.info(f"  • {csv_files['itl2']}")
+        logger.info(f"  • {csv_files['itl3']}")
+        logger.info(f"  • {csv_files['lad']}")
+        logger.info("=" * 70)
+        return
+
     logger.info("\n[3/5] Syncing to Supabase...")
 
     with psycopg2.connect(SUPABASE_URI) as pg:

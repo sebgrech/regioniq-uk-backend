@@ -5,18 +5,29 @@ Fill LAD Rate Gaps for Complete Time Series
 Fills missing unemployment_rate_pct and employment_rate_pct values
 using interpolation or parent inheritance.
 
+CRITICAL: This script ONLY fills gaps BETWEEN two known ONS data points.
+It does NOT extrapolate beyond the last known ONS year. Years beyond the
+last ONS year are left empty and will be handled by the forecasting script.
+
+Examples:
+- Cornwall: ONS has 2020, 2021, 2022, 2025 → fills 2023-2024 (gap between 2022 and 2025)
+- Hackney: ONS has 2020, 2021 → stops at 2021 (no 2022-2025, forecasting will handle)
+
 Inputs:
 - silver.lad_history (with gaps)
 - silver.itl3_history (for inheritance)
+- bronze.unemp_rate_lad_raw / bronze.emp_rate_lad_raw (to identify original ONS years)
 - data/reference/master_2025_geography_lookup.csv
 
 Outputs:
-- silver.lad_history (updated with filled gaps)
+- silver.lad_history (updated with filled gaps, but NO extrapolation beyond last ONS year)
 - data/logs/lad_gap_fill_summary.json
 
 Data quality values:
-- 'ONS': Original ONS data
+- 'ONS': Original ONS data (from bronze layer)
 - 'interpolated': Gap-filled data (interpolated or inherited from parent ITL3)
+  NOTE: Only gaps BETWEEN known ONS years are filled. Years beyond the last
+  known ONS year are left empty for the forecasting script to handle.
 """
 
 import json
@@ -70,29 +81,35 @@ def load_data() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, Dict[str, set
     original_years_by_lad = {}
     try:
         # Try to get original years from bronze layer
-        bronze_data = con.execute(f"""
-            SELECT region_code, metric_id, period
+        # Bronze schema: GEOGRAPHY_CODE, DATE_CODE (format "YYYY-06"), OBS_VALUE
+        # Extract year from DATE_CODE and map to region_code/period
+        bronze_data = con.execute("""
+            SELECT 
+                GEOGRAPHY_CODE as region_code,
+                CAST(SUBSTRING(DATE_CODE, 1, 4) AS INTEGER) as period
             FROM bronze.unemp_rate_lad_raw
-            WHERE metric_id = 'unemployment_rate_pct'
+            WHERE OBS_VALUE IS NOT NULL
         """).fetchdf()
         
         if not bronze_data.empty:
             for _, row in bronze_data.iterrows():
-                key = (row['region_code'], row['metric_id'])
+                key = (row['region_code'], 'unemployment_rate_pct')
                 if key not in original_years_by_lad:
                     original_years_by_lad[key] = set()
                 original_years_by_lad[key].add(int(row['period']))
         
         # Also check employment rate
-        bronze_emp = con.execute(f"""
-            SELECT region_code, metric_id, period
+        bronze_emp = con.execute("""
+            SELECT 
+                GEOGRAPHY_CODE as region_code,
+                CAST(SUBSTRING(DATE_CODE, 1, 4) AS INTEGER) as period
             FROM bronze.emp_rate_lad_raw
-            WHERE metric_id = 'employment_rate_pct'
+            WHERE OBS_VALUE IS NOT NULL
         """).fetchdf()
         
         if not bronze_emp.empty:
             for _, row in bronze_emp.iterrows():
-                key = (row['region_code'], row['metric_id'])
+                key = (row['region_code'], 'employment_rate_pct')
                 if key not in original_years_by_lad:
                     original_years_by_lad[key] = set()
                 original_years_by_lad[key].add(int(row['period']))
@@ -152,9 +169,15 @@ def get_expected_years(df: pd.DataFrame) -> List[int]:
     return list(range(min_year, max_year + 1))
 
 
-def interpolate_gaps(series: pd.Series) -> Tuple[pd.Series, pd.Series]:
+def interpolate_gaps(series: pd.Series, original_years: Optional[set] = None) -> Tuple[pd.Series, pd.Series]:
     """
     Interpolate missing values in a time series.
+    
+    ONLY fills gaps BETWEEN two known ONS years (not beyond last known year).
+    
+    Args:
+        series: Time series with potential gaps
+        original_years: Set of years that exist in original ONS data (bronze)
     
     Returns:
         (filled_series, quality_series) where quality is 'ONS' or 'interpolated'
@@ -168,11 +191,38 @@ def interpolate_gaps(series: pd.Series) -> Tuple[pd.Series, pd.Series]:
     if not is_gap.any():
         return filled, quality
     
-    # Linear interpolation
-    filled = series.interpolate(method='linear', limit_area='inside')
-    
-    # Mark interpolated values as interpolated
-    quality[is_gap & filled.notna()] = 'interpolated'
+    # If we have original_years, only interpolate WITHIN the range of original years
+    # Don't extrapolate beyond the last known ONS year
+    if original_years is not None and len(original_years) > 0:
+        min_original = min(original_years)
+        max_original = max(original_years)
+        
+        # Create a mask for years within original ONS range
+        mask_within_range = (series.index >= min_original) & (series.index <= max_original)
+        
+        # Only interpolate gaps that are WITHIN the original range
+        # AND have bookends on both sides (limit_area='inside' ensures this)
+        series_within_range = series[mask_within_range].copy()
+        
+        if series_within_range.isna().any():
+            # Interpolate only within this range
+            filled_within = series_within_range.interpolate(method='linear', limit_area='inside')
+            
+            # Update filled series only for years within range
+            filled[mask_within_range] = filled_within
+            
+            # Mark interpolated values (only those that were gaps and got filled)
+            interp_mask = mask_within_range & is_gap & filled.notna()
+            quality[interp_mask] = 'interpolated'
+        
+        # Explicitly ensure years beyond max_original remain NaN
+        beyond_mask = series.index > max_original
+        filled[beyond_mask] = np.nan
+        quality[beyond_mask] = 'ONS'  # Will be overwritten if filled later, but ensures we don't mark as interpolated
+    else:
+        # Fallback: interpolate all gaps (if we don't know original years)
+        filled = series.interpolate(method='linear', limit_area='inside')
+        quality[is_gap & filled.notna()] = 'interpolated'
     
     return filled, quality
 
@@ -182,10 +232,11 @@ def fill_from_parent(
     metric: str,
     missing_years: List[int],
     itl3_rates: pd.DataFrame,
-    lad_to_itl3: pd.DataFrame
+    lad_to_itl3: pd.DataFrame,
+    con: duckdb.DuckDBPyConnection = None
 ) -> Dict[int, Tuple[float, str]]:
     """
-    Fill missing years from parent ITL3.
+    Fill missing years from parent ITL3, with fallback to ITL2/ITL1.
     
     Returns:
         Dict mapping year -> (value, quality)
@@ -205,9 +256,37 @@ def fill_from_parent(
         (itl3_rates['metric_id'] == metric)
     ].set_index('period')['value']
     
+    # Fill from ITL3
     for year in missing_years:
         if year in itl3_metric.index:
             filled[year] = (float(itl3_metric[year]), 'interpolated')
+    
+    # If still missing, try ITL2 as fallback
+    still_missing = [y for y in missing_years if y not in filled]
+    if still_missing and con is not None:
+        try:
+            # Get ITL2 code from lookup
+            lookup = pd.read_csv(LOOKUP_PATH)
+            lookup.columns = [c.replace('\ufeff', '') for c in lookup.columns]
+            lad_lookup = lookup[lookup['LAD25CD'] == lad_code]
+            if not lad_lookup.empty:
+                itl2_code = lad_lookup['ITL225CD'].iloc[0]
+                
+                # Get ITL2 values
+                itl2_metric = con.execute(f"""
+                    SELECT period, value
+                    FROM silver.itl2_history
+                    WHERE region_code = '{itl2_code}'
+                    AND metric_id = '{metric}'
+                """).fetchdf()
+                
+                if not itl2_metric.empty:
+                    itl2_series = itl2_metric.set_index('period')['value']
+                    for year in still_missing:
+                        if year in itl2_series.index:
+                            filled[year] = (float(itl2_series[year]), 'interpolated')
+        except Exception as e:
+            log.warning(f"  Could not fill from ITL2 for {lad_code}: {e}")
     
     return filled
 
@@ -220,7 +299,8 @@ def fill_gaps_for_lad(
     itl3_rates: pd.DataFrame,
     lad_to_itl3: pd.DataFrame,
     expected_years: List[int],
-    original_years: Optional[set] = None
+    original_years: Optional[set] = None,
+    con: duckdb.DuckDBPyConnection = None
 ) -> pd.DataFrame:
     """
     Fill all gaps for a single LAD/metric combination.
@@ -234,8 +314,25 @@ def fill_gaps_for_lad(
     # Identify which years were originally present
     # If we have original_years from bronze, use that. Otherwise, use what's in lad_data.
     if original_years is None:
-        # Fallback: use years in lad_data (but these may already include filled gaps)
-        original_years = set(lad_data['period'].values)
+        # Fallback: use years in lad_data that actually have observed values.
+        #
+        # IMPORTANT:
+        # Some series (notably NI LAD rates) may have placeholder rows for earlier years
+        # with NULL values (e.g. created by prior pipeline runs). Those years must NOT
+        # be treated as "original", otherwise we will try to gap-fill across long
+        # leading NULL stretches and can accidentally propagate NULLs/zeros upstream.
+        original_years = set(lad_data.loc[lad_data["value"].notna(), "period"].values)
+    
+    # CRITICAL: Filter out years beyond the last known ONS year
+    # These should be handled by forecasting, not gap-filling
+    # This ensures we don't treat previously extrapolated data as "historical"
+    if original_years is not None and len(original_years) > 0:
+        max_original = max(original_years)
+        # Remove any existing data beyond max_original (it was extrapolated, not ONS)
+        # The forecasting script will detect max_original as the last historical year
+        existing = existing[existing.index <= max_original]
+        if len(existing[existing.index > max_original]) > 0:
+            log.info(f"  {lad_code}/{metric}: Removed {len(existing[existing.index > max_original])} years beyond {max_original} (last ONS year) - will be forecast")
     
     # Create full series with all expected years
     full_series = pd.Series(index=expected_years, dtype=float)
@@ -288,8 +385,8 @@ def fill_gaps_for_lad(
                 if quality.loc[year] != 'interpolated':
                     log.warning(f"  WARNING: {year} was pattern-detected but quality is {quality.loc[year]}")
     
-    # Step 1: Interpolate where bookends exist
-    filled, interp_quality = interpolate_gaps(full_series)
+    # Step 1: Interpolate where bookends exist (ONLY between known ONS years)
+    filled, interp_quality = interpolate_gaps(full_series, original_years)
     # Update quality for interpolated values (from actual gaps)
     # Only update years that were actually interpolated (had NaN values)
     # Don't overwrite pattern-detected interpolated values
@@ -298,15 +395,30 @@ def fill_gaps_for_lad(
             quality[year] = 'interpolated'
     full_series = filled
     
-    # Step 2: Fill remaining from parent ITL3
+    # Step 2: Fill remaining gaps from parent ITL3 (with ITL2 fallback)
+    # BUT ONLY if the parent has ONS data for that year (not forecast)
     still_missing = full_series[full_series.isna()].index.tolist()
-    if still_missing:
-        parent_fills = fill_from_parent(
-            lad_code, metric, still_missing, itl3_rates, lad_to_itl3
-        )
-        for year, (value, qual) in parent_fills.items():
-            full_series[year] = value
-            quality[year] = qual
+    if still_missing and original_years is not None:
+        # Only fill from parent if the missing year is within the range of original ONS years
+        # (i.e., it's a gap, not beyond the last known year)
+        max_original = max(original_years) if original_years else None
+        if max_original:
+            # Only fill gaps up to max_original - beyond that is forecasting territory
+            gaps_to_fill = [y for y in still_missing if y <= max_original]
+            if gaps_to_fill:
+                parent_fills = fill_from_parent(
+                    lad_code, metric, gaps_to_fill, itl3_rates, lad_to_itl3, con
+                )
+                for year, (value, qual) in parent_fills.items():
+                    full_series[year] = value
+                    quality[year] = qual
+    
+    # Step 3: REMOVED - Do NOT extrapolate beyond last known ONS year
+    # Years beyond the last known ONS year should be left empty for the forecasting script
+    # The forecasting script will:
+    #   1. Detect the last ONS year (max(original_years))
+    #   2. Forecast from (last_ONS_year + 1) onwards
+    #   3. Mark those years as 'forecast' (not 'interpolated')
     
     # Get parent geography from original data (first non-null row)
     geo_cols = ['itl3_code', 'itl3_name', 'itl2_code', 'itl2_name', 'itl1_code', 'itl1_name']
@@ -320,6 +432,9 @@ def fill_gaps_for_lad(
     # Build output DataFrame
     # Ensure quality index matches full_series index
     quality_aligned = quality.reindex(full_series.index, fill_value='ONS')
+    
+    # Replace None values with 'interpolated' (these are filled gaps)
+    quality_aligned = quality_aligned.fillna('interpolated')
     
     result = pd.DataFrame({
         'region_code': lad_code,
@@ -337,6 +452,16 @@ def fill_gaps_for_lad(
     # Drop still-missing (shouldn't happen if ITL3 is complete)
     result = result.dropna(subset=['value'])
     
+    # CRITICAL: Filter out any years beyond the last known ONS year
+    # These should be handled by forecasting, not gap-filling
+    if original_years is not None and len(original_years) > 0:
+        max_original = max(original_years)
+        before_filter = len(result)
+        result = result[result['period'] <= max_original]
+        after_filter = len(result)
+        if before_filter > after_filter:
+            log.debug(f"  {lad_code}/{metric}: Filtered out {before_filter - after_filter} years beyond {max_original} (last ONS year)")
+    
     return result
 
 
@@ -344,7 +469,8 @@ def fill_all_gaps(
     lad_rates: pd.DataFrame,
     itl3_rates: pd.DataFrame,
     lad_to_itl3: pd.DataFrame,
-    original_years_by_lad: Dict[str, set]
+    original_years_by_lad: Dict[str, set],
+    con: duckdb.DuckDBPyConnection = None
 ) -> Tuple[pd.DataFrame, Dict]:
     """
     Fill gaps for all LADs and rate metrics.
@@ -380,7 +506,7 @@ def fill_all_gaps(
             
             filled = fill_gaps_for_lad(
                 lad_code, lad_name, metric,
-                lad_data, itl3_rates, lad_to_itl3, expected_years, original_years
+                lad_data, itl3_rates, lad_to_itl3, expected_years, original_years, con
             )
             
             # Count fills
@@ -474,6 +600,34 @@ def update_silver_layer(filled_rates: pd.DataFrame):
     con.execute("CREATE OR REPLACE TABLE silver.lad_history AS SELECT * FROM df_tmp")
     
     log.info(f"Updated silver.lad_history: {len(combined)} total rows")
+
+    # IMPORTANT:
+    # Broad_transform.py loads LAD rate metrics from the metric-specific tables
+    # (silver.lad_employment_rate_history / silver.lad_unemployment_rate_history),
+    # not from silver.lad_history. If we only update silver.lad_history, transform
+    # will re-introduce any NULL placeholder rows from the old rate tables.
+    #
+    # So we also fully replace the metric-specific rate tables here, using the
+    # filled (non-null) series.
+    for metric_id, table_name in [
+        ("employment_rate_pct", "lad_employment_rate_history"),
+        ("unemployment_rate_pct", "lad_unemployment_rate_history"),
+    ]:
+        df_m = filled_rates[filled_rates["metric_id"] == metric_id].copy()
+        # Ensure no NULL values are written (these cause bogus 0s when aggregated)
+        df_m = df_m.dropna(subset=["value"])
+
+        # Align to existing table schema if it exists
+        try:
+            cols = con.execute(f"pragma table_info('silver.{table_name}')").fetchdf()["name"].tolist()
+            df_m = df_m.reindex(columns=cols)
+        except Exception:
+            # Table might not exist yet; write what we have (duckdb will infer)
+            pass
+
+        con.register("df_metric_tmp", df_m)
+        con.execute(f"CREATE OR REPLACE TABLE silver.{table_name} AS SELECT * FROM df_metric_tmp")
+        log.info(f"Updated silver.{table_name}: {len(df_m)} rows")
     
     con.close()
 
@@ -715,7 +869,9 @@ def main():
     
     # Fill gaps
     log.info("\n[2/5] Filling gaps...")
-    filled_rates, stats = fill_all_gaps(lad_rates, itl3_rates, lad_to_itl3, original_years_by_lad)
+    con = duckdb.connect(str(DUCK_PATH))
+    filled_rates, stats = fill_all_gaps(lad_rates, itl3_rates, lad_to_itl3, original_years_by_lad, con)
+    con.close()
     
     # Update silver layer
     log.info("\n[3/5] Updating silver layer...")

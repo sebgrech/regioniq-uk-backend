@@ -29,7 +29,15 @@ import io
 import json
 import logging
 import pandas as pd
-import requests
+import os
+import ssl
+import urllib.request
+
+try:
+    import requests  # optional
+    HAVE_REQUESTS = True
+except Exception:
+    HAVE_REQUESTS = False
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -136,10 +144,17 @@ def fetch_nomis_csv(url: str) -> tuple[pd.DataFrame, str]:
     log.info(f"NOMIS → {url[:100]}...")
     
     try:
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-        
-        raw_text = response.text
+        if HAVE_REQUESTS:
+            response = requests.get(url, timeout=60)
+            response.raise_for_status()
+            raw_text = response.text
+        else:
+            # Fallback to stdlib. Allows insecure SSL only if explicitly enabled.
+            insecure = os.getenv("NOMIS_INSECURE_SSL", "0") == "1"
+            ctx = ssl._create_unverified_context() if insecure else ssl.create_default_context()
+            with urllib.request.urlopen(url, timeout=60, context=ctx) as r:
+                raw_text = r.read().decode("utf-8", errors="replace")
+
         if len(raw_text) < 100:
             log.error(f"Response too short ({len(raw_text)} chars)")
             raise ValueError("Empty or invalid response from NOMIS")
