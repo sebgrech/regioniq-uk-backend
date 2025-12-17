@@ -33,8 +33,12 @@ import json
 import logging
 import sys
 import time
+import os
+import ssl
+import urllib.parse
+import urllib.request
+import hashlib
 import pandas as pd
-import requests
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, List, Optional, Tuple
@@ -44,6 +48,12 @@ try:
     HAVE_DUCKDB = True
 except ImportError:
     HAVE_DUCKDB = False
+
+try:
+    import requests  # type: ignore  # optional; not available in all runtime environments
+    HAVE_REQUESTS = True
+except Exception:
+    HAVE_REQUESTS = False
 
 try:
     from manifest.data_vintage import VintageTracker
@@ -100,6 +110,27 @@ PIPELINE_DIR.mkdir(parents=True, exist_ok=True)
 
 LOOKUP_PATH = Path("data/reference/master_2025_geography_lookup.csv")
 VINTAGE = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+# ============================================================================
+# NISRA (Northern Ireland) sources for LAD-equivalent LGDs
+# IMPORTANT: We ONLY use these for employment indicators (rates + NI jobs).
+# Do NOT change NOMIS/NOMIS geography behaviour for GDHI/GVA/Population etc.
+# ============================================================================
+
+NISRA_LMSLGD_CSV = "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/LMSLGD/CSV/1.0/en"
+NISRA_BRESHEADLGD_CSV = "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BRESHEADLGD/CSV/1.0/en"
+NI_TOTAL_CODE = "N92000002"
+
+_NISRA_LMS_STAT_MAP = {
+    # Only these two; we intentionally ignore EMPN to avoid schema drift.
+    "EMPR": ("employment_rate_pct", "percent", "NISRA_employment_rate"),
+    "UNEMPR": ("unemployment_rate_pct", "percent", "NISRA_unemployment_rate"),
+}
+
+_NISRA_BRES_STAT_MAP = {
+    # NI-only jobs metric (distinct from GB emp_total_jobs)
+    "EJOBS": ("emp_total_jobs_ni", "jobs", "NISRA_emp_total_jobs_ni"),
+}
 
 # ============================================================================
 # PIPELINE REPORTER
@@ -210,6 +241,202 @@ APS_DATE_RANGE = (
     "latestMINUS20,latestMINUS16,latestMINUS12,latestMINUS8,latestMINUS4,latest"
 )
 
+# ============================================================================
+# NOMIS helpers (geography + robust fetching)
+# ============================================================================
+
+def _gb_lad_codes_from_lookup(lookup: pd.DataFrame) -> List[str]:
+    """
+    Return GB LAD/council-area codes from our canonical lookup.
+    - BRES is GB-only (excludes NI)
+    - APS NM_17_5 local-authority geography appears GB-only too (NI districts not returned)
+    """
+    codes = lookup["LAD25CD"].dropna().astype(str).unique().tolist()
+    gb = [c for c in codes if c[:1] in ("E", "W", "S")]
+    return sorted(gb)
+
+
+def _uk_lad_codes_from_lookup(lookup: pd.DataFrame) -> List[str]:
+    """
+    Return UK LAD/LGD codes from our canonical lookup (includes NI LGDs N09...).
+    Use ONLY for NOMIS metrics where NI LAD-level data is available (e.g. GVA/GDHI/Population).
+    """
+    codes = lookup["LAD25CD"].dropna().astype(str).unique().tolist()
+    uk = [c for c in codes if c[:1] in ("E", "W", "S", "N")]
+    return sorted(uk)
+
+
+def _fetch_csv_url(url: str, label: str) -> pd.DataFrame:
+    """Fetch a CSV over HTTP(S) and parse to DataFrame (uses pandas url handling)."""
+    log.info(f"  Fetching {label}...")
+    try:
+        # Prefer requests when available to support optional insecure SSL for sandboxed runs.
+        if HAVE_REQUESTS:
+            insecure = os.getenv("NISRA_INSECURE_SSL", "0") == "1"
+            resp = requests.get(url, timeout=120, verify=not insecure)
+            resp.raise_for_status()
+            df = pd.read_csv(io.StringIO(resp.text), low_memory=False)
+        else:
+            # pandas → urllib; allow insecure SSL only if explicitly enabled.
+            insecure = os.getenv("NISRA_INSECURE_SSL", "0") == "1"
+            if insecure:
+                ctx = ssl._create_unverified_context()
+                with urllib.request.urlopen(url, timeout=120, context=ctx) as r:
+                    text = r.read().decode("utf-8", errors="replace")
+                df = pd.read_csv(io.StringIO(text), low_memory=False)
+            else:
+                df = pd.read_csv(url)
+    except Exception as e:
+        raise RuntimeError(f"{label} fetch failed: {e}")
+    if df.empty:
+        raise ValueError(f"{label} returned 0 rows")
+    return df
+
+
+def _nisra_tidy_from_cube(
+    df_raw: pd.DataFrame,
+    lookup: pd.DataFrame,
+    stat_map: Dict[str, Tuple[str, str, str]],
+    extra_filters: Optional[Dict[str, str]] = None,
+) -> pd.DataFrame:
+    """
+    Convert NISRA PxStat CSV (LMSLGD/BRESHEADLGD) to our standard tidy LAD schema.
+    """
+    cols = {c.lower(): c for c in df_raw.columns}
+    stat_col = cols.get("statistic", "STATISTIC")
+    year_col = cols.get("tlist(a1)", "TLIST(A1)")
+    geo_col = cols.get("lgd2014", "LGD2014")
+    val_col = cols.get("value", "VALUE")
+
+    # Apply optional filters for extra dimensions (e.g. BRESHEADLGD has GENWP/HEADLINE)
+    if extra_filters:
+        for k_lower, required_val in extra_filters.items():
+            c = cols.get(k_lower)
+            if c and c in df_raw.columns:
+                df_raw = df_raw[df_raw[c].astype(str) == str(required_val)]
+
+    df = df_raw[[stat_col, year_col, geo_col, val_col]].copy()
+    df = df[df[stat_col].isin(stat_map.keys())]
+    df = df[df[geo_col] != NI_TOTAL_CODE]
+
+    # Attach names + ITL parents from canonical lookup (NI LGD codes live in LAD25CD).
+    # Note: load_lookup() renames ITL125NM → ITL1_NAME_TLC and adds ITL1_ONS_CD.
+    itl1_name_col = "ITL1_NAME_TLC" if "ITL1_NAME_TLC" in lookup.columns else "ITL125NM"
+    required_cols = [
+        "LAD25CD", "LAD25NM",
+        "ITL325CD", "ITL325NM",
+        "ITL225CD", "ITL225NM",
+        "ITL1_ONS_CD", itl1_name_col,
+    ]
+    missing = [c for c in required_cols if c not in lookup.columns]
+    if missing:
+        raise KeyError(f"NISRA lookup missing columns: {missing}")
+
+    parents = lookup[required_cols].drop_duplicates()
+    df = df.merge(parents, left_on=geo_col, right_on="LAD25CD", how="left")
+
+    tidy_rows = []
+    for _, r in df.iterrows():
+        metric_id, unit, source = stat_map.get(r[stat_col])
+        tidy_rows.append({
+            "region_code": r[geo_col],
+            "region_level": "LAD",
+            "metric_id": metric_id,
+            "period": int(r[year_col]),
+            "unit": unit,
+            "freq": "A",
+            "vintage": VINTAGE,
+            "geo_hierarchy": "LAD>ITL3>ITL2>ITL1",
+            "value": float(r[val_col]),
+            "region_name": r.get("LAD25NM"),
+            "source": source,
+            "itl3_code": r.get("ITL325CD"),
+            "itl3_name": r.get("ITL325NM"),
+            "itl2_code": r.get("ITL225CD"),
+            "itl2_name": r.get("ITL225NM"),
+            "itl1_code": r.get("ITL1_ONS_CD"),
+            "itl1_name": r.get(itl1_name_col),
+        })
+    tidy = pd.DataFrame(tidy_rows)
+    return tidy
+
+
+def _nomis_url(dataset_id: str, params: Dict[str, str]) -> str:
+    # NOMIS expects comma-separated list for geography; keep commas unescaped.
+    qs = urllib.parse.urlencode(params, safe=",")
+    return f"https://www.nomisweb.co.uk/api/v01/dataset/{dataset_id}.data.csv?{qs}"
+
+
+def _sha16(content: str | bytes) -> str:
+    if isinstance(content, str):
+        content = content.encode("utf-8")
+    return hashlib.sha256(content).hexdigest()[:16]
+
+
+def fetch_nomis_csv(url: str, label: str) -> Tuple[pd.DataFrame, bytes]:
+    """
+    Fetch CSV from NOMIS API with error handling.
+    Returns (DataFrame, raw_bytes) tuple for vintage tracking.
+    """
+    try:
+        if HAVE_REQUESTS:
+            response = requests.get(url, timeout=120)
+            response.raise_for_status()
+            raw_bytes = response.content
+        else:
+            # Fallback to stdlib. Allows insecure SSL only if explicitly enabled.
+            insecure = os.getenv("NOMIS_INSECURE_SSL", "0") == "1"
+            ctx = ssl._create_unverified_context() if insecure else ssl.create_default_context()
+            with urllib.request.urlopen(url, timeout=120, context=ctx) as r:
+                raw_bytes = r.read()
+
+        if raw_bytes is None or len(raw_bytes) < 100:
+            raise ValueError("Empty response from NOMIS")
+
+        raw_text = raw_bytes.decode("utf-8", errors="replace")
+        df = pd.read_csv(io.StringIO(raw_text), low_memory=False)
+
+        if df.empty:
+            raise ValueError("Empty dataframe from NOMIS")
+
+        log.info(f"    Fetched {label}: {len(df)} rows")
+        return df, raw_bytes
+
+    except Exception as e:
+        log.error(f"NOMIS fetch failed ({label}): {e}")
+        raise
+
+
+def fetch_nomis_csv_batched(
+    dataset_id: str,
+    base_params: Dict[str, str],
+    geo_codes: List[str],
+    label: str,
+    batch_size: int = 200,
+) -> Tuple[pd.DataFrame, bytes]:
+    """
+    Fetch NOMIS data in ONS-code batches to avoid huge URLs.
+    Returns combined DF and a tiny fingerprint (hashes of each batch) for vintage tracking.
+    """
+    if not geo_codes:
+        raise ValueError(f"{label}: no geography codes provided")
+
+    dfs: List[pd.DataFrame] = []
+    batch_hashes: List[str] = []
+
+    for i in range(0, len(geo_codes), batch_size):
+        batch = geo_codes[i : i + batch_size]
+        params = dict(base_params)
+        params["geography"] = ",".join(batch)
+        url = _nomis_url(dataset_id, params)
+        df, raw_bytes = fetch_nomis_csv(url, f"{label} (batch {i//batch_size + 1})")
+        dfs.append(df)
+        batch_hashes.append(_sha16(raw_bytes))
+
+    combined = pd.concat(dfs, ignore_index=True)
+    fingerprint = ("\n".join(batch_hashes)).encode("utf-8")
+    return combined, fingerprint
+
 # Metric configurations with dataset IDs for vintage tracking
 METRICS = {
     'employment': {
@@ -218,6 +445,14 @@ METRICS = {
         'raw_dir': 'employment',
         'bronze_table': 'emp_lad',
         'dual_dataset': True,
+        # NOTE: We no longer rely on hardcoded NOMIS internal geography IDs for LAD.
+        # We fetch using ONS LAD codes from our lookup (batched) to ensure Wales/Scotland coverage.
+        'dataset_params': {
+            'industry': '37748736',
+            'employment_status': '1',
+            'measure': '1',
+            'measures': '20100',
+        },
         'urls': {
             '2009_2015': (
                 f"https://www.nomisweb.co.uk/api/v01/dataset/NM_172_1.data.csv"
@@ -240,6 +475,7 @@ METRICS = {
         'raw_dir': 'gva',
         'bronze_table': 'gva_lad',
         'dataset_id': 'NM_2400_1',
+        'dataset_params': {'cell': '0', 'measures': '20100'},
         'url': (
             f"https://www.nomisweb.co.uk/api/v01/dataset/NM_2400_1.data.csv"
             f"?geography={LAD_GEO_RANGE}&cell=0&measures=20100"
@@ -253,6 +489,7 @@ METRICS = {
         'raw_dir': 'gdhi',
         'bronze_table': 'gdhi_lad',
         'dataset_id': 'NM_185_1',
+        'dataset_params': {'component_of_gdhi': '0', 'measure': '1', 'measures': '20100'},
         'url': (
             f"https://www.nomisweb.co.uk/api/v01/dataset/NM_185_1.data.csv"
             f"?geography={LAD_GEO_RANGE}"
@@ -269,6 +506,7 @@ METRICS = {
         'bronze_table': 'pop_lad',
         'dataset_id': 'NM_2002_1',
         'dataset_suffix': 'total',
+        'dataset_params': {'gender': '0', 'c_age': '200', 'measures': '20100'},
         'url': (
             f"https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.csv"
             f"?geography={LAD_GEO_RANGE}"
@@ -284,6 +522,7 @@ METRICS = {
         'bronze_table': 'pop_16_64_lad',
         'dataset_id': 'NM_2002_1',
         'dataset_suffix': '16_64',
+        'dataset_params': {'gender': '0', 'c_age': '203', 'measures': '20100'},
         'url': (
             f"https://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.csv"
             f"?geography={LAD_GEO_RANGE}"
@@ -299,6 +538,7 @@ METRICS = {
         'bronze_table': 'emp_rate_lad',
         'dataset_id': 'NM_17_5',
         'dataset_suffix': 'emp_rate',
+        'dataset_params': {'date': APS_DATE_RANGE, 'variable': '45', 'measures': '20599'},
         'url': (
             f"https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.data.csv"
             f"?geography={LAD_GEO_RANGE}"
@@ -316,6 +556,7 @@ METRICS = {
         'bronze_table': 'unemp_rate_lad',
         'dataset_id': 'NM_17_5',
         'dataset_suffix': 'unemp_rate',
+        'dataset_params': {'date': APS_DATE_RANGE, 'variable': '83', 'measures': '20599'},
         'url': (
             f"https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.data.csv"
             f"?geography={LAD_GEO_RANGE}"
@@ -377,32 +618,6 @@ def load_lookup() -> pd.DataFrame:
     lookup = lookup.drop_duplicates(subset=['LAD25CD'])
     
     return lookup
-
-
-def fetch_nomis_csv(url: str, label: str) -> Tuple[pd.DataFrame, str]:
-    """
-    Fetch CSV from NOMIS API with error handling.
-    Returns (DataFrame, raw_text) tuple for vintage tracking.
-    """
-    try:
-        response = requests.get(url, timeout=120)
-        response.raise_for_status()
-        
-        raw_text = response.text
-        if len(raw_text) < 100:
-            raise ValueError("Empty response from NOMIS")
-        
-        df = pd.read_csv(io.StringIO(raw_text), low_memory=False)
-        
-        if df.empty:
-            raise ValueError("Empty dataframe from NOMIS")
-        
-        log.info(f"    Fetched {label}: {len(df)} rows")
-        return df, raw_text
-        
-    except Exception as e:
-        log.error(f"NOMIS fetch failed ({label}): {e}")
-        raise
 
 
 def apply_boundary_concordance(df: pd.DataFrame, dataset_label: str) -> pd.DataFrame:
@@ -545,16 +760,25 @@ def ingest_employment(lookup: pd.DataFrame, tracker: Optional['VintageTracker'] 
     config = METRICS['employment']
     raw_dir = Path("data/raw") / config['raw_dir']
     raw_dir.mkdir(parents=True, exist_ok=True)
+
+    # Build geography list from our canonical lookup (GB only)
+    geo_codes = _gb_lad_codes_from_lookup(lookup)
     
     # Fetch 2009-2015
     log.info("  Dataset 1: 2009-2015 (LAD 2015 boundaries)")
-    df_raw_2009, raw_text_2009 = fetch_nomis_csv(config['urls']['2009_2015'], "2009-2015")
+    df_raw_2009, raw_fp_2009 = fetch_nomis_csv_batched(
+        dataset_id=config["dataset_ids"]["2009_2015"],
+        base_params=config["dataset_params"],
+        geo_codes=geo_codes,
+        label="2009-2015",
+        batch_size=200,
+    )
     
     # Record vintage for 2009-2015 dataset
     if tracker and HAVE_VINTAGE:
         min_period = int(pd.to_numeric(df_raw_2009.get('DATE', df_raw_2009.get('date', [2009])), errors='coerce').min())
         max_period = int(pd.to_numeric(df_raw_2009.get('DATE', df_raw_2009.get('date', [2015])), errors='coerce').max())
-        changed = tracker.record("nomis", "NM_172_1", raw_text_2009, n_rows=len(df_raw_2009), min_period=min_period, max_period=max_period)
+        changed = tracker.record("nomis", "NM_172_1", raw_fp_2009, n_rows=len(df_raw_2009), min_period=min_period, max_period=max_period)
         log.info(f"    ✓ Vintage tracked: NM_172_1 (changed={changed})")
     
     raw_path_2009 = raw_dir / "lad_employment_2009_2015.csv"
@@ -563,13 +787,19 @@ def ingest_employment(lookup: pd.DataFrame, tracker: Optional['VintageTracker'] 
     
     # Fetch 2015-2024
     log.info("  Dataset 2: 2015-2024 (LAD 2023 boundaries)")
-    df_raw_2024, raw_text_2024 = fetch_nomis_csv(config['urls']['2015_2024'], "2015-2024")
+    df_raw_2024, raw_fp_2024 = fetch_nomis_csv_batched(
+        dataset_id=config["dataset_ids"]["2015_2024"],
+        base_params=config["dataset_params"],
+        geo_codes=geo_codes,
+        label="2015-2024",
+        batch_size=200,
+    )
     
     # Record vintage for 2015-2024 dataset
     if tracker and HAVE_VINTAGE:
         min_period = int(pd.to_numeric(df_raw_2024.get('DATE', df_raw_2024.get('date', [2015])), errors='coerce').min())
         max_period = int(pd.to_numeric(df_raw_2024.get('DATE', df_raw_2024.get('date', [2024])), errors='coerce').max())
-        changed = tracker.record("nomis", "NM_189_1", raw_text_2024, n_rows=len(df_raw_2024), min_period=min_period, max_period=max_period)
+        changed = tracker.record("nomis", "NM_189_1", raw_fp_2024, n_rows=len(df_raw_2024), min_period=min_period, max_period=max_period)
         log.info(f"    ✓ Vintage tracked: NM_189_1 (changed={changed})")
     
     raw_path_2024 = raw_dir / "lad_employment_2015_2024.csv"
@@ -611,7 +841,20 @@ def ingest_standard_metric(metric_name: str, lookup: pd.DataFrame, tracker: Opti
     
     # Fetch
     log.info(f"  Fetching {metric_name}...")
-    df_raw, raw_text = fetch_nomis_csv(config['url'], metric_name)
+    # Geography contract:
+    # - For non-employment NOMIS metrics, include NI LADs (N09...) where available.
+    # - For labour market rates via NOMIS (NM_17_5), stay GB-only; NI rates come from NISRA.
+    if metric_name in ("gva", "gdhi", "population", "population_16_64"):
+        geo_codes = _uk_lad_codes_from_lookup(lookup)
+    else:
+        geo_codes = _gb_lad_codes_from_lookup(lookup)
+    df_raw, raw_fp = fetch_nomis_csv_batched(
+        dataset_id=config["dataset_id"],
+        base_params=config.get("dataset_params", {}),
+        geo_codes=geo_codes,
+        label=metric_name,
+        batch_size=200,
+    )
     
     # Record vintage
     if tracker and HAVE_VINTAGE:
@@ -632,7 +875,7 @@ def ingest_standard_metric(metric_name: str, lookup: pd.DataFrame, tracker: Opti
         if 'dataset_suffix' in config:
             dataset_id = f"{dataset_id}_{config['dataset_suffix']}"
         
-        changed = tracker.record("nomis", dataset_id, raw_text, n_rows=len(df_raw), min_period=min_period, max_period=max_period)
+        changed = tracker.record("nomis", dataset_id, raw_fp, n_rows=len(df_raw), min_period=min_period, max_period=max_period)
         log.info(f"    ✓ Vintage tracked: {dataset_id} (changed={changed})")
     
     # Save raw
@@ -702,6 +945,76 @@ def main():
     except Exception as e:
         reporter.add_critical_error(f"Employment ingest failed: {e}")
         reporter.save_and_exit("lad_ingest_summary.json")
+
+    # --------------------------------------------------------------------
+    # Northern Ireland employment additions (NISRA) — employment ONLY
+    #   - Rates (EMPR/UNEMPR) will be merged into rate tables below
+    #   - Jobs (EJOBS) will be appended into lad_employment_history as a
+    #     separate metric_id: emp_total_jobs_ni
+    # IMPORTANT: Do not alter NOMIS ingests for non-employment metrics.
+    # --------------------------------------------------------------------
+    ni_rate_tidy = None
+    ni_jobs_tidy = None
+    try:
+        log.info("\n" + "="*70)
+        log.info("NI EMPLOYMENT (NISRA) — LAD (LGD2014)")
+        log.info("="*70)
+        lms_raw = _fetch_csv_url(NISRA_LMSLGD_CSV, "NISRA LMSLGD (rates)")
+        ni_rate_tidy = _nisra_tidy_from_cube(lms_raw, lookup, _NISRA_LMS_STAT_MAP)
+        reporter.add_metric("ni_rates_rows", int(len(ni_rate_tidy)))
+        _write_duck("bronze.nisra_lmslgd_raw", lms_raw)
+    except Exception as e:
+        # Fallback: use last successfully ingested bronze table if present.
+        # If neither live fetch nor bronze fallback works, fail hard (we don't want
+        # to silently publish NI without employment rates).
+        reporter.add_warning(f"NISRA LMSLGD ingest failed (attempting bronze fallback): {e}")
+        if HAVE_DUCKDB:
+            try:
+                con = duckdb.connect(str(DUCK_PATH), read_only=True)
+                lms_raw = con.execute("SELECT * FROM bronze.nisra_lmslgd_raw").fetchdf()
+                con.close()
+                ni_rate_tidy = _nisra_tidy_from_cube(lms_raw, lookup, _NISRA_LMS_STAT_MAP)
+                reporter.add_metric("ni_rates_rows", int(len(ni_rate_tidy)))
+                log.info(f"  ✓ Loaded NISRA LMSLGD from bronze.nisra_lmslgd_raw: {len(lms_raw)} rows")
+            except Exception as e2:
+                reporter.add_critical_error(f"NISRA LMSLGD unavailable (fetch + bronze fallback failed): {e2}")
+                reporter.save_and_exit("lad_ingest_summary.json")
+        else:
+            reporter.add_critical_error("NISRA LMSLGD unavailable and DuckDB not available for fallback")
+            reporter.save_and_exit("lad_ingest_summary.json")
+
+    try:
+        bres_raw = _fetch_csv_url(NISRA_BRESHEADLGD_CSV, "NISRA BRESHEADLGD (NI jobs)")
+        # This dataset contains extra dimensions; keep the 'All' slice only.
+        ni_jobs_tidy = _nisra_tidy_from_cube(
+            bres_raw,
+            lookup,
+            _NISRA_BRES_STAT_MAP,
+            extra_filters={"genwp": "All", "headline": "All"},
+        )
+        reporter.add_metric("ni_jobs_rows", int(len(ni_jobs_tidy)))
+        _write_duck("bronze.nisra_bresheadlgd_raw", bres_raw)
+    except Exception as e:
+        reporter.add_warning(f"NISRA BRESHEADLGD ingest failed (attempting bronze fallback): {e}")
+        if HAVE_DUCKDB:
+            try:
+                con = duckdb.connect(str(DUCK_PATH), read_only=True)
+                bres_raw = con.execute("SELECT * FROM bronze.nisra_bresheadlgd_raw").fetchdf()
+                con.close()
+                ni_jobs_tidy = _nisra_tidy_from_cube(
+                    bres_raw,
+                    lookup,
+                    _NISRA_BRES_STAT_MAP,
+                    extra_filters={"genwp": "All", "headline": "All"},
+                )
+                reporter.add_metric("ni_jobs_rows", int(len(ni_jobs_tidy)))
+                log.info(f"  ✓ Loaded NISRA BRESHEADLGD from bronze.nisra_bresheadlgd_raw: {len(bres_raw)} rows")
+            except Exception as e2:
+                reporter.add_critical_error(f"NISRA BRESHEADLGD unavailable (fetch + bronze fallback failed): {e2}")
+                reporter.save_and_exit("lad_ingest_summary.json")
+        else:
+            reporter.add_critical_error("NISRA BRESHEADLGD unavailable and DuckDB not available for fallback")
+            reporter.save_and_exit("lad_ingest_summary.json")
     
     # Ingest standard metrics
     standard_metrics = ['gva', 'gdhi', 'population', 'population_16_64', 'employment_rate', 'unemployment_rate']
@@ -712,6 +1025,24 @@ def main():
         except Exception as e:
             reporter.add_critical_error(f"{metric_name.upper()} ingest failed: {e}")
             reporter.save_and_exit("lad_ingest_summary.json")
+
+    # Merge NI rates into the two LAD rate series (do not affect NOMIS sources)
+    if isinstance(ni_rate_tidy, pd.DataFrame) and not ni_rate_tidy.empty:
+        if 'employment_rate' in results:
+            emp_rate_ni = ni_rate_tidy[ni_rate_tidy['metric_id'] == 'employment_rate_pct'].copy()
+            if not emp_rate_ni.empty:
+                results['employment_rate'] = pd.concat([results['employment_rate'], emp_rate_ni], ignore_index=True)
+                log.info(f"  ✓ Appended NI employment_rate_pct: +{len(emp_rate_ni)} rows")
+        if 'unemployment_rate' in results:
+            unemp_rate_ni = ni_rate_tidy[ni_rate_tidy['metric_id'] == 'unemployment_rate_pct'].copy()
+            if not unemp_rate_ni.empty:
+                results['unemployment_rate'] = pd.concat([results['unemployment_rate'], unemp_rate_ni], ignore_index=True)
+                log.info(f"  ✓ Appended NI unemployment_rate_pct: +{len(unemp_rate_ni)} rows")
+
+    # Append NI jobs into LAD employment history as a separate metric_id
+    if isinstance(ni_jobs_tidy, pd.DataFrame) and not ni_jobs_tidy.empty:
+        results['employment'] = pd.concat([results['employment'], ni_jobs_tidy], ignore_index=True)
+        log.info(f"  ✓ Appended NI jobs metric (emp_total_jobs_ni): +{len(ni_jobs_tidy)} rows")
     
     # Write silver outputs
     log.info("\n" + "="*70)
@@ -819,6 +1150,7 @@ def main():
     register_indicator('gdhi_total_mn_gbp', 'Household Income (GDHI)', 'NM_185_1', 'GBP_m', 'economic')
     register_indicator('nominal_gva_mn_gbp', 'Economic Output (GVA)', 'NM_2400_1', 'GBP_m', 'economic')
     register_indicator('emp_total_jobs', 'Employment', 'NM_172_1,NM_189_1', 'jobs', 'labour')
+    register_indicator('emp_total_jobs_ni', 'Employment (NI employee jobs)', 'NISRA_BRESHEADLGD', 'jobs', 'labour')
     register_indicator('population_total', 'Population', 'NM_2002_1', 'persons', 'demographic')
     register_indicator('population_16_64', 'Working Age Population (16-64)', 'NM_2002_1', 'persons', 'demographic')
     register_indicator('employment_rate_pct', 'Employment Rate', 'NM_17_5', 'percent', 'labour')

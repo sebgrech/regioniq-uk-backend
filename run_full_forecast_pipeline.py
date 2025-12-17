@@ -103,6 +103,11 @@ class ForecastPipeline:
             'pass_run_id': False
         },
         'fill_lad_gaps': {
+            # fill_lad_rate_gaps.py updates silver.lad_history and also re-aggregates
+            # filled LAD rates back to silver.itl3_history / silver.itl2_history.
+            # Do NOT rerun Broad_transform here, because it rebuilds ITL histories
+            # from the *raw* LAD rate history tables (without interpolated values),
+            # which would overwrite the gap-filled series.
             'scripts': ['scripts/transform/fill_lad_rate_gaps.py'],
             'qa': None,
             'pass_run_id': False
@@ -128,12 +133,14 @@ class ForecastPipeline:
             'pass_run_id': False
         },
         'lad': {
-            'scripts': ['scripts/forecast/Broad_LAD_forecast.py'],
+            'scripts': [
+                'scripts/forecast/Broad_LAD_forecast.py'
+            ],
             'qa': 'scripts/forecast/QA/LAD_Broadbased_QA.py',
             'pass_run_id': False
         },
         'supabase': {
-            'scripts': ['scripts/supabase/Broad_export.py'],
+            'scripts': ['scripts/export/Broad_export.py'],
             'qa': None,
             'pass_run_id': False
         },
@@ -151,7 +158,9 @@ class ForecastPipeline:
 
     STAGE_ORDER = [
         'pre_snapshot',
-        'ingest', 'transform', 'fill_lad_gaps',
+        # IMPORTANT: fill LAD rate gaps BEFORE aggregating to ITL levels (transform),
+        # so ITL3/ITL2/ITL1 rates inherit gap-filled LAD histories.
+        'ingest', 'fill_lad_gaps', 'transform',
         'macro', 'itl1', 'itl2', 'itl3',
         'lad',
         'supabase',

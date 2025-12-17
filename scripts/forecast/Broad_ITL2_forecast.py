@@ -128,6 +128,8 @@ class ForecastConfigITL2:
         "nominal_gva_mn_gbp": "nominal_gva_mn_gbp",
         "gdhi_total_mn_gbp": "gdhi_total_mn_gbp",
         "emp_total_jobs": "emp_total_jobs",
+        # NI-only jobs metric stays in NI bubble (no UK macro anchoring)
+        "emp_total_jobs_ni": "emp_total_jobs_ni",
         "population_total": "population_total",
         "population_16_64": "population_16_64"
         # NOTE: Rate metrics are NOT additive and NOT reconciled
@@ -161,6 +163,7 @@ class ForecastConfigITL2:
         "nominal_gva_mn_gbp": 0.06,      # 6% max nominal
         "gdhi_total_mn_gbp": 0.06,       # 6% max nominal
         "emp_total_jobs": 0.025,         # 2.5% max
+        "emp_total_jobs_ni": 0.025,      # same cap, NI-only
         "population_total": 0.015,       # 1.5% max
         "population_16_64": 0.012,       # 1.2% max (working-age grows slower)
         # Rates: bounded 0-100, no growth caps needed
@@ -179,6 +182,7 @@ class ForecastConfigITL2:
         "nominal_gva_mn_gbp": -0.05,     # -5% min
         "gdhi_total_mn_gbp": -0.05,      # -5% min
         "emp_total_jobs": -0.03,         # -3% min
+        "emp_total_jobs_ni": -0.03,      # same min, NI-only
         "population_total": -0.005,      # -0.5% min
         "population_16_64": -0.01        # -1% min (working-age can decline faster)
     })
@@ -225,6 +229,13 @@ class ForecastConfigITL2:
                     "monotonic": False,
                     "reconcile": True,
                     "description": "Total employment (jobs)"
+                },
+                "emp_total_jobs_ni": {
+                    "unit": "jobs",
+                    "transform": "log",
+                    "monotonic": False,
+                    "reconcile": True,
+                    "description": "NI employee jobs (NI-only metric)"
                 },
                 # Rate metrics from NOMIS (NOT reconciled, NOT derived)
                 "employment_rate_pct": {
@@ -1526,6 +1537,9 @@ class InstitutionalForecasterITL2V4:
         if self.reconciler:
             all_data = self.reconciler.reconcile(all_data)
 
+        # Fill internal year gaps for rate metrics (prevents ITL3 QA LAD-gate failures)
+        all_data = self._fill_internal_rate_year_gaps(all_data)
+
         # Calculate derived metrics
         logger.info("\nCalculating derived metrics...")
         derived = self._calculate_derived(all_data)
@@ -1540,6 +1554,94 @@ class InstitutionalForecasterITL2V4:
         self._save_outputs(all_data)
 
         return all_data
+
+    def _fill_internal_rate_year_gaps(self, data: pd.DataFrame) -> pd.DataFrame:
+        """
+        Ensure continuous year coverage for rate metrics within the LAD-gated window.
+
+        ITL3 QA checks that, for each ITL3 and each base metric, there are no missing
+        years between min(period) and max(period) for period>=2020. ITL3 rate series
+        often inherit from ITL2; if ITL2 has holes (e.g. 2023-2024 missing between
+        2022 historical and 2025+ forecast), ITL3 will inherit those holes and QA fails.
+
+        We fill *internal* gaps (between existing years) for rate metrics by linear
+        interpolation of value and CI bounds. Filled rows are marked data_type='forecast'
+        with method='gap_fill_interpolate'.
+        """
+        required_cols = {"region_code", "region", "metric", "year", "value"}
+        if not required_cols.issubset(set(data.columns)):
+            return data
+
+        rate_metrics = {"employment_rate_pct", "unemployment_rate_pct"}
+        df = data.copy()
+
+        filled_rows = []
+        for (region_code, metric), g in df[df["metric"].isin(rate_metrics)].groupby(["region_code", "metric"]):
+            gg = g.copy()
+            gg["year"] = gg["year"].astype(int)
+            gg = gg.sort_values("year")
+
+            # Apply the same window as ITL3 QA uses for LAD readiness (period>=2020).
+            gg_w = gg[gg["year"] >= 2020].copy()
+            if gg_w.empty:
+                continue
+
+            years = sorted(set(gg_w["year"].tolist()))
+            y0, y1 = years[0], years[-1]
+            full = list(range(y0, y1 + 1))
+            missing = [y for y in full if y not in years]
+            if not missing:
+                continue
+
+            # Interpolate value + CIs across the full span using the existing points.
+            series = gg.set_index("year").sort_index()
+            # Use 'value' as base; CI columns are optional.
+            v = series["value"].astype(float)
+            v_full = v.reindex(full).interpolate(method="linear").ffill().bfill()
+
+            if "ci_lower" in series.columns and series["ci_lower"].notna().any():
+                lo = series["ci_lower"].astype(float).reindex(full).interpolate(method="linear").ffill().bfill()
+            else:
+                lo = v_full * 0.95
+
+            if "ci_upper" in series.columns and series["ci_upper"].notna().any():
+                hi = series["ci_upper"].astype(float).reindex(full).interpolate(method="linear").ffill().bfill()
+            else:
+                hi = v_full * 1.05
+
+            # Preserve region label (prefer any existing value)
+            region_name = gg["region"].iloc[0] if "region" in gg.columns and len(gg) else region_code
+
+            for y in missing:
+                filled_rows.append({
+                    "region": region_name,
+                    "region_code": region_code,
+                    "metric": metric,
+                    "year": int(y),
+                    "value": float(v_full.loc[y]),
+                    "ci_lower": float(lo.loc[y]),
+                    "ci_upper": float(hi.loc[y]),
+                    "method": "gap_fill_interpolate",
+                    "data_type": "forecast",
+                })
+
+        if not filled_rows:
+            return df
+
+        filled = pd.DataFrame(filled_rows)
+        out = pd.concat([df, filled], ignore_index=True)
+
+        # Deduplicate (historical wins), in case a year exists elsewhere.
+        if "data_type" in out.columns:
+            out["_prio"] = out["data_type"].map({"historical": 0, "forecast": 1}).fillna(1)
+            out = (
+                out.sort_values(["region_code", "metric", "year", "_prio"])
+                   .drop_duplicates(subset=["region_code", "metric", "year"], keep="first")
+                   .drop(columns=["_prio"])
+            )
+
+        logger.info(f"✓ Filled {len(filled)} internal rate year gaps at ITL2 (period>=2020)")
+        return out
 
     def _fix_inverted_cis(self, data: pd.DataFrame) -> pd.DataFrame:
         """Swap any remaining inverted CIs."""
@@ -1563,11 +1665,19 @@ class InstitutionalForecasterITL2V4:
             "gdhi_per_head_gbp",
             "income_per_worker_gbp"
         ]
+        rate_metrics = {"employment_rate_pct", "unemployment_rate_pct"}
 
         for (region_code, region, metric), group in data.groupby(["region_code", "region", "metric"]):
             if metric in derived_only:
                 continue
-            if len(group) < self.config.min_history_years:
+            # NI-only jobs series is short (BRESHEADLGD), but we still want a forecast
+            # so the NI share cascade can run. Allow a shorter history requirement.
+            min_years = 8 if metric == "emp_total_jobs_ni" else self.config.min_history_years
+            # NI rate series at ITL2 (TLN0) is shorter once we remove bogus early-year placeholders.
+            # Allow forecasting NI rates with shorter history so ITL3/LAD can inherit coherently.
+            if metric in rate_metrics and str(region_code).startswith("TLN"):
+                min_years = min(min_years, 6)
+            if len(group) < min_years:
                 continue
 
             last_year = int(group["year"].max())
@@ -1954,9 +2064,10 @@ class InstitutionalForecasterITL2V4:
         """Save ITL2 outputs: CSVs, DuckDB (base + derived), metadata."""
         
         # Define which metrics go where
-        # Base metrics (7 forecast + 1 calculated): stored in gold.itl2_forecast
+        # Base metrics (7 forecast + 1 calculated + optional NI-only jobs): stored in gold.itl2_forecast
         base_metrics = [
             "nominal_gva_mn_gbp", "gdhi_total_mn_gbp", "emp_total_jobs",
+            "emp_total_jobs_ni",
             "population_total", "population_16_64",
             "employment_rate_pct", "unemployment_rate_pct",
             "gdhi_per_head_gbp"  # Calculated, but stored with base
@@ -2061,6 +2172,7 @@ class InstitutionalForecasterITL2V4:
                         "population_total": "persons",
                         "population_16_64": "persons",
                         "emp_total_jobs": "jobs",
+                        "emp_total_jobs_ni": "jobs",
                         "employment_rate_pct": "percent",
                         "unemployment_rate_pct": "percent",
                         "productivity_gbp_per_job": "GBP",

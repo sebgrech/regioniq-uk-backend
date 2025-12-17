@@ -590,6 +590,14 @@ def aggregate_rates_to_level(
         reporter.add_warning(f"No rate data with population weights for {region_level}")
         return pd.DataFrame()
     
+    # Defensive: drop missing rate values before weighting/aggregation.
+    # If we keep NaNs here, groupby sums can collapse to 0 and produce bogus 0% rates
+    # at higher geographies (especially when entire early-year blocks are missing).
+    rate_with_pop = rate_with_pop.dropna(subset=["value", "population"])
+    if rate_with_pop.empty:
+        reporter.add_warning(f"No non-null rate data with population weights for {region_level}")
+        return pd.DataFrame()
+
     # Calculate weighted values
     rate_with_pop['weighted_value'] = rate_with_pop['value'] * rate_with_pop['population']
     
