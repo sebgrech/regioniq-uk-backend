@@ -130,6 +130,7 @@ class ForecastConfigV5:
         'nominal_gva_mn_gbp',
         'gdhi_total_mn_gbp',
         'emp_total_jobs',
+        'emp_total_jobs_ni',
         'population_total',
         'population_16_64'
     ])
@@ -169,6 +170,7 @@ class ForecastConfigV5:
         'nominal_gva_mn_gbp': 'GBP_m',
         'gdhi_total_mn_gbp': 'GBP_m',
         'emp_total_jobs': 'jobs',
+        'emp_total_jobs_ni': 'jobs',
         'population_total': 'persons',
         'population_16_64': 'persons',
         'employment_rate_pct': 'percent',
@@ -312,22 +314,28 @@ class ShareCalculator:
             log.warning(f"  ⚠️ {len(orphans)} ITL3 codes without ITL2 parent (dropped)")
         df = df.dropna(subset=['itl2_code'])
         
-        # Find the most recent N years available
-        max_year = df['year'].max()
-        lookback_start = max_year - self.config.share_lookback_years + 1
-        
-        log.info(f"  Using years {lookback_start}-{max_year} for share computation")
-        
         shares_list = []
         
         for metric in self.config.additive_metrics:
-            metric_data = df[
-                (df['metric'] == metric) &
-                (df['year'] >= lookback_start)
+            metric_df = df[df['metric'] == metric].copy()
+            if metric_df.empty:
+                log.warning(f"  ⚠️ No data for {metric}")
+                continue
+
+            # IMPORTANT (dynamic):
+            # Compute share window per-metric, anchored to that metric's own tail.
+            # This prevents shorter NI-only series (emp_total_jobs_ni) being penalized
+            # by later-ending metrics (e.g. rates) elsewhere in the combined table.
+            metric_max_year = int(metric_df['year'].max())
+            lookback_start = metric_max_year - self.config.share_lookback_years + 1
+
+            metric_data = metric_df[
+                (metric_df['year'] >= lookback_start) &
+                (metric_df['year'] <= metric_max_year)
             ].copy()
             
             if metric_data.empty:
-                log.warning(f"  ⚠️ No data for {metric}")
+                log.warning(f"  ⚠️ No data for {metric} in share window {lookback_start}-{metric_max_year}")
                 continue
             
             # Compute ITL2 totals per year
@@ -352,7 +360,9 @@ class ShareCalculator:
             share_stats['metric'] = metric
             
             # Filter by minimum history
-            valid = share_stats['share_years'] >= self.config.min_share_history
+            # NI-only jobs series is short historically; allow shares with fewer years.
+            min_share_years = 2 if metric == "emp_total_jobs_ni" else self.config.min_share_history
+            valid = share_stats['share_years'] >= min_share_years
             if (~valid).sum() > 0:
                 log.info(f"  {metric}: {(~valid).sum()} regions with insufficient history")
             share_stats = share_stats[valid]
@@ -660,6 +670,10 @@ class RateMetricsHandler:
                             )
                             
                             if result_df is not None and len(result_df) > 0:
+                                # Ensure continuous coverage across forecast horizon
+                                result_df = self._fill_missing_forecast_years_from_itl2(
+                                    result_df, itl2_code, metric, itl2_metric
+                                )
                                 results.append(result_df)
                                 lad_copy_count += 1
                                 continue
@@ -677,6 +691,10 @@ class RateMetricsHandler:
                             )
                             
                             if result_df is not None and len(result_df) > 0:
+                                # Ensure continuous coverage across forecast horizon
+                                result_df = self._fill_missing_forecast_years_from_itl2(
+                                    result_df, itl2_code, metric, itl2_metric
+                                )
                                 results.append(result_df)
                                 lad_aggregate_count += 1
                                 continue
@@ -694,6 +712,11 @@ class RateMetricsHandler:
                         )
                         
                         if forecast_df is not None and len(forecast_df) > 0:
+                            # Ensure continuous coverage across forecast horizon (covers cases where
+                            # ITL3 history ends early and the model only forecasts from a later year)
+                            forecast_df = self._fill_missing_forecast_years_from_itl2(
+                                forecast_df, itl2_code, metric, itl2_metric
+                            )
                             results.append(forecast_df)
                             forecast_count += 1
                             continue
@@ -704,20 +727,28 @@ class RateMetricsHandler:
                     if itl2_subset.empty:
                         continue
                     
-                    itl2_forecast = itl2_subset[itl2_subset['data_type'] == 'forecast'].copy()
+                    # Inherit ITL2 values across the full forecast horizon, regardless of whether
+                    # ITL2 rows are marked historical or forecast. This is critical to avoid gaps
+                    # when ITL3 (or LAD) histories have suppressed tail years.
+                    # Cover from 2020 onward because ITL3 QA loads period>=2020 and
+                    # requires continuous coverage for LAD gating.
+                    itl2_horizon = itl2_subset[
+                        (itl2_subset['year'] >= 2020)
+                        & (itl2_subset['year'] <= self.config.forecast_end)
+                    ].copy()
                     
-                    if itl2_forecast.empty:
+                    if itl2_horizon.empty:
                         continue
                     
                     inherited = pd.DataFrame({
                         'region_code': itl3_code,
                         'region_name': region_name,
                         'itl2_code': itl2_code,
-                        'year': itl2_forecast['year'].values,
+                        'year': itl2_horizon['year'].values,
                         'metric': metric,
-                        'value': itl2_forecast['value'].values,
-                        'ci_lower': itl2_forecast['ci_lower'].values if 'ci_lower' in itl2_forecast.columns else itl2_forecast['value'].values * 0.95,
-                        'ci_upper': itl2_forecast['ci_upper'].values if 'ci_upper' in itl2_forecast.columns else itl2_forecast['value'].values * 1.05,
+                        'value': itl2_horizon['value'].values,
+                        'ci_lower': itl2_horizon['ci_lower'].values if 'ci_lower' in itl2_horizon.columns else itl2_horizon['value'].values * 0.95,
+                        'ci_upper': itl2_horizon['ci_upper'].values if 'ci_upper' in itl2_horizon.columns else itl2_horizon['value'].values * 1.05,
                         'data_type': 'forecast',
                         'method': 'itl2_inheritance'
                     })
@@ -737,6 +768,54 @@ class RateMetricsHandler:
             # Close connection only after all processing is complete
             if close_conn:
                 con.close()
+
+    def _fill_missing_forecast_years_from_itl2(
+        self,
+        df: pd.DataFrame,
+        itl2_code: str,
+        metric: str,
+        itl2_metric: pd.DataFrame
+    ) -> pd.DataFrame:
+        """
+        Ensure each ITL3 series has continuous coverage for the forecast horizon.
+        We fill only missing years using the ITL2 parent series (historical or forecast),
+        marking fills as data_type='forecast' and method='itl2_inheritance_fill'.
+        """
+        if df is None or df.empty:
+            return df
+
+        # LAD gating is evaluated on period>=2020 (see ITL3 QA base query).
+        # Fill any missing years from 2020 through the forecast end year.
+        desired_years = set(range(2020, self.config.forecast_end + 1))
+        have_years = set(df['year'].astype(int).tolist()) if 'year' in df.columns else set()
+        missing = sorted(desired_years - have_years)
+        if not missing:
+            return df
+
+        itl2_subset = itl2_metric[
+            (itl2_metric['itl2_code'] == itl2_code)
+            & (itl2_metric['year'].isin(missing))
+        ].copy()
+        if itl2_subset.empty:
+            return df
+
+        # Build fill rows using ITL2 values (CI fallback if missing)
+        fill = pd.DataFrame({
+            'region_code': df['region_code'].iloc[0],
+            'region_name': df['region_name'].iloc[0] if 'region_name' in df.columns else '',
+            'itl2_code': itl2_code,
+            'year': itl2_subset['year'].astype(int).values,
+            'metric': metric,
+            'value': itl2_subset['value'].astype(float).values,
+            'ci_lower': itl2_subset['ci_lower'].astype(float).values if 'ci_lower' in itl2_subset.columns else (itl2_subset['value'].astype(float).values * 0.95),
+            'ci_upper': itl2_subset['ci_upper'].astype(float).values if 'ci_upper' in itl2_subset.columns else (itl2_subset['value'].astype(float).values * 1.05),
+            'data_type': 'forecast',
+            'method': 'itl2_inheritance_fill'
+        })
+
+        out = pd.concat([df, fill], ignore_index=True)
+        out = out.drop_duplicates(subset=['region_code', 'metric', 'year'], keep='first')
+        return out
     
     def _load_lad_rates_history(self, con: duckdb.DuckDBPyConnection) -> pd.DataFrame:
         """Load LAD historical rate metrics from silver layer"""

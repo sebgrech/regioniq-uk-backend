@@ -111,7 +111,10 @@ class ITL3ForecastQA:
         ]
 
         # Geography expectations
-        self.expected_itl3_count = 182
+        # The pipeline now includes NI LAD equivalents (N09...) in the LAD layer,
+        # so ITL3 coverage should match the full bottom-up ITL3 universe implied
+        # by LAD children (GB + NI).
+        self.expected_itl3_count = self._expected_bottomup_itl3_count()
         self.expected_itl2_count = 46
 
         # LAD requirements
@@ -124,6 +127,18 @@ class ITL3ForecastQA:
 
         # Mapping ITL3 -> ITL2
         self._load_geography_mapping()
+
+    def _expected_bottomup_itl3_count(self) -> int:
+        """Compute expected bottom-up ITL3 count from the canonical lookup (ITL3s with LAD/LGD children)."""
+        try:
+            lookup = pd.read_csv("data/reference/master_2025_geography_lookup.csv")
+            lookup.columns = [c.replace("\ufeff", "") for c in lookup.columns]
+            lad = lookup["LAD25CD"].dropna().astype(str)
+            bottomup_mask = lad.str[0].isin(["E", "W", "S", "N"])
+            return int(lookup.loc[bottomup_mask, "ITL325CD"].nunique())
+        except Exception:
+            # Fallback to historical constant (pre-fix behavior).
+            return 182
 
     # ======================================================================
     # DATA LOADERS
@@ -264,8 +279,10 @@ class ITL3ForecastQA:
         print("DATA QUALITY CHECKS")
         print("=" * 80)
 
-        # Region count
-        n_regions = base_df["region_code"].nunique()
+        # Region count (only for the expected base metric set).
+        # Extra metrics (e.g. NI-only series) should not fail the global region count gate.
+        base_expected = base_df[base_df["metric_id"].isin(self.expected_base_metrics)]
+        n_regions = base_expected["region_code"].nunique()
         print(f"\n📊 Region count: {n_regions} (expected: {self.expected_itl3_count})")
 
         if n_regions != self.expected_itl3_count:

@@ -101,6 +101,8 @@ GROWTH_CAPS = {
     'nominal_gva_mn_gbp': {'min': -0.05, 'max': 0.06},
     'gdhi_total_mn_gbp': {'min': -0.05, 'max': 0.06},
     'emp_total_jobs': {'min': -0.03, 'max': 0.025},
+    # NI-only employment jobs metric (not anchored to UK macro)
+    'emp_total_jobs_ni': {'min': -0.03, 'max': 0.025},
     'population_total': {'min': -0.005, 'max': 0.015},
     'population_16_64': {'min': -0.01, 'max': 0.012},
     # Rates don't need growth caps - bounded 0-100
@@ -110,6 +112,7 @@ SANITY_CAPS = {
     'nominal_gva_mn_gbp': 1_500_000,  # £1.5tn per region max
     'gdhi_total_mn_gbp': 1_200_000,   # £1.2tn per region max
     'emp_total_jobs': 12_000_000,     # 12m jobs per region max
+    'emp_total_jobs_ni': 12_000_000,  # same cap, NI-only metric
     'population_total': 15_000_000,   # 15m per region max
     'population_16_64': 10_000_000,   # 10m working age max
 }
@@ -228,6 +231,15 @@ class ForecastConfig:
                     "type": "level",
                 },
                 "emp_total_jobs": {
+                    "unit": "jobs",
+                    "transform": "log",
+                    "monotonic": False,
+                    "additive": True,
+                    "allow_negative": False,
+                    "type": "level",
+                },
+                # NI-only: employee jobs (BRESHEADLGD). Not reconciled to UK macro.
+                "emp_total_jobs_ni": {
                     "unit": "jobs",
                     "transform": "log",
                     "monotonic": False,
@@ -359,7 +371,7 @@ class TopDownReconciler:
         self.config = config
         self.macro = macro_manager
 
-    def reconcile(self, data: pd.DataFrame) -> pd.DataFrame:
+    def reconcile(self, data: pd.DataFrame, sanity_caps: Optional[Dict[str, float]] = None) -> pd.DataFrame:
         if not self.macro.has_anchors():
             logger.warning("No macro anchors available – skipping reconciliation.")
             return data
@@ -396,18 +408,44 @@ class TopDownReconciler:
                 if not mask.any():
                     continue
 
+                # If sanity caps are in play, keep capped regions fixed and scale the rest.
+                cap = sanity_caps.get(metric) if sanity_caps else None
+
                 regional_sum_before = data.loc[mask, "value"].sum()
                 if regional_sum_before <= 0:
                     logger.warning(f"    {metric} {year}: regional sum ≤ 0 – skipping.")
                     continue
 
-                scale_factor = uk_value / regional_sum_before
+                if cap is not None:
+                    fixed_mask = mask & (data["value"] >= cap)
+                    free_mask = mask & ~fixed_mask
 
-                data.loc[mask, "value"] *= scale_factor
-                if "ci_lower" in data.columns:
-                    data.loc[mask, "ci_lower"] *= scale_factor
-                if "ci_upper" in data.columns:
-                    data.loc[mask, "ci_upper"] *= scale_factor
+                    fixed_sum = data.loc[fixed_mask, "value"].sum()
+                    free_sum = data.loc[free_mask, "value"].sum()
+
+                    # If everything is capped or the cap already exceeds target, skip.
+                    remaining_target = uk_value - fixed_sum
+                    if free_sum <= 0 or remaining_target <= 0:
+                        logger.warning(
+                            f"    {metric} {year}: cap-aware reconcile skipped "
+                            f"(fixed_sum={fixed_sum:,.0f}, target={uk_value:,.0f}, free_sum={free_sum:,.0f})"
+                        )
+                        continue
+
+                    scale_factor = remaining_target / free_sum
+
+                    data.loc[free_mask, "value"] *= scale_factor
+                    if "ci_lower" in data.columns:
+                        data.loc[free_mask, "ci_lower"] *= scale_factor
+                    if "ci_upper" in data.columns:
+                        data.loc[free_mask, "ci_upper"] *= scale_factor
+                else:
+                    scale_factor = uk_value / regional_sum_before
+                    data.loc[mask, "value"] *= scale_factor
+                    if "ci_lower" in data.columns:
+                        data.loc[mask, "ci_lower"] *= scale_factor
+                    if "ci_upper" in data.columns:
+                        data.loc[mask, "ci_upper"] *= scale_factor
 
                 regional_sum_after = data.loc[mask, "value"].sum()
                 deviation = (
@@ -464,6 +502,7 @@ class DataManagerV35:
             df = self._load_from_csv()
 
         df = self._standardize_columns(df)
+        df = self._augment_with_bottomup_ni_jobs(df)
         df = self._handle_outliers(df)
 
         if self.config.cache_enabled:
@@ -475,6 +514,55 @@ class DataManagerV35:
             f"{df['metric'].nunique()} metrics"
         )
         return df
+
+    def _augment_with_bottomup_ni_jobs(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Add NI-only job metric history (`emp_total_jobs_ni`) to ITL1 history without
+        touching NOMIS ITL1 ingests for other metrics.
+
+        Source of truth is bottom-up transform output: `silver.itl1_unified_bottomup`,
+        which is produced from NI LGD (LAD-equivalent) series.
+        """
+        target_metric = "emp_total_jobs_ni"
+        ni_itl1_code = "N92000002"
+
+        if target_metric in set(df["metric"].unique()):
+            return df
+
+        if not HAVE_DUCKDB:
+            logger.warning("DuckDB unavailable; cannot augment ITL1 with emp_total_jobs_ni.")
+            return df
+
+        try:
+            con = duckdb.connect(str(self.config.duckdb_path), read_only=True)
+            bottomup = con.execute("""
+                SELECT
+                    region_code,
+                    region_name as region,
+                    metric_id as metric,
+                    period as year,
+                    value,
+                    'historical' as data_type
+                FROM silver.itl1_unified_bottomup
+                WHERE metric_id = 'emp_total_jobs_ni'
+                  AND region_code = 'N92000002'
+            """).fetchdf()
+            con.close()
+        except Exception as e:
+            logger.warning(f"Failed to load bottom-up NI ITL1 jobs: {e}")
+            return df
+
+        if bottomup is None or bottomup.empty:
+            logger.warning("No bottom-up NI ITL1 jobs found (emp_total_jobs_ni).")
+            return df
+
+        bottomup["year"] = pd.to_numeric(bottomup["year"], errors="coerce").astype(int)
+        bottomup["value"] = pd.to_numeric(bottomup["value"], errors="coerce")
+        bottomup = bottomup.dropna(subset=["year", "value"])
+
+        out = pd.concat([df, bottomup], ignore_index=True)
+        logger.info(f"✓ Augmented ITL1 with NI jobs metric: {target_metric} ({len(bottomup)} rows) for {ni_itl1_code}")
+        return out
 
     def _load_from_csv(self) -> pd.DataFrame:
         logger.info(f"Loading ITL1 silver from CSV: {self.config.silver_path}")
@@ -804,6 +892,14 @@ class AdvancedForecastingV35:
         structural_breaks: Optional[Sequence[Dict]],
         metric_info: Dict,
     ) -> Dict:
+        # Rate metrics behave badly under unconstrained linear trend extrapolation
+        # (can drift negative and then get hard-clipped to 0, producing unrealistic 0%).
+        # For rates we use a simple mean-reverting (OU-style) forecast instead.
+        if metric_info.get("type") == "rate":
+            fc = self._fit_mean_revert_rate(series, horizon)
+            fc = self._apply_constraints(fc, series, metric_info)
+            return fc
+
         models = []
 
         arima_res = self._fit_arima_with_breaks(series, horizon, structural_breaks)
@@ -830,6 +926,44 @@ class AdvancedForecastingV35:
 
         fc = self._apply_constraints(fc, series, metric_info)
         return fc
+
+    def _fit_mean_revert_rate(self, series: pd.Series, horizon: int) -> Dict:
+        """
+        Mean-reverting rate forecast (Ornstein-Uhlenbeck style).
+
+        This avoids long-horizon drift-to-zero artifacts that can occur when the
+        linear fallback extrapolates a downward slope and constraints then clip.
+        """
+        s = series.dropna()
+        last_year = int(s.index[-1])
+        years = list(range(last_year + 1, last_year + horizon + 1))
+
+        # Use a recent-window mean to avoid pulling toward long-ago regimes
+        window = min(10, len(s))
+        mu = float(s.iloc[-window:].mean())
+        x0 = float(s.iloc[-1])
+
+        theta = 0.12  # annual reversion speed (moderate)
+        t = np.arange(1, horizon + 1)
+        values = mu + (x0 - mu) * np.exp(-theta * t)
+
+        # CI: steady-state OU variance proxy (same idea as LAD mean-revert)
+        hist_std = float(s.std(ddof=1)) if len(s) > 1 else 0.0
+        if not np.isfinite(hist_std) or hist_std <= 0:
+            hist_std = abs(mu) * 0.05 if np.isfinite(mu) else 0.5
+
+        steady_std = hist_std / np.sqrt(2 * theta)
+        ci_width = 1.96 * steady_std
+        ci_lower = values - ci_width
+        ci_upper = values + ci_width
+
+        return {
+            "method": "MeanRevertRate",
+            "values": values,
+            "years": years,
+            "ci_lower": ci_lower,
+            "ci_upper": ci_upper,
+        }
 
     def _fit_arima_with_breaks(
         self,
@@ -1532,6 +1666,14 @@ class DerivedMetricsCalculator:
                         correlation=0.3,
                     )
                     
+                    # FIX: Check data_type of components, not first row
+                    # If EITHER component is forecast, then gdhi_per_head is forecast
+                    gdhi_row = year_data[year_data["metric"] == "gdhi_total_mn_gbp"]
+                    pop_row = year_data[year_data["metric"] == "population_total"]
+                    gdhi_dtype = gdhi_row["data_type"].iloc[0] if not gdhi_row.empty and "data_type" in gdhi_row.columns else "forecast"
+                    pop_dtype = pop_row["data_type"].iloc[0] if not pop_row.empty and "data_type" in pop_row.columns else "forecast"
+                    per_head_dtype = "forecast" if (gdhi_dtype == "forecast" or pop_dtype == "forecast") else "historical"
+                    
                     derived_rows.append({
                         "region_code": region_code,
                         "region": region_name,
@@ -1542,7 +1684,7 @@ class DerivedMetricsCalculator:
                         "ci_upper": high,
                         "formula": "gdhi_total_mn_gbp / population_total * 1e6",
                         "method": "derived_monte_carlo",
-                        "data_type": data_type,
+                        "data_type": per_head_dtype,
                     })
         
         return pd.DataFrame(derived_rows)
@@ -1590,11 +1732,15 @@ class ITL1ForecasterV35:
             [historical, pd.DataFrame(forecast_rows)], ignore_index=True
         )
 
+        # Reconcile to UK macro totals (additive metrics only)
         if self.reconciler:
             base_data = self.reconciler.reconcile(base_data)
 
-        # Apply sanity caps to base data
+        # Apply sanity caps to base data, then re-reconcile in a cap-aware way
+        # to keep UK totals exact while preserving caps.
         base_data = self._apply_sanity_caps(base_data)
+        if self.reconciler:
+            base_data = self.reconciler.reconcile(base_data, sanity_caps=SANITY_CAPS)
 
         logger.info("\nCalculating derived metrics...")
         derived_data = self.derived_calc.calculate_all_derived(base_data)
@@ -1626,7 +1772,10 @@ class ITL1ForecasterV35:
                 continue
                 
             n = len(group)
-            if n < self.config.min_history_years:
+            # NI-only jobs series is shorter historically; allow forecast with fewer years.
+            # Fully dynamic: forecast still starts at last observed year + 1.
+            min_years = 8 if metric == "emp_total_jobs_ni" else self.config.min_history_years
+            if n < min_years:
                 continue
 
             last_year = int(group["year"].max())

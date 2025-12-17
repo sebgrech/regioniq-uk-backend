@@ -36,8 +36,12 @@ Outputs:
 
 import io
 import logging
+import os
+import ssl
+import urllib.parse
+import urllib.request
+import hashlib
 import pandas as pd
-import requests
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -46,6 +50,12 @@ try:
     HAVE_DUCKDB = True
 except ImportError:
     HAVE_DUCKDB = False
+
+try:
+    import requests  # optional
+    HAVE_REQUESTS = True
+except Exception:
+    HAVE_REQUESTS = False
 
 # -----------------------------
 # Configuration
@@ -167,6 +177,24 @@ LAD_CONCORDANCE = {
 # Helper Functions
 # -----------------------------
 
+def _sha16(content: str | bytes) -> str:
+    if isinstance(content, str):
+        content = content.encode("utf-8")
+    return hashlib.sha256(content).hexdigest()[:16]
+
+
+def _nomis_url(dataset_id: str, params: dict) -> str:
+    qs = urllib.parse.urlencode(params, safe=",")
+    return f"https://www.nomisweb.co.uk/api/v01/dataset/{dataset_id}.data.csv?{qs}"
+
+
+def _gb_lad_codes_from_lookup(lookup: pd.DataFrame) -> list[str]:
+    # BRES is GB-only; exclude NI LADs.
+    codes = lookup["LAD25CD"].dropna().astype(str).unique().tolist()
+    gb = [c for c in codes if c[:1] in ("E", "W", "S")]
+    return sorted(gb)
+
+
 def _write_duck(table_fullname: str, df: pd.DataFrame):
     """Write dataframe to DuckDB with schema support"""
     if not HAVE_DUCKDB:
@@ -218,15 +246,23 @@ def fetch_nomis_csv(url: str, dataset_name: str) -> pd.DataFrame:
     log.info(f"NOMIS → Fetching {dataset_name}...")
     
     try:
-        response = requests.get(url, timeout=120)
-        response.raise_for_status()
-        
-        content = response.text
-        if len(content) < 100:
-            log.error(f"Response too short ({len(content)} chars)")
+        if HAVE_REQUESTS:
+            response = requests.get(url, timeout=120)
+            response.raise_for_status()
+            content = response.content
+        else:
+            insecure = os.getenv("NOMIS_INSECURE_SSL", "0") == "1"
+            ctx = ssl._create_unverified_context() if insecure else ssl.create_default_context()
+            with urllib.request.urlopen(url, timeout=120, context=ctx) as r:
+                content = r.read()
+
+        if content is None or len(content) < 100:
+            log.error(f"Response too short ({0 if content is None else len(content)} bytes)")
             raise ValueError("Empty or invalid response from NOMIS")
+
+        text = content.decode("utf-8", errors="replace")
         
-        df = pd.read_csv(io.StringIO(content), low_memory=False)
+        df = pd.read_csv(io.StringIO(text), low_memory=False)
         
         if df.empty:
             log.error("Dataframe is empty after parsing")
@@ -238,6 +274,27 @@ def fetch_nomis_csv(url: str, dataset_name: str) -> pd.DataFrame:
     except Exception as e:
         log.error(f"NOMIS fetch failed: {e}")
         raise
+
+
+def fetch_nomis_csv_batched(
+    dataset_id: str,
+    base_params: dict,
+    geo_codes: list[str],
+    dataset_name: str,
+    batch_size: int = 200,
+) -> pd.DataFrame:
+    """Fetch NOMIS data in ONS-code batches and concatenate."""
+    dfs = []
+    for i in range(0, len(geo_codes), batch_size):
+        batch = geo_codes[i : i + batch_size]
+        params = dict(base_params)
+        params["geography"] = ",".join(batch)
+        url = _nomis_url(dataset_id, params)
+        df = fetch_nomis_csv(url, f"{dataset_name} (batch {i//batch_size + 1})")
+        dfs.append(df)
+    out = pd.concat(dfs, ignore_index=True)
+    log.info(f"{dataset_name}: combined {len(out)} rows across {len(dfs)} batches")
+    return out
 
 
 def apply_boundary_concordance(df: pd.DataFrame, dataset_label: str) -> pd.DataFrame:
@@ -481,11 +538,20 @@ def main():
     # Load lookup
     lookup = load_lookup()
     
+    # Build geography list from lookup (GB only)
+    geo_codes = _gb_lad_codes_from_lookup(lookup)
+    base_params = {
+        "industry": "37748736",
+        "employment_status": "1",
+        "measure": "1",
+        "measures": "20100",
+    }
+
     # Fetch 2009-2015 data
     log.info("\n" + "="*70)
     log.info("FETCHING 2009-2015 EMPLOYMENT (NM_172_1)")
     log.info("="*70)
-    df_raw_2009 = fetch_nomis_csv(NOMIS_URL_2009_2015, "2009-2015 (LAD 2015 boundaries)")
+    df_raw_2009 = fetch_nomis_csv_batched("NM_172_1", base_params, geo_codes, "2009-2015 (LAD 2015 boundaries)")
     
     raw_path_2009 = RAW_DIR / "lad_employment_2009_2015.csv"
     df_raw_2009.to_csv(raw_path_2009, index=False)
@@ -497,7 +563,7 @@ def main():
     log.info("\n" + "="*70)
     log.info("FETCHING 2015-2024 EMPLOYMENT (NM_189_1)")
     log.info("="*70)
-    df_raw_2024 = fetch_nomis_csv(NOMIS_URL_2015_2024, "2015-2024 (LAD 2023 boundaries)")
+    df_raw_2024 = fetch_nomis_csv_batched("NM_189_1", base_params, geo_codes, "2015-2024 (LAD 2023 boundaries)")
     
     raw_path_2024 = RAW_DIR / "lad_employment_2015_2024.csv"
     df_raw_2024.to_csv(raw_path_2024, index=False)
