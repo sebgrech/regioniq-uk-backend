@@ -1,0 +1,23 @@
+# RegionIQ Backend - Production Dependencies
+# ==========================================
+
+# Core data processing
+pandas>=2.0
+numpy>=1.24
+duckdb>=0.9
+
+# Statistical forecasting
+scipy>=1.10
+statsmodels>=0.14
+
+# Database & APIs
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+requests>=2.28
+
+# -------------------------------------------
+# OPTIONAL (uncomment if needed)
+# -------------------------------------------
+# geopandas>=0.14      # GeoJSON conversion utility
+# matplotlib>=3.7     # Visualization scratch scripts
+# supabase>=2.0       # Legacy Supabase client (not used in main pipeline)
