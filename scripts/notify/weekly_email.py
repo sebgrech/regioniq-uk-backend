@@ -154,6 +154,33 @@ def get_indicator_names() -> Dict[str, str]:
         return {}
 
 
+def get_metric_display_names() -> Dict[str, str]:
+    """
+    Query metadata.indicators for metric_id → display_name mapping.
+    Used for baseline "latest year" matrix labels.
+    """
+    if duckdb is None or not DUCK_PATH.exists():
+        return {}
+
+    try:
+        con = duckdb.connect(str(DUCK_PATH), read_only=True)
+        df = con.execute("""
+            SELECT metric_id, display_name
+            FROM metadata.indicators
+        """).fetchdf()
+        con.close()
+        mapping: Dict[str, str] = {}
+        for _, row in df.iterrows():
+            mid = str(row.get("metric_id") or "").strip()
+            dn = str(row.get("display_name") or "").strip()
+            if mid and dn and mid not in mapping:
+                mapping[mid] = dn
+        return mapping
+    except Exception as e:
+        log.warning(f"Failed to load metric display names: {e}")
+        return {}
+
+
 def get_table_labels() -> Dict[str, str]:
     """
     Generate human-readable table labels.
@@ -433,9 +460,15 @@ def build_indicator_matrix(sources: Dict, indicator_names: Dict[str, str]) -> Di
     # Rename mappings (consolidate variants to single display name)
     rename_map = {
         'Working Age Population (16-64)': 'Population',
+        'Population (16-64)': 'Population',
     }
+
+    def normalize_name(human_name: str) -> str:
+        """Normalize indicator naming so baseline + vintage overlays line up."""
+        human_name = rename_map.get(human_name, human_name)
+        return human_name
     
-    matrix = {}
+    matrix: Dict[str, Dict] = {}
     
     for source_name, source_data in sources.items():
         geo = source_to_geo.get(source_name, source_name)
@@ -454,7 +487,7 @@ def build_indicator_matrix(sources: Dict, indicator_names: Dict[str, str]) -> Di
             
             # Get human name and apply renames
             human_name = indicator_names.get(dataset, dataset)
-            human_name = rename_map.get(human_name, human_name)
+            human_name = normalize_name(human_name)
             
             # Initialize indicator row if needed
             if human_name not in matrix:
@@ -470,6 +503,80 @@ def build_indicator_matrix(sources: Dict, indicator_names: Dict[str, str]) -> Di
     return matrix
 
 
+def get_latest_years_matrix(metric_display_names: Dict[str, str]) -> Dict[str, Dict[str, Dict]]:
+    """
+    Build a baseline matrix showing latest available year by core indicator and geography.
+    This uses DuckDB silver history tables so the matrix is populated even when there were
+    no upstream changes detected this run.
+
+    Returns matrix in the same shape as build_indicator_matrix:
+      {indicator_name: {geo: {"changed": False, "max_year": 2024}}}
+    """
+    if duckdb is None or not DUCK_PATH.exists():
+        return {}
+
+    # Core metrics we want to surface in the weekly email.
+    # These align with the email's "Core Indicators" framing.
+    core_metric_ids = [
+        "nominal_gva_mn_gbp",
+        "emp_total_jobs",
+        "employment_rate_pct",
+        "gdhi_total_mn_gbp",
+        "population_total",
+        "unemployment_rate_pct",
+    ]
+
+    # Fallback labels (used if metadata.indicators doesn't have a display_name yet)
+    fallback_labels = {
+        "nominal_gva_mn_gbp": "Economic Output (GVA)",
+        "emp_total_jobs": "Employment",
+        "employment_rate_pct": "Employment Rate",
+        "gdhi_total_mn_gbp": "Household Income (GDHI)",
+        "population_total": "Population",
+        "unemployment_rate_pct": "Unemployment Rate",
+    }
+
+    def label_for(metric_id: str) -> str:
+        return metric_display_names.get(metric_id) or fallback_labels.get(metric_id) or metric_id
+
+    def max_year_by_metric(con: duckdb.DuckDBPyConnection, table: str) -> Dict[str, int]:
+        vals = ",".join([f"'{m}'" for m in core_metric_ids])
+        rows = con.execute(f"""
+            SELECT metric_id, MAX(CAST(period AS INT)) AS max_year
+            FROM {table}
+            WHERE metric_id IN ({vals})
+              AND period IS NOT NULL
+            GROUP BY 1
+        """).fetchall()
+        out: Dict[str, int] = {}
+        for metric_id, max_year in rows:
+            if metric_id and max_year is not None:
+                out[str(metric_id)] = int(max_year)
+        return out
+
+    try:
+        con = duckdb.connect(str(DUCK_PATH), read_only=True)
+
+        # Baseline years from history tables
+        uk = max_year_by_metric(con, "silver.uk_macro_history")
+        regions = max_year_by_metric(con, "silver.itl1_history")
+        districts = max_year_by_metric(con, "silver.lad_history")
+        con.close()
+
+        matrix: Dict[str, Dict[str, Dict]] = {}
+        for metric_id in core_metric_ids:
+            human = label_for(metric_id)
+            matrix[human] = {
+                "UK": {"changed": False, "max_year": uk.get(metric_id)},
+                "Regions": {"changed": False, "max_year": regions.get(metric_id)},
+                "Districts": {"changed": False, "max_year": districts.get(metric_id)},
+            }
+        return matrix
+    except Exception as e:
+        log.warning(f"Failed to build baseline latest-years matrix: {e}")
+        return {}
+
+
 def generate_data_updates_table(matrix: Dict, geo_order: List[str] = None) -> str:
     """Generate HTML table for indicator × geography matrix."""
     if geo_order is None:
@@ -478,14 +585,14 @@ def generate_data_updates_table(matrix: Dict, geo_order: List[str] = None) -> st
     if not matrix:
         return """
             <div style="color: #64748b; text-align: center; padding: 12px;">
-                No upstream data changes detected
+                No upstream data available
             </div>
         """
     
     html = """
         <div style="margin-bottom: 12px; font-size: 12px; color: #64748b;">
-            <span style="background: #dcfce7; color: #16a34a; padding: 3px 8px; border-radius: 4px; margin-right: 8px;">✓ 2024</span> Updated
-            <span style="margin-left: 16px; background: #f1f5f9; color: #64748b; padding: 3px 8px; border-radius: 4px; margin-right: 8px;">No change</span> Not updated this run
+            <span style="background: #dcfce7; color: #16a34a; padding: 3px 8px; border-radius: 4px; margin-right: 8px;">✓ 2024</span> Updated this run
+            <span style="margin-left: 16px; background: #f1f5f9; color: #64748b; padding: 3px 8px; border-radius: 4px; margin-right: 8px;">2024</span> Latest available (unchanged)
         </div>
         <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
             <thead>
@@ -510,8 +617,8 @@ def generate_data_updates_table(matrix: Dict, geo_order: List[str] = None) -> st
         
         for geo in geo_order:
             status = matrix[indicator].get(geo, {})
-            if status.get('changed'):
-                year = status.get('max_year', '')
+            year = status.get('max_year', '')
+            if status.get('changed') and year:
                 # Green - new data received
                 html += f"""
                     <td style="text-align: center; padding: 12px 8px;">
@@ -519,12 +626,19 @@ def generate_data_updates_table(matrix: Dict, geo_order: List[str] = None) -> st
                     </td>
                 """
             else:
-                # Grey - no change
-                html += """
-                    <td style="text-align: center; padding: 12px 8px;">
-                        <span style="background: #f1f5f9; color: #64748b; padding: 6px 12px; border-radius: 6px; font-size: 13px;">No change</span>
-                    </td>
-                """
+                # Grey - unchanged (still show latest year if known)
+                if year:
+                    html += f"""
+                        <td style="text-align: center; padding: 12px 8px;">
+                            <span style="background: #f1f5f9; color: #64748b; padding: 6px 12px; border-radius: 6px; font-size: 13px;">{year}</span>
+                        </td>
+                    """
+                else:
+                    html += """
+                        <td style="text-align: center; padding: 12px 8px;">
+                            <span style="background: #f1f5f9; color: #64748b; padding: 6px 12px; border-radius: 6px; font-size: 13px;">—</span>
+                        </td>
+                    """
         
         html += "</tr>"
     
@@ -536,9 +650,35 @@ def generate_data_updates_table(matrix: Dict, geo_order: List[str] = None) -> st
     return html
 
 
-def generate_report(run_id: str, sources: Dict, run_data: Dict, 
-                    indicator_names: Dict, table_labels: Dict, 
-                    geo_counts: Dict, indicator_coverage: Dict) -> Dict[str, str]:
+def matrix_has_any_updates(matrix: Dict, geo_order: Optional[List[str]] = None) -> bool:
+    """Return True if any cell in the matrix is marked changed=True."""
+    if not matrix:
+        return False
+    if geo_order is None:
+        geo_order = ['UK', 'Regions', 'Districts']
+    try:
+        for _, geo_map in matrix.items():
+            if not isinstance(geo_map, dict):
+                continue
+            for geo in geo_order:
+                cell = geo_map.get(geo) or {}
+                if isinstance(cell, dict) and cell.get("changed"):
+                    return True
+    except Exception:
+        return False
+    return False
+
+
+def generate_report(
+    run_id: str,
+    sources: Dict,
+    run_data: Dict,
+    indicator_names: Dict,
+    table_labels: Dict,
+    geo_counts: Dict,
+    indicator_coverage: Dict,
+    matrix_override: Optional[Dict[str, Dict]] = None,
+) -> Dict[str, str]:
     """Generate business-friendly email with dynamic data."""
     
     now = datetime.now(timezone.utc).strftime("%d %B %Y")
@@ -553,15 +693,16 @@ def generate_report(run_id: str, sources: Dict, run_data: Dict,
     status_text = "All systems operational" if pipeline_success else "Pipeline encountered issues"
     
     # Build indicator × geography matrix
-    matrix = build_indicator_matrix(sources, indicator_names)
+    matrix = matrix_override if matrix_override is not None else build_indicator_matrix(sources, indicator_names)
     
     # Table diff (humanized)
-    diff = run_data.get('vintage_diff', {})
+    # NOTE: vintage_diff.json may be missing for some run_ids (e.g. partial runs).
+    diff = run_data.get('vintage_diff') or {}
     tables_modified = diff.get('tables_modified', 0)
     tables_unchanged = diff.get('tables_unchanged', 0)
     
     modified_tables = []
-    for d in diff.get('diffs', []):
+    for d in (diff.get('diffs') or []):
         if d.get('status') != 'UNCHANGED':
             table = d.get('table', 'unknown')
             human_name = table_labels.get(table, table)
@@ -577,8 +718,11 @@ def generate_report(run_id: str, sources: Dict, run_data: Dict,
             
             modified_tables.append(detail)
     
+    # Data updates summary (changes vs steady-state)
+    any_updates = matrix_has_any_updates(matrix)
+
     # Subject line
-    if matrix:
+    if any_updates:
         subject = f"RegionIQ Weekly Update — New data received"
     elif modified_tables:
         subject = f"RegionIQ Weekly Update — Forecasts refreshed"
@@ -592,6 +736,18 @@ def generate_report(run_id: str, sources: Dict, run_data: Dict,
     # Load logo
     logo_src = get_logo_base64()
     logo_html = f'<img src="{logo_src}" alt="RegionIQ" style="height: 64px;">' if logo_src else ""
+    
+    # Data Updates subtitle (legible at a glance)
+    updates_banner = (
+        '<div style="margin: -4px 0 12px 0; font-size: 13px; color: #16a34a; font-weight: 600;">'
+        '✓ Changes this week'
+        '</div>'
+        if any_updates
+        else
+        '<div style="margin: -4px 0 12px 0; font-size: 13px; color: #64748b; font-weight: 600;">'
+        'No changes this week'
+        '</div>'
+    )
     
     # HTML Body
     body = f"""
@@ -745,6 +901,7 @@ def generate_report(run_id: str, sources: Dict, run_data: Dict,
         </div>
         
         <h2>📊 Data Updates</h2>
+        {updates_banner}
         <div class="data-card">
 """
     
@@ -909,6 +1066,7 @@ def main():
     # Load dynamic metadata from DuckDB
     log.info("\nLoading metadata from DuckDB...")
     indicator_names = get_indicator_names()
+    metric_display_names = get_metric_display_names()
     table_labels = get_table_labels()
     geo_counts = get_geography_counts()
     indicator_coverage = get_indicator_coverage()
@@ -925,11 +1083,28 @@ def main():
     pipeline = run_data.get("pipeline_summary") or {}
     pipeline_success = bool(pipeline.get("success", False))
     
+    # Build baseline latest-years matrix (so matrix still shows years even if no upstream changes)
+    baseline_matrix = get_latest_years_matrix(metric_display_names)
+
+    # Overlay upstream changes onto baseline matrix (green ticks only where changed)
+    upstream_matrix = build_indicator_matrix(sources, indicator_names)
+    for indicator_name, geo_map in upstream_matrix.items():
+        if indicator_name not in baseline_matrix:
+            baseline_matrix[indicator_name] = {}
+        for geo, st in geo_map.items():
+            existing = baseline_matrix[indicator_name].get(geo, {"changed": False, "max_year": None})
+            # Mark changed, and update max_year if present
+            existing["changed"] = True
+            if st.get("max_year"):
+                existing["max_year"] = st.get("max_year")
+            baseline_matrix[indicator_name][geo] = existing
+
     # Generate report
     log.info("\nGenerating report...")
     report = generate_report(
         args.run_id, sources, run_data,
-        indicator_names, table_labels, geo_counts, indicator_coverage
+        indicator_names, table_labels, geo_counts, indicator_coverage,
+        matrix_override=baseline_matrix
     )
     log.info(f"  Subject: {report['subject']}")
 
