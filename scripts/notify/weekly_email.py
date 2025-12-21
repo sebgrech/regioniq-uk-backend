@@ -544,9 +544,11 @@ def generate_report(run_id: str, sources: Dict, run_data: Dict,
     now = datetime.now(timezone.utc).strftime("%d %B %Y")
     
     # Pipeline status
-    pipeline = run_data.get('pipeline_summary', {})
-    pipeline_success = pipeline.get('success', False)
-    pipeline_duration = sum(s.get('duration_seconds', 0) for s in pipeline.get('stages', []))
+    # NOTE: When this script is invoked as the final pipeline stage (email_report),
+    # the orchestrator may not have written pipeline_summary.json yet. Be robust.
+    pipeline = run_data.get('pipeline_summary') or {}
+    pipeline_success = bool(pipeline.get('success', True))
+    pipeline_duration = sum(s.get('duration_seconds', 0) for s in (pipeline.get('stages') or []))
     status_emoji = "✅" if pipeline_success else "❌"
     status_text = "All systems operational" if pipeline_success else "Pipeline encountered issues"
     
