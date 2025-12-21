@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Region IQ - Full Forecast Pipeline Orchestrator (V2.3)
+Region IQ - Full Forecast Pipeline Orchestrator (V3.0)
 ======================================================
 
 Runs complete RegionIQ data + forecast cascade with vintage snapshots:
@@ -19,20 +19,23 @@ Design principles:
 - 100% deterministic execution order
 - Vintage snapshots track table changes across runs
 - Email report sent on successful completion
+- Environment-aware execution modes (local/bootstrap/prod)
 
 Usage:
-    python3 run_full_forecast_pipeline.py
+    python3 run_full_forecast_pipeline.py                      # prod mode (default)
+    python3 run_full_forecast_pipeline.py --mode bootstrap     # first run on fresh infra
+    python3 run_full_forecast_pipeline.py --mode local         # local development
     python3 run_full_forecast_pipeline.py --start-from macro
     python3 run_full_forecast_pipeline.py --start-from itl3 --stop-at lad
-    python3 run_full_forecast_pipeline.py --stop-at supabase  # skip email
 
 Stages (in order):
     pre_snapshot → ingest → transform → macro → itl1 → itl2 → itl3 → lad → supabase → post_snapshot → email_report
 
 Author: Region IQ
-Version: 2.3 (Vintage snapshots + email notification)
+Version: 3.0 (Pipeline modes + vintage snapshots + email notification)
 """
 
+import os
 import sys
 import subprocess
 import argparse
@@ -42,6 +45,59 @@ import json
 from typing import Optional, List
 from dataclasses import dataclass, asdict
 import time
+
+# -------------------------------------------------------------------
+# PIPELINE MODES
+# -------------------------------------------------------------------
+
+class PipelineMode:
+    """
+    Execution modes for different contexts:
+    
+    - local: Developer machine, assume data exists, lenient on failures
+    - bootstrap: First run on fresh infra, create everything, no assertions
+    - prod: Steady-state production, strict invariants, fail loudly
+    """
+    LOCAL = "local"
+    BOOTSTRAP = "bootstrap"
+    PROD = "prod"
+    
+    VALID_MODES = (LOCAL, BOOTSTRAP, PROD)
+
+    @classmethod
+    def from_env(cls) -> str:
+        mode = os.getenv("PIPELINE_MODE", cls.PROD)
+        if mode not in cls.VALID_MODES:
+            raise ValueError(f"Invalid PIPELINE_MODE: {mode}. Use: local|bootstrap|prod")
+        return mode
+
+
+# Resolve mode once at import (can be overridden by CLI)
+MODE = PipelineMode.from_env()
+
+
+def get_mode_config(mode: str) -> dict:
+    """Return mode-specific configuration flags."""
+    return {
+        PipelineMode.LOCAL: {
+            "skip_pre_snapshot": True,
+            "allow_missing_duckdb": True,
+            "strict_ni_data": False,
+            "require_supabase": False,
+        },
+        PipelineMode.BOOTSTRAP: {
+            "skip_pre_snapshot": True,
+            "allow_missing_duckdb": True,
+            "strict_ni_data": False,
+            "require_supabase": False,
+        },
+        PipelineMode.PROD: {
+            "skip_pre_snapshot": False,
+            "allow_missing_duckdb": False,
+            "strict_ni_data": True,
+            "require_supabase": True,
+        },
+    }.get(mode, {})
 
 # -------------------------------------------------------------------
 # ANSI COLORS
@@ -170,8 +226,18 @@ class ForecastPipeline:
 
     # -------------------------------------------------------------------
 
-    def __init__(self, start_from=None, stop_at=None):
-        self.start_from = start_from or 'pre_snapshot'
+    def __init__(self, start_from=None, stop_at=None, mode: str = None):
+        # Resolve mode (CLI > env > default)
+        self.mode = mode or MODE
+        self.mode_config = get_mode_config(self.mode)
+        
+        # Apply mode-aware defaults for start_from
+        effective_start = start_from
+        if self.mode_config.get("skip_pre_snapshot"):
+            if effective_start is None or effective_start == 'pre_snapshot':
+                effective_start = 'ingest'
+        
+        self.start_from = effective_start or 'pre_snapshot'
         self.stop_at = stop_at or 'email_report'
         self.results: List[StageResult] = []
         self.run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -198,8 +264,16 @@ class ForecastPipeline:
 
     def _print_header(self):
         print(f"\n{Colors.HEADER}{'=' * 90}{Colors.END}")
-        print(f"{Colors.HEADER}{Colors.BOLD}REGION IQ — FULL FORECAST PIPELINE (V2.3 WITH EMAIL NOTIFICATION){Colors.END}")
+        print(f"{Colors.HEADER}{Colors.BOLD}REGION IQ — FULL FORECAST PIPELINE (V3.0){Colors.END}")
         print(f"{Colors.HEADER}{'=' * 90}{Colors.END}")
+        
+        # Mode indicator with color
+        mode_color = {
+            PipelineMode.LOCAL: Colors.YELLOW,
+            PipelineMode.BOOTSTRAP: Colors.CYAN,
+            PipelineMode.PROD: Colors.GREEN,
+        }.get(self.mode, Colors.CYAN)
+        print(f"{mode_color}Mode: {self.mode.upper()}{Colors.END}")
         print(f"{Colors.CYAN}Run ID: {self.run_id}{Colors.END}")
 
         start_idx = self.STAGE_ORDER.index(self.start_from)
@@ -274,13 +348,18 @@ class ForecastPipeline:
 
         start = time.time()
         try:
+            # Pass mode to child process via environment
+            env = os.environ.copy()
+            env["PIPELINE_MODE"] = self.mode
+            
             with open(log_file, "w") as f:
                 process = subprocess.run(
                     cmd,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.STDOUT,
                     text=True,
-                    timeout=3600
+                    timeout=3600,
+                    env=env
                 )
                 f.write(process.stdout)
                 print(process.stdout)
@@ -444,26 +523,57 @@ class ForecastPipeline:
 # -------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="RegionIQ Forecast Pipeline Orchestrator",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Modes:
+  local      Developer machine, lenient on failures, skip snapshots
+  bootstrap  First run on fresh infra, create everything from scratch
+  prod       Production steady-state, strict invariants (default)
+
+Examples:
+  python3 run_full_forecast_pipeline.py --mode bootstrap   # First VM run
+  python3 run_full_forecast_pipeline.py                    # Subsequent runs
+  python3 run_full_forecast_pipeline.py --mode local --start-from itl2
+        """
+    )
+
+    parser.add_argument(
+        "--mode",
+        choices=PipelineMode.VALID_MODES,
+        default=None,
+        help="Execution mode (overrides PIPELINE_MODE env var)"
+    )
 
     parser.add_argument(
         "--start-from",
         choices=ForecastPipeline.STAGE_ORDER,
-        default="pre_snapshot"
+        default=None,
+        help="Stage to start from (default: pre_snapshot, or ingest in bootstrap/local)"
     )
 
     parser.add_argument(
         "--stop-at",
         choices=ForecastPipeline.STAGE_ORDER,
-        default="post_snapshot"
+        default="post_snapshot",
+        help="Stage to stop at (default: post_snapshot)"
     )
 
     args = parser.parse_args()
 
+    # Determine effective mode
+    effective_mode = args.mode or MODE
+    
+    # Log mode for visibility
+    if effective_mode != PipelineMode.PROD:
+        print(f"{Colors.YELLOW}[{effective_mode.upper()}] Running in {effective_mode} mode{Colors.END}")
+
     try:
         pipeline = ForecastPipeline(
             start_from=args.start_from,
-            stop_at=args.stop_at
+            stop_at=args.stop_at,
+            mode=effective_mode
         )
         ok = pipeline.run()
         sys.exit(0 if ok else 1)
