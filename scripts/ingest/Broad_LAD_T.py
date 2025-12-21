@@ -275,21 +275,31 @@ def _fetch_csv_url(url: str, label: str) -> pd.DataFrame:
             insecure = os.getenv("NISRA_INSECURE_SSL", "0") == "1"
             resp = requests.get(url, timeout=120, verify=not insecure)
             resp.raise_for_status()
-            df = pd.read_csv(io.StringIO(resp.text), low_memory=False)
+            # Decode with utf-8-sig to strip BOM if present
+            text = resp.content.decode("utf-8-sig", errors="replace")
+            df = pd.read_csv(io.StringIO(text), low_memory=False)
         else:
             # pandas → urllib; allow insecure SSL only if explicitly enabled.
             insecure = os.getenv("NISRA_INSECURE_SSL", "0") == "1"
             if insecure:
                 ctx = ssl._create_unverified_context()
                 with urllib.request.urlopen(url, timeout=120, context=ctx) as r:
-                    text = r.read().decode("utf-8", errors="replace")
+                    # Use utf-8-sig to strip BOM
+                    text = r.read().decode("utf-8-sig", errors="replace")
                 df = pd.read_csv(io.StringIO(text), low_memory=False)
             else:
-                df = pd.read_csv(url)
+                df = pd.read_csv(url, encoding="utf-8-sig")
     except Exception as e:
         raise RuntimeError(f"{label} fetch failed: {e}")
     if df.empty:
         raise ValueError(f"{label} returned 0 rows")
+    
+    # Clean column names: strip BOM remnants, quotes, and whitespace (NISRA quirks)
+    df.columns = [
+        col.replace('\ufeff', '').strip().strip('"').strip("'")
+        for col in df.columns
+    ]
+    
     return df
 
 

@@ -12,12 +12,16 @@ Usage:
 Outputs:
     - metadata.table_vintage_baseline (DuckDB)
     - data/pipeline/{run_id}/pre_vintage.json
+
+Mode-aware:
+    In bootstrap/local modes (PIPELINE_MODE env), gracefully handles missing database.
 """
 
 import argparse
 import hashlib
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -33,6 +37,10 @@ except ImportError:
 # -----------------------------
 DUCK_PATH = Path("data/lake/warehouse.duckdb")
 PIPELINE_DIR = Path("data/pipeline")
+
+# Pipeline mode (from orchestrator or env)
+MODE = os.getenv("PIPELINE_MODE", "prod")
+LENIENT_MODES = ("local", "bootstrap")
 
 # Tables to track (schema.table format)
 TRACKED_TABLES = [
@@ -148,12 +156,43 @@ def main():
     now = datetime.now(timezone.utc)
     
     log.info("=" * 60)
-    log.info(f"PRE-VINTAGE SNAPSHOT — Run: {run_id}")
+    log.info(f"PRE-VINTAGE SNAPSHOT — Run: {run_id} (mode={MODE})")
     log.info("=" * 60)
     
+    # Handle missing database based on mode
     if not DUCK_PATH.exists():
-        log.error(f"DuckDB not found: {DUCK_PATH}")
-        sys.exit(1)
+        if MODE in LENIENT_MODES:
+            log.warning(f"DuckDB not found: {DUCK_PATH}")
+            log.info(f"Creating empty baseline (allowed in {MODE} mode)")
+            
+            # Ensure directory structure exists
+            DUCK_PATH.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Save empty baseline JSON
+            run_dir = PIPELINE_DIR / run_id
+            run_dir.mkdir(parents=True, exist_ok=True)
+            
+            summary = {
+                "run_id": run_id,
+                "captured_at": now.isoformat(),
+                "mode": MODE,
+                "first_run": True,
+                "tables_found": 0,
+                "tables_missing": len(TRACKED_TABLES),
+                "baselines": [],
+            }
+            
+            json_path = run_dir / "pre_vintage.json"
+            with open(json_path, "w") as f:
+                json.dump(summary, f, indent=2)
+            
+            log.info(f"Created empty baseline: {json_path}")
+            log.info("=" * 60)
+            return  # Exit successfully
+        else:
+            log.error(f"DuckDB not found: {DUCK_PATH}")
+            log.error("Hint: Use --mode bootstrap for first run on fresh infra")
+            sys.exit(1)
     
     con = duckdb.connect(str(DUCK_PATH))
     ensure_metadata_schema(con)
@@ -197,6 +236,8 @@ def main():
     summary = {
         "run_id": run_id,
         "captured_at": now.isoformat(),
+        "mode": MODE,
+        "first_run": False,
         "tables_found": tables_found,
         "tables_missing": tables_missing,
         "baselines": results,
