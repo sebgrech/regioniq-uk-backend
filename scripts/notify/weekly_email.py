@@ -526,6 +526,17 @@ def get_latest_years_matrix(metric_display_names: Dict[str, str]) -> Dict[str, D
         "unemployment_rate_pct",
     ]
 
+    # UK macro tables often use uk_* metric ids. Map those back onto the common ids used
+    # across Regions/Districts so the matrix can show UK years too.
+    uk_metric_map = {
+        "nominal_gva_mn_gbp": "uk_nominal_gva_mn_gbp",
+        "emp_total_jobs": "uk_emp_total_jobs",
+        "employment_rate_pct": "uk_employment_rate_pct",
+        "gdhi_total_mn_gbp": "uk_gdhi_total_mn_gbp",
+        "population_total": "uk_population_total",
+        "unemployment_rate_pct": "uk_unemployment_rate_pct",
+    }
+
     # Fallback labels (used if metadata.indicators doesn't have a display_name yet)
     fallback_labels = {
         "nominal_gva_mn_gbp": "Economic Output (GVA)",
@@ -539,8 +550,8 @@ def get_latest_years_matrix(metric_display_names: Dict[str, str]) -> Dict[str, D
     def label_for(metric_id: str) -> str:
         return metric_display_names.get(metric_id) or fallback_labels.get(metric_id) or metric_id
 
-    def max_year_by_metric(con: duckdb.DuckDBPyConnection, table: str) -> Dict[str, int]:
-        vals = ",".join([f"'{m}'" for m in core_metric_ids])
+    def max_year_by_metric(con: duckdb.DuckDBPyConnection, table: str, metric_ids: List[str]) -> Dict[str, int]:
+        vals = ",".join([f"'{m}'" for m in metric_ids])
         rows = con.execute(f"""
             SELECT metric_id, MAX(CAST(period AS INT)) AS max_year
             FROM {table}
@@ -558,9 +569,17 @@ def get_latest_years_matrix(metric_display_names: Dict[str, str]) -> Dict[str, D
         con = duckdb.connect(str(DUCK_PATH), read_only=True)
 
         # Baseline years from history tables
-        uk = max_year_by_metric(con, "silver.uk_macro_history")
-        regions = max_year_by_metric(con, "silver.itl1_history")
-        districts = max_year_by_metric(con, "silver.lad_history")
+        # UK: query both common ids and uk_* ids, then map into the common id space.
+        uk_query_ids = list(dict.fromkeys(core_metric_ids + [uk_metric_map[m] for m in core_metric_ids]))
+        uk_raw = max_year_by_metric(con, "silver.uk_macro_history", uk_query_ids)
+        uk: Dict[str, int] = {}
+        for common_id in core_metric_ids:
+            uk_year = uk_raw.get(common_id) or uk_raw.get(uk_metric_map.get(common_id, ""))
+            if uk_year:
+                uk[common_id] = int(uk_year)
+
+        regions = max_year_by_metric(con, "silver.itl1_history", core_metric_ids)
+        districts = max_year_by_metric(con, "silver.lad_history", core_metric_ids)
         con.close()
 
         matrix: Dict[str, Dict[str, Dict]] = {}
@@ -575,6 +594,239 @@ def get_latest_years_matrix(metric_display_names: Dict[str, str]) -> Dict[str, D
     except Exception as e:
         log.warning(f"Failed to build baseline latest-years matrix: {e}")
         return {}
+
+
+def generate_outlook_section() -> str:
+    """
+    Generate a forward-looking Outlook section (next 3 years) for:
+      - UK (gold.uk_macro_forecast)
+      - ITL1 median region (gold.itl1_forecast; median across regions)
+
+    For additive metrics: YoY % growth
+    For rate metrics: pp change
+
+    Returns HTML string (may be empty if prerequisites are missing).
+    """
+    if duckdb is None or not DUCK_PATH.exists():
+        return ""
+
+    # Core indicators shown in the email (keep aligned with matrix)
+    metrics = [
+        ("nominal_gva_mn_gbp", "Economic Output (GVA)", "pct"),
+        ("emp_total_jobs", "Employment", "pct"),
+        ("employment_rate_pct", "Employment Rate", "pp"),
+        ("gdhi_total_mn_gbp", "Household Income (GDHI)", "pct"),
+        ("population_total", "Population", "pct"),
+        ("unemployment_rate_pct", "Unemployment Rate", "pp"),
+    ]
+
+    # UK macro commonly prefixes metric ids with uk_
+    uk_alias = {
+        "nominal_gva_mn_gbp": "uk_nominal_gva_mn_gbp",
+        "emp_total_jobs": "uk_emp_total_jobs",
+        "employment_rate_pct": "uk_employment_rate_pct",
+        "gdhi_total_mn_gbp": "uk_gdhi_total_mn_gbp",
+        "population_total": "uk_population_total",
+        "unemployment_rate_pct": "uk_unemployment_rate_pct",
+    }
+
+    def detect_metric_col(con: "duckdb.DuckDBPyConnection", schema: str, table: str) -> str:
+        row = con.execute(
+            """
+            SELECT column_name
+            FROM information_schema.columns
+            WHERE table_schema = ?
+              AND table_name = ?
+              AND column_name IN ('metric_id', 'metric')
+            ORDER BY column_name
+            LIMIT 1
+            """,
+            [schema, table],
+        ).fetchone()
+        return row[0] if row else "metric_id"
+
+    try:
+        con = duckdb.connect(str(DUCK_PATH), read_only=True)
+
+        uk_metric_col = detect_metric_col(con, "gold", "uk_macro_forecast")
+        itl1_metric_col = detect_metric_col(con, "gold", "itl1_forecast")
+
+        # Determine forecast start year from UK macro (prefer last historical year if present)
+        last_hist_row = con.execute(f"""
+            SELECT MAX(CAST(period AS INT))
+            FROM gold.uk_macro_forecast
+            WHERE COALESCE(data_type, 'forecast') = 'historical'
+        """).fetchone()
+        last_hist = last_hist_row[0] if last_hist_row and last_hist_row[0] is not None else None
+        if last_hist is None:
+            # Fallback: use max(period)-3 as a "current" anchor
+            max_row = con.execute("SELECT MAX(CAST(period AS INT)) FROM gold.uk_macro_forecast").fetchone()
+            max_period = max_row[0] if max_row and max_row[0] is not None else None
+            if max_period is None:
+                con.close()
+                return ""
+            last_hist = int(max_period) - 3
+
+        y1, y2, y3 = int(last_hist) + 1, int(last_hist) + 2, int(last_hist) + 3
+        years = [y1, y2, y3]
+
+        # Build UK outlook (YoY % or pp changes per metric)
+        uk_ids = []
+        for mid, _, _ in metrics:
+            uk_ids.append(mid)
+            uk_ids.append(uk_alias.get(mid, mid))
+        uk_ids = list(dict.fromkeys(uk_ids))
+        uk_vals = ",".join([f"'{m}'" for m in uk_ids])
+        years_vals = ",".join([str(y) for y in [last_hist, y1, y2, y3]])
+
+        con.execute(f"""
+            CREATE OR REPLACE TEMP VIEW uk_series AS
+            SELECT
+                CASE
+                    WHEN {uk_metric_col} LIKE 'uk_%' THEN SUBSTR({uk_metric_col}, 4)
+                    ELSE {uk_metric_col}
+                END AS metric_id_norm,
+                CAST(period AS INT) AS period,
+                CAST(value AS DOUBLE) AS value
+            FROM gold.uk_macro_forecast
+            WHERE CAST(period AS INT) IN ({years_vals})
+              AND {uk_metric_col} IN ({uk_vals});
+        """)
+
+        con.execute("""
+            CREATE OR REPLACE TEMP VIEW uk_outlook AS
+            SELECT
+                metric_id_norm AS metric_id,
+                period,
+                value,
+                LAG(value) OVER (PARTITION BY metric_id_norm ORDER BY period) AS prev_value
+            FROM uk_series;
+        """)
+
+        uk_rows = con.execute(f"""
+            SELECT metric_id, period,
+                   CASE
+                     WHEN prev_value IS NULL THEN NULL
+                     WHEN metric_id IN ('employment_rate_pct','unemployment_rate_pct')
+                       THEN (value - prev_value)
+                     ELSE (value / NULLIF(prev_value, 0) - 1.0) * 100.0
+                   END AS delta
+            FROM uk_outlook
+            WHERE period IN ({','.join(map(str, years))})
+            ORDER BY metric_id, period;
+        """).fetchall()
+
+        uk_delta: Dict[str, Dict[int, float]] = {}
+        for mid, period, delta in uk_rows:
+            if mid not in uk_delta:
+                uk_delta[mid] = {}
+            uk_delta[mid][int(period)] = float(delta) if delta is not None else None  # type: ignore[assignment]
+
+        # Build ITL1 outlook as median across regions of per-region YoY/pp
+        itl1_vals = ",".join([f"'{m[0]}'" for m in metrics])
+
+        con.execute(f"""
+            CREATE OR REPLACE TEMP VIEW itl1_series AS
+            SELECT
+                region_code,
+                {itl1_metric_col} AS metric_id,
+                CAST(period AS INT) AS period,
+                CAST(value AS DOUBLE) AS value
+            FROM gold.itl1_forecast
+            WHERE CAST(period AS INT) IN ({years_vals})
+              AND {itl1_metric_col} IN ({itl1_vals});
+        """)
+
+        con.execute("""
+            CREATE OR REPLACE TEMP VIEW itl1_outlook_per_region AS
+            SELECT
+                region_code,
+                metric_id,
+                period,
+                value,
+                LAG(value) OVER (PARTITION BY region_code, metric_id ORDER BY period) AS prev_value
+            FROM itl1_series;
+        """)
+
+        itl1_rows = con.execute(f"""
+            SELECT metric_id, period,
+                   MEDIAN(
+                     CASE
+                       WHEN prev_value IS NULL THEN NULL
+                       WHEN metric_id IN ('employment_rate_pct','unemployment_rate_pct')
+                         THEN (value - prev_value)
+                       ELSE (value / NULLIF(prev_value, 0) - 1.0) * 100.0
+                     END
+                   ) AS delta_median
+            FROM itl1_outlook_per_region
+            WHERE period IN ({','.join(map(str, years))})
+            GROUP BY metric_id, period
+            ORDER BY metric_id, period;
+        """).fetchall()
+
+        itl1_delta: Dict[str, Dict[int, float]] = {}
+        for mid, period, delta in itl1_rows:
+            if mid not in itl1_delta:
+                itl1_delta[mid] = {}
+            itl1_delta[mid][int(period)] = float(delta) if delta is not None else None  # type: ignore[assignment]
+
+        con.close()
+
+        def fmt(metric_id: str, delta: Optional[float]) -> str:
+            if delta is None:
+                return "—"
+            if metric_id in ("employment_rate_pct", "unemployment_rate_pct"):
+                return f"{delta:+.1f}pp"
+            return f"{delta:+.1f}%"
+
+        # Build HTML
+        html = """
+        <h2>📈 Outlook (Next 3 Years)</h2>
+        <div style="margin: -4px 0 12px 0; font-size: 13px; color: #64748b; font-weight: 600;">
+            YoY % for additive metrics; pp change for rates. ITL1 shown as median across regions.
+        </div>
+        <div class="data-card">
+        <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+            <thead>
+                <tr style="border-bottom: 2px solid #e2e8f0;">
+                    <th style="text-align: left; padding: 12px 8px; color: #64748b; font-weight: 600;">Indicator</th>
+                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">UK {y1}</th>
+                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">UK {y2}</th>
+                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">UK {y3}</th>
+                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">ITL1_med {y1}</th>
+                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">ITL1_med {y2}</th>
+                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">ITL1_med {y3}</th>
+                </tr>
+            </thead>
+            <tbody>
+        """
+
+        for mid, label, _kind in metrics:
+            html += f"""
+                <tr style="border-bottom: 1px solid #e2e8f0;">
+                    <td style="padding: 12px 8px; color: #1a1a1a;">{label}</td>
+                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, uk_delta.get(mid, {}).get(y1))}</span></td>
+                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, uk_delta.get(mid, {}).get(y2))}</span></td>
+                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, uk_delta.get(mid, {}).get(y3))}</span></td>
+                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, itl1_delta.get(mid, {}).get(y1))}</span></td>
+                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, itl1_delta.get(mid, {}).get(y2))}</span></td>
+                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, itl1_delta.get(mid, {}).get(y3))}</span></td>
+                </tr>
+            """
+
+        html += """
+            </tbody>
+        </table>
+        </div>
+        """
+        return html
+    except Exception as e:
+        log.warning(f"Outlook section unavailable: {e}")
+        try:
+            con.close()  # type: ignore[name-defined]
+        except Exception:
+            pass
+        return ""
 
 
 def generate_data_updates_table(matrix: Dict, geo_order: List[str] = None) -> str:
@@ -908,6 +1160,11 @@ def generate_report(
     body += generate_data_updates_table(matrix)
     body += "</div>"
     
+    # Outlook section (forward-looking deltas)
+    outlook_html = generate_outlook_section()
+    if outlook_html:
+        body += outlook_html
+
     body += """
         
         <h2>🔄 Forecast Changes</h2>
