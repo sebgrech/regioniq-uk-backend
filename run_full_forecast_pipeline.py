@@ -342,7 +342,8 @@ class ForecastPipeline:
         log_file = self.log_dir / f"{label}_{stage_type}.log"
 
         # Build command with optional run_id
-        cmd = ["python3", str(path)]
+        # CRITICAL: use the same interpreter as the orchestrator (venv-safe under systemd/cron)
+        cmd = [sys.executable, str(path)]
         if pass_run_id:
             cmd.extend(["--run-id", self.run_id])
 
@@ -505,12 +506,24 @@ class ForecastPipeline:
     # -------------------------------------------------------------------
 
     def _save_summary(self, success: bool):
+        total_duration_seconds = float(sum(r.duration_seconds for r in self.results))
+        total_warnings = int(sum(r.warnings for r in self.results))
+        total_critical = int(sum(r.critical_issues for r in self.results))
+
         summary = {
             "run_id": self.run_id,
             "timestamp": datetime.now().isoformat(),
             "success": success,
+            "mode": getattr(self, "mode", MODE),
+            "start_from": self.start_from,
+            "stop_at": self.stop_at,
             "stages": [asdict(r) for r in self.results]
         }
+
+        # Backwards/forwards compatible aggregate fields (used by reporting/monitoring)
+        summary["total_duration_seconds"] = total_duration_seconds
+        summary["total_warnings"] = total_warnings
+        summary["total_critical"] = total_critical
 
         out = self.log_dir / "pipeline_summary.json"
         json.dump(summary, open(out, "w"), indent=2)

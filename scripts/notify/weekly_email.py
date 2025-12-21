@@ -20,21 +20,43 @@ from datetime import datetime, timezone
 from typing import Optional, Dict, List
 
 try:
-    import requests
+    import requests  # type: ignore
 except ImportError:
-    print("ERROR: requests not installed. Run: pip install requests")
-    sys.exit(1)
+    # Optional: only required for actually sending email (not for --dry-run preview)
+    requests = None  # type: ignore
 
 try:
-    import duckdb
+    import duckdb  # type: ignore
 except ImportError:
-    print("ERROR: duckdb not installed. Run: pip install duckdb")
-    sys.exit(1)
+    # Optional: used for nicer dynamic metadata; report still works with fallbacks
+    duckdb = None  # type: ignore
 
 try:
-    from dotenv import load_dotenv
-    load_dotenv()
+    import psycopg2  # type: ignore
 except ImportError:
+    psycopg2 = None  # type: ignore
+
+try:
+    # Load dotenv from common repo layouts.
+    # We support both:
+    #   - repo_root/.env
+    #   - repo_root/backend/.env
+    from dotenv import load_dotenv  # type: ignore
+
+    backend_root = Path(__file__).resolve().parents[2]  # .../backend
+    candidates = [
+        backend_root / ".env",
+        backend_root.parent / ".env",
+    ]
+    _DOTENV_LOADED_FROM = None
+    for dotenv_path in candidates:
+        if dotenv_path.exists():
+            # Do not override already-exported env vars (prod should win)
+            load_dotenv(dotenv_path=dotenv_path, override=False)
+            _DOTENV_LOADED_FROM = str(dotenv_path)
+            break
+except Exception:
+    # If python-dotenv isn't installed or filesystem access is restricted, just continue.
     pass
 
 import base64
@@ -48,7 +70,13 @@ DUCK_PATH = Path("data/lake/warehouse.duckdb")
 
 RESEND_API_URL = "https://api.resend.com/emails"
 FROM_EMAIL = "RegionIQ <onboarding@resend.dev>"
-TO_EMAIL = "slrgrech@hotmail.com"
+
+# Supabase Postgres connection string (used to fetch email recipients).
+# In production this should come from systemd/cron env (not .env).
+SUPABASE_URI = os.environ.get("SUPABASE_URI", "")
+
+# Pipeline mode (local/bootstrap/prod). In prod, missing Supabase/Resend config should fail loudly.
+PIPELINE_MODE = os.environ.get("PIPELINE_MODE", "prod").lower()
 
 logging.basicConfig(
     level=logging.INFO,
@@ -63,9 +91,16 @@ log = logging.getLogger("weekly_email")
 
 def get_logo_base64() -> str:
     """Load logo and return base64 data URI."""
-    logo_path = Path("assets/logo.png")
-    if not logo_path.exists():
-        log.warning(f"Logo not found at {logo_path}")
+    # Support both repo_root/assets and backend/assets layouts.
+    backend_root = Path(__file__).resolve().parents[2]
+    candidates = [
+        Path("assets/logo.png"),
+        backend_root / "assets" / "logo.png",
+        backend_root.parent / "assets" / "logo.png",
+    ]
+    logo_path = next((p for p in candidates if p.exists()), None)
+    if not logo_path:
+        log.warning("Logo not found (searched: %s)", ", ".join(str(p) for p in candidates))
         return ""
     try:
         with open(logo_path, "rb") as f:
@@ -85,7 +120,7 @@ def get_indicator_names() -> Dict[str, str]:
     Query metadata.indicators for NOMIS dataset → display name mapping.
     Returns dict like {'NM_185_1': 'Household Income (GDHI)', ...}
     """
-    if not DUCK_PATH.exists():
+    if duckdb is None or not DUCK_PATH.exists():
         log.warning("DuckDB not found, using fallback names")
         return {}
     
@@ -142,7 +177,7 @@ def get_geography_counts() -> Dict[str, Dict]:
     Query gold tables for actual geography counts.
     Returns dict like {'UK': {'count': 1, 'label': 'UK Macro'}, ...}
     """
-    if not DUCK_PATH.exists():
+    if duckdb is None or not DUCK_PATH.exists():
         log.warning("DuckDB not found, using fallback counts")
         return _fallback_geo_counts()
     
@@ -207,7 +242,7 @@ def get_indicator_coverage() -> Dict[str, int]:
     """
     Query gold tables for indicator counts per geography level.
     """
-    if not DUCK_PATH.exists():
+    if duckdb is None or not DUCK_PATH.exists():
         return {}
     
     try:
@@ -265,6 +300,61 @@ def load_run_data(run_id: str) -> Dict:
         'vintage_diff': load_json(run_dir / "vintage_diff.json"),
         'pipeline_summary': load_json(log_dir / "pipeline_summary.json"),
     }
+
+
+# -----------------------------
+# Recipient loading (Supabase)
+# -----------------------------
+
+def _is_lenient_mode() -> bool:
+    return PIPELINE_MODE in ("local", "bootstrap")
+
+
+def fetch_recipients_from_supabase(pipeline_success: bool) -> List[str]:
+    """
+    Fetch email recipients from Supabase Postgres table: public.notification_recipients.
+
+    Option A behaviour:
+      - enabled=true users receive weekly reports
+      - failures_only=true users receive emails only when pipeline_success is False
+    """
+    if not SUPABASE_URI:
+        raise ValueError("SUPABASE_URI not set")
+    if psycopg2 is None:
+        raise ImportError("psycopg2 is required to fetch recipients from Supabase")
+
+    # If pipeline succeeded, exclude failures_only recipients.
+    # If pipeline failed, include both weekly_report recipients and failures_only recipients.
+    query = """
+        SELECT email
+        FROM public.notification_recipients
+        WHERE enabled = TRUE
+          AND (
+                weekly_report = TRUE
+                OR (failures_only = TRUE AND %s = FALSE)
+              )
+        ORDER BY email;
+    """
+
+    with psycopg2.connect(SUPABASE_URI) as conn:
+        with conn.cursor() as cur:
+            cur.execute(query, (pipeline_success,))
+            rows = cur.fetchall()
+
+    # Basic cleanup + dedupe
+    emails = []
+    seen = set()
+    for r in rows:
+        if not r:
+            continue
+        email = (r[0] or "").strip()
+        if not email:
+            continue
+        if email in seen:
+            continue
+        seen.add(email)
+        emails.append(email)
+    return emails
 
 
 # -----------------------------
@@ -739,16 +829,10 @@ def generate_report(run_id: str, sources: Dict, run_data: Dict,
 # Email Sending
 # -----------------------------
 
-def send_email(subject: str, body: str, dry_run: bool = False) -> bool:
-    api_key = os.environ.get('RESEND_API_KEY')
-    
-    if not api_key:
-        log.error("RESEND_API_KEY not found in environment")
-        return False
-    
+def send_email(subject: str, body: str, recipients: List[str], dry_run: bool = False) -> bool:
     if dry_run:
         log.info("DRY RUN — would send email:")
-        log.info(f"  To: {TO_EMAIL}")
+        log.info(f"  To: {', '.join(recipients) if recipients else '(none)'}")
         log.info(f"  Subject: {subject}")
         log.info(f"  Body length: {len(body)} chars")
         
@@ -757,10 +841,23 @@ def send_email(subject: str, body: str, dry_run: bool = False) -> bool:
         preview_path.write_text(body)
         log.info(f"  Preview saved: {preview_path}")
         return True
+
+    if requests is None:
+        log.error("requests not installed. Install it or use --dry-run.")
+        return False
+
+    api_key = os.environ.get('RESEND_API_KEY')
+    if not api_key:
+        log.error("RESEND_API_KEY not found in environment")
+        return False
+
+    if not recipients:
+        log.warning("No recipients resolved; skipping email send")
+        return True
     
     payload = {
         "from": FROM_EMAIL,
-        "to": [TO_EMAIL],
+        "to": recipients,
         "subject": subject,
         "html": body
     }
@@ -774,7 +871,7 @@ def send_email(subject: str, body: str, dry_run: bool = False) -> bool:
         response = requests.post(RESEND_API_URL, json=payload, headers=headers, timeout=30)
         
         if response.status_code == 200:
-            log.info(f"✅ Email sent to {TO_EMAIL}")
+            log.info(f"✅ Email sent to {len(recipients)} recipient(s)")
             return True
         else:
             log.error(f"Resend API error: {response.status_code} — {response.text}")
@@ -799,6 +896,13 @@ def main():
     log.info("REGIONIQ WEEKLY EMAIL REPORT (v3 - Dynamic)")
     log.info("=" * 60)
     log.info(f"Run ID: {args.run_id}")
+    try:
+        if "_DOTENV_LOADED_FROM" in globals() and globals().get("_DOTENV_LOADED_FROM"):
+            log.info(f"Dotenv loaded from: {globals().get('_DOTENV_LOADED_FROM')}")
+        else:
+            log.info("Dotenv not loaded (relying on process environment)")
+    except Exception:
+        pass
     
     # Load dynamic metadata from DuckDB
     log.info("\nLoading metadata from DuckDB...")
@@ -815,6 +919,9 @@ def main():
     run_data = load_run_data(args.run_id)
     loaded = sum(1 for v in run_data.values() if v is not None)
     log.info(f"  Loaded {loaded}/3 run data files")
+
+    pipeline = run_data.get("pipeline_summary") or {}
+    pipeline_success = bool(pipeline.get("success", False))
     
     # Generate report
     log.info("\nGenerating report...")
@@ -823,10 +930,22 @@ def main():
         indicator_names, table_labels, geo_counts, indicator_coverage
     )
     log.info(f"  Subject: {report['subject']}")
+
+    # Resolve recipients from Supabase
+    recipients: List[str] = []
+    try:
+        recipients = fetch_recipients_from_supabase(pipeline_success=pipeline_success)
+        log.info(f"  Resolved {len(recipients)} recipient(s) from Supabase")
+    except Exception as e:
+        if _is_lenient_mode():
+            log.warning(f"Recipient resolution failed (allowed in {PIPELINE_MODE}): {e}")
+        else:
+            log.error(f"Recipient resolution failed: {e}")
+            sys.exit(1)
     
     # Send email
     log.info("\nSending email...")
-    success = send_email(report['subject'], report['body'], dry_run=args.dry_run)
+    success = send_email(report['subject'], report['body'], recipients=recipients, dry_run=args.dry_run)
     
     if success:
         log.info("\n✅ Report complete")
