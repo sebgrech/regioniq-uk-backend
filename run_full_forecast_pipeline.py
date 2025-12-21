@@ -214,9 +214,13 @@ class ForecastPipeline:
 
     STAGE_ORDER = [
         'pre_snapshot',
-        # IMPORTANT: fill LAD rate gaps BEFORE aggregating to ITL levels (transform),
-        # so ITL3/ITL2/ITL1 rates inherit gap-filled LAD histories.
-        'ingest', 'fill_lad_gaps', 'transform',
+        # IMPORTANT:
+        # - ingest writes metric-specific LAD history tables (silver.lad_*_history)
+        # - transform builds the unified table (silver.lad_history) and ITL histories
+        # - fill_lad_rate_gaps operates on the unified table (silver.lad_history)
+        #
+        # Therefore: transform MUST run before fill_lad_gaps on fresh databases.
+        'ingest', 'transform', 'fill_lad_gaps',
         'macro', 'itl1', 'itl2', 'itl3',
         'lad',
         'supabase',
