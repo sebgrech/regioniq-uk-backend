@@ -598,12 +598,10 @@ def get_latest_years_matrix(metric_display_names: Dict[str, str]) -> Dict[str, D
 
 def generate_outlook_section() -> str:
     """
-    Generate a forward-looking Outlook section (next 3 years) for:
-      - UK (gold.uk_macro_forecast)
-      - ITL1 median region (gold.itl1_forecast; median across regions)
+    Generate a forward-looking Outlook section (next year only) for UK (gold.uk_macro_forecast).
 
-    For additive metrics: YoY % growth
-    For rate metrics: pp change
+    - Additive metrics: YoY % growth
+    - Rate metrics: pp change
 
     Returns HTML string (may be empty if prerequisites are missing).
     """
@@ -649,7 +647,6 @@ def generate_outlook_section() -> str:
         con = duckdb.connect(str(DUCK_PATH), read_only=True)
 
         uk_metric_col = detect_metric_col(con, "gold", "uk_macro_forecast")
-        itl1_metric_col = detect_metric_col(con, "gold", "itl1_forecast")
 
         # Determine forecast start year from UK macro (prefer last historical year if present)
         last_hist_row = con.execute(f"""
@@ -667,8 +664,7 @@ def generate_outlook_section() -> str:
                 return ""
             last_hist = int(max_period) - 3
 
-        y1, y2, y3 = int(last_hist) + 1, int(last_hist) + 2, int(last_hist) + 3
-        years = [y1, y2, y3]
+        y1 = int(last_hist) + 1
 
         # Build UK outlook (YoY % or pp changes per metric)
         uk_ids = []
@@ -677,7 +673,7 @@ def generate_outlook_section() -> str:
             uk_ids.append(uk_alias.get(mid, mid))
         uk_ids = list(dict.fromkeys(uk_ids))
         uk_vals = ",".join([f"'{m}'" for m in uk_ids])
-        years_vals = ",".join([str(y) for y in [last_hist, y1, y2, y3]])
+        years_vals = ",".join([str(y) for y in [last_hist, y1]])
 
         con.execute(f"""
             CREATE OR REPLACE TEMP VIEW uk_series AS
@@ -712,63 +708,13 @@ def generate_outlook_section() -> str:
                      ELSE (value / NULLIF(prev_value, 0) - 1.0) * 100.0
                    END AS delta
             FROM uk_outlook
-            WHERE period IN ({','.join(map(str, years))})
-            ORDER BY metric_id, period;
+            WHERE period = {y1}
+            ORDER BY metric_id;
         """).fetchall()
 
-        uk_delta: Dict[str, Dict[int, float]] = {}
-        for mid, period, delta in uk_rows:
-            if mid not in uk_delta:
-                uk_delta[mid] = {}
-            uk_delta[mid][int(period)] = float(delta) if delta is not None else None  # type: ignore[assignment]
-
-        # Build ITL1 outlook as median across regions of per-region YoY/pp
-        itl1_vals = ",".join([f"'{m[0]}'" for m in metrics])
-
-        con.execute(f"""
-            CREATE OR REPLACE TEMP VIEW itl1_series AS
-            SELECT
-                region_code,
-                {itl1_metric_col} AS metric_id,
-                CAST(period AS INT) AS period,
-                CAST(value AS DOUBLE) AS value
-            FROM gold.itl1_forecast
-            WHERE CAST(period AS INT) IN ({years_vals})
-              AND {itl1_metric_col} IN ({itl1_vals});
-        """)
-
-        con.execute("""
-            CREATE OR REPLACE TEMP VIEW itl1_outlook_per_region AS
-            SELECT
-                region_code,
-                metric_id,
-                period,
-                value,
-                LAG(value) OVER (PARTITION BY region_code, metric_id ORDER BY period) AS prev_value
-            FROM itl1_series;
-        """)
-
-        itl1_rows = con.execute(f"""
-            SELECT metric_id, period,
-                   MEDIAN(
-                     CASE
-                       WHEN prev_value IS NULL THEN NULL
-                       WHEN metric_id IN ('employment_rate_pct','unemployment_rate_pct')
-                         THEN (value - prev_value)
-                       ELSE (value / NULLIF(prev_value, 0) - 1.0) * 100.0
-                     END
-                   ) AS delta_median
-            FROM itl1_outlook_per_region
-            WHERE period IN ({','.join(map(str, years))})
-            GROUP BY metric_id, period
-            ORDER BY metric_id, period;
-        """).fetchall()
-
-        itl1_delta: Dict[str, Dict[int, float]] = {}
-        for mid, period, delta in itl1_rows:
-            if mid not in itl1_delta:
-                itl1_delta[mid] = {}
-            itl1_delta[mid][int(period)] = float(delta) if delta is not None else None  # type: ignore[assignment]
+        uk_delta: Dict[str, float | None] = {}
+        for mid, _period, delta in uk_rows:
+            uk_delta[str(mid)] = float(delta) if delta is not None else None
 
         con.close()
 
@@ -779,46 +725,24 @@ def generate_outlook_section() -> str:
                 return f"{delta:+.1f}pp"
             return f"{delta:+.1f}%"
 
-        # Build HTML
-        html = """
-        <h2>📈 Outlook (Next 3 Years)</h2>
+        # Build compact HTML (no wide tables)
+        html = f"""
+        <h2>📈 Outlook (Next Year)</h2>
         <div style="margin: -4px 0 12px 0; font-size: 13px; color: #64748b; font-weight: 600;">
-            YoY % for additive metrics; pp change for rates. ITL1 shown as median across regions.
+            UK {y1} vs {int(last_hist)}. YoY % for additive metrics; pp change for rates.
         </div>
         <div class="data-card">
-        <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
-            <thead>
-                <tr style="border-bottom: 2px solid #e2e8f0;">
-                    <th style="text-align: left; padding: 12px 8px; color: #64748b; font-weight: 600;">Indicator</th>
-                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">UK {y1}</th>
-                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">UK {y2}</th>
-                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">UK {y3}</th>
-                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">ITL1_med {y1}</th>
-                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">ITL1_med {y2}</th>
-                    <th style="text-align: center; padding: 12px 8px; color: #64748b; font-weight: 600;">ITL1_med {y3}</th>
-                </tr>
-            </thead>
-            <tbody>
         """
 
         for mid, label, _kind in metrics:
             html += f"""
-                <tr style="border-bottom: 1px solid #e2e8f0;">
-                    <td style="padding: 12px 8px; color: #1a1a1a;">{label}</td>
-                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, uk_delta.get(mid, {}).get(y1))}</span></td>
-                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, uk_delta.get(mid, {}).get(y2))}</span></td>
-                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, uk_delta.get(mid, {}).get(y3))}</span></td>
-                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, itl1_delta.get(mid, {}).get(y1))}</span></td>
-                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, itl1_delta.get(mid, {}).get(y2))}</span></td>
-                    <td style="text-align: center; padding: 12px 8px;"><span style="background: #f1f5f9; color: #0f172a; padding: 6px 10px; border-radius: 6px; font-size: 13px;">{fmt(mid, itl1_delta.get(mid, {}).get(y3))}</span></td>
-                </tr>
+            <div class="data-item">
+                <span class="data-label">{label}</span>
+                <span class="data-value">{fmt(mid, uk_delta.get(mid))}</span>
+            </div>
             """
 
-        html += """
-            </tbody>
-        </table>
-        </div>
-        """
+        html += "</div>"
         return html
     except Exception as e:
         log.warning(f"Outlook section unavailable: {e}")
@@ -991,12 +915,12 @@ def generate_report(
     
     # Data Updates subtitle (legible at a glance)
     updates_banner = (
-        '<div style="margin: -4px 0 12px 0; font-size: 13px; color: #16a34a; font-weight: 600;">'
+        '<div style="margin: -4px 0 12px 0; font-size: 16px; color: #16a34a; font-weight: 700;">'
         '✓ Changes this week'
         '</div>'
         if any_updates
         else
-        '<div style="margin: -4px 0 12px 0; font-size: 13px; color: #64748b; font-weight: 600;">'
+        '<div style="margin: -4px 0 12px 0; font-size: 16px; color: #64748b; font-weight: 700;">'
         'No changes this week'
         '</div>'
     )
@@ -1176,13 +1100,13 @@ def generate_report(
             body += f"""
             <div class="data-item">
                 <span class="data-label">{table}</span>
-                <span class="data-value highlight">Refreshed</span>
+                <span class="data-value highlight">Changed</span>
             </div>
 """
     else:
         body += """
             <div style="color: #64748b; text-align: center; padding: 12px;">
-                All forecasts unchanged
+                Forecasts recomputed — outputs unchanged
             </div>
 """
     
