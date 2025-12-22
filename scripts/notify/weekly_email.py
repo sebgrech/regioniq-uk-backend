@@ -395,6 +395,42 @@ def format_duration(seconds: float) -> str:
     return f"{minutes:.1f} minutes"
 
 
+def estimate_duration_seconds_from_log_dir(run_id: str) -> Optional[float]:
+    """
+    Estimate pipeline duration from log file mtimes in data/logs/pipeline_<run_id>/.
+    Used as a fallback when pipeline_summary.json is not available at email time.
+    """
+    try:
+        log_dir = LOG_DIR / f"pipeline_{run_id}"
+        if not log_dir.exists() or not log_dir.is_dir():
+            return None
+
+        mtimes: List[float] = []
+        for p in log_dir.glob("*.log"):
+            try:
+                mtimes.append(p.stat().st_mtime)
+            except Exception:
+                pass
+
+        # If summary exists, include it too (often written last).
+        summary_path = log_dir / "pipeline_summary.json"
+        if summary_path.exists():
+            try:
+                mtimes.append(summary_path.stat().st_mtime)
+            except Exception:
+                pass
+
+        if len(mtimes) < 2:
+            return None
+
+        span = max(mtimes) - min(mtimes)
+        if span < 0:
+            return None
+        return float(span)
+    except Exception:
+        return None
+
+
 def dedupe_and_humanize_changes(sources: Dict, indicator_names: Dict[str, str]) -> List[Dict]:
     """
     Dedupe upstream changes by HUMAN NAME (not dataset ID).
@@ -864,7 +900,18 @@ def generate_report(
     # the orchestrator may not have written pipeline_summary.json yet. Be robust.
     pipeline = run_data.get('pipeline_summary') or {}
     pipeline_success = bool(pipeline.get('success', True))
-    pipeline_duration = sum(s.get('duration_seconds', 0) for s in (pipeline.get('stages') or []))
+    # Duration (prefer summary fields; fallback to log mtime span)
+    duration_is_estimate = False
+    pipeline_duration = (
+        pipeline.get("total_duration_seconds")
+        if isinstance(pipeline.get("total_duration_seconds"), (int, float))
+        else sum(s.get('duration_seconds', 0) for s in (pipeline.get('stages') or []))
+    )
+    if not pipeline_duration:
+        est = estimate_duration_seconds_from_log_dir(run_id)
+        if est is not None:
+            pipeline_duration = est
+            duration_is_estimate = True
     status_emoji = "✅" if pipeline_success else "❌"
     status_text = "All systems operational" if pipeline_success else "Pipeline encountered issues"
     
@@ -926,6 +973,8 @@ def generate_report(
     )
     
     # HTML Body
+    duration_prefix = "≈ " if duration_is_estimate else ""
+
     body = f"""
 <!DOCTYPE html>
 <html>
@@ -1073,7 +1122,7 @@ def generate_report(
         
         <div class="status-bar">
             <span class="status-text">{status_emoji} {status_text}</span>
-            <span style="color: #64748b; float: right;">Completed in {format_duration(pipeline_duration)}</span>
+            <span style="color: #64748b; float: right;">Completed in {duration_prefix}{format_duration(float(pipeline_duration))}</span>
         </div>
         
         <h2>📊 Data Updates</h2>
